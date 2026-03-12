@@ -1,7 +1,7 @@
 # Quarto working cache
 /.quarto/
 
-# Rendered output directories 
+# Rendered output directories
 /_book/
 /_site/
 
@@ -13,3 +13,4 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+**/*.quarto_ipynb
