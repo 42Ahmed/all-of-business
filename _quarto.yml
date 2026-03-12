@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "All of Business"
+  author: "Ahmed H. Darwish"
+  
+  navbar:
+    title: false
+    search: true
+      
+  chapters:
+    - index.qmd
+    - chapter01.qmd
+    - chapter02.qmd
+    - chapter03.qmd
+    - chapter04.qmd
+ 
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: true
+    sidebar:
+      style: floating
