@@ -1,0 +1,531 @@
+---
+title: "PMBOK"
+format: html
+---
+
+## **Executive Summary**
+
+The *PMBOK Guide – Seventh Edition* reflects the evolution of the project management profession driven by emerging technology, new approaches (like adaptive and hybrid), and rapid market changes. The foundational shift involves transitioning from a prescriptive, process-based approach to a principles-based standard focused on **outcomes** rather than solely on deliverables.
+
+The core framework of this edition integrates **The Standard for Project Management** and the **PMBOK® Guide**. *The Standard* defines the **12 Project Management Principles** which guide the behaviors and actions of project stakeholders. The *PMBOK Guide* presents **eight Project Performance Domains** that represent interactive, interrelated areas critical for delivering project outcomes.
+
+Key takeaways from this new edition include:
+
+-   **Shift to Principles:** Project management is guided by 12 principles that apply across all delivery approaches (predictive, adaptive, hybrid) and contexts.\
+-   **Focus on Value and Outcomes:** The primary measure of success is the realization of value and intended project outcomes, in addition to mere deliverables.\
+-   **System for Value Delivery:** Projects operate within a larger organizational context, often involving portfolios, programs, and operations, all linked in a system to advance organizational strategy.\
+-   **Performance Domains:** Project work is organized around eight performance domains (Stakeholders, Team, Development Approach and Life Cycle, Planning, Project Work, Delivery, Measurement, and Uncertainty) that function as an integrated system.\
+-   **Tailoring:** Project teams must deliberately adapt their approach, governance, and processes (tailoring) to suit the unique context, objectives, and complexity of each project.\
+-   **New Resources:** The edition expands on tools and techniques in a dedicated section on **Models, Methods, and Artifacts**. It also integrates with **PMIstandards+™**, an interactive digital platform for accessing supplemental content and emerging practices.
+
+## **Part 1: The Standard for Project Management**
+
+*The Standard for Project Management* provides the basis for understanding project management and defines the system within which projects operate, including governance, functions, environment, and product management considerations. This standard is principles-based, focusing on generally accepted objectives for the core functions of project management practice.
+
+### **Introduction**
+
+The standard identifies **12 project management principles** that serve as foundational guidelines for project strategy, decision making, and problem solving. These principles are broadly based and internally consistent, offering wide parameters within which project teams can operate.
+
+#### **Key Terms and Concepts**
+
+The shift in the profession is reflected in several key terms:
+
+-   **Outcome:** An end result or consequence of a process or project, focusing on the benefits and value delivered.\
+-   **Deliverable:** A unique and verifiable product, result, or capability required to complete a project.\
+-   **Value:** The worth, importance, or usefulness of something, perceived differently by various stakeholders (e.g., financial metrics, social benefits, or specific product features).\
+-   **Project Management:** Guiding project work to deliver intended outcomes using a broad range of approaches (predictive, hybrid, adaptive).\
+-   **System for Value Delivery:** A collection of strategic business activities (including portfolios, programs, projects, products, and operations) aimed at advancing an organization.\
+-   **Project:** A temporary endeavor undertaken to create a unique product, service, or result.
+
+### **A System for Value Delivery**
+
+Projects exist within a larger organizational context (or “system”) to create value for stakeholders. This system aligns portfolios, programs, projects, products, and operations with the organization’s strategy.
+
+#### **Creating Value**
+
+Value is created through projects by producing new products or services, improving efficiency, enabling organizational change, or making positive social contributions. The components of the value delivery system—portfolios, programs, projects, products, and operations—work individually and collectively to create value.
+
+**Information Flow within the Value Delivery System:** The system is most effective when information and feedback are consistently shared.
+
+-   **Senior Leadership Downstream (Black Arrows):** Strategic information flows from senior leadership to portfolios. Portfolios share desired outcomes, benefits, and value with programs and projects. Deliverables, along with support and maintenance information, are passed from programs/projects to operations.\
+-   **Operations Upstream (Light Gray Arrows):** Information flows from operations (adjustments, fixes) to programs/projects. Programs/projects provide performance information and progress on achieving value to portfolios. Portfolios provide performance evaluations to senior leadership, who then assess overall strategy advancement.
+
+#### **Organizational Governance Systems**
+
+Governance systems operate alongside the value delivery system, providing a framework of functions and processes to manage issues, enable smooth workflows, and support decision making. Governance includes defining the authority to approve changes and aligning project governance with program and organizational governance.
+
+#### **Functions Associated with Projects**
+
+Project delivery is driven by people fulfilling necessary functions, which may be centralized (led by a designated project manager) or decentralized (project teams self-manage).
+
+Key functions commonly associated with projects include:
+
+-   **Provide Oversight and Coordination:** Orchestrating project work, leading planning/monitoring/controlling activities, consulting with leaders, and supporting benefits realization.\
+-   **Present Objectives and Feedback:** Providing insights and clear direction from customers (funding entity) and end users (direct consumers of the deliverable).\
+-   **Facilitate and Support:** Encouraging team collaboration, creating consensus, resolving conflicts, removing obstacles, and providing performance feedback.\
+-   **Perform Work and Contribute Insights:** Providing the knowledge, skills, and experience to produce products and realize outcomes.\
+-   **Apply Expertise:** Offering specific subject knowledge, vision, and expertise (internal or external) to support learning and work accuracy.\
+-   **Provide Business Direction and Insight:** Guiding project/product outcomes, prioritizing requirements based on business value and risk, and maximizing the value of deliverables.\
+-   **Provide Resources and Direction (Sponsor Role):** Promoting the project, securing decisions/resources/authority, and serving as a liaison between senior management and the team.\
+-   **Maintain Governance:** Establishing and sustaining policies and rules aligned with organizational strategy.
+
+#### **The Project Environment**
+
+Projects operate within internal and external environments that influence value delivery.
+
+-   **Internal Environment:** Factors originating from within the organization (e.g., the organization itself, a program, or another project).
+    -   *Examples:* Process assets (tools, methodologies, PMO resources), governance documentation, data assets, knowledge assets (tacit knowledge), security/safety measures, organizational culture/structure, geographic distribution, and employee capability.\
+-   **External Environment:** Factors external to the organization.
+    -   *Examples:* Marketplace conditions (competitors, trends), social/cultural influences (customs, ethics), legal restrictions (regulations, labor laws), commercial databases, academic research, financial considerations, and the physical environment (working conditions).
+
+#### **Product Management Considerations**
+
+Product management involves integrating people, data, processes, and systems to create, maintain, and evolve a **product throughout** its **product life cycle** (introduction, growth, maturity, retirement). Projects often support product management by initiating work to create or enhance specific components or capabilities at any point in the product life cycle.
+
+**Forms of Product Management:** Product management can exist in different forms relative to project structures:
+
+-   **Program Management within a Product Life Cycle:** Used for large or long-running products where a set of programs and projects manage the various phases.\
+-   **Project Management within a Product Life Cycle:** Oversees the development and maturing of product capabilities as an ongoing business activity, chartering individual projects for enhancements.\
+-   **Product Management within a Program:** Applies the full product life cycle within a program's boundaries to achieve specific benefits.
+
+### **Project Management Principles**
+
+The 12 Project Management Principles guide the behavior of those involved in projects. They are nonprescriptive and allow for varied approaches while ensuring alignment with the project management values (Responsibility, Respect, Fairness, and Honesty).
+
+The principles guide project management activity across all delivery approaches (predictive, adaptive, hybrid).
+
+#### **Be a Diligent, Respectful, and Caring Steward**
+
+**Stewardship** involves acting responsibly, with integrity, care, and trustworthiness, while maintaining compliance with guidelines. Stewards demonstrate a broad commitment to the financial, social, and environmental impacts of the projects they support.
+
+**Key Aspects of Stewardship:**
+
+-   **Integrity:** Behaving honestly and ethically, serving as a role model, and challenging others to consider their words and actions.\
+-   **Care:** Diligently overseeing organizational matters (finances, resources), understanding the environmental/social consequences of project outcomes, and creating a transparent working environment.\
+-   **Trustworthiness:** Representing oneself and one's authority accurately, and proactively identifying and protecting the project from conflicts of interest.\
+-   **Compliance:** Adhering to all applicable laws, rules, regulations, and requirements.
+
+#### **Create a Collaborative Project Team Environment**
+
+Projects are delivered by teams that work collaboratively to accomplish shared objectives more effectively than individuals working alone. A collaborative environment facilitates learning, development, and optimal contributions.
+
+**Elements of a Collaborative Environment:**
+
+-   **Team Agreements:** Behavioral parameters and working norms established by the team at the project start and evolved over time.\
+-   **Organizational Structures:** Tailored arrangements of project work elements and processes (based on roles, functions, or authority).\
+-   **Clear Roles:** Defining **authority** (the right to make decisions), **accountability** (being answerable for an outcome, which is not shared), and **responsibility** (the obligation to fulfill something, which can be shared).\
+-   **Diversity and Respect:** Leveraging different perspectives and managing conflict productively.
+
+#### **Effectively Engage with Stakeholders**
+
+Stakeholders are individuals, groups, or organizations that may affect, be affected by, or perceive themselves to be affected by a project's outcome. Proactively engaging stakeholders throughout the project advances value delivery.
+
+**Impact of Stakeholder Engagement:** Effective engagement can influence nearly every aspect of the project:
+
+-   Scope/requirements\
+-   Schedule and Cost\
+-   Project team management\
+-   Risk tolerance\
+-   Quality requirements\
+-   Success factors and benefits realization
+
+Engagement relies heavily on interpersonal skills (e.g., initiative, honesty, respect, empathy) to build solid relationships through frequent, two-way communication, fostering shared understanding and collective solutions.
+
+#### **Focus on Value**
+
+Project teams must continually evaluate and adjust project alignment to business objectives and intended benefits. **Value is the ultimate indicator of project success**. Value can be defined qualitatively and/or quantitatively and may be realized throughout, at the end of, or after the project.
+
+**Value is derived from:**
+
+-   **Business Case:** The rationale for the project, providing details on strategic alignment, risk exposure, and economic feasibility. A business case contains the business need, project justification (why the need is worth the investment), and business strategy.\
+-   **Outcomes vs. Deliverables:** Focusing on outcomes—what the customer *intended* to achieve (e.g., productivity)—rather than just the outputs (e.g., software solution).\
+-   **Continuous Evaluation:** Teams continuously evaluate progress against desired outputs and the business case to confirm alignment. If alignment is lost, the organization may choose to terminate the effort.
+
+#### **Recognize, Evaluate, and Respond to System Interactions**
+
+A project is a system of interdependent and interacting domains of activity that exists within other larger systems (a system of systems, e.g., portfolios and programs). **Systems thinking** requires taking a holistic view of how project parts interact with each other and with external systems.
+
+**Practicing Systems Thinking:**
+
+-   Project teams should constantly attend to internal and external conditions, navigating changes to keep the project in agreement with stakeholders.\
+-   Empathy, critical thinking with a "big picture" focus, and challenging assumptions are crucial skills.\
+-   The team must adjust to the changing needs of end users, sponsors, or customers.\
+-   Decisions should benefit the organization as a whole, not just one part of the project.
+
+#### **Demonstrate Leadership Behaviors**
+
+Effective leadership promotes project success and positive outcomes. Leadership is distinctly different from **authority**(the positional right to exercise power, often formally delegated).
+
+**Key Leadership Behaviors:**
+
+-   **Shared Leadership:** Any project team member, sponsor, or stakeholder can demonstrate leadership behaviors, contributing influence, creativity, and motivation.\
+-   **Adaptability:** Effective leaders adapt their style (e.g., autocratic, democratic, servant leadership) to the specific situation. For instance, in chaos, a directive style may be needed; with competent staff, empowered delegation may yield higher productivity.\
+-   **Role Modeling:** Leaders must demonstrate desired behavior in areas of honesty, integrity, and ethical conduct.\
+-   **Motivation:** Leaders understand and leverage what motivates people (e.g., finance, autonomy, purpose, growth opportunity) to foster shared responsibility and a healthy environment.
+
+#### **Tailor Based on Context**
+
+Since each project is unique, project success requires adapting the approach to the unique context. **Tailoring** is the deliberate adaptation of the approach, governance, and processes to make them suitable for the environment and the work at hand.
+
+**Goals of Tailoring:**
+
+-   Maximize value, manage constraints, and improve performance.\
+-   Use "just enough" processes, methods, templates, and artifacts to achieve the desired outcome.\
+-   Produce outcomes like deeper commitment from team members, reduced waste, and more efficient use of resources.
+
+The tailoring process is iterative and continuous throughout the project life cycle.
+
+#### **Build Quality into Processes and Deliverables**
+
+**Quality** is the degree to which inherent characteristics fulfill requirements, satisfying stakeholder expectations. Quality focuses on conformance to acceptance criteria and ensuring fitness for use.
+
+**Dimensions of Quality:** Quality activities aim to minimize waste and maximize the probability of attaining the desired outcome by focusing on prevention and early defect detection. Dimensions include:
+
+-   Performance (functionality)\
+-   Conformity (fitness for use/meeting specifications)\
+-   Reliability (consistent metrics)\
+-   Efficiency (greatest output with least input/effort)\
+-   Satisfaction (positive end-user feedback)
+
+Quality management practices ensure that deliverables meet acceptance criteria and business objectives, reducing rework, scrap, and complaints.
+
+#### **Navigate Complexity**
+
+**Complexity** is a characteristic of a project or its environment that is difficult to manage due to human behavior, system behavior, uncertainty, and ambiguity. Complexity can emerge at any point during the project.
+
+**Sources of Complexity:**
+
+-   **Human Behavior:** Subjectivity, conflicting personal agendas, diverse cultural norms, and geographic distribution among stakeholders.\
+-   **System Behavior:** Dynamic interdependencies among project elements causing unforeseen issues and unclear cause-and-effect relationships.\
+-   **Technological Innovation:** Disruption caused by new technology and the uncertainty of how it will be used.\
+-   **Ambiguity and Uncertainty:** Blurring causal relationships where impacts are ill-defined.
+
+Project teams must continuously evaluate and navigate complexity using methods like systems thinking, past experience, and continuous learning.
+
+#### **Optimize Risk Responses**
+
+A **risk** is an uncertain event or condition that, if it occurs, has a positive (opportunity) or negative (threat) effect on objectives. Project teams continuously identify and evaluate known and emergent risks throughout the life cycle.
+
+**Risk Optimization Goals:**
+
+-   Maximize positive risks (opportunities) and decrease exposure to negative risks (threats).\
+-   Manage the **overall project risk** (the effect of uncertainty on the project as a whole) to keep exposure within an acceptable range, influenced by organizational risk attitude, appetite, and threshold.
+
+**Effective Risk Responses** must be appropriate for the risk's significance, cost effective, realistic, agreed to by stakeholders, and owned by a responsible person.
+
+#### **Embrace Adaptability and Resiliency**
+
+Projects rarely perform exactly as initially planned. **Adaptability** is the ability to respond to changing conditions, while **resiliency** is the ability to absorb impacts and recover quickly from setbacks or failures.
+
+**Capabilities Supporting Adaptability and Resiliency:**
+
+-   Using short feedback loops and continuous learning.\
+-   Employing diverse, skilled project teams.\
+-   Designing processes that balance work velocity and requirement stability.\
+-   Envisioning outcomes (rather than fixed deliverables) to enable alternative, stronger solutions.\
+-   Deferring decision making to the last responsible moment.
+
+#### **Enable Change to Achieve the Envisioned Future State**
+
+Projects are agents of change, moving an organization from a current state to a future desired state. **Change management**(or enablement) is the comprehensive, structured approach for transitioning individuals, groups, and organizations to realize desired benefits. (This is distinct from project change control, which modifies project baselines).
+
+**Enabling Change:**
+
+-   Change can originate internally (performance gap) or externally (technological advances, pressures).\
+-   The project team works to address resistance and fatigue by communicating the vision and goals early to achieve buy-in.\
+-   The speed of change must be adapted to the stakeholder’s appetite and ability to assimilate it; attempting too much change too quickly leads to resistance or saturation.
+
+## **Part 2: A Guide to the Project Management Body of Knowledge (PMBOK® Guide)**
+
+The *PMBOK Guide* expands on the concepts in *The Standard*, detailing the application of principles within the context of eight **Project Performance Domains**.
+
+### **Introduction (PMBOK® Guide)**
+
+#### **Structure of the PMBOK® Guide**
+
+The *PMBOK® Guide – Seventh Edition* is structured into three main sections:
+
+1.  **Project Performance Domains:** Describes eight areas critical for effective delivery.\
+2.  **Tailoring:** Explains what tailoring is and how to apply it to individual projects.\
+3.  **Models, Methods, and Artifacts:** Presents commonly used options for performing project work.
+
+#### **Relationship of the PMBOK® Guide and The Standard for Project Management**
+
+The **12 Project Management Principles** guide behavior, while the **eight Project Performance Domains** represent broad areas of focus where that behavior is demonstrated. They are conceptually overlapped and work in unison.
+
+### **Project Performance Domains**
+
+A **Project Performance Domain** is a group of related activities critical for effectively delivering project outcomes. These domains are interactive, interrelated, and interdependent, operating concurrently throughout the project. The activities undertaken within each domain are determined by the unique context of the organization, project, deliverables, and team.
+
+#### **Stakeholder Performance Domain**
+
+This domain focuses on activities related to maintaining alignment with stakeholders and engaging them proactively to foster positive relationships and satisfaction.
+
+**Desired Outcomes:**
+
+-   A productive working relationship with stakeholders throughout the project.\
+-   Stakeholder agreement with project objectives.\
+-   Project beneficiaries are supportive and satisfied, and opponents do not negatively impact results.
+
+**Steps for Effective Stakeholder Engagement (Identify-Understand-Analyze-Prioritize-Engage-Monitor):**
+
+1.  **Identify:** Continuously identify high-level and detailed stakeholders.\
+2.  **Understand and Analyze:** Seek to understand stakeholders' feelings, beliefs, values, power, impact, attitude, and interests. Analyze how stakeholders interact with each other.\
+3.  **Prioritize:** Focus engagement efforts, often concentrating on stakeholders with the most power and interest.\
+4.  **Engage:** Work collaboratively to elicit requirements, manage expectations, resolve issues, and make decisions, using soft skills and leadership.
+    -   *Communication Methods:* **Push** (one-way, e.g., emails), **Pull** (information sought by stakeholders, e.g., intranet search), and **Interactive** (two-way exchange, e.g., meetings).\
+5.  **Monitor:** Continuously assess whether the current engagement strategy is effective and whether stakeholder satisfaction levels are being met.
+
+#### **Team Performance Domain**
+
+This domain focuses on establishing the culture and environment needed to turn diverse individuals into a high-performing project team, encouraging leadership behaviors from all members.
+
+**Desired Outcomes:**
+
+-   Shared ownership of outcomes.\
+-   A high-performing team.\
+-   Applicable leadership and interpersonal skills demonstrated by all team members.
+
+**Key Concepts:**
+
+-   **Management vs. Leadership:** Management focuses on the means (processes, planning, monitoring), while leadership focuses on people (influencing, motivating, listening).\
+-   **Servant Leadership:** A style focusing on addressing the needs and development of team members to enable high performance. Behaviors include obstacle removal, shielding the team from diversions, and providing encouragement.\
+-   **Project Team Culture:** The team's norms and ways of working, established deliberately or informally. Project managers foster a safe, respectful environment by modeling transparency, integrity, respect, and courage.\
+-   **Leadership Skills:** Critical thinking, motivation (intrinsic vs. extrinsic), and interpersonal skills (e.g., emotional intelligence, conflict management, decision making).
+
+**Breakdown of Emotional Intelligence (EI):** EI is critical for effective communication and collaboration.
+
+| Aspect | Description |
+|------------------------------------|------------------------------------|
+| **Self-Awareness** | Ability to conduct a realistic self-assessment of one's own emotions, strengths, and weaknesses. |
+| **Self-Management** | Ability to control and redirect disruptive feelings and impulses; thinking before acting. |
+| **Social Awareness** | Empathy, understanding others' feelings, and reading nonverbal cues. |
+| **Social Skill** | Managing groups, building social networks, finding common ground, and building rapport. |
+
+#### **Development Approach and Life Cycle Performance Domain**
+
+This domain addresses establishing the development approach, delivery cadence, and project life cycle necessary to optimize project outcomes. The type of deliverable drives the development approach, which in turn influences the delivery cadence and the resulting project life cycle phases.
+
+**Delivery Cadence (Timing and Frequency):**
+
+-   **Single Delivery:** Deliverable provided only at the end of the project (e.g., process reengineering).\
+-   **Multiple Deliveries:** Components delivered at different times throughout the project, often sequentially or separately (e.g., new drug development phases).\
+-   **Periodic Deliveries:** Deliveries on a fixed schedule (e.g., monthly releases).\
+-   **Continuous Delivery:** Feature increments delivered immediately to customers using small batches of work (often for digital products).
+
+**Development Approaches (Methods used to create the product):**
+
+| Approach | Description | Applicability |
+|------------------------|------------------------|------------------------|
+| **Predictive (Waterfall)** | Requirements, scope, schedule, and cost are defined early and are relatively stable. | Useful when scope is well-understood, risk is high (requiring frequent review), or regulations mandate up-front planning. |
+| **Hybrid** | Combination of predictive and adaptive elements. | Useful when requirements uncertainty is mixed, or when deliverables can be modularized (e.g., adaptive for product development, predictive for deployment). |
+| **Adaptive (Agile)** | Requirements subject to high uncertainty and volatility; initial known requirements are refined based on user feedback. | Useful when requirements are uncertain, volatile, or complex, emphasizing short iterations and high stakeholder involvement. |
+
+**Development Cycles/Methods:**
+
+-   **Iterative:** Useful for clarifying requirements and investigating options; produces sufficient capability prior to final iteration.\
+-   **Incremental:** Used to produce a deliverable throughout a series of iterations; each iteration adds functionality within a timebox until the final completion.
+
+**Project Life Cycle Phases:** Phases can be sequential (predictive, Figure 2-9) or overlapping/repeating (incremental/adaptive, Figures 2-10, 2-11). Phases often conclude with a **Phase Gate Review** to check if desired outcomes or exit criteria have been achieved.
+
+#### **Planning Performance Domain**
+
+Planning involves organizing, elaborating, and coordinating project work initially, ongoing, and as the project evolves. The time spent planning must be appropriate for the situation ("just enough").
+
+**Desired Outcomes:**
+
+-   The project progresses in an organized, coordinated, and deliberate manner.\
+-   Evolving information is elaborated to produce deliverables.\
+-   Planning information is sufficient to manage stakeholder expectations.
+
+**Planning Variables:**
+
+-   **Development Approach:** Dictates how much planning is done up front versus iteratively (e.g., rolling wave planning in predictive, iteration planning in adaptive).\
+-   **Estimating:** Developing quantitative assessments of work effort, duration, costs, and resources. Estimates evolve from broad ranges (low accuracy) to narrow ranges (high accuracy) as the project progresses.\
+-   **Schedules:** Modeling project activities, durations, and dependencies.
+    -   *Predictive Scheduling:* Decompose scope, sequence activities, estimate resources, and adjust. Techniques include **Crashing** (shortening duration by adding resources) and **Fast Tracking** (performing sequential activities in parallel).\
+    -   *Adaptive Scheduling:* Uses incremental planning based on iterations and releases, prioritizing work via a backlog.\
+-   **Budget:** Evolving from cost estimates aggregated into a cost baseline. Includes **Contingency Reserve** (for identified risks) and **Management Reserve** (for unexpected in-scope work).\
+-   **Procurement:** Planning involves conducting a **make-or-buy analysis** and providing advance information to contracting professionals.
+
+#### **Project Work Performance Domain**
+
+This domain ensures efficient and effective project performance by establishing processes, managing physical resources, and fostering a learning environment.
+
+**Desired Outcomes:**
+
+-   Efficient and effective project performance.\
+-   Appropriate project processes (e.g., continuous improvement, lean production).\
+-   Effective management of physical resources and procurements.
+
+**Key Concepts/Activities:**
+
+-   **Project Processes:** Establishing, reviewing, and optimizing processes using techniques like **Lean production**(removing waste/non-value-adding activities) and process auditing.\
+-   **Balancing Competing Constraints:** Continuously managing trade-offs among constraints (scope, schedule, budget, quality) to maintain stakeholder satisfaction.\
+-   **Procurement Work:** Working with contracting officers to develop bid documents (RFI, RFP, RFQ), conducting bidder conferences, selecting vendors, and negotiating contracts (Fixed-Price, Cost-Reimbursable, T&M).\
+-   **Monitoring New Work and Changes:** In adaptive projects, managing backlog priority to handle evolving work; in predictive projects, rigorously using the **Change Control Process**.\
+-   **Learning Throughout the Project:** Developing and sharing **explicit knowledge** (codified data, like manuals) and **tacit knowledge** (personal experience, shared via networking or job shadowing).
+
+#### **Delivery Performance Domain**
+
+Delivery focuses on meeting requirements, scope, and quality expectations to produce the expected deliverables that will drive the intended outcomes.
+
+**Desired Outcomes:**
+
+-   Projects contribute to business objectives and strategy.\
+-   Projects realize the outcomes and benefits they were initiated to deliver.
+
+**Key Concepts/Activities:**
+
+-   **Requirements Management:** Eliciting, documenting (clear, concise, verifiable), and managing requirements (often by a Product Owner/Business Analyst). In uncertain environments, requirements may be discovered using prototypes or demonstrations.\
+-   **Scope Definition:** Defining the sum of products, services, and results. Scope is decomposed using a **Work Breakdown Structure (WBS)** (predictive) or themes/epics/features/user stories (adaptive).\
+-   **Moving Targets of Completion:** Managing **"Done Drift"** (the project goal moving due to new features/competitors, Figure 2-21) in volatile markets and mitigating **"Scope Creep"** (uncontrolled scope expansion) in stable environments via formal change control.\
+-   **Quality and Cost of Quality (COQ):** Quality focuses on required performance levels. COQ analyzes costs related to **prevention** (investing early) and **appraisal** (checking conformance) versus costs related to **internal failure**(scrap, rework) and **external failure** (defects found by the customer).
+    -   Proactive quality work minimizes costs, countering the principle of the **Cost of Change Curve** (Figure 2-22), where the cost to fix defects increases dramatically later in the life cycle.
+
+#### **Measurement Performance Domain**
+
+Measurement involves assessing project performance and implementing appropriate responses to maintain optimal performance. Effective measures provide actionable, timely data to facilitate informed decision making.
+
+**Desired Outcomes:**
+
+-   A reliable understanding of project status.\
+-   Timely and appropriate actions to keep performance on track.
+
+**Key Measures and Metrics:**
+
+-   **Key Performance Indicators (KPIs):** Quantifiable measures of success. They include **leading indicators** (predict changes/trends, e.g., lack of risk process) and **lagging indicators** (measure past performance, e.g., project status).\
+-   **SMART Metrics:** Effective metrics are **Specific, Meaningful** (or Measurable), **Achievable** (or Agreed to), **Relevant** (or Realistic/Reasonable), and **Timely** (or Time bound).\
+-   **Baseline Performance:** Comparison of actual results against the approved baseline (Cost, Schedule, Scope). This uses **Earned Value Analysis (EVA)** metrics (e.g., CV, SV, CPI, SPI) and forecasting metrics (e.g., EAC, ETC, VAC).\
+-   **Delivery Metrics:** Used primarily in adaptive approaches, including **Work in Progress** (WIP), **Lead Time**, **Cycle Time**, and **Throughput** (items completed in a fixed time).\
+-   **Stakeholder Metrics:** Measuring satisfaction (e.g., **Net Promoter Score®** (NPS®)).
+
+**Presenting Information:**
+
+-   **Dashboards:** Electronic visual summaries of metrics, often using charts and graphs (RAG charts, bar charts).\
+-   **Information Radiators (Big Visible Charts):** Visible, physical displays providing timely knowledge sharing (often manually maintained, e.g., risk logs, burn charts).\
+-   **Visual Controls:** Charts illustrating processes to compare actual against expected performance (e.g., **Task Boards/Kanban Boards** to limit WIP, **Burn Charts** to track velocity).
+
+**Measurement Pitfalls:** Teams must avoid the **Hawthorne Effect** (behavior influenced by measurement), using **Vanity Metrics** (data without useful decision-making information), and **Demoralization** from unachievable goals.
+
+#### **Uncertainty Performance Domain**
+
+This domain focuses on exploring, assessing, and responding to the threats and opportunities presented by uncertainty, which is inherent in all projects.
+
+**Key Concepts:**
+
+-   **Uncertainty:** Lack of understanding/awareness of issues, events, paths, or solutions. Reduced by gathering information, preparing for multiple outcomes, set-based design, and building resilience.\
+-   **Ambiguity:** A state of being unclear, having difficulty identifying causes, or having multiple options. Solutions include **progressive elaboration**, experimentation, and prototyping.\
+-   **Complexity:** Difficult to manage due to human behavior, system behavior, and ambiguity. Handled via decoupling systems, simulation, diversity in perspectives (reframing), and process-based approaches (iterate, engage, fail safe).\
+-   **Volatility:** Rapid and unpredictable change, typically impacting cost and schedule. Addressed via alternatives analysis and using reserves (cost or schedule).\
+-   **Risk (Threats and Opportunities):** Project teams proactively identify risks aligned with the organization's **Risk Appetite** and **Risk Thresholds**.
+
+**Risk Response Strategies:**
+
+| Strategy | Threats (Negative Risks) | Opportunities (Positive Risks) |
+|------------------------|------------------------|------------------------|
+| **Avoid/Exploit** | Eliminate the threat or protect the project from impact. | Act to ensure the opportunity occurs. |
+| **Mitigate/Enhance** | Decrease probability/impact of the threat. | Increase probability/impact of the opportunity. |
+| **Transfer/Share** | Shift impact/ownership to a third party (e.g., insurance, warranty). | Allocate ownership to a third party best able to capture the benefit. |
+| **Accept** | Acknowledge the risk and take no action unless it occurs. | Acknowledge the opportunity but take no proactive steps. |
+| **Escalate** | Threat/opportunity is outside project scope or manager's authority. |  |
+
+### **Tailoring**
+
+Tailoring is essential because no single project management approach works for every project. It ensures that the approach, governance, and processes are suitable for the given environment.
+
+#### **Why Tailor?**
+
+Tailoring ensures appropriate management rigor based on project criticality, size, duration, complexity, industry, and organizational maturity. Benefits include greater team commitment, reduced waste, efficient resource use, and a customer-oriented focus.
+
+#### **What to Tailor**
+
+Project teams can tailor the following aspects:
+
+-   **Life Cycle and Development Approach Selection:** Choosing between predictive, iterative, incremental, or hybrid approaches.\
+-   **Processes:** Adding rigor, modifying to suit team needs, removing wasteful steps, blending practices (e.g., mixing methods), and aligning differing elements for consistency.\
+-   **Engagement:** Deciding on the appropriate people involvement, the level of empowerment given to the team, and how integration occurs across different contributing entities.\
+-   **Tools:** Selecting the appropriate software or equipment.\
+-   **Methods and Artifacts:** Choosing the means to achieve outcomes and the necessary documentation and templates.
+
+#### **The Tailoring Process**
+
+The tailoring process involves four iterative steps, beginning after the project environment has been analyzed.
+
+**Step-by-Step Breakdown of the Tailoring Process:**
+
+1.  **Select Initial Development Approach:** Determine the most appropriate approach (predictive, hybrid, or adaptive) based on knowledge of the product, delivery cadence, and organizational constraints. Tools like a **suitability filter can** assist by assessing criteria related to culture, team, and project factors.\
+2.  **Tailor for the Organization:** Adjust the initial approach to align with the organization’s established methodology, governance policies, and strategic/stewardship goals. This step may involve oversight and approval by the PMO or VDO (Value Delivery Office).\
+3.  **Tailor for the Project:** Adjust the approach based on specific project attributes, such as product/deliverable complexity, project team size/geography/experience, and organizational culture.\
+4.  **Implement Ongoing Improvement:** Since tailoring is iterative, regularly conduct reviews (e.g., phase gates, retrospectives) to inspect and adapt the process, ensuring continuous learning and improvement.
+
+#### **Tailoring the Performance Domains**
+
+The work within each of the eight performance domains can be tailored based on project uniqueness.
+
+-   **Stakeholders:** Tailor based on stakeholder location (colocated/distributed), language diversity, number of stakeholders, and complexity of stakeholder networks.\
+-   **Project Team:** Tailor based on geographical location, cultural perspectives, presence of special needs, and team maturity/training needs.\
+-   **Development Approach and Life Cycle:** Tailor the development approach (iterative, incremental, hybrid) and define the necessary project phases and exit criteria.\
+-   **Planning:** Tailor based on environmental factors, budget constraints, correlation between resources and productivity, and the complexity of procurements.\
+-   **Project Work:** Tailor the management processes, knowledge management strategy (explicit vs. tacit), and information collection/storage technology.\
+-   **Delivery:** Tailor requirements management, validation/control policies, quality standards (industry/regulatory), and approaches for handling unstable requirements.\
+-   **Uncertainty:** Tailor based on risk appetite, risk tolerance, project size/duration/complexity, level of innovation, and the strategic importance of the project.\
+-   **Measurement:** Tailor how value is measured (financial vs. nonfinancial), required status reporting frequency, and how data capture supports benefits realization after closure.
+
+### **Models, Methods, and Artifacts**
+
+This section provides a non-exhaustive, non-prescriptive array of common resources useful in managing projects.
+
+-   **Model:** A thinking strategy used to explain a process, framework, or phenomenon.\
+-   **Method:** The means for achieving an outcome, output, result, or project deliverable.\
+-   **Artifact:** A template, document, output, or project deliverable.
+
+Project teams should avoid using any element that duplicates effort, provides misleading information, or is not useful to stakeholders.
+
+#### **Commonly Used Models**
+
+| Model Category | Key Model Examples | Core Concept Explained (Plain Language) |
+|------------------------|------------------------|------------------------|
+| **Situational Leadership** | Situational Leadership® II, OSCAR Model | Leadership style must adapt to the project team member's competence and commitment level (Directing → Coaching → Supporting → Delegating). |
+| **Communication** | Cross-cultural Communication, Effectiveness of Communication Channels, Gulf of Execution and Evaluation | Explains how filters (culture, experience, language) distort messages and how communication effectiveness depends on the medium's "richness" (complex info needs richer channels). |
+| **Motivation** | Intrinsic vs. Extrinsic Motivation, Theory of Needs (Achievement, Power, Affiliation), Theory X/Y/Z | Identifies that intrinsic factors (autonomy, mastery, purpose) are often more effective for complex work than extrinsic rewards. |
+| **Change** | ADKAR® Model, Kotter's 8-Step Process for Leading Change, Virginia Satir Change Model | Provides frameworks for structuring the transition from a current state to a future state, focusing on urgency, coalition building, vision, and reinforcement. |
+| **Complexity** | Cynefin Framework, Stacey Matrix | Classifies decision-making contexts (Obvious, Complicated, Complex, Chaotic) based on cause-and-effect clarity and uncertainty of requirements/technology. |
+| **Project Team Development** | Tuckman Ladder (Forming, Storming, Norming, Performing), Drexler/Sibbet Model (Orientation, Trust, Goals, Commitment) | Describes the predictable stages a team progresses through to achieve high performance. |
+| **Other** | Conflict Model, Negotiation Models (Win-Win), Planning Model (Optimal Planning) | Provides strategies for addressing conflict (e.g., competing, collaborating, compromising), negotiating outcomes, and identifying the "sweet spot" for planning effort. |
+
+#### **Commonly Used Methods**
+
+Methods are means for achieving outcomes, often grouped by purpose.
+
+| Method Category | Key Method Examples | Core Application (Plain Language) |
+|------------------------|------------------------|------------------------|
+| **Data Gathering & Analysis** | Alternatives Analysis, Benchmarking, Cost-Benefit Analysis, Earned Value Analysis (EVA), Root Cause Analysis (RCA), Simulation (Monte Carlo), SWOT Analysis | Used to collect, assess, and evaluate data to gain a deeper understanding or justify decisions (e.g., checking project performance against baselines, identifying underlying causes of variance). |
+| **Estimating** | Analogous, Parametric, Multipoint, Relative Estimating (Story Points), Wideband Delphi | Techniques used to approximate project work, duration, or cost based on historical data, algorithms, or comparison against similar work. |
+| **Meetings & Events** | Backlog Refinement, Bidder Conference, Change Control Board (CCB), Daily Standup, Iteration Review, Kickoff, Lessons Learned | Structured gatherings for communication, collaboration, planning, reviewing progress, managing change, and knowledge sharing. |
+| **Other** | Impact Mapping, Modeling (Prototyping), Net Promoter Score® (NPS®), Prioritization Schema (MoSCoW), Timebox | Strategic and tactical tools for high-level roadmaps, testing designs, gauging customer loyalty, ordering work, and limiting work duration. |
+
+#### **Commonly Used Artifacts**
+
+Artifacts are templates, documents, or deliverables used to record, plan, and communicate project information.
+
+| Artifact Category | Key Artifact Examples | Core Purpose (Plain Language) |
+|------------------------|------------------------|------------------------|
+| **Strategy** | Business Case, Project Charter, Project Vision Statement, Roadmap | High-level documents created at the start to authorize the project and define its purpose, goals, and strategic alignment. |
+| **Logs & Registers** | Assumption Log, Backlog, Change Log, Issue Log, Risk Register, Stakeholder Register | Used to continuously record and monitor evolving project aspects and decisions throughout the project lifecycle. |
+| **Plans** | Project Management Plan (overall), Communications Management Plan, Quality Management Plan, Risk Management Plan, Stakeholder Engagement Plan | Documents describing how specific project aspects (e.g., cost, scope, communication) will be executed, monitored, and controlled. |
+| **Hierarchy Charts** | Work Breakdown Structure (WBS), Risk Breakdown Structure (RBS), Product Breakdown Structure | Hierarchical decomposition of high-level information into greater detail (e.g., breaking scope into manageable work packages). |
+| **Baselines** | Budget, Project Schedule, Scope Baseline, Performance Measurement Baseline (PMB) | The approved version of plans used as a fixed point for comparison against actual performance to measure variances. |
+| **Visual Data & Info** | Dashboards, Gantt Charts, Histogram, Kanban/Task Boards, Velocity Charts, S-Curves, Traceability Matrices | Charts and diagrams that organize and present analyzed data visually to aid in decision-making and project status understanding. |
+| **Reports** | Quality Report, Risk Report, Status Report | Formal summaries of information communicated to stakeholders, sponsors, or PMOs. |
+| **Agreements** | Fixed-Price Contracts (FFP), Cost-Reimbursable Contracts (CPFF), Time and Materials (T&M) | Mutually binding documents defining the intentions, scope, and payment obligations between parties. |
+
+## **Final Comprehensive Summary**
+
+The *PMBOK® Guide – Seventh Edition* represents a substantial evolution in project management thinking, shifting the focus from rigidly defined processes to adaptability, value, and outcomes. The core framework consists of **The Standard for Project Management** and **A Guide to the Project Management Body of Knowledge**.
+
+The foundation of the practice rests on **12 Project Management Principles** (e.g., Stewardship, Focus on Value, Tailoring, Adaptability, Optimize Risk) that guide professional behavior regardless of the development approach used. This principles-based approach is supported by a holistic view of the organization as a **System for Value Delivery**, where projects are integral components enabling strategic objectives.
+
+The application framework is built around **eight Project Performance Domains** (Stakeholders, Team, Development Approach and Life Cycle, Planning, Project Work, Delivery, Measurement, and Uncertainty). These domains are interconnected areas of focus that run concurrently throughout the project to ensure effective delivery. Success within each domain relies heavily on **tailoring** the project approach, governance, and processes to fit the unique context, rather than applying a single, generic methodology.
+
+Project teams must actively manage uncertainty (risk, complexity, ambiguity, and volatility) and ensure continuous improvement and learning. The execution of project work is supported by a wide array of situational **Models, Methods, and Artifacts**—tools selected and refined via tailoring to maximize efficiency, quality, and value realization. Finally, this edition links users to **PMIstandards+™** to provide access to dynamic, supplemental content reflecting the rapidly changing nature of the project environment.

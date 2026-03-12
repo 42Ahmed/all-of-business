@@ -14,3 +14,4 @@
 ehthumbs.db
 Thumbs.db
 **/*.quarto_ipynb
+.Rproj.user

@@ -1,0 +1,1313 @@
+---
+title: "Project Management"
+format: html
+---
+
+## **Executive Summary**
+
+The modern view of project management (PM) emphasizes the **creation of sustainable business value** rather than merely meeting the traditional triple constraints of time, cost, and scope/performance. Project management is defined as the planning, organizing, directing, and controlling of company resources for a relatively short-term objective.
+
+Critical takeaways and shifts in modern PM practice include:
+
+-   **Shift to Value and Benefits:** Project success is fundamentally measured by the desired business benefits and the value provided to customers and stakeholders, not just delivery within constraints.\
+-   **The Systems Approach:** Effective PM requires viewing the project as a collection of interrelated activities (a system) and integrating resources across functional lines (the vertical hierarchy) into a specific project structure (the horizontal hierarchy).\
+-   **Organizational Maturity:** Achieving continuous streams of successfully managed projects (excellence) requires a standard methodology and process foundation (maturity). This often involves developing a **Project Management Methodology (PMM)** and potentially a **Project Management Office (PMO)**.\
+-   **Flexible Methodologies:** Due to varying project requirements and market volatility, rigid "waterfall" methodologies are often supplemented or replaced by flexible **frameworks** or **Agile** approaches that prioritize customer involvement and rapid adaptation.\
+-   **Project Manager as Business Leader:** Project managers must evolve from technical schedulers/planners to become general managers who understand the total operation of the company, make both technical and business decisions, and align the project to strategic goals.\
+-   **Planning is Paramount:** Planning, organizing via a **Work Breakdown Structure (WBS)**, and establishing robust **Project Baselines** (scope, schedule, cost) are foundational to control and successful execution.\
+-   **Metrics and KPIs:** Measurement has expanded beyond traditional time and cost reporting to include **Key Performance Indicators (KPIs)** and metrics that reflect business value, often displayed in dashboards or scorecards.
+
+## **Overview**
+
+### **Introduction and Understanding Project Management**
+
+Project management, rooted in the U.S. Department of Defense and heavy construction during the 1960s, initially focused heavily on budget and schedule compliance for unique or repetitive projects.
+
+A **project** is defined as any series of tasks and activities that:
+
+-   Have a specific objective, focusing on creating business value, completed within specifications.\
+-   Have defined start and end dates.\
+-   Have funding limits (if applicable).\
+-   Consume human and nonhuman resources (money, people, equipment).\
+-   Are multifunctional (cut across several functional lines).
+
+**Project Management (PM)** is the application of knowledge, skills, and tools necessary to achieve project requirements. It uses the **systems approach** by assigning functional personnel (vertical hierarchy) to a specific project (horizontal hierarchy).
+
+### **Defining Project Success and Constraints**
+
+Historically, project success was defined by the **Triple Constraints** (time, cost, and performance/specification). The modern definition of success is much broader and includes:
+
+-   Completion within allocated time, cost, and proper performance level.\
+-   Completion within *other competing constraints*.\
+-   Acceptance by the customer/user, delivery of desired business benefits and value, and minimum agreed-upon scope changes.\
+-   Absence of disturbance to the main organizational workflow or alteration of the corporate culture.
+
+The ultimate metric for project success is the **creation of sustainable business value**.
+
+### **Trade-Offs and Competing Constraints**
+
+**Trade-offs** occur when one aspect of a project must be sacrificed or compromised to achieve another. While the traditional definition of constraints relies on Time, Cost, and Performance (Scope/Quality), **Complex Projects** face numerous competing constraints, including Value, Quality, Image/Reputation, and Scope.
+
+-   Constraints vary in importance across the project life cycle. For example, scope might be critical during initiation, while time and cost become more critical during execution.
+
+### **The Project Manager–Line Manager Interface**
+
+Effective PM often involves a **dual responsibility** structure where the project manager (PM) is accountable for *what* is accomplished, and the line manager (LM) is accountable for *how* tasks are accomplished.
+
+| Topic       | Project Manager               | Line Manager            |
+|-------------|-------------------------------|-------------------------|
+| Rewards     | Give recommendation: Informal | Provide rewards: Formal |
+| Direction   | Milestone (summary)           | Detailed                |
+| Evaluation  | Summary                       | Detailed                |
+| Measurement | Summary                       | Detailed                |
+| Control     | Summary                       | Detailed                |
+
+Depending on the organizational structure (discussed in Chapter 3), line managers typically make performance evaluations, potentially utilizing input from the PM.
+
+### **Project-Driven Versus Non–Project-Driven Organizations**
+
+-   **Project-Driven Organization:** All work is characterized through projects, each operating as a separate cost center with its own profit-and-loss statement (e.g., aerospace, construction). Everything centers on the projects.\
+-   **Non–Project-Driven/Operational-Driven Organization:** Projects are secondary to functional operations. Such companies often rely heavily on subcontractors for PM expertise.
+
+### **Added Value**
+
+**Added value** is defined as incremental improvements to a project deliverable that improve performance or provide a significant business advantage, for which the client is willing to pay. Project managers seek added-value opportunities that benefit the client.
+
+------------------------------------------------------------------------
+
+**Chapter 1 Recap**
+
+1.  Project management is the planning, organizing, directing, and controlling of resources for a short-term, specific objective.\
+2.  Modern project success is defined by delivering intended business value and adhering to competing constraints, not just time, cost, and scope.\
+3.  The **Talent Triangle** identifies necessary skills: Technical Project Management, Leadership, and Strategic and Business Management.\
+4.  The Project Manager acts as a general manager and a primary planner, using a systems approach to integrate multifunctional activities.\
+5.  Projects exist within either project-driven or non–project-driven organizational contexts, which affects how resources and accountability are managed.\
+6.  Scope changes are inevitable but must be minimized and mutually agreed upon.\
+7.  The PM-LM interface involves a split in authority, requiring the PM to manage by influence rather than formal control in many cases.
+
+------------------------------------------------------------------------
+
+## **Project Management Growth: Concepts and Definitions**
+
+### **Systems, Programs, and Projects: A Definition**
+
+A **system** is a group of organized elements (human or nonhuman) acting as a whole to achieve a common goal. Systems are classified as *closed* (isolated from the environment) or *open* (interacting with the environment, like social systems).
+
+A **program** is typically longer in duration than a project and often consists of multiple projects. Projects are usually the first level of breakdown of a program.
+
+### **Maturity and Excellence: A Definition**
+
+**Maturity in project management** is the implementation of a standard methodology and accompanying processes that result in a high likelihood of repeated successes. Maturity requires the proper foundation of tools, techniques, processes, and culture.
+
+**Organizations excellent in project management** are those that create an environment characterized by a **continuous stream of successfully managed projects**, where success is measured by what is in the best interest of both the company and the project (i.e., customer).
+
+-   Excellence goes beyond maturity; maturity is a prerequisite for achieving repetitive excellence.
+
+### **The Many Faces of Success and Failure**
+
+Success can be defined subjectively by the stakeholders. The definition of success can be viewed as a cube defined by Time, Cost, and Quality (or Scope), with the optimal outcome being a point within that cube \[56, 57f\].
+
+-   **Primary success factors** are usually seen through the eyes of the customer (e.g., within time, cost, and quality limits; accepted by customer).\
+-   **Secondary success factors** are internal benefits (e.g., follow-on work, using the customer name as a reference, commercialization of a product, minimum scope changes).
+
+Project **Failure** can be categorized by the divergence between planned and actual outcomes \[60f\]. **Planning Failure occurs** when objectives are unrealistic or constantly changing (moving targets).
+
+-   **Degrees of Project Results**:
+    -   **Complete success:** Met success criteria, created value, adhered to all constraints.\
+    -   **Partial success:** Met success criteria, client accepted deliverables, created value, but one or more constraints were missed.\
+    -   **Partial failure:** Not completed as expected (e.g., canceled early), but knowledge or intellectual property was created for future use.
+
+### **Life-Cycle Phases**
+
+The theoretical life-cycle phases of a system applied to a project include:
+
+1.  **Conceptual:** Preliminary idea evaluation, risk analysis, and feasibility study.\
+2.  **Planning:** Detailed breakdown of work, establishing budgets and schedules.\
+3.  **Testing:** Verification of performance and requirements.\
+4.  **Implementation (Execution):** Performing the work.\
+5.  **Closure:** Final verification, contractual, financial, and administrative closure.
+
+**Closure** includes verifying all work is accomplished, contractual closure, financial closure (closing charge numbers), and administrative closure (paperwork).
+
+### **Project Management Methodologies to Frameworks**
+
+-   **Methodology:** A repetitive, standard process often based on rigid policies and procedures, successful primarily when requirements are well-defined (e.g., **Waterfall** approach).\
+-   **Framework:** A basic conceptual structure providing a skeleton support structure (set of assumptions, concepts, templates, values, processes) that offers the flexibility project teams need to customize their approach to unique project requirements.
+
+If requirements are unclear or likely to change (e.g., software development), an **Agile** approach, where work evolves over the project life cycle, may be needed instead of the rigid Waterfall approach.
+
+### **Growth of Strategic Project Management**
+
+PM is increasingly applied to **strategic projects** (focused on long-term goals and objectives, often with vague business cases) rather than only traditional **operational projects** (focused on deliverables, clear objectives). This trend has necessitated the use of flexible frameworks over rigid methodologies.
+
+### **Lean Project Management**
+
+**Lean Project Management** focuses on eliminating waste and maximizing effectiveness and efficiency, often contrasting with the documentation-heavy, sequential nature of the Waterfall approach.
+
+| Traditional (Waterfall) Approach | Lean Approach |
+|------------------------------------|------------------------------------|
+| Massive project documentation | Minimal documentation |
+| Excessive number of customer-contractor team meetings | Minimal number of team meetings |
+| Sponsorship at the executive levels | Sponsorship at lower and middle levels |
+
+### **Systems Thinking**
+
+The **systems approach** is a logical and disciplined process of problem-solving that requires analyzing the total project rather than individual parts. It involves translating requirements into objectives, analyzing alternatives and constraints, synthesizing solutions, and performing trade-offs \[97f\].
+
+------------------------------------------------------------------------
+
+**Chapter 2 Recap**
+
+1.  **Maturity** involves using standardized processes; **Excellence** is achieving a *continuous stream* of successful projects.\
+2.  Project results are classified as complete success, partial success, or partial failure.\
+3.  Projects move through life-cycle phases (Conceptual, Planning, Testing, Implementation, Closure), often marked by "gates" or "on-off ramps" for control.\
+4.  The rigidity of **Methodologies** (Waterfall) contrasts with the flexibility of **Frameworks** (Agile/Hybrid), which allow tailoring to unique projects.\
+5.  PM is increasingly used for **Strategic Projects** linked to organizational business models.\
+6.  **Systems Thinking** is essential for analyzing the totality of project needs, integrating alternatives, requirements, objectives, and constraints.\
+7.  Project management requires building a **knowledge repository** that captures both project and business best practices.
+
+------------------------------------------------------------------------
+
+## **Organizational Structures**
+
+### **The Traditional (Functional) Organization**
+
+In a traditional structure (pure functional organization), management is arranged hierarchically by specialty (e.g., Engineering, Marketing, Finance) \[111, 111f\].
+
+-   **Advantages:** Strong concentration of technical expertise, easy career progression for specialists, and suitability for mass production.\
+-   **Disadvantages (for projects):** Difficult project integration, lack of a single customer contact point, poor response time, and lack of horizontal authority/responsibility.
+
+### **Matrix Organizational Form**
+
+The **matrix structure** attempts to combine the advantages of pure functional and product organizational structures and is ideally suited for project-driven companies.
+
+-   The project manager reports directly to the General Manager and has total responsibility and accountability for project success (the horizontal hierarchy).\
+-   Functional departments maintain technical excellence (the vertical hierarchy).\
+-   **Ground Rules for Matrix Development**:
+    -   Participants are full-time on the project (for loyalty).\
+    -   Horizontal and vertical channels must exist for commitments.\
+    -   Quick and effective methods for conflict resolution must exist.\
+    -   Good communication and free access between managers are required.\
+    -   All managers must input into the planning process.\
+    -   Managers must be willing to negotiate.
+
+### **Project Management Offices (PMOs)**
+
+The **Project Management Office (PMO)** concept is considered one of the most important PM activities for achieving professionalism, maturity, and excellence in project management. PMOs can be designed for specific business purposes, each potentially having unique missions, goals, and strategic business objectives.
+
+-   Organizations can maintain several types of PMOs, sharing information like metrics and KPIs.
+
+### **Common Project Management Implementation Fallacies**
+
+Fallacies are mistaken beliefs that delay PM maturity.
+
+1.  **Fallacy 1: Our Ultimate Goal Is to Implement Project Management.** Wrong goal; the goal is the progressive development of systems and processes that consistently produce a continuous stream of successful projects.\
+2.  **Fallacy 2: We Need to Establish a Mandatory Number of Forms, Templates, Guidelines, and Checklists.**Wrong criteria; maturity is evaluated by time-based levels and assessment instruments. Focus should be on developing an organization-wide methodology that receives buy-in.\
+3.  **Fallacy 3: We Need to Purchase Project Management Software to Accelerate the Maturity Process.** Wrong approach; software selection should be based on benefits like efficiency and consistency, not just packaged features.\
+4.  **Fallacy 4: We Need to Implement Project Management in Small Steps with a Small Breakthrough Project.**Wrong method; using a large, successfully managed project as a breakthrough implies the processes work on small projects, but the reverse is not necessarily true.\
+5.  **Fallacy 6: We Need Executive Support.** Almost true; visible executive support is required. Executives must "walk the talk" and maintain an open-door policy.\
+6.  **Fallacy 7: We Need a Project Management Course so Our Workers Can Become Project Management Professionals (PMPs).** Getting closer; lifelong education is needed, as becoming a PMP is just the starting point.
+
+------------------------------------------------------------------------
+
+**Chapter 3 Recap**
+
+1.  Organizational structures, ranging from traditional functional organizations to specialized project organizations and PMOs, dictate the flow of authority and responsibility.\
+2.  The **Matrix Organization** attempts to balance technical expertise (vertical) with project accountability (horizontal).\
+3.  The **PMO** is crucial for standardizing PM processes, sharing knowledge, and providing strategic planning for project management.\
+4.  Successful PM implementation is hindered by common fallacies, such as believing that software or mandatory documentation ensures maturity.\
+5.  Organizational structure selection is based on factors like project size, length, cost, and upper management's philosophy.
+
+------------------------------------------------------------------------
+
+## **Organizing and Staffing the Project Office and Team**
+
+### **Selecting the Project Manager: An Executive Decision**
+
+Project management success depends heavily on having a good project manager (PM) at the controls. Senior management must visibly appoint the PM and delegate the necessary authority.
+
+The major responsibilities of the PM include ensuring resources are controlled within cost, time, and performance. PMs also must define the specific constraints, priorities, and internal/external interfaces for their project.
+
+### **Skill Requirements for Project and Program Managers**
+
+Effective PM requires proficiency in 10 key skills, similar to the eight performance domains of the *PMBOK® Guide, 7th Edition*. These skills are:
+
+1.  **Team-Building Skills:** Nurturing a climate conducive to teamwork, commitment, good interpersonal relations, open communication, and supportive top management.\
+2.  **Leadership Skills:** Managing human and nonhuman resources to accomplish tasks and meet project constraints.\
+3.  **Conflict Resolution Skills:** Resolving conflicts, often informally, due to the constant nature of project conflicts.\
+4.  **Technical Skills:** Understanding the technology of the project and acting as the final technical authority.\
+5.  **Planning Skills:** Absolutely essential for complex projects, requiring communication and information processing to define resource requirements and negotiating commitments.\
+6.  **Organizational Skills:** Understanding the complex interfaces and relationships between the project office, functional departments, and management.\
+7.  **Administrative Skills:** Managing administrative tasks like budgets, schedules, contracts, and performance appraisals.\
+8.  **Communications Skills:** Essential for effective interpersonal relations and timely communication.\
+9.  **Negotiating Skills:** Securing resources and commitments with little or no formal authority.\
+10. **Time Management Skills:** Required to manage a turbulent environment filled with meetings, reports, and crisis management.
+
+### **The Organizational Staffing Process**
+
+The staffing process must answer three questions:
+
+1.  What resources are required?\
+2.  Where will the people come from?\
+3.  What type of project organizational structure will be best?
+
+Continuity of staffing is critical. The decision to accept an average worker who will be available for the entire project versus fighting for the "best" resources for short-term tasks presents a continuous trade-off.
+
+### **The Project Office (PO)**
+
+The **Project Office (PO)** typically consists of personnel assigned full-time to a project, working outside the functional units.
+
+**Major Responsibilities of the PO**:
+
+-   Acting as the focal point of information for internal control and customer reporting.\
+-   Controlling time, cost, and performance to adhere to contractual requirements.\
+-   Ensuring all work required is documented and distributed.\
+-   Ensuring all work performed is authorized and funded.\
+-   **Integration of work across functional lines**—the most common cause of project failure is a lack of proper integration.
+
+------------------------------------------------------------------------
+
+**Chapter 4 Recap**
+
+1.  Project success is contingent upon visible executive appointment and delegated authority to the PM.\
+2.  PMs require a broad array of skills beyond technical competence, especially focused on leadership, communication, planning, and conflict resolution.\
+3.  The staffing process involves crucial decisions regarding the needed resources, their source, and organizational structure.\
+4.  The **Project Office (PO)** is dedicated to the management of a single large project, focusing on integration and control.\
+5.  Full-time PO personnel are essential for effective integration, scheduling under uncertainty, communication, and control.
+
+------------------------------------------------------------------------
+
+## **Management Functions**
+
+### **Management Functions**
+
+The traditional classical management functions still apply to PM, though their application differs for temporary management positions:
+
+-   Planning\
+-   Organizing\
+-   Staffing\
+-   Controlling\
+-   Directing
+
+### **Directing**
+
+**Directing** is the implementing and carrying out (through others) of approved plans. It involves:
+
+-   **Staffing:** Selecting qualified personnel.\
+-   **Training:** Teaching duties and responsibilities.\
+-   **Supervising:** Giving guidance and discipline.\
+-   **Delegating:** Assigning work, responsibility, and authority.\
+-   **Coordinating:** Integrating tasks across functional boundaries.\
+-   **Counseling:** Advising, assisting, and helping solve job-related issues.
+
+PMs must be decisive; it is better to decide and be slightly wrong than to wait for complete information and cause a delay. Directives should apply the **KISS (Keep It Simple, Stupid) rule**.
+
+### **Power, Authority, and the Project Manager**
+
+**Authority** is the legitimate right to give orders. In PM, authority is generally delegated by senior management and documented in the project charter and job description.
+
+**Power** is the capacity to influence behavior. The sources of power for a project manager include:
+
+-   **Punishment Power (Coercive Power):** The ability to bring about undesirable events.\
+-   **Reward Power:** The ability to provide positive benefits.\
+-   **Expert Power:** The command of technology or specialized knowledge.\
+-   **Referent Power:** The power derived from personality or charisma.\
+-   **Legitimate Power:** Formal authority granted by position.
+
+### **Leadership in a Project Environment**
+
+**Leadership** is a style of behavior designed to integrate organizational requirements and personal interests toward an objective. Leadership involves balancing three complex elements: the person leading, the people being led, and the situation (the project environment).
+
+-   PMs often fail when they cannot balance the technical and managerial functions.\
+-   Successful leadership requires PMs to understand the changing values and potential conflicts between the project manager, project team, parent organization, and stakeholders.
+
+### **General Management Pitfalls**
+
+Common management pitfalls in the project environment include:
+
+-   **Lack of self-control (knowing oneself):** Overestimating one's capabilities and attempting tasks without sufficient time for training or support.\
+-   **Activity traps:** When the *means* become the *end* (e.g., endless team meetings, unnecessary documentation, developing charts only for upper management).\
+-   Management bottlenecks.
+
+------------------------------------------------------------------------
+
+**Chapter 5 Recap**
+
+1.  Classical management functions (Planning, Organizing, Staffing, Controlling, Directing) are applied differently in temporary project environments.\
+2.  The **Directing** function includes staffing, training, supervising, delegating, coordinating, and counseling.\
+3.  Project managers rely on various forms of **power** (Expert, Reward, Referent) to compensate for often limited **legitimate authority**.\
+4.  Effective **Leadership** requires integrating the interests of the organization and the individual within the project environment.\
+5.  Common pitfalls include falling into **activity traps** (means becoming the end) and operating without **self-control**.
+
+------------------------------------------------------------------------
+
+## **Communications Management**
+
+### **Modeling the Communications Environment**
+
+Effective communication ensures the right information reaches the right person at the right time in a cost-effective manner. The communications environment is modeled as a network of channels.
+
+-   The number of two-way channels ($N$) for $n$ participants is calculated as $N \= n(n-1)/2$. (Example: 5 people results in 10 channels).\
+-   Communication barriers occur due to **perception screens** (information filtered by education/experience) and **personality screens** (likes/dislikes) \[192, 193f\].
+
+### **Meetings**
+
+Meetings are essential for exchanging information, but meeting mania is costly.
+
+**General Guides for Effective Meetings**:
+
+-   Start on time.\
+-   Develop agenda "objectives."\
+-   Conduct one piece of business at a time.\
+-   Allow each member to contribute.
+
+**Types of Meetings**:
+
+1.  **Project Review Meetings:** Held periodically (weekly or monthly).\
+2.  **Special Project Meetings:** Held on an as-needed basis (e.g., dealing with critical problems).\
+3.  **Customer Project Review Meetings:** Often critical and inflexibly scheduled. PMs must prepare materials well in advance.
+
+### **Using Action Items**
+
+To combat **meeting mania** and excessive costs, detailed action items should be clearly assigned. A critical strategy for customer meetings is to send handouts at least a week before the meeting, allowing the client time to digest the material and prepare to make timely decisions, thus reducing follow-up action items.
+
+### **Brainstorming**
+
+Brainstorming is a technique used to stimulate idea generation and increase group creativity.
+
+**Four Basic Rules of Brainstorming**:
+
+1.  **Focus on quantity:** Maximizing possible ideas, assuming greater quantity increases the chance of finding the optimal solution.\
+2.  **Withhold criticism:** Criticism creates conflict and wastes time needed for idea generation.\
+3.  **Unusual ideas are welcome:** Encourage creativity and risk-taking.\
+4.  **Combine and improve ideas:** Encourage the combination of existing ideas to generate new ones.
+
+**Process of Conducting a Brainstorming Session**:
+
+-   Participants who did not speak are encouraged to write down ideas.\
+-   The idea collector numbers the ideas to encourage a generation goal (e.g., "let's get it to 20!").\
+-   The idea collector repeats the idea verbatim to confirm meaning.\
+-   When many participants have ideas, the one with the most associated idea should have priority (to encourage elaboration).\
+-   Managers/superiors may be discouraged from attending to minimize inhibition.
+
+------------------------------------------------------------------------
+
+**Chapter 6 Recap**
+
+1.  Communication effectiveness is measured by getting the right information to the right person, often limited by personality and perception barriers.\
+2.  The number of two-way communication channels increases exponentially with the number of participants ($N = n(n-1)/2$).\
+3.  Project managers must actively manage meetings to avoid costly "meeting mania".\
+4.  Sending client materials ahead of time reduces costly action items and travel expenses.\
+5.  **Brainstorming** relies on four rules, focusing on idea quantity and withholding immediate criticism.
+
+------------------------------------------------------------------------
+
+## **Conflicts**
+
+### **Types of Conflicts**
+
+It is impossible to eliminate all conflicts, and project managers must understand how to manage them.
+
+**Most Common Conflict Types**:
+
+-   Staffing resources\
+-   Equipment and facilities\
+-   Capital expenditures\
+-   Costs\
+-   Technical opinions and trade-offs\
+-   Priorities (most frequently occurring)\
+-   Administrative procedures\
+-   Scheduling (most frequently occurring)\
+-   Responsibilities\
+-   Personality clashes (potentially most damaging).
+
+Conflicts vary in intensity over the project life cycle, often peaking during the buildup/main phase \[209f\].
+
+### **Conflict Management Procedures (Minimization)**
+
+Project managers should follow conflict minimization procedures, including:
+
+-   Pausing and thinking before reacting.\
+-   Building trust and cooperation.\
+-   Trying to understand the conflict motives.\
+-   Keeping the meeting under control.\
+-   Listening to all involved parties.\
+-   Maintaining a give-and-take attitude.\
+-   Being willing to admit fault.
+
+**Conflict Resolution Modes** (commonly identified in management texts):
+
+-   **Compromising:** Giving up something to achieve a partial solution.\
+-   **Smoothing (Accommodation):** Emphasizing common areas of agreement.\
+-   **Forcing (Competition):** Using power to impose a solution.\
+-   **Withdrawal (Avoidance):** Retreating from conflict.\
+-   **Confrontation (Problem Solving):** Facing the conflict directly to reach a win-win solution.
+
+------------------------------------------------------------------------
+
+**Chapter 7 Recap**
+
+1.  Conflicts are a continuous part of the project environment, often involving priorities, scheduling, staffing, and personality clashes.\
+2.  The intensity of conflicts varies throughout the project life cycle \[209f\].\
+3.  The most frequent conflicts often occur with functional managers and technical personnel, usually over schedules, priorities, and manpower \[210f\].\
+4.  Effective conflict management includes understanding motives, building trust, and utilizing appropriate resolution modes like confrontation/problem-solving.
+
+------------------------------------------------------------------------
+
+## **Special Topics**
+
+### **Performance Measurement**
+
+Functional employees working on projects can be evaluated in several ways:
+
+1.  A functional manager evaluates the employee with PM input.\
+2.  PM evaluates the employee with LM input.\
+3.  The PM evaluates the employee, and the LM signs off.\
+4.  LM evaluates the employee without PM input (common in weak matrix).\
+5.  The PM makes the entire evaluation (if the employee is 100% full-time on the project).\
+6.  All PMs and LMs jointly evaluate all employees (limited to small companies).
+
+**Metrics for Managerial Performance** include overall project management effectiveness, direction, and team performance.
+
+### **Financial Compensation and Rewards**
+
+Project compensation systems are based on four foundations: job classification, base pay, performance appraisals, and merit increases.
+
+-   **Base Pay Classifications and Incentives:** Project managers whose performance is measured by business results (profit, ROI, new business) often receive higher compensation. Managerial performance (effectiveness, leadership) is harder to assess.\
+-   **Incentive Plans:** Used to maximize efficiency and effectiveness. Incentives can be monetary or nonmonetary and are often tied to project completion, cost reduction, or added value.
+
+### **Mega Projects**
+
+Mega projects are large, long-duration projects characterized by immense scale, design and construction complexity, high public profile, multiple stakeholders, and frequent cost underestimation.
+
+-   Success requires extensive project management training, clearly defined rules/procedures, strong communications, and quality front-end planning.
+
+### **Morality, Ethics, and the Corporate Culture**
+
+The PMI **Code of Ethics and Professional Conduct** is divided into four sections:
+
+1.  **Responsibility:** Taking ownership for decisions and their consequences.\
+2.  **Respect:** Regarding ourselves and the resources provided to us.\
+3.  **Fairness:** Making impartial, objective decisions free from prejudice.\
+4.  **Honesty:** Understanding the truth and communicating it truthfully.
+
+### **Agile Project Management**
+
+**Agile** is iterative, intending to finish deliverables quickly using successive cycles of continuous improvement.
+
+| Traditional PM | Agile Practices |
+|------------------------------------|------------------------------------|
+| Planning prior to execution; Follow the plan exactly | Iterative planning; Respond to changes |
+| Single release at the end of the project (often late delivery) | Multiple releases of a usable product; Shorter delivery time |
+| Too much "gold-plating" (unused features) | Minimal number of features (What the client needs) |
+
+### **Artificial Intelligence (AI)**
+
+Advances in AI (including expert and knowledge-based systems) offer PMs the promise of enhanced decision-making. For AI to be beneficial, organizations must consolidate their "pockets" of project management knowledge into a corporate-wide **knowledge management system** (intellectual property), often managed by the PMO.
+
+------------------------------------------------------------------------
+
+**Chapter 8 Recap**
+
+1.  Employee performance measurement in a project environment is complicated by dual reporting relationships, requiring coordination between PMs and LMs.\
+2.  Financial rewards can be linked to business results (e.g., ROI, profit) or managerial performance (effectiveness).\
+3.  **Mega Projects** demand intense management rigor due to their complexity, risk, and duration.\
+4.  Ethical conduct, defined by responsibility, respect, fairness, and honesty, is critical for project success.\
+5.  **Agile** methodologies prioritize iteration, frequent releases, and customer collaboration, contrasting with traditional sequential approaches.\
+6.  The integration of **AI** requires robust knowledge management systems to provide the necessary intellectual property for effective tools.
+
+------------------------------------------------------------------------
+
+## **The Variables for Success**
+
+### **Project Management Effectiveness Variables**
+
+Successful PM cannot be achieved simply by authority or executive meddling; it requires a strong corporate commitment and environment. Key PM effectiveness variables include:
+
+-   **Credibility:** Derived from being a sound decision-maker, emphasizing facts, and making success visible.\
+-   **Priority:** Selling the importance of the project to the total organization's objectives.\
+-   **Accessibility:** The ability to communicate directly with top management.\
+-   **Visibility:** Being aware of necessary visibility and conducting timely informational meetings.
+
+### **Understanding Best Practices**
+
+**Best practices** are actions or activities that lead to a sustained competitive advantage in project management. They are often referred to as **proven practices**.
+
+**Levels of Best Practices** (from general to specific application) \[331f\]:
+
+1.  **Professional (PMI) Standards** (Highest quantity, lowest complexity).\
+2.  **Industry Standards** (Specific to an industry, e.g., automotive).\
+3.  **Company-Specific** (Internal organizational standards).\
+4.  **Project-Specific** (Unique to a single project).\
+5.  **Individual** (Lowest quantity, highest complexity).
+
+#### **Creating a Best Practices Library**
+
+The organizational solution for retaining PM knowledge is creating a **best practices library**.
+
+**Steps for Creating a Best Practices Library** \[333f\]:
+
+1.  **Discovery and Understanding:** Identifying potential best practices (BP) from within the organization.\
+2.  **Evaluation:** Determining if the action is a BP.\
+3.  **Classification:** Categorizing the BP (e.g., by Project Management, Customer Interfacing, Business Applications) \[334f\].\
+4.  **Storage:** Placing the BP into a retrieval system (e.g., company intranet).\
+5.  **Knowledge Transfer:** Disseminating the information (e.g., intranet, seminars, case studies).
+
+------------------------------------------------------------------------
+
+**Chapter 9 Recap**
+
+1.  Project success depends on establishing an atmosphere conducive to good working relationships between the project, the parent organization, and the client.\
+2.  PM **effectiveness variables** include Credibility, Priority, Accessibility, and Visibility.\
+3.  Project closure must include planning for personnel disposition, material disposal, knowledge transfer, and financial closeout.\
+4.  **Best Practices** are actions leading to a competitive advantage, classified across five levels from professional standards to individual practices.\
+5.  A **Best Practices Library** is the critical tool for capturing and transferring project and business knowledge across the organization.
+
+------------------------------------------------------------------------
+
+## **Working with Executives**
+
+### **The Project Sponsor**
+
+The **project sponsor** is the ultimate owner of the project and has the ultimate objective of providing behind-the-scenes assistance to project personnel.
+
+**Sponsor Responsibilities**:
+
+-   Providing guidance and mentorship.\
+-   Resolving conflicts and making timely project decisions.\
+-   Serving as the focal point for project status for other executives.\
+-   Establishing a structured policy for scope changes.\
+-   Delineating expectations for the PM and team.
+
+Project managers should manage the relationship with the sponsor, but employees should be careful about how often they "go to the well" (bypass management levels).
+
+### **Stakeholder Relations Management**
+
+**Stakeholders** are individuals or groups who have something to lose or gain from the project outcome. Stakeholders are identified by individuals/titles, contribution (financial, resource, technology), or authority.
+
+#### **Stakeholder Analysis and Mapping**
+
+The project manager must prioritize stakeholders to manage interactions effectively. **Stakeholder mapping** typically displays stakeholders on a grid comparing their power and their level of interest.
+
+| Quadrant | Power/Interest | Strategy |
+|------------------------|------------------------|------------------------|
+| **Manage Closely** | High Power, High Interest | Put forth the greatest effort to satisfy them; they can make or break the project. |
+| **Keep Satisfied** | High Power, Low Interest | Put forth effort, but avoid excessive detail that leads to boredom. |
+| **Keep Informed** | Low Power, High Interest | Adequate communication to avoid sudden high interest due to surprise. |
+| **Monitor** | Low Power, Low Interest | Minimum effort required; monitor them occasionally. |
+
+### **Project Portfolio Management (PPM)**
+
+PPM is a practice to alleviate organizational problems such as misalignment of projects to business strategies and working on non–value-added projects. A **portfolio** is a grouping of projects and programs, usually those that are considered strategic.
+
+**Governance Committee Assessment (PPM)**:
+
+-   Assess weak investments (cancellation or replacement).\
+-   Determine if consolidation is needed.\
+-   Determine if projects need acceleration or deceleration.\
+-   Assess alignment to strategic objectives and rebalance the portfolio.
+
+------------------------------------------------------------------------
+
+**Chapter 10 Recap**
+
+1.  The **Project Sponsor** guides the project, resolves high-level conflicts, and ensures alignment with organizational goals.\
+2.  Project managers must focus on managing the sponsor's expectations and supporting them, especially in times of crisis.\
+3.  **Stakeholder Management** requires identifying individuals, analyzing their needs, and strategically engaging them based on their **power** and **interest**.\
+4.  **Portfolio Management** ensures that groups of projects and programs are aligned with strategic objectives and maximize value for the firm.
+
+------------------------------------------------------------------------
+
+## **Planning**
+
+### **Business Case**
+
+Projects usually begin with a **business case**, a document providing the reasoning why a project should be initiated. It justifies the project by showing that expected business value and benefits exceed the cost of performance.
+
+**Key Components of a Business Case**:
+
+-   Assumptions made (all assumptions justifying the project).\
+-   High-level or strategic objectives.\
+-   Recommended evaluation techniques (e.g., benefit-to-cost ratio, NPV, ROI).\
+-   Project metrics (financial and nonfinancial).\
+-   **Exit strategies** (cancellation criteria).\
+-   Project risks, complexity, resources needed, timing, and legal requirements.
+
+### **Validating the Assumptions**
+
+Assumptions (items believed to be true but not grounded in fact) carry risk and often lead to unmet expectations if they change.
+
+-   **Explicit assumptions** are quantified and unambiguous.\
+-   **Implicit assumptions** are hidden within explicit statements (e.g., assuming five assigned people will have the necessary skills).\
+-   **Critical assumptions** can cause significant damage if even small changes occur and must be tracked closely.
+
+### **Objectives and the SMART Rule**
+
+Project objectives should be clearly written and understood so the team knows when the project is over. Objectives must follow the **SMART rule**:
+
+-   **S**pecific\
+-   **M**easurable\
+-   **A**ttainable\
+-   **R**ealistic or Relevant\
+-   **T**angible or Time bound.
+
+If requirements are unrealistic, **scaling back the scope** (reducing product functionality) is often the first step, though this must be done carefully to maintain product value.
+
+### **The Statement of Work (SOW)**
+
+The **Statement of Work (SOW)** is a narrative description of the work required for the project and the end results to be provided under the contract.
+
+-   For external projects, two SOWs exist: the **SOW** used in the proposal and the **Contract Statement of Work (CSOW)**.\
+-   Common causes of SOW misinterpretation include mixing tasks/specifications, using imprecise language (e.g., "optimum," "approximately"), and failing to get third-party review.
+
+### **Work Breakdown Structure (WBS)**
+
+The **Work Breakdown Structure (WBS)** is the single most important element in project planning. It is a product-oriented family tree subdivision of the hardware, services, and data required to produce the end product.
+
+-   The WBS organizes work into elements that are manageable, independent, integratable, and measurable.\
+-   **WBS Levels** (Example Six-Level Structure):
+    -   Level 1: Total Program\
+    -   Level 2: Project\
+    -   Level 3: Task (Summary levels for reporting)\
+    -   Level 4: Subtask\
+    -   Level 5: **Work Package** (The level at which the project is managed)\
+    -   Level 6: Level of Effort.\
+-   The WBS provides the common framework for cost/budget setting, schedule establishment, risk analysis, and establishing the responsibility matrix.\
+-   **WBS Decomposition Problems:** Breaking work down too far can lead to excessive control/reporting costs that exceed the benefits.
+
+**Work Package Characteristics**:
+
+-   Definable start and end dates.\
+-   Budgeted in terms of dollars, man-hours, and performance measurement.\
+-   Assignable to a single manager or cost account.\
+-   Short duration (usually less than three months).
+
+### **Project Baselines**
+
+A baseline provides a reference point for measuring performance. The most critical reference is the **Performance Measurement Baseline (PMB)**, which serves as the metric benchmark against which time, cost, and scope performance are measured.
+
+**Steps to Creating a PMB**:
+
+1.  **Review the business case** and constraints (understanding the business boundary).\
+2.  **Establish a requirements baseline** from the customer’s requirements/CSOW (technical boundary).\
+3.  **Convert the requirements baseline into a WBS** (WBS + WBS Dictionary = Scope Baseline).\
+4.  **Arrange work packages into a logical network of activities** (Schedule Baseline).\
+5.  **Price out the time-phased schedule** (Cost Baseline, which includes distributed and undistributed budgets, but *excludes* the management reserve).\
+6.  **Finalize the PMB** (Summation of Scope, Schedule, and Cost Baselines).\
+7.  **Prepare a Requirements Traceability Matrix (RTM)** linking requirements to the WBS and PMB.
+
+------------------------------------------------------------------------
+
+**Chapter 11 Recap**
+
+1.  A **Business Case** provides justification, strategic objectives, metrics, and mandatory **Exit Strategies**.\
+2.  All assumptions, especially **Critical Assumptions**, must be tracked, as changes invalidate expected benefits.\
+3.  Objectives must be **SMART** (Specific, Measurable, Attainable, Realistic/Relevant, Time-bound).\
+4.  The **WBS** is the foundational planning tool, decomposing the project into manageable **Work Packages**.\
+5.  Project selection often uses **Rating Models** (Scaling, Checklist, Scoring) to compare alternatives against strategic criteria.\
+6.  The **Performance Measurement Baseline (PMB)** integrates the scope, schedule, and cost baselines, providing the benchmark for performance tracking.
+
+------------------------------------------------------------------------
+
+## **Network Scheduling Techniques**
+
+### **Common Scheduling Techniques**
+
+Scheduling techniques provide control and visualization for time-phased resource utilization. Common techniques include:
+
+-   **Gantt or Bar Charts:** Simple visualizations but poor for showing interdependencies.\
+-   **Milestone Charts:** Displaying key objectives, often based on WBS levels.\
+-   **Networks (PERT/CPM/PDM):** Show interdependencies and the total program flow, helping eliminate crisis management.
+
+### **Program Evaluation and Review Technique (PERT)**
+
+**PERT** is a management planning and control tool that uses **three time estimates** (optimistic, most likely, and pessimistic) to derive an expected time for each activity.
+
+-   **PERT is Probabilistic:** It is based on a beta distribution for activity time, allowing calculation of the project completion risk.\
+-   **CPM is Deterministic:** It uses a single time estimate representing the normal time.
+
+### **Slack Time and the Critical Path**
+
+The **Critical Path** is the longest path through the network, determining the earliest completion time of the project.
+
+-   **Slack Time (or Float):** The amount of time an event or activity can be delayed without affecting the end date of the project or the critical path.
+    -   Events on the critical path have zero slack (TL - TE = 0, where TL is the latest allowable time and TE is the earliest expected time).\
+-   **Dependencies** are relationships between project activities, often derived from the WBS, and can be mandatory (hard logic) or discretionary (soft logic).
+
+### **Estimating Total Project Time**
+
+For activities involving uncertainty (common in R&D or new projects), the PM gathers three time estimates:
+
+-   \$a = \$ Optimistic time (best case)\
+-   \$m = \$ Most likely time\
+-   \$b = \$ Pessimistic time (worst case)
+
+**Expected Time (**$t\_e$) Calculation: $t_e = (a + 4m + b) / 6$.
+
+The standard deviation ($\sigma$) measures the risk of the estimates. The probability of completion within a certain time frame can be calculated using the total path standard deviation ($\sigma_{total}$), assuming a normal distribution.
+
+### **12.8 Total PERT/CPM Planning**
+
+**Six-Step PERT/CPM Scheduling Process**:
+
+1.  List the required activities/events.\
+2.  Determine the sequence of activities (precedence).\
+3.  Construct the network (diagram).\
+4.  Estimate activity times ($t\_e$) and calculate the earliest start/finish and latest start/finish times.\
+5.  Determine the Critical Path (the first iteration) and check if it satisfies calendar requirements.\
+6.  **Place calendar dates on each event.** This crucial step converts the plan from an unlimited resource environment (the proposal) to a limited resource environment.
+
+### **12.14 Schedule Compression Techniques**
+
+When the critical path is too long, **schedule compression** is used.
+
+| Technique | Myth | Reality |
+|------------------------|------------------------|------------------------|
+| **Use of Overtime** | Work will progress at the same rate. | Progress rate is lower, mistakes increase, and burnout may occur. |
+| **Adding More Resources (Crashing)** | Always shortens the schedule. | Adding more people may make it worse (Brooks’ Law), especially for complex tasks. |
+| **Fast-Tracking (Concurrent Scheduling)** | Saves time with no risk. | Saves little time but increases risks (e.g., rework). |
+
+------------------------------------------------------------------------
+
+**Chapter 12 Recap**
+
+1.  Network scheduling techniques like PERT (probabilistic, three estimates) and CPM (deterministic, single estimate) are superior to bar charts for showing activity interdependencies.\
+2.  The **Critical Path** is the longest path through the network, determining project duration.\
+3.  **Slack Time** is the allowable delay for non-critical activities.\
+4.  The $\sigma$ (standard deviation) calculated from the three-point estimates serves as a measure of the risk in the time estimate.\
+5.  The six steps of PERT/CPM planning culminate in placing **calendar dates** on the schedule, reflecting resource constraints.
+
+------------------------------------------------------------------------
+
+## **Pricing and Estimating**
+
+### **Global Pricing Strategies**
+
+Pricing strategies differ based on the long-term potential of the project acquisition.
+
+| Strategy Element | Type I Acquisition (One-of-a-Kind) | Type II Acquisition (Must-Win/Follow-On Potential) |
+|------------------------|------------------------|------------------------|
+| **Pricing Basis** | Determined by actual cost. | Determined by market forces. |
+| **Margin** | Must include gross profit margin. | Margin could be negative if winning is paramount for market penetration. |
+
+### **Types of Estimates**
+
+Estimates are critical for profitability. The accuracy improves as the project scope becomes better defined \[491f\].
+
+| Estimating Method | Generic Type | WBS Relationship | Accuracy | Time to Prepare |
+|---------------|---------------|---------------|---------------|---------------|
+| **Parametric** | Rough Order of Magnitude (ROM) | Top Down | $\pm$ 25% - 75% | Days |
+| **Analogy** | Budget | Top Down | $\pm$ 10% - 25% | Weeks |
+| **Engineering/Definitive** | Grass Roots | Bottom Up | $\pm$ 5% - 10% | Months |
+
+### **Pricing Out the Work: 13 Logical Steps**
+
+The pricing process is iterative. Key steps include:
+
+1.  Provide a complete definition of the work requirements.\
+2.  Establish a logic network with checkpoints.\
+3.  Develop the WBS.\
+4.  **Price out the WBS**.\
+5.  Review WBS costs with functional managers.\
+6.  Decide on the basic course of action.\
+7.  Establish reasonable costs for each WBS element.\
+8.  Review the base case costs with upper-level management.\
+9.  Negotiate with functional managers for qualified personnel.\
+10. Develop the Linear Responsibility Chart.\
+11. Develop the final detailed schedules.\
+12. Establish pricing cost summary reports.\
+13. Document the result in a project plan.
+
+### **Estimating High-Risk Projects**
+
+For high-risk projects (e.g., R&D where the future scope depends on early results), the **"Rolling Wave" or "Moving Window" approach** is used.
+
+-   This technique estimates the near-term effort (e.g., next six months) in high detail (Level 5 WBS), while estimating the far-term effort at a high level (Level 2 WBS), incurring high risk for the later phases \[455, 507f\]. As the project progresses, the window moves, requiring refinement of the estimates for the next near-term phase.
+
+### **The 10 Percent Solution**
+
+The **10 percent solution** occurs when an executive committee arbitrarily reduces a project budget by a small percentage (e.g., 10%) without reducing scope. If the original estimate was honest, this reduction must be accompanied by a trade-off in time or performance. Often, 90% of the budget generates the first 10% of the desired output, and the remaining 10% generates 90% of the target requirements; thus, a small budget cut can lead to massive performance loss.
+
+-   **Viable Alternatives to the 10% Solution**: (1) Use the solution only after an "impact study" detailing effects on time/cost/performance, or (2) **Cancel or descope selected projects entirely**.
+
+### **Financial Project Evaluation Techniques**
+
+Capital budgeting is the decision-making process for evaluating major fixed asset purchases.
+
+-   **Payback Period:** The time required to recover the initial investment from cash inflows. Least precise as it does not adjust for the time value of money.\
+-   **Net Present Value (NPV):** Equates discounted cash flows ($FV_t$) against the initial investment ($II$). If NPV $> 0$, the project is financially desirable.\
+-   **Internal Rate of Return (IRR):** The discount rate where the NPV equals zero. If IRR is greater than the firm's cost of capital, the project is acceptable.\
+-   **Capital Rationing:** Selecting the best group of projects to achieve the highest overall NPV without exceeding the total available budget.
+
+------------------------------------------------------------------------
+
+**Chapter 13 Recap**
+
+1.  Pricing strategies depend on whether the acquisition is Type I (profit-driven) or Type II (market penetration/must-win).\
+2.  Estimates range in accuracy from the **Parametric ROM** ($\pm$ 25%-75%) to the highly accurate **Definitive Bottom-Up** ($\pm$ 5%-10%).\
+3.  The **Rolling Wave** approach is critical for high-risk, long-term projects to maintain high estimation accuracy for the near term while forecasting the far term at a high WBS level.\
+4.  The arbitrary application of the **10 Percent Solution** can drastically reduce performance and value.\
+5.  Financial viability is evaluated using sophisticated capital budgeting methods like **NPV** and **IRR**.
+
+------------------------------------------------------------------------
+
+## **Cost Control**
+
+### **Management Cost and Control System (MCCS)**
+
+The MCCS is not just a tool for monitoring costs but an integrated system that monitors schedule and performance as well. An effective MCCS must:
+
+-   Plan and schedule work.\
+-   Identify measurement indicators.\
+-   Establish direct labor and overhead budgets.\
+-   Identify the management reserve.
+
+The MCCS uses the WBS as the framework to compare actual costs, time, and performance against the budget.
+
+### **Variance and Earned Value**
+
+The **Earned Value Measurement System (EVMS)** integrates scope, schedule, and cost performance. Four primary elements are used:
+
+1.  **Budgeted Cost of Work Scheduled (BCWS):** The dollar value of the work planned to be completed as of a measurement time (Planned Value, PV).\
+2.  **Budgeted Cost of Work Performed (BCWP):** The dollar value of the work actually accomplished (Earned Value, EV).\
+3.  **Actual Cost of Work Performed (ACWP):** The actual cost incurred for the work accomplished (Actual Cost, AC).\
+4.  **Budget at Completion (BAC):** The total planned budget for the project or work package.
+
+#### **Variance Calculation**
+
+**Cost Variance (CV):** $CV = BCWP - ACWP$.
+
+-   CV $> 0$ (Positive): Under budget/favorable.\
+-   CV $<0$ (Negative): Over budget/unfavorable.
+
+**Schedule Variance (SV):** $SV = BCWP - BCWS$.
+
+-   SV $> 0$ (Positive): Ahead of schedule/favorable.\
+-   SV $< 0$ (Negative): Behind schedule/unfavorable.
+
+#### **Performance Indices (Trend Indicators)**
+
+-   **Cost Performance Index (CPI):** $CPI = BCWP / ACWP$.
+    -   $CPI \> 1.0$: Project is favorable (under budget).\
+    -   $CPI < 1.0$: Project is unfavorable (over budget).\
+-   **Schedule Performance Index (SPI):** $SPI = BCWP / BCWS$.
+    -   $SPI \> 1.0$: Project is favorable (ahead of schedule).\
+    -   $SPI < 1.0$: Project is unfavorable (behind schedule).
+
+### **Budget Breakdown and Reserve**
+
+The **Cost Baseline** represents the time-phased authorized budget. It includes the distributed and undistributed budgets.
+
+-   **Management Reserves:** Funds included in the total project budget to cover unforeseen events *within the defined project scope* (known unknowns), but they are excluded from the cost baseline.\
+-   **Contingency Funds:** Typically come from external sources and are used for unlikely major events or changes in scope (unknown unknowns).
+
+### **The Cost Overrun Dilemma**
+
+When overruns occur, the simplest solution is reducing scope. Project managers often look first to **easy-to-cut items which** were poorly understood and often underestimated during planning, such as:
+
+-   Project management supervision.\
+-   Line management supervision.\
+-   Process controls, quality assurance, and testing.
+
+If further cuts are needed, they move to **hard-to-cut items** like direct labor, materials, and equipment.
+
+------------------------------------------------------------------------
+
+**Chapter 14 Recap**
+
+1.  The MCCS is an integrated control tool tracking cost, time, and performance.\
+2.  The **Earned Value Management System (EVMS)** uses four metrics (BCWS, BCWP, ACWP, BAC) to measure project status and forecast future outcomes.\
+3.  **Cost Variance (CV)** and **Schedule Variance (SV)** measure deviation from the plan.\
+4.  The **CPI** and **SPI** provide trend analysis, indicating efficiency (CPI) and schedule pace (SPI).\
+5.  The **Management Reserve** covers internal risks (known unknowns) and is excluded from the cost baseline.\
+6.  When cost reduction is necessary, project managers first target "easy-to-cut" items like quality assurance and control functions, risking long-term performance.
+
+------------------------------------------------------------------------
+
+## **Metrics**
+
+### **Project Management Information Systems (PMIS)**
+
+A **PMIS** contains all essential and supporting information for the project life cycle, including earned value measurement and significantly more metrics than just time and cost. The PMIS is often integrated into an **Enterprise Resource Planning (ERP) system**, which helps with capacity planning by coordinating resource allocation across ongoing business activities and projects.
+
+### **Key Performance Indicators (KPIs)**
+
+A **metric** is a generic measurement, whereas a **Key Performance Indicator (KPI)** is specific, acting as an early warning sign that alerts management to potential issues.
+
+**Principles of KPIs**:
+
+-   KPIs are agreed upon beforehand and reflect the Critical Success Factors (CSFs) of the project.\
+-   KPIs are controllable, meaning they trigger changes necessary for corrective action.\
+-   A KPI metric is only "key" if it can make or break the project.
+
+**Characteristics of Effective KPIs**:
+
+-   **Predictive:** Able to forecast the future trend of performance.\
+-   **Actionable:** Triggers necessary changes or corrective action.\
+-   **Relevant:** Directly related to project success or failure.\
+-   **Few in number:** Focuses attention on necessary measurements (typically 6 to 10).\
+-   **Aligned:** Always aligned with corporate strategy and objectives.
+
+The **Pareto principle** often suggests that 20% of the indicators will impact 80% of the project. David Parmenter suggests the **10/80/10 Rule** for classification: 10 Results Indicators (RIs), 80 Performance Indicators (PIs), and 10 KPIs.
+
+### **Value-Based Metrics**
+
+Modern projects focus on defining success based on the **business value expected vs. business value delivered**. A project is seen as an investment.
+
+-   **Value** is a balance among performance, resource usage, and risk.\
+-   Measuring value requires going beyond "easy (soft/tangible) values" (like NPV or ROI calculators) to "hard (intangible) values" (like stockholder satisfaction, employee turnover, or corporate image) \[523t\].
+
+### **Dashboards and Scorecards**
+
+Dashboards and scorecards are visual mechanisms for conveying critical information within a performance measurement system.
+
+-   **Dashboard:** Monitors operational processes (e.g., project management KPIs, often updated intra-day or daily).\
+-   **Scorecard:** Charts the progress of tactical goals (e.g., long-term performance summaries, usually updated monthly/quarterly).
+
+**Three Types of Performance Dashboards** \[600, 600t\]:
+
+1.  **Operational:** Monitors daily operations (Users: Supervisors, Specialists; Emphasis: Monitoring).\
+2.  **Tactical:** Measures progress (Users: Managers, Analysts; Emphasis: Analysis).\
+3.  **Strategic:** Monitors the execution of strategic objectives (Users: Executives, Managers; Emphasis: Management).
+
+------------------------------------------------------------------------
+
+**Chapter 15 Recap**
+
+1.  The PMIS (often integrated with ERP) provides essential project and business information and aids in capacity planning.\
+2.  **KPIs** are predictive, actionable, and critical measures used as early warning signs for project performance.\
+3.  The **10/80/10 Rule** provides guidance for limiting the number of truly critical KPIs.\
+4.  Modern PM emphasizes metrics that capture **business value** and **intangible assets** (e.g., customer satisfaction, knowledge creation).\
+5.  **Dashboards** focus on operational monitoring, while **Scorecards** track tactical progress toward goals, often cascading throughout the enterprise.
+
+------------------------------------------------------------------------
+
+## **Trade-Off Analysis in a Project Environment**
+
+### **Trade-Off Definition**
+
+A **trade-off** is a situation where the project manager must sacrifice one project constraint (Time, Cost, or Performance) to maintain or satisfy another constraint.
+
+### **Methodology for Trade-Off Analysis**
+
+Trade-off analysis is typically a six-step process:
+
+**Step 1: Determine the Objectives**
+
+-   Review original objectives and determine if they are still achievable.\
+-   Document the importance of the objectives to the company.
+
+**Step 2: Determine Current Status**
+
+-   Analyze WBS elements that are failing, identifying cause, impact, and proposed corrective action.\
+-   Evaluate whether performance, schedule, or cost is most suspect.
+
+**Step 3: Identify Alternatives**
+
+-   List all alternatives to eliminate the problem (e.g., changing specifications, reallocating resources, adjusting schedules).
+
+**Step 4: Analyze Alternatives**
+
+-   Determine the impact of each alternative on the three constraints (T, C, P).\
+-   Graphical analysis can be used by holding one constraint fixed:
+    -   *Fixed Performance:* Express cost as a function of time (Figure 16-5).\
+    -   *Fixed Cost:* Plot performance versus time \[617f\].\
+    -   *Fixed Time:* Plot cost versus performance \[618f\].
+
+**Step 5: Select Feasible Alternatives**
+
+-   Prepare a formal project update report for internal/external management, detailing alternative work scopes, schedules, and costs (e.g., minimum cost overrun, conformance to objectives, minimum schedule overrun).\
+-   Rank alternatives based on factors like customer impact, potential follow-on business, and loss of goodwill.
+
+**Step 6: Replanning the Project**
+
+-   Document the selected alternative in the revised project plan, SOW, and baseline documentation.
+
+### **Impact of Contract Type**
+
+The final decision on trade-offs is often influenced by the type of contract.
+
+| Contract Type | 1st to be Sacrificed | 2nd to be Sacrificed | 3rd to be Sacrificed |
+|------------------|------------------|------------------|------------------|
+| **Firm-Fixed-Price (FFP)** | Cost | Time | Performance |
+| **Cost-Plus-Fixed-Fee (CPFF)** | Cost | Time | Performance |
+| **Cost-Plus-Incentive-Fee (CPIF)** | Time | Performance | Cost |
+| **Cost-Sharing** | Performance | Time | Cost |
+
+Note: On FFP and CPFF contracts, the contractor typically bears the most risk regarding cost, meaning cost is the first resource sacrificed when trade-offs are needed to meet time or performance requirements.
+
+------------------------------------------------------------------------
+
+**Chapter 16 Recap**
+
+1.  Trade-off analysis is necessary when project deviation requires sacrificing one constraint (T, C, P) to meet others.\
+2.  The methodology involves six steps, starting with clearly defining objectives and ending with formally replanning the project.\
+3.  Graphical analysis helps visualize the impact of trade-offs when one constraint is held constant.\
+4.  The sequence in which resources are sacrificed depends heavily on the contract type and who assumes the financial risk.
+
+------------------------------------------------------------------------
+
+## **Risk Management**
+
+### **Risk Defined**
+
+**Risk** is traditionally identified as a measure of the probability and consequence (impact) of not achieving a defined project goal. Risk involves uncertainty.
+
+-   **Risk Event:** A future occurrence that is uncertain but can be planned for.\
+-   Risk can be categorized into business, legal, technical, organizational, and environmental risks.
+
+### **Tolerance for Risk**
+
+The way risk is managed is based on the decision maker's tolerance for risk. The three common classifications of risk tolerance are \[636, 552f\]:
+
+1.  **Risk Averter (or Avoider):** Prefers stability and certainty over high payoff risk.\
+2.  **Neutral Risk Taker:** Focuses only on the expected monetary value.\
+3.  **Risk Taker (or Seeker):** Prefers risk, enjoying the possibility of high payoff.
+
+### **Decision-Making under Risk**
+
+When probabilities can be assigned to possible outcomes, **Decision Trees** can be used.
+
+**Three Steps to Construct a Decision Tree**:
+
+1.  Build a logic tree from left to right, including decision points (box/square) and chance points (circle).\
+2.  Put the probabilities of the states of nature on the branches.\
+3.  Add the conditional payoffs to complete the tree.
+
+### **Risk Management Process**
+
+Risk management is a continuous process that should be established early in the project life cycle. The process includes:
+
+1.  **Plan Risk Management:** Develop the Risk Management Plan (RMP).\
+2.  **Identify Risks:** Determine the risks that may affect the project.\
+3.  **Perform Risk Analysis:** Estimate probability and consequence (Qualitative/Quantitative).\
+4.  **Plan Risk Response:** Develop options and actions to enhance opportunities and reduce threats.\
+5.  **Monitor and Control Risks:** Track identified risks and implement plans.
+
+### **Risk Analysis**
+
+**Qualitative Risk Analysis** estimates risk levels using probability-of-occurrence and consequence scales, mapped onto a risk matrix. Risks are classified as:
+
+-   **High Risk:** Unacceptable, failure is highly likely. Requires immediate senior management attention and action.\
+-   **Medium Risk:** Some impact on cost/schedule/performance. Special action may be required.\
+-   **Low Risk:** Minimal impact. Normal management oversight is sufficient.
+
+**Quantitative Risk Analysis** includes techniques like **Expected Value** (Expected Monetary Value), Decision Tree analysis, and **Monte Carlo Simulation**. Monte Carlo simulation uses random variables and probability distributions to model potential outcomes for cost and schedule risks.
+
+### **Plan Risk Response**
+
+**Risk Response Strategies** are developed to handle threats and opportunities.
+
+| Response Option | Strategy for Threats (Negative Risks) | Strategy for Opportunities (Positive Risks) |
+|------------------------|------------------------|------------------------|
+| **Avoid/Exploit** | Eliminate the threat by changing the project plan. | Ensure the opportunity happens and maximize its benefits. |
+| **Transfer/Share** | Shift the consequence/risk ownership to a third party (e.g., insurance/contracting). | Partner with a third party to capitalize on the opportunity. |
+| **Mitigate/Enhance** | Reduce the probability or impact of the threat. | Increase the probability or impact of the opportunity. |
+| **Accept** | Take no action, accepting the risk if it occurs. | Take no action, benefiting if the opportunity occurs. |
+
+------------------------------------------------------------------------
+
+**Chapter 17 Recap**
+
+1.  Risk is measured by the **probability** and **consequence** of an event, and management must understand its tolerance for risk.\
+2.  **Decision Trees** are tools used for complex decision-making under risk.\
+3.  The formal risk management process requires planning, identification, qualitative/quantitative analysis (including **Monte Carlo Simulation**), response planning, and monitoring.\
+4.  Risks are prioritized based on their level (High, Medium, Low).\
+5.  There are four primary strategies for dealing with both threats (Avoid, Transfer, Mitigate, Accept) and opportunities (Exploit, Share, Enhance, Accept).
+
+------------------------------------------------------------------------
+
+## **Learning Curves**
+
+### **Learning Curves and the Experience Curve**
+
+The **learning curve (or experience curve)** theory states that as production doubles, the total manufacturing time and cost fall by a constant and predictable amount.
+
+-   This effect extends across various industries (e.g., chemicals, electronics).\
+-   The **experience curve effect** shows that large market shares often lead to lower production costs due to **economies of scale** (fixed capital costs spread over more units).
+
+### **Graphic Representation**
+
+When plotted on logarithmic paper, the labor-hour graph typically shows a straight line because the rate of change or decline in cost is a constant percentage of the prior cost as quantities double.
+
+-   **Slope of the Curve:** A percentage figure representing the steepness and constant rate of improvement. An 80% learning curve means the cost/hours of unit two are 80% of unit one, unit four is 80% of unit two, etc..
+
+### **Competitive Weapon**
+
+Learning curve analysis is a strong competitive weapon, particularly in pricing strategy.
+
+-   By accurately predicting the *average rate* of improvement (cost reduction) over a large production run, a contractor can calculate a precise bid price based on the cumulative total hours saved.
+
+------------------------------------------------------------------------
+
+**Chapter 18 Recap**
+
+1.  The **Learning Curve** (or Experience Curve) is an accurate estimating technique based on the principle that as cumulative production doubles, the unit cost or time decreases by a constant percentage.\
+2.  This phenomenon results in **economies of scale**, leading to increased efficiency and lower unit costs for high production volumes.\
+3.  The **slope** indicates the rate of improvement (e.g., an 80% slope).\
+4.  Learning curves are essential tools in developing competitive pricing strategies for manufacturing projects.
+
+------------------------------------------------------------------------
+
+## **Contract Management**
+
+### **Introduction and Procurement Processes**
+
+**Procurement** refers to the acquisition of goods and services outside the organization. The contract management/procurement system includes four processes (from the buyer's perspective):
+
+1.  Plan Procurements\
+2.  Conduct Procurements\
+3.  Administer Procurements\
+4.  Close Procurements
+
+### **Plan Procurements**
+
+Planning determines the necessary procurement actions.
+
+-   **Statement of Objectives (SOO):** Used for **performance-based** projects, where the procuring organization describes only the end objectives. Contractors respond by proposing their own Statement of Work (SOW) detailing how they will achieve the objectives.\
+-   **Statement of Work (SOW):** Describes in specific detail what work needs to be performed.
+
+### **Types of Contracts**
+
+Contract types determine the level of risk assumed by the buyer versus the seller (contractor).
+
+| Contract Type | Risk to Contractor | Risk to Buyer | Description |
+|------------------|------------------|------------------|------------------|
+| **Fixed-Price (FP)**or **Lump-Sum** | High | Low | The contractor assumes high risk; they must perform work at the negotiated value. Suitable for projects with well-defined scope. |
+| **Cost-Plus-Fixed-Fee (CPFF)** | Low | High | Buyer assumes the cost risk; the contractor is reimbursed for all allowable costs plus a fixed fee/profit. Used when scope is uncertain (e.g., R&D). |
+| **Cost-Plus-Incentive-Fee (CPIF)** | Medium | Medium | Reimbursement for costs plus an incentive fee if performance targets (cost/schedule) are met or exceeded. |
+| **Fixed-Price-Incentive-Fee (FPIF)** | Medium | Medium | Contractor assumes cost risk up to a ceiling price; shared savings or penalty is incurred if cost is below/above target. |
+
+------------------------------------------------------------------------
+
+**Chapter 19 Recap**
+
+1.  The procurement life cycle involves planning, conducting, administering, and closing procurements.\
+2.  The **Statement of Objectives (SOO)** is used for performance-based contracts, requiring sellers to generate their own SOW.\
+3.  The contract structure (Fixed-Price vs. Cost-Plus) determines how risk is shared between the buyer and seller.\
+4.  **Fixed-Price** contracts put high cost risk on the contractor (suitable for defined scope), while **Cost-Plus** contracts shift cost risk to the buyer (suitable for uncertain R&D projects).
+
+------------------------------------------------------------------------
+
+## **Quality Management**
+
+### **Definition of Quality**
+
+Modern quality management focuses on the **customer**. **Quality** is defined as those products and services perceived to meet or exceed the needs and expectations of the customer at a cost that represents outstanding value.
+
+-   The shift is from "inspecting quality in" (detecting defects) to **building quality into processes and deliverables**(preventing defects).\
+-   The ultimate responsibility for quality management rests with the **project manager**.
+
+### **The Cost of Quality (COQ)**
+
+The **Cost of Quality (COQ)** classifies quality costs into four categories:
+
+1.  **Prevention Costs:** Costs incurred to prevent failure (e.g., training, good planning, process reviews). These costs are expected to *rise* in effective quality systems.\
+2.  **Appraisal Costs:** Costs incurred to measure or inspect quality (e.g., testing, audits). These costs are expected to *decrease* as processes improve.\
+3.  **Internal Failure Costs:** Costs incurred when errors are found *before* delivery (e.g., rework, scrap, reengineering). This category provides the biggest potential savings.\
+4.  **External Failure Costs:** Costs incurred when errors are found *after* delivery (e.g., warranty work, liability).
+
+### **The Seven Quality Control Tools**
+
+The basic tools of Statistical Process Control (SPC) are used for data collection, pattern identification, and measuring variability.
+
+1.  **Check Sheets/Data Tables:** Used for systematic data collection (e.g., frequency of defects) \[744, 745f\].\
+2.  **Cause-and-Effect Analysis (Fishbone Diagrams):** Used to identify the relationship between an effect (problem) and its causes (Machine, Material, Method, Measurement, Environment, Personnel).
+    -   *Systematic Method:* Focuses analysis on one major cause category at a time.\
+3.  **Pareto Analysis:** Identifies the "vital few" contributors that account for most quality problems (80/20 rule application).\
+4.  **Histograms:** Graphical displays showing frequency distribution for variable data \[748, 748f\].\
+5.  **Scatter Diagrams:** Shows the relationship between two variables \[750, 750f\].\
+6.  **Trend Analysis:** Statistical method determining the equation that best fits data over time.\
+7.  **Control Charts:** Statistical tools used to determine if a process is **in control** or if variation is due to special causes. Upper and Lower Control Limits (UCL/LCL) are typically set at $\pm$ 3 standard deviations (3$\sigma$) from the mean.
+
+### **Implementing Six Sigma**
+
+**Six Sigma** is a business strategy that uses statistical tools within a structured methodology to reduce defects and costs. It focuses on achieving intellectual capital and profit gains through disciplined application.
+
+-   The methodology relies on the **DMAIC** structure :
+    -   **D**efine: Define the problem and customer requirements.\
+    -   **M**easure: Identify key measurements and metrics/KPIs.\
+    -   **A**nalyze: Analyze data using statistical tools to find the source of the problem.\
+    -   **I**mprove: Develop alternatives and implement improvements.\
+    -   **C**ontrol: Monitor and control the process to ensure improvements are sustained .
+
+------------------------------------------------------------------------
+
+**Chapter 20 Recap**
+
+1.  Modern quality emphasizes **customer focus** and **value**, shifting from defect detection to prevention.\
+2.  The **Cost of Quality (COQ)** is categorized into Prevention, Appraisal, Internal Failure, and External Failure costs.\
+3.  Savings are maximized by increasing **Prevention Costs** to reduce failure costs.\
+4.  The **Seven Quality Control Tools** are crucial for data collection and process analysis.\
+5.  **Pareto Analysis** identifies the vital few problems, and **Control Charts** verify if a process is statistically stable (in control).\
+6.  **Six Sigma** utilizes the **DMAIC** method to systematically improve processes and reduce variability .
+
+------------------------------------------------------------------------
+
+## **Modern Developments in Project Management**
+
+### **The Project Management Maturity Model (PMMM)**
+
+The **PMMM** framework assesses an organization's maturity level across five levels \[635, 768f\]:
+
+-   **Level 1: Common Language:** Recognition of PM importance and the need for standardized terminology/knowledge.\
+-   **Level 2: Common Processes:** Definition and development of common processes so successes can be repeated.\
+-   **Level 3: Singular Methodology:** Development of an enterprise-wide project management methodology (EPM) that is tailorable and scalable .\
+-   **Level 4: Benchmarking:** Comparison of the organization's practices against others .\
+-   **Level 5: Continuous Improvement:** Continuous optimization of the methodology based on benchmarking results .
+
+### **Developing Effective Procedural Documentation**
+
+High project maturity is supported by procedural documentation based on **forms, guidelines, templates, and checklists rather** than rigid policies and procedures . This provides flexibility and standardization .
+
+### **Capacity Planning**
+
+**Capacity Planning** ensures that sufficient human and nonhuman resources are available to support all selected projects and ongoing business activities . Excellent companies perform sophisticated capacity planning by :
+
+1.  Selecting projects based on strategic fit and profitability.\
+2.  Defining objectives in business and technical terms.\
+3.  Identifying constraints from summed schedules and plans.\
+4.  Determining the objective of the plan (least cost, least time, or least risk).
+
+### **Managing Multiple Projects**
+
+As organizations mature, there is a trend toward having one person manage multiple projects to reduce overmanagement costs . Success in this environment requires corporate changes in six major areas, including :
+
+-   **Prioritization:** A credible system for prioritizing projects must be in effect.\
+-   **Capacity Planning:** Tight control on resource scheduling is essential .\
+-   **Project Methodology:** The methodology must be flexible (guidelines, checklists) rather than formal/rigid (policies, procedures) .
+
+### **The Business of Scope Changes**
+
+While scope changes are inevitable, they should not be implemented if they drastically extend the payback period or risk exposure (e.g., liability/safety issues) . A common project failure cause is **scope creep (features)**, where unnecessary functionality is added.
+
+------------------------------------------------------------------------
+
+**Chapter 21 Recap**
+
+1.  The **PMMM** describes the path to project management maturity and excellence across five levels, starting with a Common Language and ending with Continuous Improvement .\
+2.  Procedural documentation is most effective when built on flexible **templates and checklists** rather than rigid policies .\
+3.  **Capacity Planning** is necessary to ensure human and technical resources are available to support the selected portfolio .\
+4.  Managing multiple projects successfully requires high PM maturity, effective **prioritization systems**, and flexible methodologies .\
+5.  Scope changes must be targeted for business value, carefully managed, and approved to prevent costly **scope creep**.
+
+------------------------------------------------------------------------
+
+## **Master Comprehensive Summary**
+
+Project Management (PM) is fundamentally a systems approach, integrating planning, organizing, directing, and controlling resources to achieve specific, short-term objectives. The modern imperative for PM is shifting from fulfilling the technical **triple constraints** (Time, Cost, Performance) to generating **sustainable business value** for customers and stakeholders.
+
+Organizational success depends on achieving **maturity** (standardized processes and methodology) which leads to **excellence** (a continuous stream of successful projects). The methodology used must be flexible (a **framework**) to accommodate unique project characteristics, especially in complex or uncertain environments where **Agile** practices thrive over rigid **Waterfall** structures.
+
+**Core Frameworks and Methodologies:**
+
+1.  **Planning Foundation (WBS & Baselines):** All planning is rooted in the **Work Breakdown Structure (WBS)**, which decomposes the project into measurable **Work Packages** and forms the basis for accountability, costing, and scheduling. The WBS leads to the establishment of the **Performance Measurement Baseline (PMB)**, integrating the approved Scope, Schedule, and Cost Baselines.\
+2.  **Scheduling (PERT/CPM):** Network diagrams are critical for showing activity interdependencies. **PERT** is probabilistic, using three time estimates to calculate risk ($\sigma$), while **CPM** is deterministic. The process converts resource-unlimited proposals into resource-limited schedules by setting calendar dates.\
+3.  **Control (EVMS):** The **Earned Value Measurement System (EVMS)** is the standard control framework, using **BCWS** (Planned Value), **BCWP** (Earned Value), and **ACWP** (Actual Cost) to calculate Cost and Schedule Variances (CV, SV) and efficiency trends (**CPI**, **SPI**).\
+4.  **Risk Management:** Risk is defined by **Probability** $\times$ Consequence. The process involves planning (RMP), identifying risks, performing qualitative/quantitative analysis (e.g., **Monte Carlo Simulation**), and selecting response strategies (Avoid, Mitigate, Transfer, Accept).\
+5.  **Quality Management:** Quality is defined by the customer's expectations and value perception. Focus is on increasing **Prevention Costs** to reduce Internal and External Failure Costs. Methodologies like **Six Sigma (DMAIC)** and the **Seven Quality Control Tools** (e.g., Pareto Analysis, Control Charts) are used to analyze processes and reduce variability.\
+6.  **Organizational Structure:** The **Matrix** structure is commonly used to balance technical and project authority. The **PMO** provides governance, standardization, and knowledge management, acting as a center for continuous improvement.
+
+**The Role of the Project Manager:**
+
+The PM must function as a **general manager** and integrator. They require the skills defined in the **Talent Triangle**(Technical, Leadership, Strategic/Business). Because PMs often operate with limited formal authority, success hinges on **interpersonal skills** (communication, conflict resolution, negotiation) and utilizing non-formal power bases (Expert, Reward, Referent). They are also responsible for managing stakeholders, ensuring project alignment to the organizational portfolio, and tracking meaningful **Key Performance Indicators (KPIs)** that predict success.
