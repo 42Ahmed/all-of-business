@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>10&nbsp; AI Marketing Canvas – All of Business</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./chapter09.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-00ccf60c28c3bdf2d57f5131fbf16f11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7c8ba9dac8feea6a77ed63b2e2898d0e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-00ccf60c28c3bdf2d57f5131fbf16f11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+        <div class="quarto-navbar-tools tools-end">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter10.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">AI Marketing Canvas</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Entrepreuership Theory</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Measure What Matters</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Running Lean</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Four Steps to Successful Strategy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Power of Emotional Intelligence</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Primal Leadership</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Project Management</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter08.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">PMBOK</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter09.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Principles of Marketing</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter10.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">AI Marketing Canvas</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#executive-summary" id="toc-executive-summary" class="nav-link active" data-scroll-target="#executive-summary"><span class="header-section-number">10.1</span> Executive Summary:</a></li>
+  <li><a href="#part-1.-the-challenge-and-the-solution" id="toc-part-1.-the-challenge-and-the-solution" class="nav-link" data-scroll-target="#part-1.-the-challenge-and-the-solution"><span class="header-section-number">10.2</span> PART 1. The Challenge And The Solution</a>
+  <ul class="collapse">
+  <li><a href="#the-marketers-challenge-today" id="toc-the-marketers-challenge-today" class="nav-link" data-scroll-target="#the-marketers-challenge-today"><span class="header-section-number">10.2.1</span> The Marketer’s Challenge Today</a></li>
+  <li><a href="#the-ai-marketing-canvas-a-strategic-path-forward-for-marketers" id="toc-the-ai-marketing-canvas-a-strategic-path-forward-for-marketers" class="nav-link" data-scroll-target="#the-ai-marketing-canvas-a-strategic-path-forward-for-marketers"><span class="header-section-number">10.2.2</span> The AI Marketing Canvas: A Strategic Path Forward for Marketers</a></li>
+  <li><a href="#navigating-this-book" id="toc-navigating-this-book" class="nav-link" data-scroll-target="#navigating-this-book"><span class="header-section-number">10.2.3</span> Navigating This Book</a></li>
+  </ul></li>
+  <li><a href="#part-2.-ai-and-marketing-essentials" id="toc-part-2.-ai-and-marketing-essentials" class="nav-link" data-scroll-target="#part-2.-ai-and-marketing-essentials"><span class="header-section-number">10.3</span> PART 2. AI And Marketing Essentials</a>
+  <ul class="collapse">
+  <li><a href="#networks-and-nodes" id="toc-networks-and-nodes" class="nav-link" data-scroll-target="#networks-and-nodes"><span class="header-section-number">10.3.1</span> Networks and Nodes</a></li>
+  <li><a href="#the-customer-relationship-moments-mental-model" id="toc-the-customer-relationship-moments-mental-model" class="nav-link" data-scroll-target="#the-customer-relationship-moments-mental-model"><span class="header-section-number">10.3.2</span> The Customer Relationship Moments Mental Model</a></li>
+  <li><a href="#what-are-artificial-intelligence-and-machine-learning" id="toc-what-are-artificial-intelligence-and-machine-learning" class="nav-link" data-scroll-target="#what-are-artificial-intelligence-and-machine-learning"><span class="header-section-number">10.3.3</span> What Are Artificial Intelligence and Machine Learning?</a></li>
+  </ul></li>
+  <li><a href="#part-3.-the-ai-marketing-canvas-five-stages-of-ai-and-machine-learning-in-marketing" id="toc-part-3.-the-ai-marketing-canvas-five-stages-of-ai-and-machine-learning-in-marketing" class="nav-link" data-scroll-target="#part-3.-the-ai-marketing-canvas-five-stages-of-ai-and-machine-learning-in-marketing"><span class="header-section-number">10.4</span> PART 3. The AI Marketing Canvas: Five Stages Of AI And Machine Learning In Marketing</a>
+  <ul class="collapse">
+  <li><a href="#elements-of-the-ai-marketing-canvas" id="toc-elements-of-the-ai-marketing-canvas" class="nav-link" data-scroll-target="#elements-of-the-ai-marketing-canvas"><span class="header-section-number">10.4.1</span> Elements of the AI Marketing Canvas</a></li>
+  <li><a href="#stage-1-foundation" id="toc-stage-1-foundation" class="nav-link" data-scroll-target="#stage-1-foundation"><span class="header-section-number">10.4.2</span> Stage 1: Foundation</a></li>
+  <li><a href="#stage-2-experimentation" id="toc-stage-2-experimentation" class="nav-link" data-scroll-target="#stage-2-experimentation"><span class="header-section-number">10.4.3</span> Stage 2: Experimentation</a></li>
+  <li><a href="#stage-3-expansion" id="toc-stage-3-expansion" class="nav-link" data-scroll-target="#stage-3-expansion"><span class="header-section-number">10.4.4</span> Stage 3: Expansion</a></li>
+  <li><a href="#stage-4-transformation" id="toc-stage-4-transformation" class="nav-link" data-scroll-target="#stage-4-transformation"><span class="header-section-number">10.4.5</span> Stage 4: Transformation</a></li>
+  <li><a href="#stage-5-monetization" id="toc-stage-5-monetization" class="nav-link" data-scroll-target="#stage-5-monetization"><span class="header-section-number">10.4.6</span> Stage 5: Monetization</a></li>
+  <li><a href="#putting-it-all-together-starbucks" id="toc-putting-it-all-together-starbucks" class="nav-link" data-scroll-target="#putting-it-all-together-starbucks"><span class="header-section-number">10.4.7</span> Putting It All Together: Starbucks</a></li>
+  </ul></li>
+  <li><a href="#part-4.-implementation" id="toc-part-4.-implementation" class="nav-link" data-scroll-target="#part-4.-implementation"><span class="header-section-number">10.5</span> PART 4. Implementation</a>
+  <ul class="collapse">
+  <li><a href="#managing-change" id="toc-managing-change" class="nav-link" data-scroll-target="#managing-change"><span class="header-section-number">10.5.1</span> Managing Change</a></li>
+  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started"><span class="header-section-number">10.5.2</span> Getting Started</a></li>
+  <li><a href="#a-call-to-action" id="toc-a-call-to-action" class="nav-link" data-scroll-target="#a-call-to-action"><span class="header-section-number">10.5.3</span> A Call to Action</a></li>
+  </ul></li>
+  <li><a href="#final-comprehensive-summary" id="toc-final-comprehensive-summary" class="nav-link" data-scroll-target="#final-comprehensive-summary"><span class="header-section-number">10.6</span> Final Comprehensive Summary</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">AI Marketing Canvas</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="executive-summary" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="executive-summary"><span class="header-section-number">10.1</span> Executive Summary:</h2>
+<p>“The AI Marketing Canvas” provides a crucial roadmap for marketers navigating the rapidly evolving landscape of artificial intelligence (AI) and machine learning (ML). The core idea is that the shift from a supply-driven to a demand-driven economy, driven by major technology networks like Amazon and Google, has reset customer expectations for <strong>hyper-personalization</strong> at every touchpoint. Traditional, human-led marketing approaches are no longer sufficient to meet this demand or to keep pace with exponential technological advancements, leading to a “winner-take-all” scenario for early AI adopters.</p>
+<p>The book introduces the <strong>AI Marketing Canvas</strong>, a <strong>five-stage strategic framework</strong> (Foundation, Experimentation, Expansion, Transformation, and Monetization) designed to guide organizations in effectively integrating AI and ML into their marketing efforts. This framework is intensely <strong>customer-centric</strong>, aiming to supercharge every “Customer Relationship Moment”—Acquisition, Retention, Growth, and Advocacy—into an “AI Customer Relationship Moment” by leveraging data and algorithms. Key takeaways include the urgent need for a robust <strong>digital foundation</strong> focused on collecting clean, first-party customer data, the importance of <strong>iterative experimentation</strong> with AI tools for quick wins, and the strategic necessity of <strong>organizational change</strong> across people, processes, culture, and profit models. The ultimate goal is not only to drive profitable growth and build brand equity but also to use AI to foster deeper human connections and enhance the brand’s humanity. The Canvas serves as both a reference guide and a practical handbook, emphasizing that acting now is critical, as the “risk of ignoring” AI is very high.</p>
+<p><strong>THE AI MARKETING CANVAS: A COMPREHENSIVE SUMMARY</strong></p>
+</section>
+<section id="part-1.-the-challenge-and-the-solution" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="part-1.-the-challenge-and-the-solution"><span class="header-section-number">10.2</span> PART 1. The Challenge And The Solution</h2>
+<section id="the-marketers-challenge-today" class="level3" data-number="10.2.1">
+<h3 data-number="10.2.1" class="anchored" data-anchor-id="the-marketers-challenge-today"><span class="header-section-number">10.2.1</span> The Marketer’s Challenge Today</h3>
+<p>The modern marketing landscape has been fundamentally reshaped by major technology networks such as Amazon, Google, Facebook, and Netflix, which have redefined customer expectations for personalized experiences. This has led to a paradigm shift from a supply-driven to a demand-driven business model, where customer-centricity is paramount. Brands that fail to adapt risk significant financial setbacks and even bankruptcy.</p>
+<p>The <strong>Washington Post</strong> serves as a prime example of this transformation. Facing a $40 million loss in 2013, its acquisition by Jeff Bezos initiated a radical shift towards technology and AI. The Post leveraged AI and machine learning (ML) to personalize the user experience, from <strong>search engine optimization</strong> (SEO) and <strong>personalized content recommendations</strong>(Zeus Insights based on reading history) to <strong>predicting article popularity</strong> and <strong>AI-driven comment moderation</strong>. Its <strong>AI-powered story-writing program, Heliograf</strong>, even enabled it to produce twice as many stories as competitors. This transformation led to a tripling of digital subscribers, return to profitability, and the licensing of its <strong>Arc Publishing platform</strong> as a new business line.</p>
+<p>This need for personalization extends beyond the media. <strong>CarMax</strong>, for instance, personalizes website images and text based on user search behaviors to reduce cognitive load and anxiety during high-cost purchases, competing against “the best experience consumers have ever had, period”. <strong>Starbucks</strong> uses its app to personalize orders and recommend new products based on purchase history. The cost of delaying AI adoption is substantial, as seen with <strong>Kraft Heinz</strong>’s sales slide, prompting a new strategy to implement AI for optimal promotions and media mix. Many marketers, however, still lack a clear plan or resources for AI adoption, facing significant internal barriers.</p>
+<p>The digital business model, characterized by lower unit profitability but higher volume and potentially higher total profits, requires substantial, long-term investment and tolerance for temporary profit dips. The failures of traditional retailers like Sears, Claire’s, and Toys “R” Us highlight the critical consequences of failing to adapt. The revival of Toys “R” Us, for example, involves leveraging data and analytics to make smarter business decisions, while also navigating privacy regulations like COPPA. The core challenge is that human capacity alone cannot deliver the one-to-one personalized marketing consumers now expect. AI and ML offer an exponential advantage, meaning early adopters will gain significant, cumulative insights and competitive advantage, leading to a “winner-take-all” scenario. Therefore, acting now is crucial to avoid being left behind.</p>
+</section>
+<section id="the-ai-marketing-canvas-a-strategic-path-forward-for-marketers" class="level3" data-number="10.2.2">
+<h3 data-number="10.2.2" class="anchored" data-anchor-id="the-ai-marketing-canvas-a-strategic-path-forward-for-marketers"><span class="header-section-number">10.2.2</span> The AI Marketing Canvas: A Strategic Path Forward for Marketers</h3>
+<p>In this new, technologically advanced, and disruptive economy, success hinges on deploying AI and ML against a robust marketing strategy focused on <strong>customer acquisition, retention, growth, and advocacy</strong>, driven by a commitment to <strong>personalizing customer relationships</strong> at every touchpoint. The central mission of this book is to introduce and explain the <strong>AI Marketing Canvas</strong> as a framework to guide marketers through this process.</p>
+<p>Research, including candid conversations with marketing leaders and surveys, revealed that most marketers feel unprepared or incompetent in leveraging AI and ML. Common barriers to AI adoption include a <strong>lack of clear strategy, insufficient talent, functional silos, limited leadership commitment, and inadequate data availability</strong>. The Gartner survey further highlights <strong>enterprise maturity (skills, data quality, governance), fear of the unknown, and difficulty finding a starting point</strong> as top challenges.</p>
+<p>The <strong>AI Marketing Canvas</strong> is presented as a “just right” solution – a practical and actionable roadmap that meets organizations at their current stage and guides them forward. Inspired by the traditional business model canvas, it consists of <strong>five stages: Foundation, Experimentation, Expansion, Transformation, and Monetization</strong>. These stages are derived from observing successful brands across various industries that have effectively used AI to enhance their <strong>Customer Relationship Moments</strong>. The Canvas is inherently <strong>customer-centric</strong>, designed to help marketing managers leverage AI to deliver highly personalized customer experiences. It is also valuable for small and medium-sized businesses (SMBs) who need laser-focused AI investments due to limited resources.</p>
+<p>Marketing has evolved from <strong>human-curated</strong> (relying on personalities like Martha Stewart), which suffered from issues of availability, credibility, and currency, to <strong>machine-assisted</strong> (using product configurators with “if-then” rules), which were limited by category coverage and preset criteria. The current and future state is <strong>machine-first</strong>, where AI and ML supercharge interactions into “AI Customer Relationship Moments”. This rapid technological advancement is disrupting entire industries, from advertising and media to fitness and entertainment. The proliferation of theoretical, technical, and tactical (but unsubstantial) resources has left marketers with a “dilemma”—too much noise, too few actionable frameworks.</p>
+<p>The adoption of AI and ML also creates a <strong>marketer’s dilemma</strong> by increasing dependence on IT and Finance departments, whose primary interests often lie in cost savings, security, and efficiency rather than growth. However, the book asserts that <strong>marketing leaders are responsible for driving growth</strong> through AI and technology (Marketing 4.0), enabling speed, personalization, and scale that humans cannot achieve manually. The urgency is paramount: AI is projected to add $13 trillion to the global economy, with an <strong>S-curve adoption pattern</strong> where early movers gain disproportionately. Delaying action means being left behind.</p>
+</section>
+<section id="navigating-this-book" class="level3" data-number="10.2.3">
+<h3 data-number="10.2.3" class="anchored" data-anchor-id="navigating-this-book"><span class="header-section-number">10.2.3</span> Navigating This Book</h3>
+<p>This chapter provides an overview of the book’s structure, dividing it into four main parts to equip marketers with the necessary concepts and tools.</p>
+<ul>
+<li><strong>Part 1: The Challenge and Solution</strong> introduces the core problems marketers face today and the AI Marketing Canvas as the strategic solution.<br>
+</li>
+<li><strong>Part 2: AI and Marketing Essentials</strong> (Chapters 4-6) provides foundational knowledge and a shared vocabulary.
+<ul>
+<li><strong>Chapter 4: Networks and Nodes</strong> distinguishes between different business models, explaining the “winner-take-all” nature of AI-driven networks and the implications for “nodes”.<br>
+</li>
+<li><strong>Chapter 5: The Customer Relationship Moments Mental Model</strong> introduces a universal four-step customer journey (Acquisition, Retention, Growth, Advocacy) and how AI transforms them into “AI Customer Relationship Moments”.<br>
+</li>
+<li><strong>Chapter 6: What Are Artificial Intelligence and Machine Learning?</strong> defines AI and ML, explains categories of ML (regression, dimensionality reduction, classification, clustering), neural networks, deep learning, and how these apply in marketing contexts. This chapter is crucial for effective communication with data science teams.<br>
+</li>
+</ul></li>
+<li><strong>Part 3: The AI Marketing Canvas: Five Stages of AI and Machine Learning in Marketing</strong> (Chapters 7-13) delves into the Canvas itself.
+<ul>
+<li><strong>Chapter 7: Elements of the AI Marketing Canvas</strong> provides an overview of the framework and its application.<br>
+</li>
+<li><strong>Chapters 8-12</strong> detail each of the five stages: <strong>Foundation, Experimentation, Expansion, Transformation, and Monetization</strong>, each with brand examples, key questions, and actionable checklists.<br>
+</li>
+<li><strong>Chapter 13: Putting It All Together: Starbucks</strong> offers a comprehensive case study of a brand that has successfully traversed all five stages.<br>
+</li>
+</ul></li>
+<li><strong>Part 4: Implementation</strong> (Chapters 14-16) addresses the practicalities of adopting AI.
+<ul>
+<li><strong>Chapter 14: Managing Change</strong> draws lessons from Google’s AI transformation, applying Kotter’s change model to guide organizational shifts in people, process, culture, and profit.<br>
+</li>
+<li><strong>Chapter 15: Getting Started</strong> provides a diagnostic tool to assess an organization’s current stage on the Canvas, outlines anticipated challenges (“four gaps”), and offers a sample completed canvas for a fictional business.<br>
+</li>
+<li><strong>Chapter 16: A Call to Action</strong> addresses the personal impact of this shift on marketers, offering guidance for career advancement and emphasizing AI’s potential to enhance humanity.</li>
+</ul></li>
+</ul>
+<p>Each stage-specific chapter includes a summary and a checklist to make concepts actionable.</p>
+</section>
+</section>
+<section id="part-2.-ai-and-marketing-essentials" class="level2" data-number="10.3">
+<h2 data-number="10.3" class="anchored" data-anchor-id="part-2.-ai-and-marketing-essentials"><span class="header-section-number">10.3</span> PART 2. AI And Marketing Essentials</h2>
+<section id="networks-and-nodes" class="level3" data-number="10.3.1">
+<h3 data-number="10.3.1" class="anchored" data-anchor-id="networks-and-nodes"><span class="header-section-number">10.3.1</span> Networks and Nodes</h3>
+<p>In the modern economy, technology-driven firms operate as “networks,” fundamentally altering consumer expectations and disrupting traditional marketing. A <strong>network</strong> is defined as a system of interconnected elements (nodes) that leverages a proprietary technology platform to connect people, organizations, and resources in an interactive ecosystem, creating and exchanging immense value. Crucially, networks also collect and analyze <strong>first-party consumer data</strong> around their offerings, continuously refining and personalizing the customer experience. In contrast, a <strong>node</strong> is an atomic element of a network; typically, it is a firm that makes and sells tangible products, often through third-party networks, without direct access to comprehensive customer data.</p>
+<p>The primary advantage of networks is the <strong>network effect</strong>, where the value of the network increases exponentially as more users join. Metcalfe’s Law, though sometimes overestimating value, posits that the incremental value of an additional node increases significantly. For example, the value of Facebook grows with more users, and Netflix becomes more valuable with more content providers and users, leading to more accurate personalized recommendations driven by data and algorithms. This “flywheel” phenomenon implies a “winner-take-all” outcome for those who can leverage this at scale.</p>
+<p>The book categorizes networks into several types:</p>
+<ul>
+<li><strong>Pure Networks</strong> are marketplaces connecting buyers and sellers (or content creators and consumers) via a technology platform, typically enabling direct customer connections and reviews. Examples include Facebook, Google (especially YouTube), Amazon, Airbnb, Uber, and Apple’s App Store.<br>
+</li>
+<li><strong>Hybrid Networks</strong> combine the pure network model with the firm also acting as its own supplier, owning more of the end-to-end consumer experience. Netflix is a prime example, creating and selling its own content while providing the platform.<br>
+</li>
+<li><strong>Media Networks</strong> deliver information in the form of content. YouTube (pure) platforms user-generated content, while Netflix (hybrid) creates its own. Twitch and TikTok are other pure media networks, using AI to optimize content creation and personalization.<br>
+</li>
+<li><strong>Marketplace Networks</strong> connect consumers and suppliers, often encouraging product reviews. Amazon, Alibaba.com, Facebook, and Apple’s App Store are examples.<br>
+</li>
+<li><strong>Independent Networks</strong> are nodes that have built their own technology platforms to connect directly with consumers and facilitate reviews, but do not connect to competing brands. Starbucks, with its robust rewards app, and hotel chains like Hilton and Marriott, are examples striving to leverage their own first-party data.</li>
+</ul>
+<p>The critical challenge for nodes is their limited access to first-party consumer data, which networks guard closely to prevent suppliers from establishing direct customer relationships. This data is essential for training AI algorithms to deliver personalized marketing strategies, from product recommendations to pricing.</p>
+<p>To compete, nodes have three strategic options:</p>
+<ol type="1">
+<li><strong>Build your own network (platform):</strong> Walmart’s acquisitions (Jet.com, Modcloth.com, Flipkart) and partnerships (Shopify) demonstrate this. Disney+ pulling content from Netflix to create its own streaming service is another example.<br>
+</li>
+<li><strong>Collaborate with a network:</strong> Whirlpool integrating Alexa into appliances or Target partnering with DTC brands like Casper and Harry’s.<br>
+</li>
+<li><strong>Team up with another node or research partner to gain parity:</strong> JPMorgan Chase’s use of Zelle or brands using market intelligence partners like Numerator to access consumer data.</li>
+</ol>
+<p>Nike’s decision to withdraw its products from Amazon to focus on direct-to-consumer relationships and gain first-party data exemplifies the desire for control over customer experience and insights. Ultimately, regardless of a firm’s current position, survival requires a customer-centric strategic plan to deliver unique, personalized buying experiences at scale, achievable only through massive volumes of first-party consumer data processed by AI and ML.</p>
+</section>
+<section id="the-customer-relationship-moments-mental-model" class="level3" data-number="10.3.2">
+<h3 data-number="10.3.2" class="anchored" data-anchor-id="the-customer-relationship-moments-mental-model"><span class="header-section-number">10.3.2</span> The Customer Relationship Moments Mental Model</h3>
+<p>To effectively scale personalized customer experiences for millions, marketers must augment human capabilities with AI and machine learning. The <strong>Customer Relationship Moments mental model</strong> provides a universal framework for understanding the customer decision journey, comprising four distinct stages: <strong>Acquisition, Retention, Growth, and Advocacy</strong>. When these moments are supercharged with data and algorithms, they become <strong>AI Customer Relationship Moments</strong>, enabling personalized interactions.</p>
+<ul>
+<li><strong>Acquisition:</strong> The initial purchase, such as a customer signing up for Stitch Fix after a personalized styling questionnaire.<br>
+</li>
+<li><strong>Retention:</strong> Continued purchasing, like a Dollar Shave Club customer maintaining their subscription due to personalized emails and product experience. The opposite of retention is churn.<br>
+</li>
+<li><strong>Growth:</strong> Customers expanding their relationship by purchasing new products or upgrading services, for example, a medical devices firm adding more services to an existing cloud contract.<br>
+</li>
+<li><strong>Advocacy:</strong> Customers sharing positive information about the brand, like a Hilton Platinum member writing a glowing review on Tripadvisor.</li>
+</ul>
+<p>Successfully navigating these moments is increasingly difficult due to three powerful forces:</p>
+<ol type="1">
+<li><strong>Technology advancing at light speed:</strong> Leading to sophisticated, automated processes like mobile ad targeting with minimal human intervention.<br>
+</li>
+<li><strong>Customers connecting on many different platforms:</strong> The sheer volume and complexity of interactions across social media (Facebook, Pinterest, YouTube, TikTok) make effective personalized engagement challenging.<br>
+</li>
+<li><strong>Information abundance:</strong> This overwhelming volume of data causes customer cognitive overload, hindering purchase decisions. The “What Happens in an Internet Minute” infographic vividly illustrates this challenge.</li>
+</ol>
+<p>To understand this evolution, the book outlines <strong>three waves of consumer information processing</strong>, reflecting available data and technology:</p>
+<ul>
+<li><strong>Wave 1 (1940-2000): Mass Marketing and Segmented Marketing</strong>. Initially, mass ads and influencers drove Acquisition and Retention (e.g., Sears, Bette Davis for Lustre Cream). Later, marketers segmented audiences and products (e.g., Spiegel’s catalog targeting, Black and Decker creating Dewalt tools for professionals).<br>
+</li>
+<li><strong>Wave 2 (Post-2000): Data-Driven Marketing</strong>. The internet enabled marketing to hundreds of segments, with early adopters like financial services leveraging data for credit decisions. However, even with search engines like Google and Priceline, customers faced information overload, having to filter through many options themselves.<br>
+</li>
+<li><strong>Wave 3 (Now and Future): One-to-One Personalized Marketing</strong>. AI and ML now curate information, transforming abundance into “information perfection” to foster intimacy and loyalty. Examples include HotelTonight’s precisely curated options based on user profiles and JPMorgan Chase’s machine-generated personalized letters.</li>
+</ul>
+<p>Comparing <strong>Traditional Customer Relationship Moments</strong> (e.g., a local gym, “Peach Athletic Club”) with <strong>AI Moments</strong>(e.g., Peloton) highlights this shift. Traditional interactions involve manual processes and limited personalization, typical of Wave 2 marketing. Peloton, conversely, uses AI throughout the customer journey: targeted ads for Acquisition, app-driven personalized routines and music for Retention, social connections for Advocacy, and AI algorithms for product recommendations for Growth. This data- and AI-powered experience leads to increased engagement, retention, and advocacy, while enabling Peloton to learn and develop new products.</p>
+<p>The concept of “buying pathways” further illustrates how AI supercharges CRM Moments. Whether it’s John seeing a TV ad for a Fab TV, clicking a personalized Google Lens link, and purchasing with a discount; Jay discovering a Swell laptop via a digital ad, researching on Consumer Reports, and receiving app-based support and printer offers; or Laura using Alexa to reorder Baybee shampoo and receive subscription offers, AI orchestrates a tailored, low-friction journey. AI Moments don’t replace, but enhance, each step of the customer relationship, making AI integration critical for competitive survival.</p>
+</section>
+<section id="what-are-artificial-intelligence-and-machine-learning" class="level3" data-number="10.3.3">
+<h3 data-number="10.3.3" class="anchored" data-anchor-id="what-are-artificial-intelligence-and-machine-learning"><span class="header-section-number">10.3.3</span> What Are Artificial Intelligence and Machine Learning?</h3>
+<p>This chapter demystifies the core technical concepts of AI and machine learning, providing marketers with essential vocabulary to communicate effectively with data science teams. At its heart, for marketing purposes, <strong>AI equals prediction</strong> – confidently answering questions like “Who is the best target?”, “What should the message be?”, and “Where should we place it for best results?”. The objective is to perform these tasks better and faster than humans.</p>
+<p>A brief history of AI shows its evolution:</p>
+<ul>
+<li><strong>Alan Turing</strong> initiated the field in 1950 by asking “Can machines think?” and proposing the <strong>Turing test</strong>.<br>
+</li>
+<li><strong>John McCarthy</strong> coined “artificial intelligence” in 1956 (“systems that perform actions that if performed by humans would be considered intelligent”) and developed the <strong>Lisp</strong> programming language.<br>
+</li>
+<li>The <strong>“AI winter”</strong> in the 1970s saw funding withdrawal due to a lack of commercial applications.<br>
+</li>
+<li>The <strong>Digital Equipment Corporation (DEC)</strong>’s R1 “expert system” in 1981 demonstrated commercial value, reviving interest.<br>
+</li>
+<li>The advent of <strong>data-driven AI</strong> was propelled by exponential increases in computing power (e.g., TPUs) and decreasing costs (Moore’s Law).<br>
+</li>
+<li><strong>Fei Fei Li’s ImageNet project</strong> (2006) created massive real-world image datasets, crucial for training machines in computer vision and enabling neural networks. Today, many datasets and neural network models are openly available.</li>
+</ul>
+<p><strong>Machine learning (ML)</strong> occurs when a machine processes a dataset using one or more <strong>computer algorithms</strong> to make predictions. An <strong>algorithm</strong> is a well-defined procedure for solving a problem, and typically multiple algorithms are used at high speed. Examples include Google Search’s refining algorithms or Gmail’s sentence completion, which learns from user corrections. <strong>Image recognition</strong> is a prominent ML application, where machines learn to classify objects (e.g., a dog vs.&nbsp;a mop) from labeled images. <strong>TensorFlow</strong>, an open-source code library, has democratized the ability for businesses to build their own image recognition systems.</p>
+<p>ML operates in four main categories, largely derived from statistics:</p>
+<ul>
+<li><strong>Regression</strong> (supervised learning): Examines relationships between variables to predict outcomes. For example, Airbnb uses regression to optimize pricing by analyzing user sentiment from reviews (converted to numeric data via <strong>Natural Language Processing (NLP)</strong>) and property attributes to predict demand.<br>
+</li>
+<li><strong>Dimensionality Reduction</strong> (unsupervised learning): Reduces a large number of variables to a smaller, more manageable set, such as converting raw text reviews into quantifiable “polarity metrics” for sentiment analysis.<br>
+</li>
+<li><strong>Classification</strong> (supervised learning): Predicts the label or category of an item based on data points and characteristics. Airbnb uses classification to identify guests most likely to purchase additional services (e.g., Airbnb Experiences) by analyzing demographics and past behaviors.<br>
+</li>
+<li><strong>Clustering</strong> (unsupervised learning): Groups customers or data points based on similarities, providing insights for targeted marketing and customer segmentation. Airbnb could cluster customers by property preferences (e.g., cleanliness, communication with host) to create personalized advertisements.</li>
+</ul>
+<p><strong>Neural networks</strong> are algorithms modeled after the human brain, designed to recognize patterns and help cluster or classify data. They learn from training examples to improve “perception” and “learning”. Airbnb used an off-the-shelf neural network model (ResNet50) to categorize listing photos by room type, achieving 95% certainty and outperforming industry-standard models by leveraging its proprietary direct-to-consumer data.</p>
+<p><strong>Deep learning (DL)</strong> is an advanced application of neural networks to complex problems, enabling machines to learn from mistakes and develop their own “intuition” or probability of correctness. AI, ML, DL, and neural networks typically work in concert. A classic example is <strong>IBM Watson’s</strong> victory on Jeopardy!, where it used ML to analyze natural language questions and vast data, and DL to assess confidence in its answers.</p>
+<p>While ML and statistical modeling share the goal of learning from data, ML often emphasizes high-dimensional prediction, whereas statistics focuses on formal inference in lower-dimensional problems. The book presents an <strong>analytics framework (Figure 8)</strong>, categorizing techniques into:</p>
+<ul>
+<li><strong>Descriptive Analytics:</strong> Summarizes historical information (“What happened?”) using tools like network graphs, pivot tables, and data visualizations (e.g., Hilton tracking room bookings and social media mentions).<br>
+</li>
+<li><strong>Predictive Analytics:</strong> Forecasts outcomes (“What will happen?”) using ML models (e.g., Hilton predicting occupancy based on various factors). Deep learning algorithms here can be “self-learning,” updating models without human intervention.<br>
+</li>
+<li><strong>Prescriptive Analytics:</strong> Determines “Why is something happening?” and “What is the best course of action?” to maximize performance metrics. Techniques like multiple linear regression are used, but they handle fewer variables and may have lower predictive power. <strong>Genetic algorithms</strong>, inspired by natural selection, can solve optimization problems, especially with imperfect information (e.g., Optimizely using them to boost Vitamix’s online conversions).</li>
+</ul>
+<p>Ultimately, data-driven AI, particularly ML, is rapidly advancing to provide automated, accurate predictions that continuously improve customer experiences. Marketers must embrace these AI-powered systems to transform traditional Customer Relationship Moments into highly effective AI Moments.</p>
+</section>
+</section>
+<section id="part-3.-the-ai-marketing-canvas-five-stages-of-ai-and-machine-learning-in-marketing" class="level2" data-number="10.4">
+<h2 data-number="10.4" class="anchored" data-anchor-id="part-3.-the-ai-marketing-canvas-five-stages-of-ai-and-machine-learning-in-marketing"><span class="header-section-number">10.4</span> PART 3. The AI Marketing Canvas: Five Stages Of AI And Machine Learning In Marketing</h2>
+<section id="elements-of-the-ai-marketing-canvas" class="level3" data-number="10.4.1">
+<h3 data-number="10.4.1" class="anchored" data-anchor-id="elements-of-the-ai-marketing-canvas"><span class="header-section-number">10.4.1</span> Elements of the AI Marketing Canvas</h3>
+<p>Marketers today require a <strong>strategic plan</strong> for AI, not merely tactical experimentation. Strategy, defined as making choices and bets for <strong>incremental profitable growth, brand equity, and positive outcomes</strong>, contrasts sharply with simply trying every new “shiny object”. The absence of a clear, AI-specific strategic roadmap often leads to paralysis or costly, tactical failures.</p>
+<p>The <strong>AI Marketing Canvas</strong> is introduced to fill this strategic void. It is a managerial tool, inspired by Alexander Osterwalder’s business model canvas, that visually distills critical strategic components onto a single page. The Canvas serves as a framework for planning and executing strategic AI and ML initiatives in marketing, accommodating organizations at any stage of their digital evolution. It functions as a roadmap for both nodes seeking to enhance their marketing and firms aspiring to operate as networks.</p>
+<p>The Canvas is structured around <strong>five main stages: Foundation, Experimentation, Expansion, Transformation, and Monetization</strong>. These stages are sequential, building upon the capabilities and objectives of the preceding stage. The framework encourages marketers to view AI integration as a “game board,” where covering more squares (i.e., advancing through stages and applying AI to more Customer Relationship Moments) leads to a more personalized customer experience and ultimately, winning in the market. The <strong>Complete AI Marketing Canvas (Figure 11)</strong> details specific objectives and key questions for each stage and for each of the <strong>four Customer Relationship Moments (AI-Acquisition, AI-Retention, AI-Growth, AI-Advocacy)</strong>. A robust digital foundation (Stage 1) is identified as a prerequisite, though workarounds are suggested for firms still building this infrastructure. The Canvas also serves as a communication tool to convey the necessary shifts in people, processes, and culture to stakeholders.</p>
+</section>
+<section id="stage-1-foundation" class="level3" data-number="10.4.2">
+<h3 data-number="10.4.2" class="anchored" data-anchor-id="stage-1-foundation"><span class="header-section-number">10.4.2</span> Stage 1: Foundation</h3>
+<p>The <strong>Foundation</strong> stage is the prerequisite for all subsequent AI marketing efforts, focusing on building the <strong>digital infrastructure</strong> required to consistently collect <strong>first-party, consumer-focused data</strong>. This high-quality data is essential for effectively training machine learning models.</p>
+<p>Key questions for establishing the Foundation include:</p>
+<ul>
+<li>Availability of first-, second-, and/or third-party data on customers and prospects.<br>
+</li>
+<li>Automation of data collection processes.<br>
+</li>
+<li>Ability to store and access structured and unstructured data reliably.<br>
+</li>
+<li>Capability to connect information for a single, comprehensive customer view.<br>
+</li>
+<li>Sufficient volume and duration of data for effective AI/ML algorithms.</li>
+</ul>
+<p><strong>Starbucks</strong> exemplifies successful Stage 1 implementation. Over a decade, its Rewards program amassed 17.6 million active members, creating a vast database of customer contact information, purchase behaviors, locations, offer redemptions, and membership history. This data feeds its <strong>Deep Brew AI initiative</strong>, enabling personalized offers and recommendations. Starbucks’ journey underscores that building this foundation requires continuous refinement over time.</p>
+<p>Becoming a data-centric organization involves:</p>
+<ul>
+<li><strong>Automation of basic processes</strong> where analytics or speed offers an advantage (e.g., updating pricing data every 15 minutes in insurance).<br>
+</li>
+<li><strong>Structured analytics and centralized data processes</strong> for a comprehensive, cross-channel view of customer data.<br>
+</li>
+<li><strong>Connected databases and first-party data collection</strong> whenever possible (e.g., loyalty programs).<br>
+</li>
+<li><strong>Data quality processes</strong> to ensure uniformity and completeness of data (e.g., accurate product reviews linked to customers).</li>
+</ul>
+<p>The overarching goal is to gather ample <strong>clean data directly from consumers</strong> to feed AI/ML systems for learning and prediction. Larger firms may face challenges connecting disparate systems, while smaller firms might find it simpler. The critical shift is from a <strong>traditional data schema</strong> (focused on functional reporting and basic customer info) to a <strong>customer-focused data schema</strong> (tracking consumer behaviors and preferences across all touchpoints for personalization). This includes collecting data from TV ads, website visits, display ad clicks, social media interactions, and subscriptions.</p>
+<p>For firms with limited customer-focused data, workarounds include leveraging <strong>automatically captured machine-generated data</strong> (e.g., Google Analytics, CRM systems like Salesforce.com, paid ad campaign data) or finding ways to <strong>directly connect with consumers</strong> (e.g., exchanging coupons/whitepapers for email addresses, loyalty programs, collecting call-back numbers). The <strong>data house model (Figure 15)</strong> illustrates how machines process first-party (direct-to-consumer), second-party (shared by partners), and third-party (aggregator-purchased) data to build comprehensive customer profiles.</p>
+<p><strong>Data privacy</strong> is paramount in this stage, requiring strict compliance with regulations (COPPA, GDPR, HIPAA) and adherence to ethical considerations. Building trust through equitable transactions, collecting only necessary data, providing customer control tools, and offering compensation for data are best practices. Without a solid foundation of clean data, attempts at sophisticated AI applications (Stages 2-5) are futile, embodying the “garbage in, garbage out” principle.</p>
+<p><strong>Unilever</strong> provides a practical example of Stage 1 in action, utilizing a <strong>Microsoft Azure platform with a “data lake”</strong> to hold and process vast amounts of structured and unstructured data. This foundation supports AI across business planning, manufacturing, sales, and marketing, including personalizing experiences through online registrations and loyalty cards. Their Dove sticker campaign on WeChat, which gathered data from nearly a third of Thailand’s population, showcases effective first-party data acquisition. The emphasis is on finding “value pockets” where data and ML can improve decision-making.</p>
+<p><strong>Stage 1 Checklist:</strong></p>
+<ul>
+<li>Have customer-focused database or access to clean data.<br>
+</li>
+<li>Be able to track a customer over time in at least one Customer Relationship Moment.<br>
+</li>
+<li>Be able to use data given regulations.<br>
+</li>
+<li>Have data rich enough in volume and variety to enable use of AI.<br>
+</li>
+<li>Focus on “now,” rather than on “next” or “long.”</li>
+</ul>
+</section>
+<section id="stage-2-experimentation" class="level3" data-number="10.4.3">
+<h3 data-number="10.4.3" class="anchored" data-anchor-id="stage-2-experimentation"><span class="header-section-number">10.4.3</span> Stage 2: Experimentation</h3>
+<p>With a foundational understanding of customer data, Stage 2 focuses on <strong>experimenting with AI-powered tools from third parties and vendors</strong> to gain quick learnings and wins in a few marketing activities. This stage begins by reallocating existing budget from human-led to AI-led marketing initiatives, creating small AI “skunkworks” for evidence collection without requiring significant internal buy-in.</p>
+<p>The <strong>Mission Overview (Figure 18)</strong> outlines the process:</p>
+<ol type="1">
+<li><strong>Find Source(s) of Clean Consumer Data:</strong> If not fully established in Stage 1, identify available clean data from programmatic advertising, Google Analytics, website databases, direct marketing, CRM systems, or social media campaigns. Start with areas where data quality is sufficient.<br>
+</li>
+<li><strong>Identify Value Pockets:</strong> Pinpoint specific issues, opportunities, or processes within one Customer Relationship Moment (or stimulus) where data-driven predictions and personalization would add value for consumers. Peter ter Kulve calls these “value pockets”—problems that data and ML can solve. Vetting questions focus on data availability, customer value, new insights, and pain point resolution. Budweiser’s use of Rikailabs’ AI chatbot on WeChat is an example.<br>
+</li>
+<li><strong>Select Vendors:</strong> Inventory existing marketing vendors and agencies to identify current AI capabilities and potential new partners that can advance efforts in identified value pockets. A <strong>vendor checklist (Figure 19)</strong> helps organize these conversations. Vendors are motivated by feature adoption, so additional costs might not apply for turning on existing features. Patience is key, as machines need time to learn, and immediate improvements are not guaranteed; cutting experiments too soon can be detrimental.</li>
+</ol>
+<p>A new way of working, the <strong>Agile Method</strong>, is essential for Stage 2. It emphasizes relentless small improvements in short “sprints” (weeks, not months), continuous design, rapid feedback, and a consumer-centric approach. This contrasts with traditional, long-term, “waterfall” campaign planning, where perfectionism is prioritized.</p>
+<p>When <strong>designing campaigns and developing third-party algorithms</strong>, marketers should partner with vendors to apply their algorithms to clean data for a single Customer Relationship Moment across various channels (emails, landing pages, ads). Results should be tracked against human-led approaches to identify “bright spots” and quantify “net lift” using A/B testing or a “challenger-versus-champion” approach. This evidence is crucial for building a business case for Stage 3 funding. Initial success should confirm the vendor’s ability to personalize and its impact on customer engagement.</p>
+<p><strong>JPMorgan Chase</strong> provides a strong example of Stage 2. By partnering with AI marketing technology company <strong>Persado</strong>, Chase boosted customer Acquisition by optimizing digital advertising and direct mail messaging. Persado’s “message machine,” with over a million tagged words and phrases, generated ad copy that outperformed human-written ads, sometimes doubling click rates. This technology was expanded across personal banking, home lending, wealth management, and digital advertising, with plans for internal communications and customer service. Other Stage 2 examples include Allstar Kia (AI chatbot for Acquisition), Checkli (AI email optimization for Retention), Alaska Airlines (customizing mobile experience for Retention), Red Hat (AI search for optimizing support content for Retention), and Bonobos (AI-driven audience targeting for Acquisition, Retention, Growth).</p>
+<p><strong>Stage 2 Checklist:</strong></p>
+<ul>
+<li>Select a limited number of Customer Relationship Moments that you want to try to improve—perhaps just one moment on one product in one campaign.<br>
+</li>
+<li>Identify a partner or vendor who has already built AI-based systems to do this. It could be a current vendor, or a new one you select.<br>
+</li>
+<li>Shift some budget from “doing things the way we’ve always been doing them, human-led,” and funnel it into testing this new machine-led approach.<br>
+</li>
+<li>Be patient and run a few cycles or “tries” at whatever you chose to do, to determine if you can get lift.<br>
+</li>
+<li>Create a way to track performance so that you can communicate the value of AI and machine learning for marketing to management.</li>
+</ul>
+</section>
+<section id="stage-3-expansion" class="level3" data-number="10.4.4">
+<h3 data-number="10.4.4" class="anchored" data-anchor-id="stage-3-expansion"><span class="header-section-number">10.4.4</span> Stage 3: Expansion</h3>
+<p>Building on the successes of Stage 2, <strong>Expansion</strong> involves scaling up AI and ML applications. This means either delving deeper into an existing Customer Relationship Moment (CRM) or extending AI to adjacent moments where data-driven predictions and personalization can add value. The approach varies based on firm size and role, and different CRM moments can be at different stages concurrently.</p>
+<p>The <strong>AI Implementation Workflow (Figure 22)</strong> highlights key activities for this stage:</p>
+<ol type="1">
+<li><strong>Appoint an AI Marketing Champion:</strong> This “marketing technologist” oversees all AI/ML marketing initiatives, translating between marketing and data science. The Champion needs expertise in project management, data, technology, marketing, communication, collaboration, relationship-building, Agile methods, and persistence. They advocate for AI, identify resources, cultivate vendor relationships, find value pockets, manage the Agile process, and explore insourcing vs.&nbsp;external model development.<br>
+</li>
+<li><strong>Developing an AI Marketing Team:</strong> Transform one-off experiments into team-wide initiatives, tracking outcomes on dashboards. This moves AI/ML marketing to the strategic center of the department, standardizing vendor onboarding and workflows. Leaders must embed AI use into the culture, providing training (conferences, books, experts) and incorporating AI progress into employee evaluations.<br>
+</li>
+<li><strong>Quantify Impact and Budget Requirements:</strong> Focus on rigorous measurement of Marketing ROI (MROI) comparing AI-driven results to traditional methods. These quantifiable outcomes are vital for building a business case to secure additional capital (CapEx) and operating (OpEx) budgets. This stage also involves exploring internal data science resources for in-house model development to lessen vendor dependence.<br>
+</li>
+<li><strong>Internal AI and Machine-Learning Activities:</strong> Begin building in-house competency beyond “black box” vendor solutions. Options include:
+<ul>
+<li><strong>Data Science as a Service (DsaS):</strong> Using ready-to-use AI models (e.g., Intersect Labs, Aible) that integrate with existing data tools (Tableau, Salesforce) for quick, in-house predictions.<br>
+</li>
+<li><strong>Machine-Learning Libraries:</strong> Leveraging “off-the-shelf” code libraries (e.g., Google’s TensorFlow for visual classification, Amazon Personalize for recommendations, IBM Watson for word sourcing) that can be customized by internal developers/data scientists.</li>
+</ul></li>
+</ol>
+<p>The goal is to <strong>supercharge existing moments</strong> or <strong>extend AI to adjacent moments</strong>. <strong>Warby Parker</strong> deepened its Acquisition with a Virtual Try On app using augmented reality and iPhone X Face ID. For Retention, it uses ML to optimize new store locations and route customer support emails, improving efficiency by 60%. <strong>Walmart</strong> exemplifies extending to adjacent moments by personalizing its app with past purchases and predicting customer arrival times for pickup (Retention).</p>
+<p>Identifying and developing a <strong>cross-functional AI Moments team</strong> (with C-level executives from finance, product development, operations) is crucial, especially when moving to adjacent moments that span different functional controls. The process of <strong>designing campaigns and algorithms</strong> involves a four-step iterative cycle: identifying a value pocket, developing algorithms with data scientists, running experiments, and evaluating results. If an experiment fails, the problem is isolated (data, model, vendor) and a new experiment is devised; failure is a learning opportunity. <strong>Compare.com</strong>, an auto insurance aggregator, used this “design, test, and learn” approach to increase questionnaire completion rates by first showing predicted rates earlier and then offering a “quick quote” option.</p>
+<p>Other Stage 3 examples include <strong>Unilever</strong> using Google Cloud’s Vision and Natural Language APIs to analyze user-generated content and fine-tune social media campaigns. <strong>Thread</strong> employs AI to scale personalized wardrobe recommendations, with algorithms distilling options for human shoppers. <strong>IntelligentX</strong>, a beer company, uses AI to process customer feedback from an app to inform brewers’ decisions, enhancing Growth by continuously improving taste profiles.</p>
+<p><strong>Coca-Cola’s Freestyle</strong> dispenser showcases Stage 3 implementation. It collects first-party data on drink mixes, leading to product development wins like Sprite Cherry. Mobile app integration with Freestyle 9100 further personalizes the experience, collecting consumer preferences and enabling pre-ordering. This learning also extended to Stage 5 with the <strong>Powerade Command Center</strong>, creating personalized drinks for athletes.</p>
+<p>Ultimately, Stage 3 prepares firms to transition from vendor dependence to developing proprietary AI models in-house or through strategic partnerships/acquisitions when current solutions no longer meet specific, advanced needs.</p>
+<p><strong>Stage 3 Checklist:</strong></p>
+<ul>
+<li>Decide whether to go deeper on one Customer Relationship Moment or on an adjacent moment, on the basis of the richness of the value pocket and what consumers would find valuable.<br>
+</li>
+<li>Compile a summary of the results and financial impact of your results to this point, in preparation for Stage 4 activities.<br>
+</li>
+<li>Identify and appoint an AI Marketing Champion, and develop an AI marketing team.<br>
+</li>
+<li>Draft a strategy, and quantify impact and budget requirements.<br>
+</li>
+<li>Begin building internal competency in AI and machine learning by investing in training.<br>
+</li>
+<li>Start developing a cross-functional team composed of C-level roles from finance, product development, and operations.<br>
+</li>
+<li>Test, learn, and adjust your models and approach on the basis of what the data is telling you.</li>
+</ul>
+</section>
+<section id="stage-4-transformation" class="level3" data-number="10.4.5">
+<h3 data-number="10.4.5" class="anchored" data-anchor-id="stage-4-transformation"><span class="header-section-number">10.4.5</span> Stage 4: Transformation</h3>
+<p>Stage 4, <strong>Transformation</strong>, is characterized by large-scale implementation and execution, where AI is used to <strong>automate across a complete set of marketing activities</strong>. The objective is to become best-in-class in AI-driven automation across all customer relationship moments, consistently deploying AI, learning from outcomes, and increasing returns. This stage represents “playing the AI game for keeps,” acknowledging the “winner takes all” dynamic.</p>
+<p>Readiness for Stage 4 depends on several critical conditions:</p>
+<ul>
+<li>Having an <strong>adequate amount of reliable, clean data</strong> across all Customer Relationship Moments (underscoring “garbage in, garbage out”).<br>
+</li>
+<li>A marketing strategy that requires <strong>customized AI/ML algorithms</strong> beyond what off-the-shelf vendor products can provide.<br>
+</li>
+<li>The potential for <strong>proprietary AI capabilities</strong> to create a distinct competitive advantage or generate new revenue streams.</li>
+</ul>
+<p>Bringing AI and ML capabilities in-house (or under marketing’s direct control) becomes essential at this stage because the firm’s large trove of customer data now represents a <strong>strategic advantage</strong>. Ownership of processes and feedback loops around this data is crucial. The key strategic decision is then <strong>“Buy vs.&nbsp;Build”</strong> (Figure 26): whether to develop models in-house, purchase a company with existing expertise, or pursue a combination. This is a high-level, board-room decision, weighing factors like cost, timing, degree of difficulty, likelihood of success, and alignment with company culture.</p>
+<p>Examples of <strong>Building In-House</strong> include:</p>
+<ul>
+<li><strong>Disney</strong> uses <strong>MagicBands</strong> in its theme parks to collect data on guest behavior, allowing ML to manage guest flow, predict wait times, and optimize staff allocation. This investment has improved efficiency, operating margins, and enhanced customer experience (Retention/Growth).<br>
+</li>
+<li><strong>CarMax</strong> personalizes its website based on search behavior, using <strong>collaborative filtering</strong> and investing in a photo lab to train <strong>image recognition algorithms</strong> for presenting personalized car images. Its proprietary algorithms drive inventory management and pricing, aiming for an omni-channel personalized experience (Acquisition/Retention).</li>
+</ul>
+<p>Examples of <strong>Buying a Company</strong> include:</p>
+<ul>
+<li><strong>McDonald’s</strong> acquired <strong>Dynamic Yield</strong> in 2019, integrating its personalization and decision logic technology into drive-throughs to customize menu displays based on real-time signals (trending items, time of day, traffic, customer choices). This has led to larger orders (Growth) and plans for app integration (Advocacy).<br>
+</li>
+<li><strong>Ulta Beauty</strong> acquired <strong>GlamST (AR beauty tech)</strong> and <strong>QM Scientific (AI/ML for personalization)</strong> to gain full ownership of technology assets supporting its digital experience roadmap. Their goal is a single, comprehensive view of guest interactions and signals to build stronger customer relationships (Retention/Growth).</li>
+</ul>
+<p><strong>Ancestry</strong> provides a detailed case study for Stage 4. While initially using partner ML for search advertising (Stage 2), it now generates much of its programming and algorithms in-house. Ancestry personalizes website content for subscribers based on search keywords (Acquisition), continuously improves customer experience using <strong>image recognition</strong> to crop yearbook photos and extract familial relationships from historical documents, enhancing the accuracy of family trees (Advocacy with network effects). It also predicts customer interests to provide personalized hints and emails (Retention) and forecasts customer lifetime value (Growth). This transformation required establishing trust between marketing and data science teams and a strategic vision for AI.</p>
+<p><strong>Stage 4 Checklist:</strong></p>
+<ul>
+<li>Compile learning and wins you can share in a business case for the need to customize algorithms beyond what existing models can provide.<br>
+</li>
+<li>Determine what models you want to create that will lead to personalization consumers will find valuable, and which your current vendors do not currently offer.<br>
+</li>
+<li>Conduct research to see whether there is a company you can buy to fill that gap, or whether building the models in-house makes more sense.</li>
+</ul>
+</section>
+<section id="stage-5-monetization" class="level3" data-number="10.4.6">
+<h3 data-number="10.4.6" class="anchored" data-anchor-id="stage-5-monetization"><span class="header-section-number">10.4.6</span> Stage 5: Monetization</h3>
+<p><strong>Monetization</strong>, the final stage, focuses on leveraging proprietary AI models to <strong>drive significant new revenue streams and/or new business models</strong>, often by serving external customers as a platform. This is the realm of “networks” like Amazon, Google, and Netflix, which continuously innovate and expand their offerings. However, Stage 5 is not for every firm; mastering Stage 4 might be sufficient for many “nodes”. Becoming a network is a challenging endeavor, as demonstrated by the struggles of even large corporations like GE Digital when faced with outdated organizational thinking.</p>
+<p>Firms successfully executing Stage 5 use AI and ML to extend their core capabilities to other businesses, creating a <strong>flywheel effect</strong> where new revenue fuels further development.</p>
+<ul>
+<li><strong>Alibaba</strong> evolved from an e-commerce site to a “smart business” network leveraging real-time data and ML for strategic decisions across its ecosystem. Its <strong>City Brain Project</strong> uses AI to monitor traffic in cities like Hangzhou, reducing traffic jams. Alibaba also offers a digital store option for small shops using its platform and Alipay app.<br>
+</li>
+<li><strong>Coca-Cola</strong> monetized the capabilities developed for its Freestyle dispensers (Stage 3) to create the <strong>Powerade Command Center</strong>. This system allows coaches and athletic trainers to design highly personalized drinks for individual athletes, demonstrating a new potential revenue stream in professional sports and beyond.</li>
+</ul>
+<p><strong>The Washington Post</strong> is a prime example of a firm that has traversed all five stages, monetizing its internally developed AI and ML systems. The Post’s <strong>Arc Publishing platform</strong>, which houses its AI-powered recommendations, comment moderation, and story-writing (Heliograf), is now licensed to other publishers, broadcasters, and brands, generating new revenue. The Post’s journey involved starting small, recognizing limitations of off-the-shelf software, and making a strategic decision to bring development in-house. They iteratively improved algorithms, focusing on enhancing reader experience and increasing page views.</p>
+<ul>
+<li><strong>Zeus Insights</strong>, their topic classification system, uses ML to assign metadata to articles, which in turn powers the recommendation system for related content, increasing reader engagement and subscriptions. It also tailors advertising based on user consumption patterns and aims for cookie-less targeting.<br>
+</li>
+<li><strong>Heliograf</strong> automates quick and accurate reporting for events like elections and sports, freeing journalists for more creative work.<br>
+</li>
+<li>The <strong>comment moderation system</strong> uses ML to assign probabilities to filter inappropriate comments, with staff controlling thresholds that continuously improve the algorithm. The Post’s ethos is to use AI to <strong>enhance human capabilities</strong> rather than replace them, focusing on improving the reader experience, supporting journalists, and then leveraging these technologies as a Software as a Service (SaaS) business. Licensing Arc Publishing creates a flywheel effect, offsetting development costs and building a better system for all participating publishers.</li>
+</ul>
+<p><strong>Stage 5 Checklist:</strong></p>
+<ul>
+<li>Examine your current AI platform and data stores, and figure out what it would take to extend them to create additional value for consumers and also demonstrate a positive impact on the business.</li>
+</ul>
+</section>
+<section id="putting-it-all-together-starbucks" class="level3" data-number="10.4.7">
+<h3 data-number="10.4.7" class="anchored" data-anchor-id="putting-it-all-together-starbucks"><span class="header-section-number">10.4.7</span> Putting It All Together: Starbucks</h3>
+<p>Starbucks stands out as a exemplary brand that successfully integrates AI, machine learning, and big data to deliver personalized marketing and drive business results across all five stages of the AI Marketing Canvas.</p>
+<p>The cornerstone of Starbucks’ success is its <strong>Starbucks Rewards program</strong>, which in Q4 2019 had 17.6 million active members accounting for 40% of total sales. The associated smartphone app provides convenience (ordering, payment), rewards, personalized offers, and coupons. This program allowed Starbucks to fulfill <strong>Stage 1: Foundation</strong> requirements by accumulating a vast database of customer contact information, purchase behaviors, locations, offer redemptions, and membership duration, gathered over more than a decade of trial and error.</p>
+<p>Starbucks’ journey through the Canvas stages can be traced through its timeline:</p>
+<ul>
+<li><strong>2007-2010 (Foundation/Early Experimentation):</strong> Mobile app experimentation, launching “My Starbucks Idea” for customer suggestions, “My Starbucks Rewards” and mobile payments, and adapting its app for barcode scanners at Target locations.<br>
+</li>
+<li><strong>2016 (Experimentation/Expansion):</strong> Began offering <strong>AI-generated personalized food suggestions</strong> based on weather, buying history, and similar preferences. It redesigned products based on store data and consumer research. Crucially, it re-engineered its email program, shifting from 30 handcrafted emails per week to <strong>400,000 hyper-personalized email variants per week in real-time</strong> using an AI personalization engine tied to rewards spending. This addressed Retention and Growth.<br>
+</li>
+<li><strong>2017 (Expansion/Transformation):</strong> Expanded rewards to grocery store purchases and partnered with Microsoft to develop <strong>Deep Brew</strong>, its next-generation personalization engine.<br>
+</li>
+<li><strong>2018 (Transformation):</strong> Launched its first credit card to earn stars.<br>
+</li>
+<li><strong>2019 (Monetization/Refinement):</strong> Consolidated its Rewards program, recognized the correlation between barista engagement and customer frequency (allocating more labor and simplifying tasks with technology to enhance human connection). Most significantly, Starbucks partnered with <strong>Brightloom</strong> to make its industry-leading personalization technology available to other retailers, a clear execution of <strong>Stage 5: Monetization</strong>.</li>
+</ul>
+<p><strong>Deep Brew</strong>, Starbucks’ in-house personalization engine (Stage 4), built on Microsoft’s Azure infrastructure, provides hyper-relevant product recommendations across various channels, adapting to customer preferences, context (ingredients, price sensitivity, time, weather, location), and even offering a “virtual barista” for voice ordering. Beyond personalization, Deep Brew optimizes store labor and inventory management, aiming to streamline operations and free baristas to enhance human-to-human connections with customers. This aligns with Starbucks’ mission to “inspire and nurture the human spirit—one person, one cup, and one neighborhood at a time,” and its value of being “performance driven, through the lens of humanity”.</p>
+<p>Starbucks’ success demonstrates that deep personalization, enabled by technology, can drive revenue growth even amidst decreased advertising spending. Its commitment to a mobile-first, data-driven strategy has allowed it to hyper-personalize the consumer experience, ultimately creating a new revenue stream by selling its technology. Marketers are encouraged to be inspired by Starbucks’ journey, focusing on what their own brand can achieve to personalize Customer Relationship Moments, recognizing that AI/ML will soon be “table stakes,” and the “risk of ignoring” is high.</p>
+</section>
+</section>
+<section id="part-4.-implementation" class="level2" data-number="10.5">
+<h2 data-number="10.5" class="anchored" data-anchor-id="part-4.-implementation"><span class="header-section-number">10.5</span> PART 4. Implementation</h2>
+<section id="managing-change" class="level3" data-number="10.5.1">
+<h3 data-number="10.5.1" class="anchored" data-anchor-id="managing-change"><span class="header-section-number">10.5.1</span> Managing Change</h3>
+<p>Becoming an AI- and machine learning-driven organization demands profound <strong>technical and cultural shifts</strong>, a transformation even tech giants like Google had to undergo.</p>
+<p><strong>Google’s technical shift</strong> began with its foundational <strong>PageRank algorithm</strong> (rules-based) for search. However, since 2006, ML and neural networks have increasingly determined search results, intensifying with the <strong>ImageNet project</strong>(2012) and the acquisition of <strong>DeepMind</strong> (2014). Today, <strong>RankBrain</strong>, an ML component of Google’s core algorithm, determines the most relevant search results, continuously improving their accuracy.</p>
+<p><strong>Google’s cultural shift</strong> required strong leadership. Eric Schmidt (then executive chairman) and Sundar Pichai (then Google CEO) explicitly declared that ML was the future of business, pushing employees to adopt an “AI-first world” mindset. Pichai mandated that all Google products and services become AI-powered and that every employee learn ML fundamentals, even launching an internal website (ai.google). Placing ML expert John Giannandrea in charge of Google search firmly embedded ML at the company’s core. This transformation mirrors <strong>John Kotter’s eight-step change model (Figure 33)</strong>:</p>
+<ol type="1">
+<li><strong>Creating the climate for change:</strong> Schmidt and Pichai increased urgency and established a vision for an AI-first future.<br>
+</li>
+<li><strong>Engaging and enabling the organization:</strong> Communicating buy-in, empowering teams, and creating short-term wins (e.g., RankBrain improvements).<br>
+</li>
+<li><strong>Implementing and sustaining:</strong> Consistently reinforcing the new direction.</li>
+</ol>
+<p>As marketing leaders, you must similarly champion the shift to AI/ML marketing, guiding your organization through specific changes across four key dimensions: <strong>People, Process, Culture, and Profit</strong>.</p>
+<ul>
+<li><strong>People:</strong>
+<ul>
+<li><strong>Appoint an AI Marketing Champion:</strong> A “marketing technologist” to oversee initiatives, translate between marketing and data science, and advocate for AI. This person needs project management, data/tech/marketing fluency, communication, self-starter qualities, collaboration, relationship-building, Agile-friendliness, and persistence. Leaders must publicly and consistently support this Champion.<br>
+</li>
+<li><strong>Develop the AI Marketing Team:</strong> Broadly communicate the AI focus, invest in training (conferences, books, experts), and incorporate AI learning into employee evaluations. Future hires should increasingly possess ML competence.<br>
+</li>
+</ul></li>
+<li><strong>Process:</strong>
+<ul>
+<li>Shift from traditional, long-term campaign planning to a <strong>rapid experimentation, “test-and-learn” discipline</strong> akin to software development.<br>
+</li>
+<li>Embrace <strong>Agile marketing processes</strong>, replacing quarterly initiatives with short “sprints” (e.g., two-week cycles for design and testing). This involves a <strong>multidisciplinary team</strong> of marketers, vendors, data scientists, and IT professionals, with quick feedback loops to build on “quick wins”. The AI Marketing Champion standardizes and scales this Agile approach.<br>
+</li>
+</ul></li>
+<li><strong>Culture:</strong>
+<ul>
+<li>Foster a mindset that embraces <strong>data, experimentation, probabilities, and speed</strong>. This means valuing data models and the scientific method alongside intuition and experience.<br>
+</li>
+<li>“Data beats opinion” – encourage generating hypotheses, testing them, and letting data determine outcomes. Encourage “thinking in probabilities” (e.g., as in Annie Duke’s <em>Thinking in Bets</em>) rather than “yes/no” or “right/wrong”.<br>
+</li>
+<li>Leaders must continuously challenge and reinforce this culture by asking data-centric questions. Address concerns that creativity is devalued with a “Yes, and…” approach: creativity and big ideas still matter, <em>and</em>AI/ML matter too.<br>
+</li>
+</ul></li>
+<li><strong>Profit:</strong>
+<ul>
+<li>Shift from relying on fewer, higher-margin sales (traditional model) to <strong>smaller unit margins from many simultaneously launched, personalized campaigns</strong> with minimal cost (AI-driven model). The focus shifts from <strong>profit margin to total profit</strong>.<br>
+</li>
+<li>Firms need <strong>patience</strong> for AI campaigns to learn, as initial ROI might be negative.<br>
+</li>
+<li>Stage 5 (Monetization) offers a new profit stream by selling proprietary AI marketing tools to other firms, expanding the “pie” beyond products/services.</li>
+</ul></li>
+</ul>
+</section>
+<section id="getting-started" class="level3" data-number="10.5.2">
+<h3 data-number="10.5.2" class="anchored" data-anchor-id="getting-started"><span class="header-section-number">10.5.2</span> Getting Started</h3>
+<p>This chapter emphasizes moving from contemplation to action, providing tools to assess an organization’s current stage and plan for the next steps. The primary objective of an assessment meeting is to agree on the current stage on the AI Marketing Canvas, define actions for progression, assign ownership, and set timelines.</p>
+<p>The <strong>AI and Machine-Learning Diagnostic Tool</strong> is a self-assessment quiz designed to facilitate this discussion. It uses a five-point scale for agreement and percentage scales for data collection levels, covering:</p>
+<ul>
+<li><strong>Strategic Priorities:</strong> Firm’s commitment to customer relationships, data-driven insights, personalization, and competitive landscape.<br>
+</li>
+<li><strong>Stage 1: Foundation:</strong> Level of first-party data collection (for prospects and customers), ability to track transactions and firm actions, and ease of data access over time.<br>
+</li>
+<li><strong>Stage 2: Experimentation:</strong> Plans for AI experiments with third-party vendors, budget allocation, metric identification, and approval for multiple experiment cycles.<br>
+</li>
+<li><strong>Stage 3: Expansion:</strong> Past AI experiments, plans to expand personalization within or to adjacent CRM Moments, presence of an AI Marketing Champion, investment in in-house talent, business case compilation, budget for capabilities, model refinement, cross-functional team, and Agile methodology adoption.<br>
+</li>
+<li><strong>Stage 4: Transformation:</strong> Development of personalized AI systems, anticipation of personalizing all CRM Moments, tracking outcomes for business cases, and recommendations for building in-house vs.&nbsp;buying AI firms.<br>
+</li>
+<li><strong>Stage 5: Monetization:</strong> Active discussions for new revenue streams leveraging AI marketing capabilities from existing or new customers, and developing network-based business models.</li>
+</ul>
+<p>The diagnostic helps identify the current stage by observing where scores begin to decline. For instance, consistently lower scores for Stage 3 items, after strong scores for Stage 1 and 2, indicates the firm is currently in Stage 2 and should focus on Stage 3 objectives. This tool allows for measurable tracking of progress toward becoming an AI-powered marketing organization.</p>
+<p>As organizations progress through the Canvas, they will encounter <strong>four gaps (Figure 35)</strong> that require significant shifts in internal culture and mindset:</p>
+<ol type="1">
+<li><strong>Gap 1 (between Stages 1 &amp; 2): Human-driven to Data-driven Marketing.</strong> Requires investing in digital infrastructure and using early AI learnings to advocate for this foundational shift.<br>
+</li>
+<li><strong>Gap 2 (between Stages 2 &amp; 3): Anticipating Culture Changes and Finding Talent.</strong> Focuses on preparing the organization and building the necessary human capital.<br>
+</li>
+<li><strong>Gap 3 (between Stages 3 &amp; 4): Build vs.&nbsp;Buy Decision.</strong> This is a strategic, board-level decision on whether to develop proprietary models in-house or acquire external expertise.<br>
+</li>
+<li><strong>Gap 4 (between Stages 4 &amp; 5): Monetization Decision.</strong> A potential “chasm,” as not all firms should or can aspire to monetize their AI systems as a new business model, as it often involves fundamentally changing the company.</li>
+</ol>
+<p>Anticipating and planning for these gaps, with C-suite involvement, is crucial for successful strategic transformation. The chapter provides a <strong>sample completed AI Marketing Canvas for “Raj’s Bakery” (Figure 36)</strong> to illustrate how to operationalize the framework. Seven key operational questions further guide implementation: expected outcome, ownership, vendor, experiments/pilot dates, data scope, completion time, and metrics for evaluation. Marketers now have the methods and tools to guide strategic choices for creating powerful, enduring, and profitable one-to-one customer relationships using AI and ML.</p>
+</section>
+<section id="a-call-to-action" class="level3" data-number="10.5.3">
+<h3 data-number="10.5.3" class="anchored" data-anchor-id="a-call-to-action"><span class="header-section-number">10.5.3</span> A Call to Action</h3>
+<p>The book concludes with a powerful call to action: marketers must proactively become <strong>expert AI marketers</strong> now, or risk being outpaced by rapidly accelerating technological changes. This shift is comparable to the earlier transformations brought by digital and data marketing, but occurring at an even faster velocity. Fluency and experience with AI in marketing, particularly in implementing the AI Marketing Canvas, will soon become a fundamental job requirement.</p>
+<p>Industry leaders emphasize this urgency:</p>
+<ul>
+<li><strong>Mitch Duckler</strong> (Full Surge) highlights the imperative for marketers to become comfortable and knowledgeable in technology to gain credibility and advance their careers.<br>
+</li>
+<li><strong>Aaron Goldman</strong> (4C Insights) advises marketers to connect with data scientists, view them as allies, and leverage their expertise to explore “what if” questions and become comfortable with AI/ML language.<br>
+</li>
+<li><strong>Konrad Feldman</strong> (Quantcast) notes that AI’s tactical execution frees humans to focus on <strong>strategic marketing experimentation</strong>, leveraging human strengths in ambiguity, empathy, creativity, and strategy in combination with machine capabilities.<br>
+</li>
+<li><strong>Kristen D’Arcy</strong> (Pac-Sun) stresses focusing on the consumer to understand their needs and connecting in meaningful ways, allowing AI to enable “smart strategies and breakthrough creative”.</li>
+</ul>
+<p>The critical message is to move beyond just reading about AI and actively <strong>experience how it works</strong>. Tools like <strong>Google’s Teachable Machine</strong> (teachablemachine.withgoogle.com) offer free, web-based platforms for training machine learning models to recognize images, sounds, or poses without coding expertise (e.g., distinguishing cars from trucks). Similarly, <strong>Machine Learning for Kids</strong> (machinelearningforkids.co.uk), using IBM Watson APIs, provides engaging exercises like “rock, paper, scissors” to introduce ML concepts. Gaining this firsthand experience is a significant step toward preparing for the future of marketing.</p>
+<p>Beyond profit and efficiency, the book highlights the immense potential for AI to <strong>nurture and enhance humanity</strong> in marketing. JPMorgan Chase’s Kristin Lemkau believes ML can make marketing “more human,” delivering ads that “feel like a choice not an ad”. Starbucks’ mission to “inspire and nurture the human spirit” drives its use of AI to automate repetitive tasks, allowing baristas more time for genuine human connection. Dr.&nbsp;Eric Solomon underscores that while data and technology are powerful tools, marketers must remember the “living, feeling human beings at the beginning and end of every transaction” and strive to build authentic emotional connections. The final call is for marketers to use AI and ML not only to personalize the customer journey but also to infuse their brands with greater humanity wherever possible, with the potential to “change the world”.</p>
+</section>
+</section>
+<section id="final-comprehensive-summary" class="level2" data-number="10.6">
+<h2 data-number="10.6" class="anchored" data-anchor-id="final-comprehensive-summary"><span class="header-section-number">10.6</span> Final Comprehensive Summary</h2>
+<p>“The AI Marketing Canvas: A Five-Stage Road Map to Implementing Artificial Intelligence in Marketing” by Rajkumar Venkatesan and Jim Lecinski offers an urgent and actionable guide for marketers to thrive in an era dominated by <strong>hyper-personalized customer expectations</strong> and exponential technological advancement. The central premise is that traditional, human-centric marketing can no longer compete with the scale and precision of AI and machine learning (ML), leading to a “winner-take-all” landscape for early adopters.</p>
+<p>The book’s core framework is the <strong>AI Marketing Canvas</strong>, a strategic, customer-centric roadmap comprising five progressive stages: <strong>Foundation, Experimentation, Expansion, Transformation, and Monetization</strong>. This Canvas empowers marketers to strategically integrate AI and ML to supercharge every “Customer Relationship Moment” – Acquisition, Retention, Growth, and Advocacy – transforming them into “AI Customer Relationship Moments”.</p>
+<p><strong>Part 1, The Challenge and the Solution</strong>, establishes the imperative for change. It highlights how major technology networks (like Amazon, Google, Netflix) have reset customer expectations for personalization, making AI adoption critical for business survival, as exemplified by The Washington Post’s successful AI-driven transformation. Marketers face significant barriers to AI adoption, including a lack of clear strategy, talent shortages, and organizational silos. The Canvas directly addresses these by providing a structured path forward.</p>
+<p><strong>Part 2, AI and Marketing Essentials</strong>, lays the groundwork with fundamental concepts. It distinguishes between <strong>“networks”</strong> (firms leveraging technology platforms to collect first-party data for personalization at scale, creating a “network effect”) and <strong>“nodes”</strong> (traditional product-selling firms with limited direct customer data access). Nodes must strategically choose to build their own networks, collaborate with existing ones, or partner with other nodes to compete. The book introduces the <strong>Customer Relationship Moments mental model</strong> (Acquisition, Retention, Growth, Advocacy) and explains how AI/ML transforms these into personalized <strong>AI Moments</strong>, crucial given the “three forces” of rapid technological advancement, pervasive customer connectivity, and information abundance that overwhelm traditional approaches. This is situated within the “three waves” of consumer information processing, culminating in the current “one-to-one personalized marketing” era driven by AI. Finally, it demystifies <strong>AI and Machine Learning</strong>, explaining core concepts like algorithms, neural networks, deep learning, and various ML categories (regression, classification, clustering, dimensionality reduction), emphasizing that for marketers, AI primarily equates to enhanced <strong>prediction</strong> capabilities. It also differentiates descriptive, predictive, and prescriptive analytics, highlighting genetic algorithms for optimization.</p>
+<p><strong>Part 3, The AI Marketing Canvas</strong>, details each of the five stages:</p>
+<ul>
+<li><strong>Stage 1: Foundation</strong> stresses the critical prerequisite of building a robust digital infrastructure to consistently collect clean, first-party, consumer-focused data, essential for training ML models. Starbucks’ decade-long journey to build its Rewards program and Deep Brew AI engine exemplifies this. Data privacy and quality are paramount.<br>
+</li>
+<li><strong>Stage 2: Experimentation</strong> focuses on using existing budgets to run small, Agile-based AI/ML experiments with third-party tools and vendors. The goal is to identify “value pockets” where personalization can yield quick wins and collect evidence of “net lift” compared to human-led efforts, as demonstrated by JPMorgan Chase’s success with Persado.<br>
+</li>
+<li><strong>Stage 3: Expansion</strong> involves scaling successful AI applications, either by deepening engagement within a single CRM moment or extending to adjacent ones. Key to this stage is appointing an <strong>AI Marketing Champion</strong>, developing an AI-fluent team, quantifying impact for budget requests, and beginning to insource ML capabilities (e.g., via Data Science as a Service or ML libraries), as seen with Warby Parker and Coca-Cola Freestyle.<br>
+</li>
+<li><strong>Stage 4: Transformation</strong> signifies a large-scale shift to automating complete sets of marketing activities and bringing strategic AI capabilities in-house to build a competitive advantage. This often involves a critical “buy vs.&nbsp;build” decision at the board level, weighing cost, timing, and cultural fit. Disney’s MagicBands, CarMax’s proprietary algorithms, McDonald’s acquisition of Dynamic Yield, and Ancestry’s in-house AI development illustrate this level of integration.<br>
+</li>
+<li><strong>Stage 5: Monetization</strong> explores how firms can leverage their proprietary AI models to create significant new revenue streams or business models, effectively becoming a network. The Washington Post licensing its Arc Publishing platform and Starbucks offering its Deep Brew technology to other retailers through Brightloom are prime examples of this ultimate stage.</li>
+</ul>
+<p><strong>Part 4, Implementation</strong>, addresses the practical aspects of organizational change. It draws lessons from <strong>Google’s technical and cultural shift to an “AI-first” company</strong>, applying Kotter’s eight-step change model. Marketers must facilitate changes across <strong>people</strong> (appointing an AI Marketing Champion, training the team, hiring ML-competent staff), <strong>processes</strong> (adopting Agile methodologies for rapid experimentation), <strong>culture</strong> (embracing data, experimentation, and “thinking in probabilities”), and <strong>profit models</strong> (shifting from high-margin, low-volume to smaller-margin, high-volume, total profit focus). The book provides an <strong>AI and Machine-Learning Diagnostic Tool</strong> for self-assessment and highlights “four gaps” between stages that organizations must bridge.</p>
+<p>The book concludes with a <strong>call to action</strong>, urging marketers to actively engage with AI and ML beyond mere reading. Tools like Google’s Teachable Machine and Machine Learning for Kids offer hands-on experience. Ultimately, the goal is not just business success but to use AI to foster deeper human connections and enhance the brand’s humanity, recognizing that this is both a strategic imperative and a profound opportunity to “change the world”. The AI Marketing Canvas is presented as the essential guide for marketers to win their AI Customer Relationship Moments and secure future growth.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./chapter09.html" class="pagination-link" aria-label="Principles of Marketing">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Principles of Marketing</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
