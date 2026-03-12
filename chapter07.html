@@ -1,0 +1,2959 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>7&nbsp; Project Management – All of Business</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./chapter08.html" rel="next">
+<link href="./chapter06.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-00ccf60c28c3bdf2d57f5131fbf16f11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7c8ba9dac8feea6a77ed63b2e2898d0e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-00ccf60c28c3bdf2d57f5131fbf16f11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+        <div class="quarto-navbar-tools tools-end">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter07.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Project Management</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Entrepreuership Theory</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Measure What Matters</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Running Lean</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Four Steps to Successful Strategy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Power of Emotional Intelligence</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Primal Leadership</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter07.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Project Management</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter08.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">PMBOK</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter09.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Principles of Marketing</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#executive-summary" id="toc-executive-summary" class="nav-link active" data-scroll-target="#executive-summary"><span class="header-section-number">7.1</span> <strong>Executive Summary</strong></a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview"><span class="header-section-number">7.2</span> <strong>Overview</strong></a>
+  <ul class="collapse">
+  <li><a href="#introduction-and-understanding-project-management" id="toc-introduction-and-understanding-project-management" class="nav-link" data-scroll-target="#introduction-and-understanding-project-management"><span class="header-section-number">7.2.1</span> <strong>Introduction and Understanding Project Management</strong></a></li>
+  <li><a href="#defining-project-success-and-constraints" id="toc-defining-project-success-and-constraints" class="nav-link" data-scroll-target="#defining-project-success-and-constraints"><span class="header-section-number">7.2.2</span> <strong>Defining Project Success and Constraints</strong></a></li>
+  <li><a href="#trade-offs-and-competing-constraints" id="toc-trade-offs-and-competing-constraints" class="nav-link" data-scroll-target="#trade-offs-and-competing-constraints"><span class="header-section-number">7.2.3</span> <strong>Trade-Offs and Competing Constraints</strong></a></li>
+  <li><a href="#the-project-managerline-manager-interface" id="toc-the-project-managerline-manager-interface" class="nav-link" data-scroll-target="#the-project-managerline-manager-interface"><span class="header-section-number">7.2.4</span> <strong>The Project Manager–Line Manager Interface</strong></a></li>
+  <li><a href="#project-driven-versus-nonproject-driven-organizations" id="toc-project-driven-versus-nonproject-driven-organizations" class="nav-link" data-scroll-target="#project-driven-versus-nonproject-driven-organizations"><span class="header-section-number">7.2.5</span> <strong>Project-Driven Versus Non–Project-Driven Organizations</strong></a></li>
+  <li><a href="#added-value" id="toc-added-value" class="nav-link" data-scroll-target="#added-value"><span class="header-section-number">7.2.6</span> <strong>Added Value</strong></a></li>
+  </ul></li>
+  <li><a href="#project-management-growth-concepts-and-definitions" id="toc-project-management-growth-concepts-and-definitions" class="nav-link" data-scroll-target="#project-management-growth-concepts-and-definitions"><span class="header-section-number">7.3</span> <strong>Project Management Growth: Concepts and Definitions</strong></a>
+  <ul class="collapse">
+  <li><a href="#systems-programs-and-projects-a-definition" id="toc-systems-programs-and-projects-a-definition" class="nav-link" data-scroll-target="#systems-programs-and-projects-a-definition"><span class="header-section-number">7.3.1</span> <strong>Systems, Programs, and Projects: A Definition</strong></a></li>
+  <li><a href="#maturity-and-excellence-a-definition" id="toc-maturity-and-excellence-a-definition" class="nav-link" data-scroll-target="#maturity-and-excellence-a-definition"><span class="header-section-number">7.3.2</span> <strong>Maturity and Excellence: A Definition</strong></a></li>
+  <li><a href="#the-many-faces-of-success-and-failure" id="toc-the-many-faces-of-success-and-failure" class="nav-link" data-scroll-target="#the-many-faces-of-success-and-failure"><span class="header-section-number">7.3.3</span> <strong>The Many Faces of Success and Failure</strong></a></li>
+  <li><a href="#life-cycle-phases" id="toc-life-cycle-phases" class="nav-link" data-scroll-target="#life-cycle-phases"><span class="header-section-number">7.3.4</span> <strong>Life-Cycle Phases</strong></a></li>
+  <li><a href="#project-management-methodologies-to-frameworks" id="toc-project-management-methodologies-to-frameworks" class="nav-link" data-scroll-target="#project-management-methodologies-to-frameworks"><span class="header-section-number">7.3.5</span> <strong>Project Management Methodologies to Frameworks</strong></a></li>
+  <li><a href="#growth-of-strategic-project-management" id="toc-growth-of-strategic-project-management" class="nav-link" data-scroll-target="#growth-of-strategic-project-management"><span class="header-section-number">7.3.6</span> <strong>Growth of Strategic Project Management</strong></a></li>
+  <li><a href="#lean-project-management" id="toc-lean-project-management" class="nav-link" data-scroll-target="#lean-project-management"><span class="header-section-number">7.3.7</span> <strong>Lean Project Management</strong></a></li>
+  <li><a href="#systems-thinking" id="toc-systems-thinking" class="nav-link" data-scroll-target="#systems-thinking"><span class="header-section-number">7.3.8</span> <strong>Systems Thinking</strong></a></li>
+  </ul></li>
+  <li><a href="#organizational-structures" id="toc-organizational-structures" class="nav-link" data-scroll-target="#organizational-structures"><span class="header-section-number">7.4</span> <strong>Organizational Structures</strong></a>
+  <ul class="collapse">
+  <li><a href="#the-traditional-functional-organization" id="toc-the-traditional-functional-organization" class="nav-link" data-scroll-target="#the-traditional-functional-organization"><span class="header-section-number">7.4.1</span> <strong>The Traditional (Functional) Organization</strong></a></li>
+  <li><a href="#matrix-organizational-form" id="toc-matrix-organizational-form" class="nav-link" data-scroll-target="#matrix-organizational-form"><span class="header-section-number">7.4.2</span> <strong>Matrix Organizational Form</strong></a></li>
+  <li><a href="#project-management-offices-pmos" id="toc-project-management-offices-pmos" class="nav-link" data-scroll-target="#project-management-offices-pmos"><span class="header-section-number">7.4.3</span> <strong>Project Management Offices (PMOs)</strong></a></li>
+  <li><a href="#common-project-management-implementation-fallacies" id="toc-common-project-management-implementation-fallacies" class="nav-link" data-scroll-target="#common-project-management-implementation-fallacies"><span class="header-section-number">7.4.4</span> <strong>Common Project Management Implementation Fallacies</strong></a></li>
+  </ul></li>
+  <li><a href="#organizing-and-staffing-the-project-office-and-team" id="toc-organizing-and-staffing-the-project-office-and-team" class="nav-link" data-scroll-target="#organizing-and-staffing-the-project-office-and-team"><span class="header-section-number">7.5</span> <strong>Organizing and Staffing the Project Office and Team</strong></a>
+  <ul class="collapse">
+  <li><a href="#selecting-the-project-manager-an-executive-decision" id="toc-selecting-the-project-manager-an-executive-decision" class="nav-link" data-scroll-target="#selecting-the-project-manager-an-executive-decision"><span class="header-section-number">7.5.1</span> <strong>Selecting the Project Manager: An Executive Decision</strong></a></li>
+  <li><a href="#skill-requirements-for-project-and-program-managers" id="toc-skill-requirements-for-project-and-program-managers" class="nav-link" data-scroll-target="#skill-requirements-for-project-and-program-managers"><span class="header-section-number">7.5.2</span> <strong>Skill Requirements for Project and Program Managers</strong></a></li>
+  <li><a href="#the-organizational-staffing-process" id="toc-the-organizational-staffing-process" class="nav-link" data-scroll-target="#the-organizational-staffing-process"><span class="header-section-number">7.5.3</span> <strong>The Organizational Staffing Process</strong></a></li>
+  <li><a href="#the-project-office-po" id="toc-the-project-office-po" class="nav-link" data-scroll-target="#the-project-office-po"><span class="header-section-number">7.5.4</span> <strong>The Project Office (PO)</strong></a></li>
+  </ul></li>
+  <li><a href="#management-functions" id="toc-management-functions" class="nav-link" data-scroll-target="#management-functions"><span class="header-section-number">7.6</span> <strong>Management Functions</strong></a>
+  <ul class="collapse">
+  <li><a href="#management-functions-1" id="toc-management-functions-1" class="nav-link" data-scroll-target="#management-functions-1"><span class="header-section-number">7.6.1</span> <strong>Management Functions</strong></a></li>
+  <li><a href="#directing" id="toc-directing" class="nav-link" data-scroll-target="#directing"><span class="header-section-number">7.6.2</span> <strong>Directing</strong></a></li>
+  <li><a href="#power-authority-and-the-project-manager" id="toc-power-authority-and-the-project-manager" class="nav-link" data-scroll-target="#power-authority-and-the-project-manager"><span class="header-section-number">7.6.3</span> <strong>Power, Authority, and the Project Manager</strong></a></li>
+  <li><a href="#leadership-in-a-project-environment" id="toc-leadership-in-a-project-environment" class="nav-link" data-scroll-target="#leadership-in-a-project-environment"><span class="header-section-number">7.6.4</span> <strong>Leadership in a Project Environment</strong></a></li>
+  <li><a href="#general-management-pitfalls" id="toc-general-management-pitfalls" class="nav-link" data-scroll-target="#general-management-pitfalls"><span class="header-section-number">7.6.5</span> <strong>General Management Pitfalls</strong></a></li>
+  </ul></li>
+  <li><a href="#communications-management" id="toc-communications-management" class="nav-link" data-scroll-target="#communications-management"><span class="header-section-number">7.7</span> <strong>Communications Management</strong></a>
+  <ul class="collapse">
+  <li><a href="#modeling-the-communications-environment" id="toc-modeling-the-communications-environment" class="nav-link" data-scroll-target="#modeling-the-communications-environment"><span class="header-section-number">7.7.1</span> <strong>Modeling the Communications Environment</strong></a></li>
+  <li><a href="#meetings" id="toc-meetings" class="nav-link" data-scroll-target="#meetings"><span class="header-section-number">7.7.2</span> <strong>Meetings</strong></a></li>
+  <li><a href="#using-action-items" id="toc-using-action-items" class="nav-link" data-scroll-target="#using-action-items"><span class="header-section-number">7.7.3</span> <strong>Using Action Items</strong></a></li>
+  <li><a href="#brainstorming" id="toc-brainstorming" class="nav-link" data-scroll-target="#brainstorming"><span class="header-section-number">7.7.4</span> <strong>Brainstorming</strong></a></li>
+  </ul></li>
+  <li><a href="#conflicts" id="toc-conflicts" class="nav-link" data-scroll-target="#conflicts"><span class="header-section-number">7.8</span> <strong>Conflicts</strong></a>
+  <ul class="collapse">
+  <li><a href="#types-of-conflicts" id="toc-types-of-conflicts" class="nav-link" data-scroll-target="#types-of-conflicts"><span class="header-section-number">7.8.1</span> <strong>Types of Conflicts</strong></a></li>
+  <li><a href="#conflict-management-procedures-minimization" id="toc-conflict-management-procedures-minimization" class="nav-link" data-scroll-target="#conflict-management-procedures-minimization"><span class="header-section-number">7.8.2</span> <strong>Conflict Management Procedures (Minimization)</strong></a></li>
+  </ul></li>
+  <li><a href="#special-topics" id="toc-special-topics" class="nav-link" data-scroll-target="#special-topics"><span class="header-section-number">7.9</span> <strong>Special Topics</strong></a>
+  <ul class="collapse">
+  <li><a href="#performance-measurement" id="toc-performance-measurement" class="nav-link" data-scroll-target="#performance-measurement"><span class="header-section-number">7.9.1</span> <strong>Performance Measurement</strong></a></li>
+  <li><a href="#financial-compensation-and-rewards" id="toc-financial-compensation-and-rewards" class="nav-link" data-scroll-target="#financial-compensation-and-rewards"><span class="header-section-number">7.9.2</span> <strong>Financial Compensation and Rewards</strong></a></li>
+  <li><a href="#mega-projects" id="toc-mega-projects" class="nav-link" data-scroll-target="#mega-projects"><span class="header-section-number">7.9.3</span> <strong>Mega Projects</strong></a></li>
+  <li><a href="#morality-ethics-and-the-corporate-culture" id="toc-morality-ethics-and-the-corporate-culture" class="nav-link" data-scroll-target="#morality-ethics-and-the-corporate-culture"><span class="header-section-number">7.9.4</span> <strong>Morality, Ethics, and the Corporate Culture</strong></a></li>
+  <li><a href="#agile-project-management" id="toc-agile-project-management" class="nav-link" data-scroll-target="#agile-project-management"><span class="header-section-number">7.9.5</span> <strong>Agile Project Management</strong></a></li>
+  <li><a href="#artificial-intelligence-ai" id="toc-artificial-intelligence-ai" class="nav-link" data-scroll-target="#artificial-intelligence-ai"><span class="header-section-number">7.9.6</span> <strong>Artificial Intelligence (AI)</strong></a></li>
+  </ul></li>
+  <li><a href="#the-variables-for-success" id="toc-the-variables-for-success" class="nav-link" data-scroll-target="#the-variables-for-success"><span class="header-section-number">7.10</span> <strong>The Variables for Success</strong></a>
+  <ul class="collapse">
+  <li><a href="#project-management-effectiveness-variables" id="toc-project-management-effectiveness-variables" class="nav-link" data-scroll-target="#project-management-effectiveness-variables"><span class="header-section-number">7.10.1</span> <strong>Project Management Effectiveness Variables</strong></a></li>
+  <li><a href="#understanding-best-practices" id="toc-understanding-best-practices" class="nav-link" data-scroll-target="#understanding-best-practices"><span class="header-section-number">7.10.2</span> <strong>Understanding Best Practices</strong></a></li>
+  </ul></li>
+  <li><a href="#working-with-executives" id="toc-working-with-executives" class="nav-link" data-scroll-target="#working-with-executives"><span class="header-section-number">7.11</span> <strong>Working with Executives</strong></a>
+  <ul class="collapse">
+  <li><a href="#the-project-sponsor" id="toc-the-project-sponsor" class="nav-link" data-scroll-target="#the-project-sponsor"><span class="header-section-number">7.11.1</span> <strong>The Project Sponsor</strong></a></li>
+  <li><a href="#stakeholder-relations-management" id="toc-stakeholder-relations-management" class="nav-link" data-scroll-target="#stakeholder-relations-management"><span class="header-section-number">7.11.2</span> <strong>Stakeholder Relations Management</strong></a></li>
+  <li><a href="#project-portfolio-management-ppm" id="toc-project-portfolio-management-ppm" class="nav-link" data-scroll-target="#project-portfolio-management-ppm"><span class="header-section-number">7.11.3</span> <strong>Project Portfolio Management (PPM)</strong></a></li>
+  </ul></li>
+  <li><a href="#planning" id="toc-planning" class="nav-link" data-scroll-target="#planning"><span class="header-section-number">7.12</span> <strong>Planning</strong></a>
+  <ul class="collapse">
+  <li><a href="#business-case" id="toc-business-case" class="nav-link" data-scroll-target="#business-case"><span class="header-section-number">7.12.1</span> <strong>Business Case</strong></a></li>
+  <li><a href="#validating-the-assumptions" id="toc-validating-the-assumptions" class="nav-link" data-scroll-target="#validating-the-assumptions"><span class="header-section-number">7.12.2</span> <strong>Validating the Assumptions</strong></a></li>
+  <li><a href="#objectives-and-the-smart-rule" id="toc-objectives-and-the-smart-rule" class="nav-link" data-scroll-target="#objectives-and-the-smart-rule"><span class="header-section-number">7.12.3</span> <strong>Objectives and the SMART Rule</strong></a></li>
+  <li><a href="#the-statement-of-work-sow" id="toc-the-statement-of-work-sow" class="nav-link" data-scroll-target="#the-statement-of-work-sow"><span class="header-section-number">7.12.4</span> <strong>The Statement of Work (SOW)</strong></a></li>
+  <li><a href="#work-breakdown-structure-wbs" id="toc-work-breakdown-structure-wbs" class="nav-link" data-scroll-target="#work-breakdown-structure-wbs"><span class="header-section-number">7.12.5</span> <strong>Work Breakdown Structure (WBS)</strong></a></li>
+  <li><a href="#project-baselines" id="toc-project-baselines" class="nav-link" data-scroll-target="#project-baselines"><span class="header-section-number">7.12.6</span> <strong>Project Baselines</strong></a></li>
+  </ul></li>
+  <li><a href="#network-scheduling-techniques" id="toc-network-scheduling-techniques" class="nav-link" data-scroll-target="#network-scheduling-techniques"><span class="header-section-number">7.13</span> <strong>Network Scheduling Techniques</strong></a>
+  <ul class="collapse">
+  <li><a href="#common-scheduling-techniques" id="toc-common-scheduling-techniques" class="nav-link" data-scroll-target="#common-scheduling-techniques"><span class="header-section-number">7.13.1</span> <strong>Common Scheduling Techniques</strong></a></li>
+  <li><a href="#program-evaluation-and-review-technique-pert" id="toc-program-evaluation-and-review-technique-pert" class="nav-link" data-scroll-target="#program-evaluation-and-review-technique-pert"><span class="header-section-number">7.13.2</span> <strong>Program Evaluation and Review Technique (PERT)</strong></a></li>
+  <li><a href="#slack-time-and-the-critical-path" id="toc-slack-time-and-the-critical-path" class="nav-link" data-scroll-target="#slack-time-and-the-critical-path"><span class="header-section-number">7.13.3</span> <strong>Slack Time and the Critical Path</strong></a></li>
+  <li><a href="#estimating-total-project-time" id="toc-estimating-total-project-time" class="nav-link" data-scroll-target="#estimating-total-project-time"><span class="header-section-number">7.13.4</span> <strong>Estimating Total Project Time</strong></a></li>
+  <li><a href="#total-pertcpm-planning" id="toc-total-pertcpm-planning" class="nav-link" data-scroll-target="#total-pertcpm-planning"><span class="header-section-number">7.13.5</span> <strong>12.8 Total PERT/CPM Planning</strong></a></li>
+  <li><a href="#schedule-compression-techniques" id="toc-schedule-compression-techniques" class="nav-link" data-scroll-target="#schedule-compression-techniques"><span class="header-section-number">7.13.6</span> <strong>12.14 Schedule Compression Techniques</strong></a></li>
+  </ul></li>
+  <li><a href="#pricing-and-estimating" id="toc-pricing-and-estimating" class="nav-link" data-scroll-target="#pricing-and-estimating"><span class="header-section-number">7.14</span> <strong>Pricing and Estimating</strong></a>
+  <ul class="collapse">
+  <li><a href="#global-pricing-strategies" id="toc-global-pricing-strategies" class="nav-link" data-scroll-target="#global-pricing-strategies"><span class="header-section-number">7.14.1</span> <strong>Global Pricing Strategies</strong></a></li>
+  <li><a href="#types-of-estimates" id="toc-types-of-estimates" class="nav-link" data-scroll-target="#types-of-estimates"><span class="header-section-number">7.14.2</span> <strong>Types of Estimates</strong></a></li>
+  <li><a href="#pricing-out-the-work-13-logical-steps" id="toc-pricing-out-the-work-13-logical-steps" class="nav-link" data-scroll-target="#pricing-out-the-work-13-logical-steps"><span class="header-section-number">7.14.3</span> <strong>Pricing Out the Work: 13 Logical Steps</strong></a></li>
+  <li><a href="#estimating-high-risk-projects" id="toc-estimating-high-risk-projects" class="nav-link" data-scroll-target="#estimating-high-risk-projects"><span class="header-section-number">7.14.4</span> <strong>Estimating High-Risk Projects</strong></a></li>
+  <li><a href="#the-10-percent-solution" id="toc-the-10-percent-solution" class="nav-link" data-scroll-target="#the-10-percent-solution"><span class="header-section-number">7.14.5</span> <strong>The 10 Percent Solution</strong></a></li>
+  <li><a href="#financial-project-evaluation-techniques" id="toc-financial-project-evaluation-techniques" class="nav-link" data-scroll-target="#financial-project-evaluation-techniques"><span class="header-section-number">7.14.6</span> <strong>Financial Project Evaluation Techniques</strong></a></li>
+  </ul></li>
+  <li><a href="#cost-control" id="toc-cost-control" class="nav-link" data-scroll-target="#cost-control"><span class="header-section-number">7.15</span> <strong>Cost Control</strong></a>
+  <ul class="collapse">
+  <li><a href="#management-cost-and-control-system-mccs" id="toc-management-cost-and-control-system-mccs" class="nav-link" data-scroll-target="#management-cost-and-control-system-mccs"><span class="header-section-number">7.15.1</span> <strong>Management Cost and Control System (MCCS)</strong></a></li>
+  <li><a href="#variance-and-earned-value" id="toc-variance-and-earned-value" class="nav-link" data-scroll-target="#variance-and-earned-value"><span class="header-section-number">7.15.2</span> <strong>Variance and Earned Value</strong></a></li>
+  <li><a href="#budget-breakdown-and-reserve" id="toc-budget-breakdown-and-reserve" class="nav-link" data-scroll-target="#budget-breakdown-and-reserve"><span class="header-section-number">7.15.3</span> <strong>Budget Breakdown and Reserve</strong></a></li>
+  <li><a href="#the-cost-overrun-dilemma" id="toc-the-cost-overrun-dilemma" class="nav-link" data-scroll-target="#the-cost-overrun-dilemma"><span class="header-section-number">7.15.4</span> <strong>The Cost Overrun Dilemma</strong></a></li>
+  </ul></li>
+  <li><a href="#metrics" id="toc-metrics" class="nav-link" data-scroll-target="#metrics"><span class="header-section-number">7.16</span> <strong>Metrics</strong></a>
+  <ul class="collapse">
+  <li><a href="#project-management-information-systems-pmis" id="toc-project-management-information-systems-pmis" class="nav-link" data-scroll-target="#project-management-information-systems-pmis"><span class="header-section-number">7.16.1</span> <strong>Project Management Information Systems (PMIS)</strong></a></li>
+  <li><a href="#key-performance-indicators-kpis" id="toc-key-performance-indicators-kpis" class="nav-link" data-scroll-target="#key-performance-indicators-kpis"><span class="header-section-number">7.16.2</span> <strong>Key Performance Indicators (KPIs)</strong></a></li>
+  <li><a href="#value-based-metrics" id="toc-value-based-metrics" class="nav-link" data-scroll-target="#value-based-metrics"><span class="header-section-number">7.16.3</span> <strong>Value-Based Metrics</strong></a></li>
+  <li><a href="#dashboards-and-scorecards" id="toc-dashboards-and-scorecards" class="nav-link" data-scroll-target="#dashboards-and-scorecards"><span class="header-section-number">7.16.4</span> <strong>Dashboards and Scorecards</strong></a></li>
+  </ul></li>
+  <li><a href="#trade-off-analysis-in-a-project-environment" id="toc-trade-off-analysis-in-a-project-environment" class="nav-link" data-scroll-target="#trade-off-analysis-in-a-project-environment"><span class="header-section-number">7.17</span> <strong>Trade-Off Analysis in a Project Environment</strong></a>
+  <ul class="collapse">
+  <li><a href="#trade-off-definition" id="toc-trade-off-definition" class="nav-link" data-scroll-target="#trade-off-definition"><span class="header-section-number">7.17.1</span> <strong>Trade-Off Definition</strong></a></li>
+  <li><a href="#methodology-for-trade-off-analysis" id="toc-methodology-for-trade-off-analysis" class="nav-link" data-scroll-target="#methodology-for-trade-off-analysis"><span class="header-section-number">7.17.2</span> <strong>Methodology for Trade-Off Analysis</strong></a></li>
+  <li><a href="#impact-of-contract-type" id="toc-impact-of-contract-type" class="nav-link" data-scroll-target="#impact-of-contract-type"><span class="header-section-number">7.17.3</span> <strong>Impact of Contract Type</strong></a></li>
+  </ul></li>
+  <li><a href="#risk-management" id="toc-risk-management" class="nav-link" data-scroll-target="#risk-management"><span class="header-section-number">7.18</span> <strong>Risk Management</strong></a>
+  <ul class="collapse">
+  <li><a href="#risk-defined" id="toc-risk-defined" class="nav-link" data-scroll-target="#risk-defined"><span class="header-section-number">7.18.1</span> <strong>Risk Defined</strong></a></li>
+  <li><a href="#tolerance-for-risk" id="toc-tolerance-for-risk" class="nav-link" data-scroll-target="#tolerance-for-risk"><span class="header-section-number">7.18.2</span> <strong>Tolerance for Risk</strong></a></li>
+  <li><a href="#decision-making-under-risk" id="toc-decision-making-under-risk" class="nav-link" data-scroll-target="#decision-making-under-risk"><span class="header-section-number">7.18.3</span> <strong>Decision-Making under Risk</strong></a></li>
+  <li><a href="#risk-management-process" id="toc-risk-management-process" class="nav-link" data-scroll-target="#risk-management-process"><span class="header-section-number">7.18.4</span> <strong>Risk Management Process</strong></a></li>
+  <li><a href="#risk-analysis" id="toc-risk-analysis" class="nav-link" data-scroll-target="#risk-analysis"><span class="header-section-number">7.18.5</span> <strong>Risk Analysis</strong></a></li>
+  <li><a href="#plan-risk-response" id="toc-plan-risk-response" class="nav-link" data-scroll-target="#plan-risk-response"><span class="header-section-number">7.18.6</span> <strong>Plan Risk Response</strong></a></li>
+  </ul></li>
+  <li><a href="#learning-curves" id="toc-learning-curves" class="nav-link" data-scroll-target="#learning-curves"><span class="header-section-number">7.19</span> <strong>Learning Curves</strong></a>
+  <ul class="collapse">
+  <li><a href="#learning-curves-and-the-experience-curve" id="toc-learning-curves-and-the-experience-curve" class="nav-link" data-scroll-target="#learning-curves-and-the-experience-curve"><span class="header-section-number">7.19.1</span> <strong>Learning Curves and the Experience Curve</strong></a></li>
+  <li><a href="#graphic-representation" id="toc-graphic-representation" class="nav-link" data-scroll-target="#graphic-representation"><span class="header-section-number">7.19.2</span> <strong>Graphic Representation</strong></a></li>
+  <li><a href="#competitive-weapon" id="toc-competitive-weapon" class="nav-link" data-scroll-target="#competitive-weapon"><span class="header-section-number">7.19.3</span> <strong>Competitive Weapon</strong></a></li>
+  </ul></li>
+  <li><a href="#contract-management" id="toc-contract-management" class="nav-link" data-scroll-target="#contract-management"><span class="header-section-number">7.20</span> <strong>Contract Management</strong></a>
+  <ul class="collapse">
+  <li><a href="#introduction-and-procurement-processes" id="toc-introduction-and-procurement-processes" class="nav-link" data-scroll-target="#introduction-and-procurement-processes"><span class="header-section-number">7.20.1</span> <strong>Introduction and Procurement Processes</strong></a></li>
+  <li><a href="#plan-procurements" id="toc-plan-procurements" class="nav-link" data-scroll-target="#plan-procurements"><span class="header-section-number">7.20.2</span> <strong>Plan Procurements</strong></a></li>
+  <li><a href="#types-of-contracts" id="toc-types-of-contracts" class="nav-link" data-scroll-target="#types-of-contracts"><span class="header-section-number">7.20.3</span> <strong>Types of Contracts</strong></a></li>
+  </ul></li>
+  <li><a href="#quality-management" id="toc-quality-management" class="nav-link" data-scroll-target="#quality-management"><span class="header-section-number">7.21</span> <strong>Quality Management</strong></a>
+  <ul class="collapse">
+  <li><a href="#definition-of-quality" id="toc-definition-of-quality" class="nav-link" data-scroll-target="#definition-of-quality"><span class="header-section-number">7.21.1</span> <strong>Definition of Quality</strong></a></li>
+  <li><a href="#the-cost-of-quality-coq" id="toc-the-cost-of-quality-coq" class="nav-link" data-scroll-target="#the-cost-of-quality-coq"><span class="header-section-number">7.21.2</span> <strong>The Cost of Quality (COQ)</strong></a></li>
+  <li><a href="#the-seven-quality-control-tools" id="toc-the-seven-quality-control-tools" class="nav-link" data-scroll-target="#the-seven-quality-control-tools"><span class="header-section-number">7.21.3</span> <strong>The Seven Quality Control Tools</strong></a></li>
+  <li><a href="#implementing-six-sigma" id="toc-implementing-six-sigma" class="nav-link" data-scroll-target="#implementing-six-sigma"><span class="header-section-number">7.21.4</span> <strong>Implementing Six Sigma</strong></a></li>
+  </ul></li>
+  <li><a href="#modern-developments-in-project-management" id="toc-modern-developments-in-project-management" class="nav-link" data-scroll-target="#modern-developments-in-project-management"><span class="header-section-number">7.22</span> <strong>Modern Developments in Project Management</strong></a>
+  <ul class="collapse">
+  <li><a href="#the-project-management-maturity-model-pmmm" id="toc-the-project-management-maturity-model-pmmm" class="nav-link" data-scroll-target="#the-project-management-maturity-model-pmmm"><span class="header-section-number">7.22.1</span> <strong>The Project Management Maturity Model (PMMM)</strong></a></li>
+  <li><a href="#developing-effective-procedural-documentation" id="toc-developing-effective-procedural-documentation" class="nav-link" data-scroll-target="#developing-effective-procedural-documentation"><span class="header-section-number">7.22.2</span> <strong>Developing Effective Procedural Documentation</strong></a></li>
+  <li><a href="#capacity-planning" id="toc-capacity-planning" class="nav-link" data-scroll-target="#capacity-planning"><span class="header-section-number">7.22.3</span> <strong>Capacity Planning</strong></a></li>
+  <li><a href="#managing-multiple-projects" id="toc-managing-multiple-projects" class="nav-link" data-scroll-target="#managing-multiple-projects"><span class="header-section-number">7.22.4</span> <strong>Managing Multiple Projects</strong></a></li>
+  <li><a href="#the-business-of-scope-changes" id="toc-the-business-of-scope-changes" class="nav-link" data-scroll-target="#the-business-of-scope-changes"><span class="header-section-number">7.22.5</span> <strong>The Business of Scope Changes</strong></a></li>
+  </ul></li>
+  <li><a href="#master-comprehensive-summary" id="toc-master-comprehensive-summary" class="nav-link" data-scroll-target="#master-comprehensive-summary"><span class="header-section-number">7.23</span> <strong>Master Comprehensive Summary</strong></a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Project Management</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="executive-summary" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="executive-summary"><span class="header-section-number">7.1</span> <strong>Executive Summary</strong></h2>
+<p>The modern view of project management (PM) emphasizes the <strong>creation of sustainable business value</strong> rather than merely meeting the traditional triple constraints of time, cost, and scope/performance. Project management is defined as the planning, organizing, directing, and controlling of company resources for a relatively short-term objective.</p>
+<p>Critical takeaways and shifts in modern PM practice include:</p>
+<ul>
+<li><strong>Shift to Value and Benefits:</strong> Project success is fundamentally measured by the desired business benefits and the value provided to customers and stakeholders, not just delivery within constraints.<br>
+</li>
+<li><strong>The Systems Approach:</strong> Effective PM requires viewing the project as a collection of interrelated activities (a system) and integrating resources across functional lines (the vertical hierarchy) into a specific project structure (the horizontal hierarchy).<br>
+</li>
+<li><strong>Organizational Maturity:</strong> Achieving continuous streams of successfully managed projects (excellence) requires a standard methodology and process foundation (maturity). This often involves developing a <strong>Project Management Methodology (PMM)</strong> and potentially a <strong>Project Management Office (PMO)</strong>.<br>
+</li>
+<li><strong>Flexible Methodologies:</strong> Due to varying project requirements and market volatility, rigid “waterfall” methodologies are often supplemented or replaced by flexible <strong>frameworks</strong> or <strong>Agile</strong> approaches that prioritize customer involvement and rapid adaptation.<br>
+</li>
+<li><strong>Project Manager as Business Leader:</strong> Project managers must evolve from technical schedulers/planners to become general managers who understand the total operation of the company, make both technical and business decisions, and align the project to strategic goals.<br>
+</li>
+<li><strong>Planning is Paramount:</strong> Planning, organizing via a <strong>Work Breakdown Structure (WBS)</strong>, and establishing robust <strong>Project Baselines</strong> (scope, schedule, cost) are foundational to control and successful execution.<br>
+</li>
+<li><strong>Metrics and KPIs:</strong> Measurement has expanded beyond traditional time and cost reporting to include <strong>Key Performance Indicators (KPIs)</strong> and metrics that reflect business value, often displayed in dashboards or scorecards.</li>
+</ul>
+</section>
+<section id="overview" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="overview"><span class="header-section-number">7.2</span> <strong>Overview</strong></h2>
+<section id="introduction-and-understanding-project-management" class="level3" data-number="7.2.1">
+<h3 data-number="7.2.1" class="anchored" data-anchor-id="introduction-and-understanding-project-management"><span class="header-section-number">7.2.1</span> <strong>Introduction and Understanding Project Management</strong></h3>
+<p>Project management, rooted in the U.S. Department of Defense and heavy construction during the 1960s, initially focused heavily on budget and schedule compliance for unique or repetitive projects.</p>
+<p>A <strong>project</strong> is defined as any series of tasks and activities that:</p>
+<ul>
+<li>Have a specific objective, focusing on creating business value, completed within specifications.<br>
+</li>
+<li>Have defined start and end dates.<br>
+</li>
+<li>Have funding limits (if applicable).<br>
+</li>
+<li>Consume human and nonhuman resources (money, people, equipment).<br>
+</li>
+<li>Are multifunctional (cut across several functional lines).</li>
+</ul>
+<p><strong>Project Management (PM)</strong> is the application of knowledge, skills, and tools necessary to achieve project requirements. It uses the <strong>systems approach</strong> by assigning functional personnel (vertical hierarchy) to a specific project (horizontal hierarchy).</p>
+</section>
+<section id="defining-project-success-and-constraints" class="level3" data-number="7.2.2">
+<h3 data-number="7.2.2" class="anchored" data-anchor-id="defining-project-success-and-constraints"><span class="header-section-number">7.2.2</span> <strong>Defining Project Success and Constraints</strong></h3>
+<p>Historically, project success was defined by the <strong>Triple Constraints</strong> (time, cost, and performance/specification). The modern definition of success is much broader and includes:</p>
+<ul>
+<li>Completion within allocated time, cost, and proper performance level.<br>
+</li>
+<li>Completion within <em>other competing constraints</em>.<br>
+</li>
+<li>Acceptance by the customer/user, delivery of desired business benefits and value, and minimum agreed-upon scope changes.<br>
+</li>
+<li>Absence of disturbance to the main organizational workflow or alteration of the corporate culture.</li>
+</ul>
+<p>The ultimate metric for project success is the <strong>creation of sustainable business value</strong>.</p>
+</section>
+<section id="trade-offs-and-competing-constraints" class="level3" data-number="7.2.3">
+<h3 data-number="7.2.3" class="anchored" data-anchor-id="trade-offs-and-competing-constraints"><span class="header-section-number">7.2.3</span> <strong>Trade-Offs and Competing Constraints</strong></h3>
+<p><strong>Trade-offs</strong> occur when one aspect of a project must be sacrificed or compromised to achieve another. While the traditional definition of constraints relies on Time, Cost, and Performance (Scope/Quality), <strong>Complex Projects</strong> face numerous competing constraints, including Value, Quality, Image/Reputation, and Scope.</p>
+<ul>
+<li>Constraints vary in importance across the project life cycle. For example, scope might be critical during initiation, while time and cost become more critical during execution.</li>
+</ul>
+</section>
+<section id="the-project-managerline-manager-interface" class="level3" data-number="7.2.4">
+<h3 data-number="7.2.4" class="anchored" data-anchor-id="the-project-managerline-manager-interface"><span class="header-section-number">7.2.4</span> <strong>The Project Manager–Line Manager Interface</strong></h3>
+<p>Effective PM often involves a <strong>dual responsibility</strong> structure where the project manager (PM) is accountable for <em>what</em> is accomplished, and the line manager (LM) is accountable for <em>how</em> tasks are accomplished.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 44%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Topic</th>
+<th>Project Manager</th>
+<th>Line Manager</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Rewards</td>
+<td>Give recommendation: Informal</td>
+<td>Provide rewards: Formal</td>
+</tr>
+<tr class="even">
+<td>Direction</td>
+<td>Milestone (summary)</td>
+<td>Detailed</td>
+</tr>
+<tr class="odd">
+<td>Evaluation</td>
+<td>Summary</td>
+<td>Detailed</td>
+</tr>
+<tr class="even">
+<td>Measurement</td>
+<td>Summary</td>
+<td>Detailed</td>
+</tr>
+<tr class="odd">
+<td>Control</td>
+<td>Summary</td>
+<td>Detailed</td>
+</tr>
+</tbody>
+</table>
+<p>Depending on the organizational structure (discussed in Chapter 3), line managers typically make performance evaluations, potentially utilizing input from the PM.</p>
+</section>
+<section id="project-driven-versus-nonproject-driven-organizations" class="level3" data-number="7.2.5">
+<h3 data-number="7.2.5" class="anchored" data-anchor-id="project-driven-versus-nonproject-driven-organizations"><span class="header-section-number">7.2.5</span> <strong>Project-Driven Versus Non–Project-Driven Organizations</strong></h3>
+<ul>
+<li><strong>Project-Driven Organization:</strong> All work is characterized through projects, each operating as a separate cost center with its own profit-and-loss statement (e.g., aerospace, construction). Everything centers on the projects.<br>
+</li>
+<li><strong>Non–Project-Driven/Operational-Driven Organization:</strong> Projects are secondary to functional operations. Such companies often rely heavily on subcontractors for PM expertise.</li>
+</ul>
+</section>
+<section id="added-value" class="level3" data-number="7.2.6">
+<h3 data-number="7.2.6" class="anchored" data-anchor-id="added-value"><span class="header-section-number">7.2.6</span> <strong>Added Value</strong></h3>
+<p><strong>Added value</strong> is defined as incremental improvements to a project deliverable that improve performance or provide a significant business advantage, for which the client is willing to pay. Project managers seek added-value opportunities that benefit the client.</p>
+<hr>
+<p><strong>Chapter 1 Recap</strong></p>
+<ol type="1">
+<li>Project management is the planning, organizing, directing, and controlling of resources for a short-term, specific objective.<br>
+</li>
+<li>Modern project success is defined by delivering intended business value and adhering to competing constraints, not just time, cost, and scope.<br>
+</li>
+<li>The <strong>Talent Triangle</strong> identifies necessary skills: Technical Project Management, Leadership, and Strategic and Business Management.<br>
+</li>
+<li>The Project Manager acts as a general manager and a primary planner, using a systems approach to integrate multifunctional activities.<br>
+</li>
+<li>Projects exist within either project-driven or non–project-driven organizational contexts, which affects how resources and accountability are managed.<br>
+</li>
+<li>Scope changes are inevitable but must be minimized and mutually agreed upon.<br>
+</li>
+<li>The PM-LM interface involves a split in authority, requiring the PM to manage by influence rather than formal control in many cases.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="project-management-growth-concepts-and-definitions" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="project-management-growth-concepts-and-definitions"><span class="header-section-number">7.3</span> <strong>Project Management Growth: Concepts and Definitions</strong></h2>
+<section id="systems-programs-and-projects-a-definition" class="level3" data-number="7.3.1">
+<h3 data-number="7.3.1" class="anchored" data-anchor-id="systems-programs-and-projects-a-definition"><span class="header-section-number">7.3.1</span> <strong>Systems, Programs, and Projects: A Definition</strong></h3>
+<p>A <strong>system</strong> is a group of organized elements (human or nonhuman) acting as a whole to achieve a common goal. Systems are classified as <em>closed</em> (isolated from the environment) or <em>open</em> (interacting with the environment, like social systems).</p>
+<p>A <strong>program</strong> is typically longer in duration than a project and often consists of multiple projects. Projects are usually the first level of breakdown of a program.</p>
+</section>
+<section id="maturity-and-excellence-a-definition" class="level3" data-number="7.3.2">
+<h3 data-number="7.3.2" class="anchored" data-anchor-id="maturity-and-excellence-a-definition"><span class="header-section-number">7.3.2</span> <strong>Maturity and Excellence: A Definition</strong></h3>
+<p><strong>Maturity in project management</strong> is the implementation of a standard methodology and accompanying processes that result in a high likelihood of repeated successes. Maturity requires the proper foundation of tools, techniques, processes, and culture.</p>
+<p><strong>Organizations excellent in project management</strong> are those that create an environment characterized by a <strong>continuous stream of successfully managed projects</strong>, where success is measured by what is in the best interest of both the company and the project (i.e., customer).</p>
+<ul>
+<li>Excellence goes beyond maturity; maturity is a prerequisite for achieving repetitive excellence.</li>
+</ul>
+</section>
+<section id="the-many-faces-of-success-and-failure" class="level3" data-number="7.3.3">
+<h3 data-number="7.3.3" class="anchored" data-anchor-id="the-many-faces-of-success-and-failure"><span class="header-section-number">7.3.3</span> <strong>The Many Faces of Success and Failure</strong></h3>
+<p>Success can be defined subjectively by the stakeholders. The definition of success can be viewed as a cube defined by Time, Cost, and Quality (or Scope), with the optimal outcome being a point within that cube [56, 57f].</p>
+<ul>
+<li><strong>Primary success factors</strong> are usually seen through the eyes of the customer (e.g., within time, cost, and quality limits; accepted by customer).<br>
+</li>
+<li><strong>Secondary success factors</strong> are internal benefits (e.g., follow-on work, using the customer name as a reference, commercialization of a product, minimum scope changes).</li>
+</ul>
+<p>Project <strong>Failure</strong> can be categorized by the divergence between planned and actual outcomes [60f]. <strong>Planning Failure occurs</strong> when objectives are unrealistic or constantly changing (moving targets).</p>
+<ul>
+<li><strong>Degrees of Project Results</strong>:
+<ul>
+<li><strong>Complete success:</strong> Met success criteria, created value, adhered to all constraints.<br>
+</li>
+<li><strong>Partial success:</strong> Met success criteria, client accepted deliverables, created value, but one or more constraints were missed.<br>
+</li>
+<li><strong>Partial failure:</strong> Not completed as expected (e.g., canceled early), but knowledge or intellectual property was created for future use.</li>
+</ul></li>
+</ul>
+</section>
+<section id="life-cycle-phases" class="level3" data-number="7.3.4">
+<h3 data-number="7.3.4" class="anchored" data-anchor-id="life-cycle-phases"><span class="header-section-number">7.3.4</span> <strong>Life-Cycle Phases</strong></h3>
+<p>The theoretical life-cycle phases of a system applied to a project include:</p>
+<ol type="1">
+<li><strong>Conceptual:</strong> Preliminary idea evaluation, risk analysis, and feasibility study.<br>
+</li>
+<li><strong>Planning:</strong> Detailed breakdown of work, establishing budgets and schedules.<br>
+</li>
+<li><strong>Testing:</strong> Verification of performance and requirements.<br>
+</li>
+<li><strong>Implementation (Execution):</strong> Performing the work.<br>
+</li>
+<li><strong>Closure:</strong> Final verification, contractual, financial, and administrative closure.</li>
+</ol>
+<p><strong>Closure</strong> includes verifying all work is accomplished, contractual closure, financial closure (closing charge numbers), and administrative closure (paperwork).</p>
+</section>
+<section id="project-management-methodologies-to-frameworks" class="level3" data-number="7.3.5">
+<h3 data-number="7.3.5" class="anchored" data-anchor-id="project-management-methodologies-to-frameworks"><span class="header-section-number">7.3.5</span> <strong>Project Management Methodologies to Frameworks</strong></h3>
+<ul>
+<li><strong>Methodology:</strong> A repetitive, standard process often based on rigid policies and procedures, successful primarily when requirements are well-defined (e.g., <strong>Waterfall</strong> approach).<br>
+</li>
+<li><strong>Framework:</strong> A basic conceptual structure providing a skeleton support structure (set of assumptions, concepts, templates, values, processes) that offers the flexibility project teams need to customize their approach to unique project requirements.</li>
+</ul>
+<p>If requirements are unclear or likely to change (e.g., software development), an <strong>Agile</strong> approach, where work evolves over the project life cycle, may be needed instead of the rigid Waterfall approach.</p>
+</section>
+<section id="growth-of-strategic-project-management" class="level3" data-number="7.3.6">
+<h3 data-number="7.3.6" class="anchored" data-anchor-id="growth-of-strategic-project-management"><span class="header-section-number">7.3.6</span> <strong>Growth of Strategic Project Management</strong></h3>
+<p>PM is increasingly applied to <strong>strategic projects</strong> (focused on long-term goals and objectives, often with vague business cases) rather than only traditional <strong>operational projects</strong> (focused on deliverables, clear objectives). This trend has necessitated the use of flexible frameworks over rigid methodologies.</p>
+</section>
+<section id="lean-project-management" class="level3" data-number="7.3.7">
+<h3 data-number="7.3.7" class="anchored" data-anchor-id="lean-project-management"><span class="header-section-number">7.3.7</span> <strong>Lean Project Management</strong></h3>
+<p><strong>Lean Project Management</strong> focuses on eliminating waste and maximizing effectiveness and efficiency, often contrasting with the documentation-heavy, sequential nature of the Waterfall approach.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Traditional (Waterfall) Approach</th>
+<th>Lean Approach</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Massive project documentation</td>
+<td>Minimal documentation</td>
+</tr>
+<tr class="even">
+<td>Excessive number of customer-contractor team meetings</td>
+<td>Minimal number of team meetings</td>
+</tr>
+<tr class="odd">
+<td>Sponsorship at the executive levels</td>
+<td>Sponsorship at lower and middle levels</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="systems-thinking" class="level3" data-number="7.3.8">
+<h3 data-number="7.3.8" class="anchored" data-anchor-id="systems-thinking"><span class="header-section-number">7.3.8</span> <strong>Systems Thinking</strong></h3>
+<p>The <strong>systems approach</strong> is a logical and disciplined process of problem-solving that requires analyzing the total project rather than individual parts. It involves translating requirements into objectives, analyzing alternatives and constraints, synthesizing solutions, and performing trade-offs [97f].</p>
+<hr>
+<p><strong>Chapter 2 Recap</strong></p>
+<ol type="1">
+<li><strong>Maturity</strong> involves using standardized processes; <strong>Excellence</strong> is achieving a <em>continuous stream</em> of successful projects.<br>
+</li>
+<li>Project results are classified as complete success, partial success, or partial failure.<br>
+</li>
+<li>Projects move through life-cycle phases (Conceptual, Planning, Testing, Implementation, Closure), often marked by “gates” or “on-off ramps” for control.<br>
+</li>
+<li>The rigidity of <strong>Methodologies</strong> (Waterfall) contrasts with the flexibility of <strong>Frameworks</strong> (Agile/Hybrid), which allow tailoring to unique projects.<br>
+</li>
+<li>PM is increasingly used for <strong>Strategic Projects</strong> linked to organizational business models.<br>
+</li>
+<li><strong>Systems Thinking</strong> is essential for analyzing the totality of project needs, integrating alternatives, requirements, objectives, and constraints.<br>
+</li>
+<li>Project management requires building a <strong>knowledge repository</strong> that captures both project and business best practices.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="organizational-structures" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="organizational-structures"><span class="header-section-number">7.4</span> <strong>Organizational Structures</strong></h2>
+<section id="the-traditional-functional-organization" class="level3" data-number="7.4.1">
+<h3 data-number="7.4.1" class="anchored" data-anchor-id="the-traditional-functional-organization"><span class="header-section-number">7.4.1</span> <strong>The Traditional (Functional) Organization</strong></h3>
+<p>In a traditional structure (pure functional organization), management is arranged hierarchically by specialty (e.g., Engineering, Marketing, Finance) [111, 111f].</p>
+<ul>
+<li><strong>Advantages:</strong> Strong concentration of technical expertise, easy career progression for specialists, and suitability for mass production.<br>
+</li>
+<li><strong>Disadvantages (for projects):</strong> Difficult project integration, lack of a single customer contact point, poor response time, and lack of horizontal authority/responsibility.</li>
+</ul>
+</section>
+<section id="matrix-organizational-form" class="level3" data-number="7.4.2">
+<h3 data-number="7.4.2" class="anchored" data-anchor-id="matrix-organizational-form"><span class="header-section-number">7.4.2</span> <strong>Matrix Organizational Form</strong></h3>
+<p>The <strong>matrix structure</strong> attempts to combine the advantages of pure functional and product organizational structures and is ideally suited for project-driven companies.</p>
+<ul>
+<li>The project manager reports directly to the General Manager and has total responsibility and accountability for project success (the horizontal hierarchy).<br>
+</li>
+<li>Functional departments maintain technical excellence (the vertical hierarchy).<br>
+</li>
+<li><strong>Ground Rules for Matrix Development</strong>:
+<ul>
+<li>Participants are full-time on the project (for loyalty).<br>
+</li>
+<li>Horizontal and vertical channels must exist for commitments.<br>
+</li>
+<li>Quick and effective methods for conflict resolution must exist.<br>
+</li>
+<li>Good communication and free access between managers are required.<br>
+</li>
+<li>All managers must input into the planning process.<br>
+</li>
+<li>Managers must be willing to negotiate.</li>
+</ul></li>
+</ul>
+</section>
+<section id="project-management-offices-pmos" class="level3" data-number="7.4.3">
+<h3 data-number="7.4.3" class="anchored" data-anchor-id="project-management-offices-pmos"><span class="header-section-number">7.4.3</span> <strong>Project Management Offices (PMOs)</strong></h3>
+<p>The <strong>Project Management Office (PMO)</strong> concept is considered one of the most important PM activities for achieving professionalism, maturity, and excellence in project management. PMOs can be designed for specific business purposes, each potentially having unique missions, goals, and strategic business objectives.</p>
+<ul>
+<li>Organizations can maintain several types of PMOs, sharing information like metrics and KPIs.</li>
+</ul>
+</section>
+<section id="common-project-management-implementation-fallacies" class="level3" data-number="7.4.4">
+<h3 data-number="7.4.4" class="anchored" data-anchor-id="common-project-management-implementation-fallacies"><span class="header-section-number">7.4.4</span> <strong>Common Project Management Implementation Fallacies</strong></h3>
+<p>Fallacies are mistaken beliefs that delay PM maturity.</p>
+<ol type="1">
+<li><strong>Fallacy 1: Our Ultimate Goal Is to Implement Project Management.</strong> Wrong goal; the goal is the progressive development of systems and processes that consistently produce a continuous stream of successful projects.<br>
+</li>
+<li><strong>Fallacy 2: We Need to Establish a Mandatory Number of Forms, Templates, Guidelines, and Checklists.</strong>Wrong criteria; maturity is evaluated by time-based levels and assessment instruments. Focus should be on developing an organization-wide methodology that receives buy-in.<br>
+</li>
+<li><strong>Fallacy 3: We Need to Purchase Project Management Software to Accelerate the Maturity Process.</strong> Wrong approach; software selection should be based on benefits like efficiency and consistency, not just packaged features.<br>
+</li>
+<li><strong>Fallacy 4: We Need to Implement Project Management in Small Steps with a Small Breakthrough Project.</strong>Wrong method; using a large, successfully managed project as a breakthrough implies the processes work on small projects, but the reverse is not necessarily true.<br>
+</li>
+<li><strong>Fallacy 6: We Need Executive Support.</strong> Almost true; visible executive support is required. Executives must “walk the talk” and maintain an open-door policy.<br>
+</li>
+<li><strong>Fallacy 7: We Need a Project Management Course so Our Workers Can Become Project Management Professionals (PMPs).</strong> Getting closer; lifelong education is needed, as becoming a PMP is just the starting point.</li>
+</ol>
+<hr>
+<p><strong>Chapter 3 Recap</strong></p>
+<ol type="1">
+<li>Organizational structures, ranging from traditional functional organizations to specialized project organizations and PMOs, dictate the flow of authority and responsibility.<br>
+</li>
+<li>The <strong>Matrix Organization</strong> attempts to balance technical expertise (vertical) with project accountability (horizontal).<br>
+</li>
+<li>The <strong>PMO</strong> is crucial for standardizing PM processes, sharing knowledge, and providing strategic planning for project management.<br>
+</li>
+<li>Successful PM implementation is hindered by common fallacies, such as believing that software or mandatory documentation ensures maturity.<br>
+</li>
+<li>Organizational structure selection is based on factors like project size, length, cost, and upper management’s philosophy.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="organizing-and-staffing-the-project-office-and-team" class="level2" data-number="7.5">
+<h2 data-number="7.5" class="anchored" data-anchor-id="organizing-and-staffing-the-project-office-and-team"><span class="header-section-number">7.5</span> <strong>Organizing and Staffing the Project Office and Team</strong></h2>
+<section id="selecting-the-project-manager-an-executive-decision" class="level3" data-number="7.5.1">
+<h3 data-number="7.5.1" class="anchored" data-anchor-id="selecting-the-project-manager-an-executive-decision"><span class="header-section-number">7.5.1</span> <strong>Selecting the Project Manager: An Executive Decision</strong></h3>
+<p>Project management success depends heavily on having a good project manager (PM) at the controls. Senior management must visibly appoint the PM and delegate the necessary authority.</p>
+<p>The major responsibilities of the PM include ensuring resources are controlled within cost, time, and performance. PMs also must define the specific constraints, priorities, and internal/external interfaces for their project.</p>
+</section>
+<section id="skill-requirements-for-project-and-program-managers" class="level3" data-number="7.5.2">
+<h3 data-number="7.5.2" class="anchored" data-anchor-id="skill-requirements-for-project-and-program-managers"><span class="header-section-number">7.5.2</span> <strong>Skill Requirements for Project and Program Managers</strong></h3>
+<p>Effective PM requires proficiency in 10 key skills, similar to the eight performance domains of the <em>PMBOK® Guide, 7th Edition</em>. These skills are:</p>
+<ol type="1">
+<li><strong>Team-Building Skills:</strong> Nurturing a climate conducive to teamwork, commitment, good interpersonal relations, open communication, and supportive top management.<br>
+</li>
+<li><strong>Leadership Skills:</strong> Managing human and nonhuman resources to accomplish tasks and meet project constraints.<br>
+</li>
+<li><strong>Conflict Resolution Skills:</strong> Resolving conflicts, often informally, due to the constant nature of project conflicts.<br>
+</li>
+<li><strong>Technical Skills:</strong> Understanding the technology of the project and acting as the final technical authority.<br>
+</li>
+<li><strong>Planning Skills:</strong> Absolutely essential for complex projects, requiring communication and information processing to define resource requirements and negotiating commitments.<br>
+</li>
+<li><strong>Organizational Skills:</strong> Understanding the complex interfaces and relationships between the project office, functional departments, and management.<br>
+</li>
+<li><strong>Administrative Skills:</strong> Managing administrative tasks like budgets, schedules, contracts, and performance appraisals.<br>
+</li>
+<li><strong>Communications Skills:</strong> Essential for effective interpersonal relations and timely communication.<br>
+</li>
+<li><strong>Negotiating Skills:</strong> Securing resources and commitments with little or no formal authority.<br>
+</li>
+<li><strong>Time Management Skills:</strong> Required to manage a turbulent environment filled with meetings, reports, and crisis management.</li>
+</ol>
+</section>
+<section id="the-organizational-staffing-process" class="level3" data-number="7.5.3">
+<h3 data-number="7.5.3" class="anchored" data-anchor-id="the-organizational-staffing-process"><span class="header-section-number">7.5.3</span> <strong>The Organizational Staffing Process</strong></h3>
+<p>The staffing process must answer three questions:</p>
+<ol type="1">
+<li>What resources are required?<br>
+</li>
+<li>Where will the people come from?<br>
+</li>
+<li>What type of project organizational structure will be best?</li>
+</ol>
+<p>Continuity of staffing is critical. The decision to accept an average worker who will be available for the entire project versus fighting for the “best” resources for short-term tasks presents a continuous trade-off.</p>
+</section>
+<section id="the-project-office-po" class="level3" data-number="7.5.4">
+<h3 data-number="7.5.4" class="anchored" data-anchor-id="the-project-office-po"><span class="header-section-number">7.5.4</span> <strong>The Project Office (PO)</strong></h3>
+<p>The <strong>Project Office (PO)</strong> typically consists of personnel assigned full-time to a project, working outside the functional units.</p>
+<p><strong>Major Responsibilities of the PO</strong>:</p>
+<ul>
+<li>Acting as the focal point of information for internal control and customer reporting.<br>
+</li>
+<li>Controlling time, cost, and performance to adhere to contractual requirements.<br>
+</li>
+<li>Ensuring all work required is documented and distributed.<br>
+</li>
+<li>Ensuring all work performed is authorized and funded.<br>
+</li>
+<li><strong>Integration of work across functional lines</strong>—the most common cause of project failure is a lack of proper integration.</li>
+</ul>
+<hr>
+<p><strong>Chapter 4 Recap</strong></p>
+<ol type="1">
+<li>Project success is contingent upon visible executive appointment and delegated authority to the PM.<br>
+</li>
+<li>PMs require a broad array of skills beyond technical competence, especially focused on leadership, communication, planning, and conflict resolution.<br>
+</li>
+<li>The staffing process involves crucial decisions regarding the needed resources, their source, and organizational structure.<br>
+</li>
+<li>The <strong>Project Office (PO)</strong> is dedicated to the management of a single large project, focusing on integration and control.<br>
+</li>
+<li>Full-time PO personnel are essential for effective integration, scheduling under uncertainty, communication, and control.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="management-functions" class="level2" data-number="7.6">
+<h2 data-number="7.6" class="anchored" data-anchor-id="management-functions"><span class="header-section-number">7.6</span> <strong>Management Functions</strong></h2>
+<section id="management-functions-1" class="level3" data-number="7.6.1">
+<h3 data-number="7.6.1" class="anchored" data-anchor-id="management-functions-1"><span class="header-section-number">7.6.1</span> <strong>Management Functions</strong></h3>
+<p>The traditional classical management functions still apply to PM, though their application differs for temporary management positions:</p>
+<ul>
+<li>Planning<br>
+</li>
+<li>Organizing<br>
+</li>
+<li>Staffing<br>
+</li>
+<li>Controlling<br>
+</li>
+<li>Directing</li>
+</ul>
+</section>
+<section id="directing" class="level3" data-number="7.6.2">
+<h3 data-number="7.6.2" class="anchored" data-anchor-id="directing"><span class="header-section-number">7.6.2</span> <strong>Directing</strong></h3>
+<p><strong>Directing</strong> is the implementing and carrying out (through others) of approved plans. It involves:</p>
+<ul>
+<li><strong>Staffing:</strong> Selecting qualified personnel.<br>
+</li>
+<li><strong>Training:</strong> Teaching duties and responsibilities.<br>
+</li>
+<li><strong>Supervising:</strong> Giving guidance and discipline.<br>
+</li>
+<li><strong>Delegating:</strong> Assigning work, responsibility, and authority.<br>
+</li>
+<li><strong>Coordinating:</strong> Integrating tasks across functional boundaries.<br>
+</li>
+<li><strong>Counseling:</strong> Advising, assisting, and helping solve job-related issues.</li>
+</ul>
+<p>PMs must be decisive; it is better to decide and be slightly wrong than to wait for complete information and cause a delay. Directives should apply the <strong>KISS (Keep It Simple, Stupid) rule</strong>.</p>
+</section>
+<section id="power-authority-and-the-project-manager" class="level3" data-number="7.6.3">
+<h3 data-number="7.6.3" class="anchored" data-anchor-id="power-authority-and-the-project-manager"><span class="header-section-number">7.6.3</span> <strong>Power, Authority, and the Project Manager</strong></h3>
+<p><strong>Authority</strong> is the legitimate right to give orders. In PM, authority is generally delegated by senior management and documented in the project charter and job description.</p>
+<p><strong>Power</strong> is the capacity to influence behavior. The sources of power for a project manager include:</p>
+<ul>
+<li><strong>Punishment Power (Coercive Power):</strong> The ability to bring about undesirable events.<br>
+</li>
+<li><strong>Reward Power:</strong> The ability to provide positive benefits.<br>
+</li>
+<li><strong>Expert Power:</strong> The command of technology or specialized knowledge.<br>
+</li>
+<li><strong>Referent Power:</strong> The power derived from personality or charisma.<br>
+</li>
+<li><strong>Legitimate Power:</strong> Formal authority granted by position.</li>
+</ul>
+</section>
+<section id="leadership-in-a-project-environment" class="level3" data-number="7.6.4">
+<h3 data-number="7.6.4" class="anchored" data-anchor-id="leadership-in-a-project-environment"><span class="header-section-number">7.6.4</span> <strong>Leadership in a Project Environment</strong></h3>
+<p><strong>Leadership</strong> is a style of behavior designed to integrate organizational requirements and personal interests toward an objective. Leadership involves balancing three complex elements: the person leading, the people being led, and the situation (the project environment).</p>
+<ul>
+<li>PMs often fail when they cannot balance the technical and managerial functions.<br>
+</li>
+<li>Successful leadership requires PMs to understand the changing values and potential conflicts between the project manager, project team, parent organization, and stakeholders.</li>
+</ul>
+</section>
+<section id="general-management-pitfalls" class="level3" data-number="7.6.5">
+<h3 data-number="7.6.5" class="anchored" data-anchor-id="general-management-pitfalls"><span class="header-section-number">7.6.5</span> <strong>General Management Pitfalls</strong></h3>
+<p>Common management pitfalls in the project environment include:</p>
+<ul>
+<li><strong>Lack of self-control (knowing oneself):</strong> Overestimating one’s capabilities and attempting tasks without sufficient time for training or support.<br>
+</li>
+<li><strong>Activity traps:</strong> When the <em>means</em> become the <em>end</em> (e.g., endless team meetings, unnecessary documentation, developing charts only for upper management).<br>
+</li>
+<li>Management bottlenecks.</li>
+</ul>
+<hr>
+<p><strong>Chapter 5 Recap</strong></p>
+<ol type="1">
+<li>Classical management functions (Planning, Organizing, Staffing, Controlling, Directing) are applied differently in temporary project environments.<br>
+</li>
+<li>The <strong>Directing</strong> function includes staffing, training, supervising, delegating, coordinating, and counseling.<br>
+</li>
+<li>Project managers rely on various forms of <strong>power</strong> (Expert, Reward, Referent) to compensate for often limited <strong>legitimate authority</strong>.<br>
+</li>
+<li>Effective <strong>Leadership</strong> requires integrating the interests of the organization and the individual within the project environment.<br>
+</li>
+<li>Common pitfalls include falling into <strong>activity traps</strong> (means becoming the end) and operating without <strong>self-control</strong>.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="communications-management" class="level2" data-number="7.7">
+<h2 data-number="7.7" class="anchored" data-anchor-id="communications-management"><span class="header-section-number">7.7</span> <strong>Communications Management</strong></h2>
+<section id="modeling-the-communications-environment" class="level3" data-number="7.7.1">
+<h3 data-number="7.7.1" class="anchored" data-anchor-id="modeling-the-communications-environment"><span class="header-section-number">7.7.1</span> <strong>Modeling the Communications Environment</strong></h3>
+<p>Effective communication ensures the right information reaches the right person at the right time in a cost-effective manner. The communications environment is modeled as a network of channels.</p>
+<ul>
+<li>The number of two-way channels (<span class="math inline">\(N\)</span>) for <span class="math inline">\(n\)</span> participants is calculated as <span class="math inline">\(N \= n(n-1)/2\)</span>. (Example: 5 people results in 10 channels).<br>
+</li>
+<li>Communication barriers occur due to <strong>perception screens</strong> (information filtered by education/experience) and <strong>personality screens</strong> (likes/dislikes) [192, 193f].</li>
+</ul>
+</section>
+<section id="meetings" class="level3" data-number="7.7.2">
+<h3 data-number="7.7.2" class="anchored" data-anchor-id="meetings"><span class="header-section-number">7.7.2</span> <strong>Meetings</strong></h3>
+<p>Meetings are essential for exchanging information, but meeting mania is costly.</p>
+<p><strong>General Guides for Effective Meetings</strong>:</p>
+<ul>
+<li>Start on time.<br>
+</li>
+<li>Develop agenda “objectives.”<br>
+</li>
+<li>Conduct one piece of business at a time.<br>
+</li>
+<li>Allow each member to contribute.</li>
+</ul>
+<p><strong>Types of Meetings</strong>:</p>
+<ol type="1">
+<li><strong>Project Review Meetings:</strong> Held periodically (weekly or monthly).<br>
+</li>
+<li><strong>Special Project Meetings:</strong> Held on an as-needed basis (e.g., dealing with critical problems).<br>
+</li>
+<li><strong>Customer Project Review Meetings:</strong> Often critical and inflexibly scheduled. PMs must prepare materials well in advance.</li>
+</ol>
+</section>
+<section id="using-action-items" class="level3" data-number="7.7.3">
+<h3 data-number="7.7.3" class="anchored" data-anchor-id="using-action-items"><span class="header-section-number">7.7.3</span> <strong>Using Action Items</strong></h3>
+<p>To combat <strong>meeting mania</strong> and excessive costs, detailed action items should be clearly assigned. A critical strategy for customer meetings is to send handouts at least a week before the meeting, allowing the client time to digest the material and prepare to make timely decisions, thus reducing follow-up action items.</p>
+</section>
+<section id="brainstorming" class="level3" data-number="7.7.4">
+<h3 data-number="7.7.4" class="anchored" data-anchor-id="brainstorming"><span class="header-section-number">7.7.4</span> <strong>Brainstorming</strong></h3>
+<p>Brainstorming is a technique used to stimulate idea generation and increase group creativity.</p>
+<p><strong>Four Basic Rules of Brainstorming</strong>:</p>
+<ol type="1">
+<li><strong>Focus on quantity:</strong> Maximizing possible ideas, assuming greater quantity increases the chance of finding the optimal solution.<br>
+</li>
+<li><strong>Withhold criticism:</strong> Criticism creates conflict and wastes time needed for idea generation.<br>
+</li>
+<li><strong>Unusual ideas are welcome:</strong> Encourage creativity and risk-taking.<br>
+</li>
+<li><strong>Combine and improve ideas:</strong> Encourage the combination of existing ideas to generate new ones.</li>
+</ol>
+<p><strong>Process of Conducting a Brainstorming Session</strong>:</p>
+<ul>
+<li>Participants who did not speak are encouraged to write down ideas.<br>
+</li>
+<li>The idea collector numbers the ideas to encourage a generation goal (e.g., “let’s get it to 20!”).<br>
+</li>
+<li>The idea collector repeats the idea verbatim to confirm meaning.<br>
+</li>
+<li>When many participants have ideas, the one with the most associated idea should have priority (to encourage elaboration).<br>
+</li>
+<li>Managers/superiors may be discouraged from attending to minimize inhibition.</li>
+</ul>
+<hr>
+<p><strong>Chapter 6 Recap</strong></p>
+<ol type="1">
+<li>Communication effectiveness is measured by getting the right information to the right person, often limited by personality and perception barriers.<br>
+</li>
+<li>The number of two-way communication channels increases exponentially with the number of participants (<span class="math inline">\(N = n(n-1)/2\)</span>).<br>
+</li>
+<li>Project managers must actively manage meetings to avoid costly “meeting mania”.<br>
+</li>
+<li>Sending client materials ahead of time reduces costly action items and travel expenses.<br>
+</li>
+<li><strong>Brainstorming</strong> relies on four rules, focusing on idea quantity and withholding immediate criticism.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="conflicts" class="level2" data-number="7.8">
+<h2 data-number="7.8" class="anchored" data-anchor-id="conflicts"><span class="header-section-number">7.8</span> <strong>Conflicts</strong></h2>
+<section id="types-of-conflicts" class="level3" data-number="7.8.1">
+<h3 data-number="7.8.1" class="anchored" data-anchor-id="types-of-conflicts"><span class="header-section-number">7.8.1</span> <strong>Types of Conflicts</strong></h3>
+<p>It is impossible to eliminate all conflicts, and project managers must understand how to manage them.</p>
+<p><strong>Most Common Conflict Types</strong>:</p>
+<ul>
+<li>Staffing resources<br>
+</li>
+<li>Equipment and facilities<br>
+</li>
+<li>Capital expenditures<br>
+</li>
+<li>Costs<br>
+</li>
+<li>Technical opinions and trade-offs<br>
+</li>
+<li>Priorities (most frequently occurring)<br>
+</li>
+<li>Administrative procedures<br>
+</li>
+<li>Scheduling (most frequently occurring)<br>
+</li>
+<li>Responsibilities<br>
+</li>
+<li>Personality clashes (potentially most damaging).</li>
+</ul>
+<p>Conflicts vary in intensity over the project life cycle, often peaking during the buildup/main phase [209f].</p>
+</section>
+<section id="conflict-management-procedures-minimization" class="level3" data-number="7.8.2">
+<h3 data-number="7.8.2" class="anchored" data-anchor-id="conflict-management-procedures-minimization"><span class="header-section-number">7.8.2</span> <strong>Conflict Management Procedures (Minimization)</strong></h3>
+<p>Project managers should follow conflict minimization procedures, including:</p>
+<ul>
+<li>Pausing and thinking before reacting.<br>
+</li>
+<li>Building trust and cooperation.<br>
+</li>
+<li>Trying to understand the conflict motives.<br>
+</li>
+<li>Keeping the meeting under control.<br>
+</li>
+<li>Listening to all involved parties.<br>
+</li>
+<li>Maintaining a give-and-take attitude.<br>
+</li>
+<li>Being willing to admit fault.</li>
+</ul>
+<p><strong>Conflict Resolution Modes</strong> (commonly identified in management texts):</p>
+<ul>
+<li><strong>Compromising:</strong> Giving up something to achieve a partial solution.<br>
+</li>
+<li><strong>Smoothing (Accommodation):</strong> Emphasizing common areas of agreement.<br>
+</li>
+<li><strong>Forcing (Competition):</strong> Using power to impose a solution.<br>
+</li>
+<li><strong>Withdrawal (Avoidance):</strong> Retreating from conflict.<br>
+</li>
+<li><strong>Confrontation (Problem Solving):</strong> Facing the conflict directly to reach a win-win solution.</li>
+</ul>
+<hr>
+<p><strong>Chapter 7 Recap</strong></p>
+<ol type="1">
+<li>Conflicts are a continuous part of the project environment, often involving priorities, scheduling, staffing, and personality clashes.<br>
+</li>
+<li>The intensity of conflicts varies throughout the project life cycle [209f].<br>
+</li>
+<li>The most frequent conflicts often occur with functional managers and technical personnel, usually over schedules, priorities, and manpower [210f].<br>
+</li>
+<li>Effective conflict management includes understanding motives, building trust, and utilizing appropriate resolution modes like confrontation/problem-solving.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="special-topics" class="level2" data-number="7.9">
+<h2 data-number="7.9" class="anchored" data-anchor-id="special-topics"><span class="header-section-number">7.9</span> <strong>Special Topics</strong></h2>
+<section id="performance-measurement" class="level3" data-number="7.9.1">
+<h3 data-number="7.9.1" class="anchored" data-anchor-id="performance-measurement"><span class="header-section-number">7.9.1</span> <strong>Performance Measurement</strong></h3>
+<p>Functional employees working on projects can be evaluated in several ways:</p>
+<ol type="1">
+<li>A functional manager evaluates the employee with PM input.<br>
+</li>
+<li>PM evaluates the employee with LM input.<br>
+</li>
+<li>The PM evaluates the employee, and the LM signs off.<br>
+</li>
+<li>LM evaluates the employee without PM input (common in weak matrix).<br>
+</li>
+<li>The PM makes the entire evaluation (if the employee is 100% full-time on the project).<br>
+</li>
+<li>All PMs and LMs jointly evaluate all employees (limited to small companies).</li>
+</ol>
+<p><strong>Metrics for Managerial Performance</strong> include overall project management effectiveness, direction, and team performance.</p>
+</section>
+<section id="financial-compensation-and-rewards" class="level3" data-number="7.9.2">
+<h3 data-number="7.9.2" class="anchored" data-anchor-id="financial-compensation-and-rewards"><span class="header-section-number">7.9.2</span> <strong>Financial Compensation and Rewards</strong></h3>
+<p>Project compensation systems are based on four foundations: job classification, base pay, performance appraisals, and merit increases.</p>
+<ul>
+<li><strong>Base Pay Classifications and Incentives:</strong> Project managers whose performance is measured by business results (profit, ROI, new business) often receive higher compensation. Managerial performance (effectiveness, leadership) is harder to assess.<br>
+</li>
+<li><strong>Incentive Plans:</strong> Used to maximize efficiency and effectiveness. Incentives can be monetary or nonmonetary and are often tied to project completion, cost reduction, or added value.</li>
+</ul>
+</section>
+<section id="mega-projects" class="level3" data-number="7.9.3">
+<h3 data-number="7.9.3" class="anchored" data-anchor-id="mega-projects"><span class="header-section-number">7.9.3</span> <strong>Mega Projects</strong></h3>
+<p>Mega projects are large, long-duration projects characterized by immense scale, design and construction complexity, high public profile, multiple stakeholders, and frequent cost underestimation.</p>
+<ul>
+<li>Success requires extensive project management training, clearly defined rules/procedures, strong communications, and quality front-end planning.</li>
+</ul>
+</section>
+<section id="morality-ethics-and-the-corporate-culture" class="level3" data-number="7.9.4">
+<h3 data-number="7.9.4" class="anchored" data-anchor-id="morality-ethics-and-the-corporate-culture"><span class="header-section-number">7.9.4</span> <strong>Morality, Ethics, and the Corporate Culture</strong></h3>
+<p>The PMI <strong>Code of Ethics and Professional Conduct</strong> is divided into four sections:</p>
+<ol type="1">
+<li><strong>Responsibility:</strong> Taking ownership for decisions and their consequences.<br>
+</li>
+<li><strong>Respect:</strong> Regarding ourselves and the resources provided to us.<br>
+</li>
+<li><strong>Fairness:</strong> Making impartial, objective decisions free from prejudice.<br>
+</li>
+<li><strong>Honesty:</strong> Understanding the truth and communicating it truthfully.</li>
+</ol>
+</section>
+<section id="agile-project-management" class="level3" data-number="7.9.5">
+<h3 data-number="7.9.5" class="anchored" data-anchor-id="agile-project-management"><span class="header-section-number">7.9.5</span> <strong>Agile Project Management</strong></h3>
+<p><strong>Agile</strong> is iterative, intending to finish deliverables quickly using successive cycles of continuous improvement.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Traditional PM</th>
+<th>Agile Practices</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Planning prior to execution; Follow the plan exactly</td>
+<td>Iterative planning; Respond to changes</td>
+</tr>
+<tr class="even">
+<td>Single release at the end of the project (often late delivery)</td>
+<td>Multiple releases of a usable product; Shorter delivery time</td>
+</tr>
+<tr class="odd">
+<td>Too much “gold-plating” (unused features)</td>
+<td>Minimal number of features (What the client needs)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="artificial-intelligence-ai" class="level3" data-number="7.9.6">
+<h3 data-number="7.9.6" class="anchored" data-anchor-id="artificial-intelligence-ai"><span class="header-section-number">7.9.6</span> <strong>Artificial Intelligence (AI)</strong></h3>
+<p>Advances in AI (including expert and knowledge-based systems) offer PMs the promise of enhanced decision-making. For AI to be beneficial, organizations must consolidate their “pockets” of project management knowledge into a corporate-wide <strong>knowledge management system</strong> (intellectual property), often managed by the PMO.</p>
+<hr>
+<p><strong>Chapter 8 Recap</strong></p>
+<ol type="1">
+<li>Employee performance measurement in a project environment is complicated by dual reporting relationships, requiring coordination between PMs and LMs.<br>
+</li>
+<li>Financial rewards can be linked to business results (e.g., ROI, profit) or managerial performance (effectiveness).<br>
+</li>
+<li><strong>Mega Projects</strong> demand intense management rigor due to their complexity, risk, and duration.<br>
+</li>
+<li>Ethical conduct, defined by responsibility, respect, fairness, and honesty, is critical for project success.<br>
+</li>
+<li><strong>Agile</strong> methodologies prioritize iteration, frequent releases, and customer collaboration, contrasting with traditional sequential approaches.<br>
+</li>
+<li>The integration of <strong>AI</strong> requires robust knowledge management systems to provide the necessary intellectual property for effective tools.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="the-variables-for-success" class="level2" data-number="7.10">
+<h2 data-number="7.10" class="anchored" data-anchor-id="the-variables-for-success"><span class="header-section-number">7.10</span> <strong>The Variables for Success</strong></h2>
+<section id="project-management-effectiveness-variables" class="level3" data-number="7.10.1">
+<h3 data-number="7.10.1" class="anchored" data-anchor-id="project-management-effectiveness-variables"><span class="header-section-number">7.10.1</span> <strong>Project Management Effectiveness Variables</strong></h3>
+<p>Successful PM cannot be achieved simply by authority or executive meddling; it requires a strong corporate commitment and environment. Key PM effectiveness variables include:</p>
+<ul>
+<li><strong>Credibility:</strong> Derived from being a sound decision-maker, emphasizing facts, and making success visible.<br>
+</li>
+<li><strong>Priority:</strong> Selling the importance of the project to the total organization’s objectives.<br>
+</li>
+<li><strong>Accessibility:</strong> The ability to communicate directly with top management.<br>
+</li>
+<li><strong>Visibility:</strong> Being aware of necessary visibility and conducting timely informational meetings.</li>
+</ul>
+</section>
+<section id="understanding-best-practices" class="level3" data-number="7.10.2">
+<h3 data-number="7.10.2" class="anchored" data-anchor-id="understanding-best-practices"><span class="header-section-number">7.10.2</span> <strong>Understanding Best Practices</strong></h3>
+<p><strong>Best practices</strong> are actions or activities that lead to a sustained competitive advantage in project management. They are often referred to as <strong>proven practices</strong>.</p>
+<p><strong>Levels of Best Practices</strong> (from general to specific application) [331f]:</p>
+<ol type="1">
+<li><strong>Professional (PMI) Standards</strong> (Highest quantity, lowest complexity).<br>
+</li>
+<li><strong>Industry Standards</strong> (Specific to an industry, e.g., automotive).<br>
+</li>
+<li><strong>Company-Specific</strong> (Internal organizational standards).<br>
+</li>
+<li><strong>Project-Specific</strong> (Unique to a single project).<br>
+</li>
+<li><strong>Individual</strong> (Lowest quantity, highest complexity).</li>
+</ol>
+<section id="creating-a-best-practices-library" class="level4" data-number="7.10.2.1">
+<h4 data-number="7.10.2.1" class="anchored" data-anchor-id="creating-a-best-practices-library"><span class="header-section-number">7.10.2.1</span> <strong>Creating a Best Practices Library</strong></h4>
+<p>The organizational solution for retaining PM knowledge is creating a <strong>best practices library</strong>.</p>
+<p><strong>Steps for Creating a Best Practices Library</strong> [333f]:</p>
+<ol type="1">
+<li><strong>Discovery and Understanding:</strong> Identifying potential best practices (BP) from within the organization.<br>
+</li>
+<li><strong>Evaluation:</strong> Determining if the action is a BP.<br>
+</li>
+<li><strong>Classification:</strong> Categorizing the BP (e.g., by Project Management, Customer Interfacing, Business Applications) [334f].<br>
+</li>
+<li><strong>Storage:</strong> Placing the BP into a retrieval system (e.g., company intranet).<br>
+</li>
+<li><strong>Knowledge Transfer:</strong> Disseminating the information (e.g., intranet, seminars, case studies).</li>
+</ol>
+<hr>
+<p><strong>Chapter 9 Recap</strong></p>
+<ol type="1">
+<li>Project success depends on establishing an atmosphere conducive to good working relationships between the project, the parent organization, and the client.<br>
+</li>
+<li>PM <strong>effectiveness variables</strong> include Credibility, Priority, Accessibility, and Visibility.<br>
+</li>
+<li>Project closure must include planning for personnel disposition, material disposal, knowledge transfer, and financial closeout.<br>
+</li>
+<li><strong>Best Practices</strong> are actions leading to a competitive advantage, classified across five levels from professional standards to individual practices.<br>
+</li>
+<li>A <strong>Best Practices Library</strong> is the critical tool for capturing and transferring project and business knowledge across the organization.</li>
+</ol>
+<hr>
+</section>
+</section>
+</section>
+<section id="working-with-executives" class="level2" data-number="7.11">
+<h2 data-number="7.11" class="anchored" data-anchor-id="working-with-executives"><span class="header-section-number">7.11</span> <strong>Working with Executives</strong></h2>
+<section id="the-project-sponsor" class="level3" data-number="7.11.1">
+<h3 data-number="7.11.1" class="anchored" data-anchor-id="the-project-sponsor"><span class="header-section-number">7.11.1</span> <strong>The Project Sponsor</strong></h3>
+<p>The <strong>project sponsor</strong> is the ultimate owner of the project and has the ultimate objective of providing behind-the-scenes assistance to project personnel.</p>
+<p><strong>Sponsor Responsibilities</strong>:</p>
+<ul>
+<li>Providing guidance and mentorship.<br>
+</li>
+<li>Resolving conflicts and making timely project decisions.<br>
+</li>
+<li>Serving as the focal point for project status for other executives.<br>
+</li>
+<li>Establishing a structured policy for scope changes.<br>
+</li>
+<li>Delineating expectations for the PM and team.</li>
+</ul>
+<p>Project managers should manage the relationship with the sponsor, but employees should be careful about how often they “go to the well” (bypass management levels).</p>
+</section>
+<section id="stakeholder-relations-management" class="level3" data-number="7.11.2">
+<h3 data-number="7.11.2" class="anchored" data-anchor-id="stakeholder-relations-management"><span class="header-section-number">7.11.2</span> <strong>Stakeholder Relations Management</strong></h3>
+<p><strong>Stakeholders</strong> are individuals or groups who have something to lose or gain from the project outcome. Stakeholders are identified by individuals/titles, contribution (financial, resource, technology), or authority.</p>
+<section id="stakeholder-analysis-and-mapping" class="level4" data-number="7.11.2.1">
+<h4 data-number="7.11.2.1" class="anchored" data-anchor-id="stakeholder-analysis-and-mapping"><span class="header-section-number">7.11.2.1</span> <strong>Stakeholder Analysis and Mapping</strong></h4>
+<p>The project manager must prioritize stakeholders to manage interactions effectively. <strong>Stakeholder mapping</strong> typically displays stakeholders on a grid comparing their power and their level of interest.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Quadrant</th>
+<th>Power/Interest</th>
+<th>Strategy</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Manage Closely</strong></td>
+<td>High Power, High Interest</td>
+<td>Put forth the greatest effort to satisfy them; they can make or break the project.</td>
+</tr>
+<tr class="even">
+<td><strong>Keep Satisfied</strong></td>
+<td>High Power, Low Interest</td>
+<td>Put forth effort, but avoid excessive detail that leads to boredom.</td>
+</tr>
+<tr class="odd">
+<td><strong>Keep Informed</strong></td>
+<td>Low Power, High Interest</td>
+<td>Adequate communication to avoid sudden high interest due to surprise.</td>
+</tr>
+<tr class="even">
+<td><strong>Monitor</strong></td>
+<td>Low Power, Low Interest</td>
+<td>Minimum effort required; monitor them occasionally.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="project-portfolio-management-ppm" class="level3" data-number="7.11.3">
+<h3 data-number="7.11.3" class="anchored" data-anchor-id="project-portfolio-management-ppm"><span class="header-section-number">7.11.3</span> <strong>Project Portfolio Management (PPM)</strong></h3>
+<p>PPM is a practice to alleviate organizational problems such as misalignment of projects to business strategies and working on non–value-added projects. A <strong>portfolio</strong> is a grouping of projects and programs, usually those that are considered strategic.</p>
+<p><strong>Governance Committee Assessment (PPM)</strong>:</p>
+<ul>
+<li>Assess weak investments (cancellation or replacement).<br>
+</li>
+<li>Determine if consolidation is needed.<br>
+</li>
+<li>Determine if projects need acceleration or deceleration.<br>
+</li>
+<li>Assess alignment to strategic objectives and rebalance the portfolio.</li>
+</ul>
+<hr>
+<p><strong>Chapter 10 Recap</strong></p>
+<ol type="1">
+<li>The <strong>Project Sponsor</strong> guides the project, resolves high-level conflicts, and ensures alignment with organizational goals.<br>
+</li>
+<li>Project managers must focus on managing the sponsor’s expectations and supporting them, especially in times of crisis.<br>
+</li>
+<li><strong>Stakeholder Management</strong> requires identifying individuals, analyzing their needs, and strategically engaging them based on their <strong>power</strong> and <strong>interest</strong>.<br>
+</li>
+<li><strong>Portfolio Management</strong> ensures that groups of projects and programs are aligned with strategic objectives and maximize value for the firm.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="planning" class="level2" data-number="7.12">
+<h2 data-number="7.12" class="anchored" data-anchor-id="planning"><span class="header-section-number">7.12</span> <strong>Planning</strong></h2>
+<section id="business-case" class="level3" data-number="7.12.1">
+<h3 data-number="7.12.1" class="anchored" data-anchor-id="business-case"><span class="header-section-number">7.12.1</span> <strong>Business Case</strong></h3>
+<p>Projects usually begin with a <strong>business case</strong>, a document providing the reasoning why a project should be initiated. It justifies the project by showing that expected business value and benefits exceed the cost of performance.</p>
+<p><strong>Key Components of a Business Case</strong>:</p>
+<ul>
+<li>Assumptions made (all assumptions justifying the project).<br>
+</li>
+<li>High-level or strategic objectives.<br>
+</li>
+<li>Recommended evaluation techniques (e.g., benefit-to-cost ratio, NPV, ROI).<br>
+</li>
+<li>Project metrics (financial and nonfinancial).<br>
+</li>
+<li><strong>Exit strategies</strong> (cancellation criteria).<br>
+</li>
+<li>Project risks, complexity, resources needed, timing, and legal requirements.</li>
+</ul>
+</section>
+<section id="validating-the-assumptions" class="level3" data-number="7.12.2">
+<h3 data-number="7.12.2" class="anchored" data-anchor-id="validating-the-assumptions"><span class="header-section-number">7.12.2</span> <strong>Validating the Assumptions</strong></h3>
+<p>Assumptions (items believed to be true but not grounded in fact) carry risk and often lead to unmet expectations if they change.</p>
+<ul>
+<li><strong>Explicit assumptions</strong> are quantified and unambiguous.<br>
+</li>
+<li><strong>Implicit assumptions</strong> are hidden within explicit statements (e.g., assuming five assigned people will have the necessary skills).<br>
+</li>
+<li><strong>Critical assumptions</strong> can cause significant damage if even small changes occur and must be tracked closely.</li>
+</ul>
+</section>
+<section id="objectives-and-the-smart-rule" class="level3" data-number="7.12.3">
+<h3 data-number="7.12.3" class="anchored" data-anchor-id="objectives-and-the-smart-rule"><span class="header-section-number">7.12.3</span> <strong>Objectives and the SMART Rule</strong></h3>
+<p>Project objectives should be clearly written and understood so the team knows when the project is over. Objectives must follow the <strong>SMART rule</strong>:</p>
+<ul>
+<li><strong>S</strong>pecific<br>
+</li>
+<li><strong>M</strong>easurable<br>
+</li>
+<li><strong>A</strong>ttainable<br>
+</li>
+<li><strong>R</strong>ealistic or Relevant<br>
+</li>
+<li><strong>T</strong>angible or Time bound.</li>
+</ul>
+<p>If requirements are unrealistic, <strong>scaling back the scope</strong> (reducing product functionality) is often the first step, though this must be done carefully to maintain product value.</p>
+</section>
+<section id="the-statement-of-work-sow" class="level3" data-number="7.12.4">
+<h3 data-number="7.12.4" class="anchored" data-anchor-id="the-statement-of-work-sow"><span class="header-section-number">7.12.4</span> <strong>The Statement of Work (SOW)</strong></h3>
+<p>The <strong>Statement of Work (SOW)</strong> is a narrative description of the work required for the project and the end results to be provided under the contract.</p>
+<ul>
+<li>For external projects, two SOWs exist: the <strong>SOW</strong> used in the proposal and the <strong>Contract Statement of Work (CSOW)</strong>.<br>
+</li>
+<li>Common causes of SOW misinterpretation include mixing tasks/specifications, using imprecise language (e.g., “optimum,” “approximately”), and failing to get third-party review.</li>
+</ul>
+</section>
+<section id="work-breakdown-structure-wbs" class="level3" data-number="7.12.5">
+<h3 data-number="7.12.5" class="anchored" data-anchor-id="work-breakdown-structure-wbs"><span class="header-section-number">7.12.5</span> <strong>Work Breakdown Structure (WBS)</strong></h3>
+<p>The <strong>Work Breakdown Structure (WBS)</strong> is the single most important element in project planning. It is a product-oriented family tree subdivision of the hardware, services, and data required to produce the end product.</p>
+<ul>
+<li>The WBS organizes work into elements that are manageable, independent, integratable, and measurable.<br>
+</li>
+<li><strong>WBS Levels</strong> (Example Six-Level Structure):
+<ul>
+<li>Level 1: Total Program<br>
+</li>
+<li>Level 2: Project<br>
+</li>
+<li>Level 3: Task (Summary levels for reporting)<br>
+</li>
+<li>Level 4: Subtask<br>
+</li>
+<li>Level 5: <strong>Work Package</strong> (The level at which the project is managed)<br>
+</li>
+<li>Level 6: Level of Effort.<br>
+</li>
+</ul></li>
+<li>The WBS provides the common framework for cost/budget setting, schedule establishment, risk analysis, and establishing the responsibility matrix.<br>
+</li>
+<li><strong>WBS Decomposition Problems:</strong> Breaking work down too far can lead to excessive control/reporting costs that exceed the benefits.</li>
+</ul>
+<p><strong>Work Package Characteristics</strong>:</p>
+<ul>
+<li>Definable start and end dates.<br>
+</li>
+<li>Budgeted in terms of dollars, man-hours, and performance measurement.<br>
+</li>
+<li>Assignable to a single manager or cost account.<br>
+</li>
+<li>Short duration (usually less than three months).</li>
+</ul>
+</section>
+<section id="project-baselines" class="level3" data-number="7.12.6">
+<h3 data-number="7.12.6" class="anchored" data-anchor-id="project-baselines"><span class="header-section-number">7.12.6</span> <strong>Project Baselines</strong></h3>
+<p>A baseline provides a reference point for measuring performance. The most critical reference is the <strong>Performance Measurement Baseline (PMB)</strong>, which serves as the metric benchmark against which time, cost, and scope performance are measured.</p>
+<p><strong>Steps to Creating a PMB</strong>:</p>
+<ol type="1">
+<li><strong>Review the business case</strong> and constraints (understanding the business boundary).<br>
+</li>
+<li><strong>Establish a requirements baseline</strong> from the customer’s requirements/CSOW (technical boundary).<br>
+</li>
+<li><strong>Convert the requirements baseline into a WBS</strong> (WBS + WBS Dictionary = Scope Baseline).<br>
+</li>
+<li><strong>Arrange work packages into a logical network of activities</strong> (Schedule Baseline).<br>
+</li>
+<li><strong>Price out the time-phased schedule</strong> (Cost Baseline, which includes distributed and undistributed budgets, but <em>excludes</em> the management reserve).<br>
+</li>
+<li><strong>Finalize the PMB</strong> (Summation of Scope, Schedule, and Cost Baselines).<br>
+</li>
+<li><strong>Prepare a Requirements Traceability Matrix (RTM)</strong> linking requirements to the WBS and PMB.</li>
+</ol>
+<hr>
+<p><strong>Chapter 11 Recap</strong></p>
+<ol type="1">
+<li>A <strong>Business Case</strong> provides justification, strategic objectives, metrics, and mandatory <strong>Exit Strategies</strong>.<br>
+</li>
+<li>All assumptions, especially <strong>Critical Assumptions</strong>, must be tracked, as changes invalidate expected benefits.<br>
+</li>
+<li>Objectives must be <strong>SMART</strong> (Specific, Measurable, Attainable, Realistic/Relevant, Time-bound).<br>
+</li>
+<li>The <strong>WBS</strong> is the foundational planning tool, decomposing the project into manageable <strong>Work Packages</strong>.<br>
+</li>
+<li>Project selection often uses <strong>Rating Models</strong> (Scaling, Checklist, Scoring) to compare alternatives against strategic criteria.<br>
+</li>
+<li>The <strong>Performance Measurement Baseline (PMB)</strong> integrates the scope, schedule, and cost baselines, providing the benchmark for performance tracking.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="network-scheduling-techniques" class="level2" data-number="7.13">
+<h2 data-number="7.13" class="anchored" data-anchor-id="network-scheduling-techniques"><span class="header-section-number">7.13</span> <strong>Network Scheduling Techniques</strong></h2>
+<section id="common-scheduling-techniques" class="level3" data-number="7.13.1">
+<h3 data-number="7.13.1" class="anchored" data-anchor-id="common-scheduling-techniques"><span class="header-section-number">7.13.1</span> <strong>Common Scheduling Techniques</strong></h3>
+<p>Scheduling techniques provide control and visualization for time-phased resource utilization. Common techniques include:</p>
+<ul>
+<li><strong>Gantt or Bar Charts:</strong> Simple visualizations but poor for showing interdependencies.<br>
+</li>
+<li><strong>Milestone Charts:</strong> Displaying key objectives, often based on WBS levels.<br>
+</li>
+<li><strong>Networks (PERT/CPM/PDM):</strong> Show interdependencies and the total program flow, helping eliminate crisis management.</li>
+</ul>
+</section>
+<section id="program-evaluation-and-review-technique-pert" class="level3" data-number="7.13.2">
+<h3 data-number="7.13.2" class="anchored" data-anchor-id="program-evaluation-and-review-technique-pert"><span class="header-section-number">7.13.2</span> <strong>Program Evaluation and Review Technique (PERT)</strong></h3>
+<p><strong>PERT</strong> is a management planning and control tool that uses <strong>three time estimates</strong> (optimistic, most likely, and pessimistic) to derive an expected time for each activity.</p>
+<ul>
+<li><strong>PERT is Probabilistic:</strong> It is based on a beta distribution for activity time, allowing calculation of the project completion risk.<br>
+</li>
+<li><strong>CPM is Deterministic:</strong> It uses a single time estimate representing the normal time.</li>
+</ul>
+</section>
+<section id="slack-time-and-the-critical-path" class="level3" data-number="7.13.3">
+<h3 data-number="7.13.3" class="anchored" data-anchor-id="slack-time-and-the-critical-path"><span class="header-section-number">7.13.3</span> <strong>Slack Time and the Critical Path</strong></h3>
+<p>The <strong>Critical Path</strong> is the longest path through the network, determining the earliest completion time of the project.</p>
+<ul>
+<li><strong>Slack Time (or Float):</strong> The amount of time an event or activity can be delayed without affecting the end date of the project or the critical path.
+<ul>
+<li>Events on the critical path have zero slack (TL - TE = 0, where TL is the latest allowable time and TE is the earliest expected time).<br>
+</li>
+</ul></li>
+<li><strong>Dependencies</strong> are relationships between project activities, often derived from the WBS, and can be mandatory (hard logic) or discretionary (soft logic).</li>
+</ul>
+</section>
+<section id="estimating-total-project-time" class="level3" data-number="7.13.4">
+<h3 data-number="7.13.4" class="anchored" data-anchor-id="estimating-total-project-time"><span class="header-section-number">7.13.4</span> <strong>Estimating Total Project Time</strong></h3>
+<p>For activities involving uncertainty (common in R&amp;D or new projects), the PM gathers three time estimates:</p>
+<ul>
+<li>$a = $ Optimistic time (best case)<br>
+</li>
+<li>$m = $ Most likely time<br>
+</li>
+<li>$b = $ Pessimistic time (worst case)</li>
+</ul>
+<p><strong>Expected Time (</strong><span class="math inline">\(t\_e\)</span>) Calculation: <span class="math inline">\(t_e = (a + 4m + b) / 6\)</span>.</p>
+<p>The standard deviation (<span class="math inline">\(\sigma\)</span>) measures the risk of the estimates. The probability of completion within a certain time frame can be calculated using the total path standard deviation (<span class="math inline">\(\sigma_{total}\)</span>), assuming a normal distribution.</p>
+</section>
+<section id="total-pertcpm-planning" class="level3" data-number="7.13.5">
+<h3 data-number="7.13.5" class="anchored" data-anchor-id="total-pertcpm-planning"><span class="header-section-number">7.13.5</span> <strong>12.8 Total PERT/CPM Planning</strong></h3>
+<p><strong>Six-Step PERT/CPM Scheduling Process</strong>:</p>
+<ol type="1">
+<li>List the required activities/events.<br>
+</li>
+<li>Determine the sequence of activities (precedence).<br>
+</li>
+<li>Construct the network (diagram).<br>
+</li>
+<li>Estimate activity times (<span class="math inline">\(t\_e\)</span>) and calculate the earliest start/finish and latest start/finish times.<br>
+</li>
+<li>Determine the Critical Path (the first iteration) and check if it satisfies calendar requirements.<br>
+</li>
+<li><strong>Place calendar dates on each event.</strong> This crucial step converts the plan from an unlimited resource environment (the proposal) to a limited resource environment.</li>
+</ol>
+</section>
+<section id="schedule-compression-techniques" class="level3" data-number="7.13.6">
+<h3 data-number="7.13.6" class="anchored" data-anchor-id="schedule-compression-techniques"><span class="header-section-number">7.13.6</span> <strong>12.14 Schedule Compression Techniques</strong></h3>
+<p>When the critical path is too long, <strong>schedule compression</strong> is used.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Technique</th>
+<th>Myth</th>
+<th>Reality</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Use of Overtime</strong></td>
+<td>Work will progress at the same rate.</td>
+<td>Progress rate is lower, mistakes increase, and burnout may occur.</td>
+</tr>
+<tr class="even">
+<td><strong>Adding More Resources (Crashing)</strong></td>
+<td>Always shortens the schedule.</td>
+<td>Adding more people may make it worse (Brooks’ Law), especially for complex tasks.</td>
+</tr>
+<tr class="odd">
+<td><strong>Fast-Tracking (Concurrent Scheduling)</strong></td>
+<td>Saves time with no risk.</td>
+<td>Saves little time but increases risks (e.g., rework).</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Chapter 12 Recap</strong></p>
+<ol type="1">
+<li>Network scheduling techniques like PERT (probabilistic, three estimates) and CPM (deterministic, single estimate) are superior to bar charts for showing activity interdependencies.<br>
+</li>
+<li>The <strong>Critical Path</strong> is the longest path through the network, determining project duration.<br>
+</li>
+<li><strong>Slack Time</strong> is the allowable delay for non-critical activities.<br>
+</li>
+<li>The <span class="math inline">\(\sigma\)</span> (standard deviation) calculated from the three-point estimates serves as a measure of the risk in the time estimate.<br>
+</li>
+<li>The six steps of PERT/CPM planning culminate in placing <strong>calendar dates</strong> on the schedule, reflecting resource constraints.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="pricing-and-estimating" class="level2" data-number="7.14">
+<h2 data-number="7.14" class="anchored" data-anchor-id="pricing-and-estimating"><span class="header-section-number">7.14</span> <strong>Pricing and Estimating</strong></h2>
+<section id="global-pricing-strategies" class="level3" data-number="7.14.1">
+<h3 data-number="7.14.1" class="anchored" data-anchor-id="global-pricing-strategies"><span class="header-section-number">7.14.1</span> <strong>Global Pricing Strategies</strong></h3>
+<p>Pricing strategies differ based on the long-term potential of the project acquisition.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Strategy Element</th>
+<th>Type I Acquisition (One-of-a-Kind)</th>
+<th>Type II Acquisition (Must-Win/Follow-On Potential)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Pricing Basis</strong></td>
+<td>Determined by actual cost.</td>
+<td>Determined by market forces.</td>
+</tr>
+<tr class="even">
+<td><strong>Margin</strong></td>
+<td>Must include gross profit margin.</td>
+<td>Margin could be negative if winning is paramount for market penetration.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="types-of-estimates" class="level3" data-number="7.14.2">
+<h3 data-number="7.14.2" class="anchored" data-anchor-id="types-of-estimates"><span class="header-section-number">7.14.2</span> <strong>Types of Estimates</strong></h3>
+<p>Estimates are critical for profitability. The accuracy improves as the project scope becomes better defined [491f].</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Estimating Method</th>
+<th>Generic Type</th>
+<th>WBS Relationship</th>
+<th>Accuracy</th>
+<th>Time to Prepare</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Parametric</strong></td>
+<td>Rough Order of Magnitude (ROM)</td>
+<td>Top Down</td>
+<td><span class="math inline">\(\pm\)</span> 25% - 75%</td>
+<td>Days</td>
+</tr>
+<tr class="even">
+<td><strong>Analogy</strong></td>
+<td>Budget</td>
+<td>Top Down</td>
+<td><span class="math inline">\(\pm\)</span> 10% - 25%</td>
+<td>Weeks</td>
+</tr>
+<tr class="odd">
+<td><strong>Engineering/Definitive</strong></td>
+<td>Grass Roots</td>
+<td>Bottom Up</td>
+<td><span class="math inline">\(\pm\)</span> 5% - 10%</td>
+<td>Months</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="pricing-out-the-work-13-logical-steps" class="level3" data-number="7.14.3">
+<h3 data-number="7.14.3" class="anchored" data-anchor-id="pricing-out-the-work-13-logical-steps"><span class="header-section-number">7.14.3</span> <strong>Pricing Out the Work: 13 Logical Steps</strong></h3>
+<p>The pricing process is iterative. Key steps include:</p>
+<ol type="1">
+<li>Provide a complete definition of the work requirements.<br>
+</li>
+<li>Establish a logic network with checkpoints.<br>
+</li>
+<li>Develop the WBS.<br>
+</li>
+<li><strong>Price out the WBS</strong>.<br>
+</li>
+<li>Review WBS costs with functional managers.<br>
+</li>
+<li>Decide on the basic course of action.<br>
+</li>
+<li>Establish reasonable costs for each WBS element.<br>
+</li>
+<li>Review the base case costs with upper-level management.<br>
+</li>
+<li>Negotiate with functional managers for qualified personnel.<br>
+</li>
+<li>Develop the Linear Responsibility Chart.<br>
+</li>
+<li>Develop the final detailed schedules.<br>
+</li>
+<li>Establish pricing cost summary reports.<br>
+</li>
+<li>Document the result in a project plan.</li>
+</ol>
+</section>
+<section id="estimating-high-risk-projects" class="level3" data-number="7.14.4">
+<h3 data-number="7.14.4" class="anchored" data-anchor-id="estimating-high-risk-projects"><span class="header-section-number">7.14.4</span> <strong>Estimating High-Risk Projects</strong></h3>
+<p>For high-risk projects (e.g., R&amp;D where the future scope depends on early results), the <strong>“Rolling Wave” or “Moving Window” approach</strong> is used.</p>
+<ul>
+<li>This technique estimates the near-term effort (e.g., next six months) in high detail (Level 5 WBS), while estimating the far-term effort at a high level (Level 2 WBS), incurring high risk for the later phases [455, 507f]. As the project progresses, the window moves, requiring refinement of the estimates for the next near-term phase.</li>
+</ul>
+</section>
+<section id="the-10-percent-solution" class="level3" data-number="7.14.5">
+<h3 data-number="7.14.5" class="anchored" data-anchor-id="the-10-percent-solution"><span class="header-section-number">7.14.5</span> <strong>The 10 Percent Solution</strong></h3>
+<p>The <strong>10 percent solution</strong> occurs when an executive committee arbitrarily reduces a project budget by a small percentage (e.g., 10%) without reducing scope. If the original estimate was honest, this reduction must be accompanied by a trade-off in time or performance. Often, 90% of the budget generates the first 10% of the desired output, and the remaining 10% generates 90% of the target requirements; thus, a small budget cut can lead to massive performance loss.</p>
+<ul>
+<li><strong>Viable Alternatives to the 10% Solution</strong>: (1) Use the solution only after an “impact study” detailing effects on time/cost/performance, or (2) <strong>Cancel or descope selected projects entirely</strong>.</li>
+</ul>
+</section>
+<section id="financial-project-evaluation-techniques" class="level3" data-number="7.14.6">
+<h3 data-number="7.14.6" class="anchored" data-anchor-id="financial-project-evaluation-techniques"><span class="header-section-number">7.14.6</span> <strong>Financial Project Evaluation Techniques</strong></h3>
+<p>Capital budgeting is the decision-making process for evaluating major fixed asset purchases.</p>
+<ul>
+<li><strong>Payback Period:</strong> The time required to recover the initial investment from cash inflows. Least precise as it does not adjust for the time value of money.<br>
+</li>
+<li><strong>Net Present Value (NPV):</strong> Equates discounted cash flows (<span class="math inline">\(FV_t\)</span>) against the initial investment (<span class="math inline">\(II\)</span>). If NPV <span class="math inline">\(&gt; 0\)</span>, the project is financially desirable.<br>
+</li>
+<li><strong>Internal Rate of Return (IRR):</strong> The discount rate where the NPV equals zero. If IRR is greater than the firm’s cost of capital, the project is acceptable.<br>
+</li>
+<li><strong>Capital Rationing:</strong> Selecting the best group of projects to achieve the highest overall NPV without exceeding the total available budget.</li>
+</ul>
+<hr>
+<p><strong>Chapter 13 Recap</strong></p>
+<ol type="1">
+<li>Pricing strategies depend on whether the acquisition is Type I (profit-driven) or Type II (market penetration/must-win).<br>
+</li>
+<li>Estimates range in accuracy from the <strong>Parametric ROM</strong> (<span class="math inline">\(\pm\)</span> 25%-75%) to the highly accurate <strong>Definitive Bottom-Up</strong> (<span class="math inline">\(\pm\)</span> 5%-10%).<br>
+</li>
+<li>The <strong>Rolling Wave</strong> approach is critical for high-risk, long-term projects to maintain high estimation accuracy for the near term while forecasting the far term at a high WBS level.<br>
+</li>
+<li>The arbitrary application of the <strong>10 Percent Solution</strong> can drastically reduce performance and value.<br>
+</li>
+<li>Financial viability is evaluated using sophisticated capital budgeting methods like <strong>NPV</strong> and <strong>IRR</strong>.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="cost-control" class="level2" data-number="7.15">
+<h2 data-number="7.15" class="anchored" data-anchor-id="cost-control"><span class="header-section-number">7.15</span> <strong>Cost Control</strong></h2>
+<section id="management-cost-and-control-system-mccs" class="level3" data-number="7.15.1">
+<h3 data-number="7.15.1" class="anchored" data-anchor-id="management-cost-and-control-system-mccs"><span class="header-section-number">7.15.1</span> <strong>Management Cost and Control System (MCCS)</strong></h3>
+<p>The MCCS is not just a tool for monitoring costs but an integrated system that monitors schedule and performance as well. An effective MCCS must:</p>
+<ul>
+<li>Plan and schedule work.<br>
+</li>
+<li>Identify measurement indicators.<br>
+</li>
+<li>Establish direct labor and overhead budgets.<br>
+</li>
+<li>Identify the management reserve.</li>
+</ul>
+<p>The MCCS uses the WBS as the framework to compare actual costs, time, and performance against the budget.</p>
+</section>
+<section id="variance-and-earned-value" class="level3" data-number="7.15.2">
+<h3 data-number="7.15.2" class="anchored" data-anchor-id="variance-and-earned-value"><span class="header-section-number">7.15.2</span> <strong>Variance and Earned Value</strong></h3>
+<p>The <strong>Earned Value Measurement System (EVMS)</strong> integrates scope, schedule, and cost performance. Four primary elements are used:</p>
+<ol type="1">
+<li><strong>Budgeted Cost of Work Scheduled (BCWS):</strong> The dollar value of the work planned to be completed as of a measurement time (Planned Value, PV).<br>
+</li>
+<li><strong>Budgeted Cost of Work Performed (BCWP):</strong> The dollar value of the work actually accomplished (Earned Value, EV).<br>
+</li>
+<li><strong>Actual Cost of Work Performed (ACWP):</strong> The actual cost incurred for the work accomplished (Actual Cost, AC).<br>
+</li>
+<li><strong>Budget at Completion (BAC):</strong> The total planned budget for the project or work package.</li>
+</ol>
+<section id="variance-calculation" class="level4" data-number="7.15.2.1">
+<h4 data-number="7.15.2.1" class="anchored" data-anchor-id="variance-calculation"><span class="header-section-number">7.15.2.1</span> <strong>Variance Calculation</strong></h4>
+<p><strong>Cost Variance (CV):</strong> <span class="math inline">\(CV = BCWP - ACWP\)</span>.</p>
+<ul>
+<li>CV <span class="math inline">\(&gt; 0\)</span> (Positive): Under budget/favorable.<br>
+</li>
+<li>CV <span class="math inline">\(&lt;0\)</span> (Negative): Over budget/unfavorable.</li>
+</ul>
+<p><strong>Schedule Variance (SV):</strong> <span class="math inline">\(SV = BCWP - BCWS\)</span>.</p>
+<ul>
+<li>SV <span class="math inline">\(&gt; 0\)</span> (Positive): Ahead of schedule/favorable.<br>
+</li>
+<li>SV <span class="math inline">\(&lt; 0\)</span> (Negative): Behind schedule/unfavorable.</li>
+</ul>
+</section>
+<section id="performance-indices-trend-indicators" class="level4" data-number="7.15.2.2">
+<h4 data-number="7.15.2.2" class="anchored" data-anchor-id="performance-indices-trend-indicators"><span class="header-section-number">7.15.2.2</span> <strong>Performance Indices (Trend Indicators)</strong></h4>
+<ul>
+<li><strong>Cost Performance Index (CPI):</strong> <span class="math inline">\(CPI = BCWP / ACWP\)</span>.
+<ul>
+<li><span class="math inline">\(CPI \&gt; 1.0\)</span>: Project is favorable (under budget).<br>
+</li>
+<li><span class="math inline">\(CPI &lt; 1.0\)</span>: Project is unfavorable (over budget).<br>
+</li>
+</ul></li>
+<li><strong>Schedule Performance Index (SPI):</strong> <span class="math inline">\(SPI = BCWP / BCWS\)</span>.
+<ul>
+<li><span class="math inline">\(SPI \&gt; 1.0\)</span>: Project is favorable (ahead of schedule).<br>
+</li>
+<li><span class="math inline">\(SPI &lt; 1.0\)</span>: Project is unfavorable (behind schedule).</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="budget-breakdown-and-reserve" class="level3" data-number="7.15.3">
+<h3 data-number="7.15.3" class="anchored" data-anchor-id="budget-breakdown-and-reserve"><span class="header-section-number">7.15.3</span> <strong>Budget Breakdown and Reserve</strong></h3>
+<p>The <strong>Cost Baseline</strong> represents the time-phased authorized budget. It includes the distributed and undistributed budgets.</p>
+<ul>
+<li><strong>Management Reserves:</strong> Funds included in the total project budget to cover unforeseen events <em>within the defined project scope</em> (known unknowns), but they are excluded from the cost baseline.<br>
+</li>
+<li><strong>Contingency Funds:</strong> Typically come from external sources and are used for unlikely major events or changes in scope (unknown unknowns).</li>
+</ul>
+</section>
+<section id="the-cost-overrun-dilemma" class="level3" data-number="7.15.4">
+<h3 data-number="7.15.4" class="anchored" data-anchor-id="the-cost-overrun-dilemma"><span class="header-section-number">7.15.4</span> <strong>The Cost Overrun Dilemma</strong></h3>
+<p>When overruns occur, the simplest solution is reducing scope. Project managers often look first to <strong>easy-to-cut items which</strong> were poorly understood and often underestimated during planning, such as:</p>
+<ul>
+<li>Project management supervision.<br>
+</li>
+<li>Line management supervision.<br>
+</li>
+<li>Process controls, quality assurance, and testing.</li>
+</ul>
+<p>If further cuts are needed, they move to <strong>hard-to-cut items</strong> like direct labor, materials, and equipment.</p>
+<hr>
+<p><strong>Chapter 14 Recap</strong></p>
+<ol type="1">
+<li>The MCCS is an integrated control tool tracking cost, time, and performance.<br>
+</li>
+<li>The <strong>Earned Value Management System (EVMS)</strong> uses four metrics (BCWS, BCWP, ACWP, BAC) to measure project status and forecast future outcomes.<br>
+</li>
+<li><strong>Cost Variance (CV)</strong> and <strong>Schedule Variance (SV)</strong> measure deviation from the plan.<br>
+</li>
+<li>The <strong>CPI</strong> and <strong>SPI</strong> provide trend analysis, indicating efficiency (CPI) and schedule pace (SPI).<br>
+</li>
+<li>The <strong>Management Reserve</strong> covers internal risks (known unknowns) and is excluded from the cost baseline.<br>
+</li>
+<li>When cost reduction is necessary, project managers first target “easy-to-cut” items like quality assurance and control functions, risking long-term performance.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="metrics" class="level2" data-number="7.16">
+<h2 data-number="7.16" class="anchored" data-anchor-id="metrics"><span class="header-section-number">7.16</span> <strong>Metrics</strong></h2>
+<section id="project-management-information-systems-pmis" class="level3" data-number="7.16.1">
+<h3 data-number="7.16.1" class="anchored" data-anchor-id="project-management-information-systems-pmis"><span class="header-section-number">7.16.1</span> <strong>Project Management Information Systems (PMIS)</strong></h3>
+<p>A <strong>PMIS</strong> contains all essential and supporting information for the project life cycle, including earned value measurement and significantly more metrics than just time and cost. The PMIS is often integrated into an <strong>Enterprise Resource Planning (ERP) system</strong>, which helps with capacity planning by coordinating resource allocation across ongoing business activities and projects.</p>
+</section>
+<section id="key-performance-indicators-kpis" class="level3" data-number="7.16.2">
+<h3 data-number="7.16.2" class="anchored" data-anchor-id="key-performance-indicators-kpis"><span class="header-section-number">7.16.2</span> <strong>Key Performance Indicators (KPIs)</strong></h3>
+<p>A <strong>metric</strong> is a generic measurement, whereas a <strong>Key Performance Indicator (KPI)</strong> is specific, acting as an early warning sign that alerts management to potential issues.</p>
+<p><strong>Principles of KPIs</strong>:</p>
+<ul>
+<li>KPIs are agreed upon beforehand and reflect the Critical Success Factors (CSFs) of the project.<br>
+</li>
+<li>KPIs are controllable, meaning they trigger changes necessary for corrective action.<br>
+</li>
+<li>A KPI metric is only “key” if it can make or break the project.</li>
+</ul>
+<p><strong>Characteristics of Effective KPIs</strong>:</p>
+<ul>
+<li><strong>Predictive:</strong> Able to forecast the future trend of performance.<br>
+</li>
+<li><strong>Actionable:</strong> Triggers necessary changes or corrective action.<br>
+</li>
+<li><strong>Relevant:</strong> Directly related to project success or failure.<br>
+</li>
+<li><strong>Few in number:</strong> Focuses attention on necessary measurements (typically 6 to 10).<br>
+</li>
+<li><strong>Aligned:</strong> Always aligned with corporate strategy and objectives.</li>
+</ul>
+<p>The <strong>Pareto principle</strong> often suggests that 20% of the indicators will impact 80% of the project. David Parmenter suggests the <strong>10/80/10 Rule</strong> for classification: 10 Results Indicators (RIs), 80 Performance Indicators (PIs), and 10 KPIs.</p>
+</section>
+<section id="value-based-metrics" class="level3" data-number="7.16.3">
+<h3 data-number="7.16.3" class="anchored" data-anchor-id="value-based-metrics"><span class="header-section-number">7.16.3</span> <strong>Value-Based Metrics</strong></h3>
+<p>Modern projects focus on defining success based on the <strong>business value expected vs.&nbsp;business value delivered</strong>. A project is seen as an investment.</p>
+<ul>
+<li><strong>Value</strong> is a balance among performance, resource usage, and risk.<br>
+</li>
+<li>Measuring value requires going beyond “easy (soft/tangible) values” (like NPV or ROI calculators) to “hard (intangible) values” (like stockholder satisfaction, employee turnover, or corporate image) [523t].</li>
+</ul>
+</section>
+<section id="dashboards-and-scorecards" class="level3" data-number="7.16.4">
+<h3 data-number="7.16.4" class="anchored" data-anchor-id="dashboards-and-scorecards"><span class="header-section-number">7.16.4</span> <strong>Dashboards and Scorecards</strong></h3>
+<p>Dashboards and scorecards are visual mechanisms for conveying critical information within a performance measurement system.</p>
+<ul>
+<li><strong>Dashboard:</strong> Monitors operational processes (e.g., project management KPIs, often updated intra-day or daily).<br>
+</li>
+<li><strong>Scorecard:</strong> Charts the progress of tactical goals (e.g., long-term performance summaries, usually updated monthly/quarterly).</li>
+</ul>
+<p><strong>Three Types of Performance Dashboards</strong> [600, 600t]:</p>
+<ol type="1">
+<li><strong>Operational:</strong> Monitors daily operations (Users: Supervisors, Specialists; Emphasis: Monitoring).<br>
+</li>
+<li><strong>Tactical:</strong> Measures progress (Users: Managers, Analysts; Emphasis: Analysis).<br>
+</li>
+<li><strong>Strategic:</strong> Monitors the execution of strategic objectives (Users: Executives, Managers; Emphasis: Management).</li>
+</ol>
+<hr>
+<p><strong>Chapter 15 Recap</strong></p>
+<ol type="1">
+<li>The PMIS (often integrated with ERP) provides essential project and business information and aids in capacity planning.<br>
+</li>
+<li><strong>KPIs</strong> are predictive, actionable, and critical measures used as early warning signs for project performance.<br>
+</li>
+<li>The <strong>10/80/10 Rule</strong> provides guidance for limiting the number of truly critical KPIs.<br>
+</li>
+<li>Modern PM emphasizes metrics that capture <strong>business value</strong> and <strong>intangible assets</strong> (e.g., customer satisfaction, knowledge creation).<br>
+</li>
+<li><strong>Dashboards</strong> focus on operational monitoring, while <strong>Scorecards</strong> track tactical progress toward goals, often cascading throughout the enterprise.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="trade-off-analysis-in-a-project-environment" class="level2" data-number="7.17">
+<h2 data-number="7.17" class="anchored" data-anchor-id="trade-off-analysis-in-a-project-environment"><span class="header-section-number">7.17</span> <strong>Trade-Off Analysis in a Project Environment</strong></h2>
+<section id="trade-off-definition" class="level3" data-number="7.17.1">
+<h3 data-number="7.17.1" class="anchored" data-anchor-id="trade-off-definition"><span class="header-section-number">7.17.1</span> <strong>Trade-Off Definition</strong></h3>
+<p>A <strong>trade-off</strong> is a situation where the project manager must sacrifice one project constraint (Time, Cost, or Performance) to maintain or satisfy another constraint.</p>
+</section>
+<section id="methodology-for-trade-off-analysis" class="level3" data-number="7.17.2">
+<h3 data-number="7.17.2" class="anchored" data-anchor-id="methodology-for-trade-off-analysis"><span class="header-section-number">7.17.2</span> <strong>Methodology for Trade-Off Analysis</strong></h3>
+<p>Trade-off analysis is typically a six-step process:</p>
+<p><strong>Step 1: Determine the Objectives</strong></p>
+<ul>
+<li>Review original objectives and determine if they are still achievable.<br>
+</li>
+<li>Document the importance of the objectives to the company.</li>
+</ul>
+<p><strong>Step 2: Determine Current Status</strong></p>
+<ul>
+<li>Analyze WBS elements that are failing, identifying cause, impact, and proposed corrective action.<br>
+</li>
+<li>Evaluate whether performance, schedule, or cost is most suspect.</li>
+</ul>
+<p><strong>Step 3: Identify Alternatives</strong></p>
+<ul>
+<li>List all alternatives to eliminate the problem (e.g., changing specifications, reallocating resources, adjusting schedules).</li>
+</ul>
+<p><strong>Step 4: Analyze Alternatives</strong></p>
+<ul>
+<li>Determine the impact of each alternative on the three constraints (T, C, P).<br>
+</li>
+<li>Graphical analysis can be used by holding one constraint fixed:
+<ul>
+<li><em>Fixed Performance:</em> Express cost as a function of time (Figure 16-5).<br>
+</li>
+<li><em>Fixed Cost:</em> Plot performance versus time [617f].<br>
+</li>
+<li><em>Fixed Time:</em> Plot cost versus performance [618f].</li>
+</ul></li>
+</ul>
+<p><strong>Step 5: Select Feasible Alternatives</strong></p>
+<ul>
+<li>Prepare a formal project update report for internal/external management, detailing alternative work scopes, schedules, and costs (e.g., minimum cost overrun, conformance to objectives, minimum schedule overrun).<br>
+</li>
+<li>Rank alternatives based on factors like customer impact, potential follow-on business, and loss of goodwill.</li>
+</ul>
+<p><strong>Step 6: Replanning the Project</strong></p>
+<ul>
+<li>Document the selected alternative in the revised project plan, SOW, and baseline documentation.</li>
+</ul>
+</section>
+<section id="impact-of-contract-type" class="level3" data-number="7.17.3">
+<h3 data-number="7.17.3" class="anchored" data-anchor-id="impact-of-contract-type"><span class="header-section-number">7.17.3</span> <strong>Impact of Contract Type</strong></h3>
+<p>The final decision on trade-offs is often influenced by the type of contract.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Contract Type</th>
+<th>1st to be Sacrificed</th>
+<th>2nd to be Sacrificed</th>
+<th>3rd to be Sacrificed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Firm-Fixed-Price (FFP)</strong></td>
+<td>Cost</td>
+<td>Time</td>
+<td>Performance</td>
+</tr>
+<tr class="even">
+<td><strong>Cost-Plus-Fixed-Fee (CPFF)</strong></td>
+<td>Cost</td>
+<td>Time</td>
+<td>Performance</td>
+</tr>
+<tr class="odd">
+<td><strong>Cost-Plus-Incentive-Fee (CPIF)</strong></td>
+<td>Time</td>
+<td>Performance</td>
+<td>Cost</td>
+</tr>
+<tr class="even">
+<td><strong>Cost-Sharing</strong></td>
+<td>Performance</td>
+<td>Time</td>
+<td>Cost</td>
+</tr>
+</tbody>
+</table>
+<p>Note: On FFP and CPFF contracts, the contractor typically bears the most risk regarding cost, meaning cost is the first resource sacrificed when trade-offs are needed to meet time or performance requirements.</p>
+<hr>
+<p><strong>Chapter 16 Recap</strong></p>
+<ol type="1">
+<li>Trade-off analysis is necessary when project deviation requires sacrificing one constraint (T, C, P) to meet others.<br>
+</li>
+<li>The methodology involves six steps, starting with clearly defining objectives and ending with formally replanning the project.<br>
+</li>
+<li>Graphical analysis helps visualize the impact of trade-offs when one constraint is held constant.<br>
+</li>
+<li>The sequence in which resources are sacrificed depends heavily on the contract type and who assumes the financial risk.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="risk-management" class="level2" data-number="7.18">
+<h2 data-number="7.18" class="anchored" data-anchor-id="risk-management"><span class="header-section-number">7.18</span> <strong>Risk Management</strong></h2>
+<section id="risk-defined" class="level3" data-number="7.18.1">
+<h3 data-number="7.18.1" class="anchored" data-anchor-id="risk-defined"><span class="header-section-number">7.18.1</span> <strong>Risk Defined</strong></h3>
+<p><strong>Risk</strong> is traditionally identified as a measure of the probability and consequence (impact) of not achieving a defined project goal. Risk involves uncertainty.</p>
+<ul>
+<li><strong>Risk Event:</strong> A future occurrence that is uncertain but can be planned for.<br>
+</li>
+<li>Risk can be categorized into business, legal, technical, organizational, and environmental risks.</li>
+</ul>
+</section>
+<section id="tolerance-for-risk" class="level3" data-number="7.18.2">
+<h3 data-number="7.18.2" class="anchored" data-anchor-id="tolerance-for-risk"><span class="header-section-number">7.18.2</span> <strong>Tolerance for Risk</strong></h3>
+<p>The way risk is managed is based on the decision maker’s tolerance for risk. The three common classifications of risk tolerance are [636, 552f]:</p>
+<ol type="1">
+<li><strong>Risk Averter (or Avoider):</strong> Prefers stability and certainty over high payoff risk.<br>
+</li>
+<li><strong>Neutral Risk Taker:</strong> Focuses only on the expected monetary value.<br>
+</li>
+<li><strong>Risk Taker (or Seeker):</strong> Prefers risk, enjoying the possibility of high payoff.</li>
+</ol>
+</section>
+<section id="decision-making-under-risk" class="level3" data-number="7.18.3">
+<h3 data-number="7.18.3" class="anchored" data-anchor-id="decision-making-under-risk"><span class="header-section-number">7.18.3</span> <strong>Decision-Making under Risk</strong></h3>
+<p>When probabilities can be assigned to possible outcomes, <strong>Decision Trees</strong> can be used.</p>
+<p><strong>Three Steps to Construct a Decision Tree</strong>:</p>
+<ol type="1">
+<li>Build a logic tree from left to right, including decision points (box/square) and chance points (circle).<br>
+</li>
+<li>Put the probabilities of the states of nature on the branches.<br>
+</li>
+<li>Add the conditional payoffs to complete the tree.</li>
+</ol>
+</section>
+<section id="risk-management-process" class="level3" data-number="7.18.4">
+<h3 data-number="7.18.4" class="anchored" data-anchor-id="risk-management-process"><span class="header-section-number">7.18.4</span> <strong>Risk Management Process</strong></h3>
+<p>Risk management is a continuous process that should be established early in the project life cycle. The process includes:</p>
+<ol type="1">
+<li><strong>Plan Risk Management:</strong> Develop the Risk Management Plan (RMP).<br>
+</li>
+<li><strong>Identify Risks:</strong> Determine the risks that may affect the project.<br>
+</li>
+<li><strong>Perform Risk Analysis:</strong> Estimate probability and consequence (Qualitative/Quantitative).<br>
+</li>
+<li><strong>Plan Risk Response:</strong> Develop options and actions to enhance opportunities and reduce threats.<br>
+</li>
+<li><strong>Monitor and Control Risks:</strong> Track identified risks and implement plans.</li>
+</ol>
+</section>
+<section id="risk-analysis" class="level3" data-number="7.18.5">
+<h3 data-number="7.18.5" class="anchored" data-anchor-id="risk-analysis"><span class="header-section-number">7.18.5</span> <strong>Risk Analysis</strong></h3>
+<p><strong>Qualitative Risk Analysis</strong> estimates risk levels using probability-of-occurrence and consequence scales, mapped onto a risk matrix. Risks are classified as:</p>
+<ul>
+<li><strong>High Risk:</strong> Unacceptable, failure is highly likely. Requires immediate senior management attention and action.<br>
+</li>
+<li><strong>Medium Risk:</strong> Some impact on cost/schedule/performance. Special action may be required.<br>
+</li>
+<li><strong>Low Risk:</strong> Minimal impact. Normal management oversight is sufficient.</li>
+</ul>
+<p><strong>Quantitative Risk Analysis</strong> includes techniques like <strong>Expected Value</strong> (Expected Monetary Value), Decision Tree analysis, and <strong>Monte Carlo Simulation</strong>. Monte Carlo simulation uses random variables and probability distributions to model potential outcomes for cost and schedule risks.</p>
+</section>
+<section id="plan-risk-response" class="level3" data-number="7.18.6">
+<h3 data-number="7.18.6" class="anchored" data-anchor-id="plan-risk-response"><span class="header-section-number">7.18.6</span> <strong>Plan Risk Response</strong></h3>
+<p><strong>Risk Response Strategies</strong> are developed to handle threats and opportunities.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Response Option</th>
+<th>Strategy for Threats (Negative Risks)</th>
+<th>Strategy for Opportunities (Positive Risks)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Avoid/Exploit</strong></td>
+<td>Eliminate the threat by changing the project plan.</td>
+<td>Ensure the opportunity happens and maximize its benefits.</td>
+</tr>
+<tr class="even">
+<td><strong>Transfer/Share</strong></td>
+<td>Shift the consequence/risk ownership to a third party (e.g., insurance/contracting).</td>
+<td>Partner with a third party to capitalize on the opportunity.</td>
+</tr>
+<tr class="odd">
+<td><strong>Mitigate/Enhance</strong></td>
+<td>Reduce the probability or impact of the threat.</td>
+<td>Increase the probability or impact of the opportunity.</td>
+</tr>
+<tr class="even">
+<td><strong>Accept</strong></td>
+<td>Take no action, accepting the risk if it occurs.</td>
+<td>Take no action, benefiting if the opportunity occurs.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Chapter 17 Recap</strong></p>
+<ol type="1">
+<li>Risk is measured by the <strong>probability</strong> and <strong>consequence</strong> of an event, and management must understand its tolerance for risk.<br>
+</li>
+<li><strong>Decision Trees</strong> are tools used for complex decision-making under risk.<br>
+</li>
+<li>The formal risk management process requires planning, identification, qualitative/quantitative analysis (including <strong>Monte Carlo Simulation</strong>), response planning, and monitoring.<br>
+</li>
+<li>Risks are prioritized based on their level (High, Medium, Low).<br>
+</li>
+<li>There are four primary strategies for dealing with both threats (Avoid, Transfer, Mitigate, Accept) and opportunities (Exploit, Share, Enhance, Accept).</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="learning-curves" class="level2" data-number="7.19">
+<h2 data-number="7.19" class="anchored" data-anchor-id="learning-curves"><span class="header-section-number">7.19</span> <strong>Learning Curves</strong></h2>
+<section id="learning-curves-and-the-experience-curve" class="level3" data-number="7.19.1">
+<h3 data-number="7.19.1" class="anchored" data-anchor-id="learning-curves-and-the-experience-curve"><span class="header-section-number">7.19.1</span> <strong>Learning Curves and the Experience Curve</strong></h3>
+<p>The <strong>learning curve (or experience curve)</strong> theory states that as production doubles, the total manufacturing time and cost fall by a constant and predictable amount.</p>
+<ul>
+<li>This effect extends across various industries (e.g., chemicals, electronics).<br>
+</li>
+<li>The <strong>experience curve effect</strong> shows that large market shares often lead to lower production costs due to <strong>economies of scale</strong> (fixed capital costs spread over more units).</li>
+</ul>
+</section>
+<section id="graphic-representation" class="level3" data-number="7.19.2">
+<h3 data-number="7.19.2" class="anchored" data-anchor-id="graphic-representation"><span class="header-section-number">7.19.2</span> <strong>Graphic Representation</strong></h3>
+<p>When plotted on logarithmic paper, the labor-hour graph typically shows a straight line because the rate of change or decline in cost is a constant percentage of the prior cost as quantities double.</p>
+<ul>
+<li><strong>Slope of the Curve:</strong> A percentage figure representing the steepness and constant rate of improvement. An 80% learning curve means the cost/hours of unit two are 80% of unit one, unit four is 80% of unit two, etc..</li>
+</ul>
+</section>
+<section id="competitive-weapon" class="level3" data-number="7.19.3">
+<h3 data-number="7.19.3" class="anchored" data-anchor-id="competitive-weapon"><span class="header-section-number">7.19.3</span> <strong>Competitive Weapon</strong></h3>
+<p>Learning curve analysis is a strong competitive weapon, particularly in pricing strategy.</p>
+<ul>
+<li>By accurately predicting the <em>average rate</em> of improvement (cost reduction) over a large production run, a contractor can calculate a precise bid price based on the cumulative total hours saved.</li>
+</ul>
+<hr>
+<p><strong>Chapter 18 Recap</strong></p>
+<ol type="1">
+<li>The <strong>Learning Curve</strong> (or Experience Curve) is an accurate estimating technique based on the principle that as cumulative production doubles, the unit cost or time decreases by a constant percentage.<br>
+</li>
+<li>This phenomenon results in <strong>economies of scale</strong>, leading to increased efficiency and lower unit costs for high production volumes.<br>
+</li>
+<li>The <strong>slope</strong> indicates the rate of improvement (e.g., an 80% slope).<br>
+</li>
+<li>Learning curves are essential tools in developing competitive pricing strategies for manufacturing projects.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="contract-management" class="level2" data-number="7.20">
+<h2 data-number="7.20" class="anchored" data-anchor-id="contract-management"><span class="header-section-number">7.20</span> <strong>Contract Management</strong></h2>
+<section id="introduction-and-procurement-processes" class="level3" data-number="7.20.1">
+<h3 data-number="7.20.1" class="anchored" data-anchor-id="introduction-and-procurement-processes"><span class="header-section-number">7.20.1</span> <strong>Introduction and Procurement Processes</strong></h3>
+<p><strong>Procurement</strong> refers to the acquisition of goods and services outside the organization. The contract management/procurement system includes four processes (from the buyer’s perspective):</p>
+<ol type="1">
+<li>Plan Procurements<br>
+</li>
+<li>Conduct Procurements<br>
+</li>
+<li>Administer Procurements<br>
+</li>
+<li>Close Procurements</li>
+</ol>
+</section>
+<section id="plan-procurements" class="level3" data-number="7.20.2">
+<h3 data-number="7.20.2" class="anchored" data-anchor-id="plan-procurements"><span class="header-section-number">7.20.2</span> <strong>Plan Procurements</strong></h3>
+<p>Planning determines the necessary procurement actions.</p>
+<ul>
+<li><strong>Statement of Objectives (SOO):</strong> Used for <strong>performance-based</strong> projects, where the procuring organization describes only the end objectives. Contractors respond by proposing their own Statement of Work (SOW) detailing how they will achieve the objectives.<br>
+</li>
+<li><strong>Statement of Work (SOW):</strong> Describes in specific detail what work needs to be performed.</li>
+</ul>
+</section>
+<section id="types-of-contracts" class="level3" data-number="7.20.3">
+<h3 data-number="7.20.3" class="anchored" data-anchor-id="types-of-contracts"><span class="header-section-number">7.20.3</span> <strong>Types of Contracts</strong></h3>
+<p>Contract types determine the level of risk assumed by the buyer versus the seller (contractor).</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Contract Type</th>
+<th>Risk to Contractor</th>
+<th>Risk to Buyer</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Fixed-Price (FP)</strong>or <strong>Lump-Sum</strong></td>
+<td>High</td>
+<td>Low</td>
+<td>The contractor assumes high risk; they must perform work at the negotiated value. Suitable for projects with well-defined scope.</td>
+</tr>
+<tr class="even">
+<td><strong>Cost-Plus-Fixed-Fee (CPFF)</strong></td>
+<td>Low</td>
+<td>High</td>
+<td>Buyer assumes the cost risk; the contractor is reimbursed for all allowable costs plus a fixed fee/profit. Used when scope is uncertain (e.g., R&amp;D).</td>
+</tr>
+<tr class="odd">
+<td><strong>Cost-Plus-Incentive-Fee (CPIF)</strong></td>
+<td>Medium</td>
+<td>Medium</td>
+<td>Reimbursement for costs plus an incentive fee if performance targets (cost/schedule) are met or exceeded.</td>
+</tr>
+<tr class="even">
+<td><strong>Fixed-Price-Incentive-Fee (FPIF)</strong></td>
+<td>Medium</td>
+<td>Medium</td>
+<td>Contractor assumes cost risk up to a ceiling price; shared savings or penalty is incurred if cost is below/above target.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Chapter 19 Recap</strong></p>
+<ol type="1">
+<li>The procurement life cycle involves planning, conducting, administering, and closing procurements.<br>
+</li>
+<li>The <strong>Statement of Objectives (SOO)</strong> is used for performance-based contracts, requiring sellers to generate their own SOW.<br>
+</li>
+<li>The contract structure (Fixed-Price vs.&nbsp;Cost-Plus) determines how risk is shared between the buyer and seller.<br>
+</li>
+<li><strong>Fixed-Price</strong> contracts put high cost risk on the contractor (suitable for defined scope), while <strong>Cost-Plus</strong> contracts shift cost risk to the buyer (suitable for uncertain R&amp;D projects).</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="quality-management" class="level2" data-number="7.21">
+<h2 data-number="7.21" class="anchored" data-anchor-id="quality-management"><span class="header-section-number">7.21</span> <strong>Quality Management</strong></h2>
+<section id="definition-of-quality" class="level3" data-number="7.21.1">
+<h3 data-number="7.21.1" class="anchored" data-anchor-id="definition-of-quality"><span class="header-section-number">7.21.1</span> <strong>Definition of Quality</strong></h3>
+<p>Modern quality management focuses on the <strong>customer</strong>. <strong>Quality</strong> is defined as those products and services perceived to meet or exceed the needs and expectations of the customer at a cost that represents outstanding value.</p>
+<ul>
+<li>The shift is from “inspecting quality in” (detecting defects) to <strong>building quality into processes and deliverables</strong>(preventing defects).<br>
+</li>
+<li>The ultimate responsibility for quality management rests with the <strong>project manager</strong>.</li>
+</ul>
+</section>
+<section id="the-cost-of-quality-coq" class="level3" data-number="7.21.2">
+<h3 data-number="7.21.2" class="anchored" data-anchor-id="the-cost-of-quality-coq"><span class="header-section-number">7.21.2</span> <strong>The Cost of Quality (COQ)</strong></h3>
+<p>The <strong>Cost of Quality (COQ)</strong> classifies quality costs into four categories:</p>
+<ol type="1">
+<li><strong>Prevention Costs:</strong> Costs incurred to prevent failure (e.g., training, good planning, process reviews). These costs are expected to <em>rise</em> in effective quality systems.<br>
+</li>
+<li><strong>Appraisal Costs:</strong> Costs incurred to measure or inspect quality (e.g., testing, audits). These costs are expected to <em>decrease</em> as processes improve.<br>
+</li>
+<li><strong>Internal Failure Costs:</strong> Costs incurred when errors are found <em>before</em> delivery (e.g., rework, scrap, reengineering). This category provides the biggest potential savings.<br>
+</li>
+<li><strong>External Failure Costs:</strong> Costs incurred when errors are found <em>after</em> delivery (e.g., warranty work, liability).</li>
+</ol>
+</section>
+<section id="the-seven-quality-control-tools" class="level3" data-number="7.21.3">
+<h3 data-number="7.21.3" class="anchored" data-anchor-id="the-seven-quality-control-tools"><span class="header-section-number">7.21.3</span> <strong>The Seven Quality Control Tools</strong></h3>
+<p>The basic tools of Statistical Process Control (SPC) are used for data collection, pattern identification, and measuring variability.</p>
+<ol type="1">
+<li><strong>Check Sheets/Data Tables:</strong> Used for systematic data collection (e.g., frequency of defects) [744, 745f].<br>
+</li>
+<li><strong>Cause-and-Effect Analysis (Fishbone Diagrams):</strong> Used to identify the relationship between an effect (problem) and its causes (Machine, Material, Method, Measurement, Environment, Personnel).
+<ul>
+<li><em>Systematic Method:</em> Focuses analysis on one major cause category at a time.<br>
+</li>
+</ul></li>
+<li><strong>Pareto Analysis:</strong> Identifies the “vital few” contributors that account for most quality problems (80/20 rule application).<br>
+</li>
+<li><strong>Histograms:</strong> Graphical displays showing frequency distribution for variable data [748, 748f].<br>
+</li>
+<li><strong>Scatter Diagrams:</strong> Shows the relationship between two variables [750, 750f].<br>
+</li>
+<li><strong>Trend Analysis:</strong> Statistical method determining the equation that best fits data over time.<br>
+</li>
+<li><strong>Control Charts:</strong> Statistical tools used to determine if a process is <strong>in control</strong> or if variation is due to special causes. Upper and Lower Control Limits (UCL/LCL) are typically set at <span class="math inline">\(\pm\)</span> 3 standard deviations (3<span class="math inline">\(\sigma\)</span>) from the mean.</li>
+</ol>
+</section>
+<section id="implementing-six-sigma" class="level3" data-number="7.21.4">
+<h3 data-number="7.21.4" class="anchored" data-anchor-id="implementing-six-sigma"><span class="header-section-number">7.21.4</span> <strong>Implementing Six Sigma</strong></h3>
+<p><strong>Six Sigma</strong> is a business strategy that uses statistical tools within a structured methodology to reduce defects and costs. It focuses on achieving intellectual capital and profit gains through disciplined application.</p>
+<ul>
+<li>The methodology relies on the <strong>DMAIC</strong> structure :
+<ul>
+<li><strong>D</strong>efine: Define the problem and customer requirements.<br>
+</li>
+<li><strong>M</strong>easure: Identify key measurements and metrics/KPIs.<br>
+</li>
+<li><strong>A</strong>nalyze: Analyze data using statistical tools to find the source of the problem.<br>
+</li>
+<li><strong>I</strong>mprove: Develop alternatives and implement improvements.<br>
+</li>
+<li><strong>C</strong>ontrol: Monitor and control the process to ensure improvements are sustained .</li>
+</ul></li>
+</ul>
+<hr>
+<p><strong>Chapter 20 Recap</strong></p>
+<ol type="1">
+<li>Modern quality emphasizes <strong>customer focus</strong> and <strong>value</strong>, shifting from defect detection to prevention.<br>
+</li>
+<li>The <strong>Cost of Quality (COQ)</strong> is categorized into Prevention, Appraisal, Internal Failure, and External Failure costs.<br>
+</li>
+<li>Savings are maximized by increasing <strong>Prevention Costs</strong> to reduce failure costs.<br>
+</li>
+<li>The <strong>Seven Quality Control Tools</strong> are crucial for data collection and process analysis.<br>
+</li>
+<li><strong>Pareto Analysis</strong> identifies the vital few problems, and <strong>Control Charts</strong> verify if a process is statistically stable (in control).<br>
+</li>
+<li><strong>Six Sigma</strong> utilizes the <strong>DMAIC</strong> method to systematically improve processes and reduce variability .</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="modern-developments-in-project-management" class="level2" data-number="7.22">
+<h2 data-number="7.22" class="anchored" data-anchor-id="modern-developments-in-project-management"><span class="header-section-number">7.22</span> <strong>Modern Developments in Project Management</strong></h2>
+<section id="the-project-management-maturity-model-pmmm" class="level3" data-number="7.22.1">
+<h3 data-number="7.22.1" class="anchored" data-anchor-id="the-project-management-maturity-model-pmmm"><span class="header-section-number">7.22.1</span> <strong>The Project Management Maturity Model (PMMM)</strong></h3>
+<p>The <strong>PMMM</strong> framework assesses an organization’s maturity level across five levels [635, 768f]:</p>
+<ul>
+<li><strong>Level 1: Common Language:</strong> Recognition of PM importance and the need for standardized terminology/knowledge.<br>
+</li>
+<li><strong>Level 2: Common Processes:</strong> Definition and development of common processes so successes can be repeated.<br>
+</li>
+<li><strong>Level 3: Singular Methodology:</strong> Development of an enterprise-wide project management methodology (EPM) that is tailorable and scalable .<br>
+</li>
+<li><strong>Level 4: Benchmarking:</strong> Comparison of the organization’s practices against others .<br>
+</li>
+<li><strong>Level 5: Continuous Improvement:</strong> Continuous optimization of the methodology based on benchmarking results .</li>
+</ul>
+</section>
+<section id="developing-effective-procedural-documentation" class="level3" data-number="7.22.2">
+<h3 data-number="7.22.2" class="anchored" data-anchor-id="developing-effective-procedural-documentation"><span class="header-section-number">7.22.2</span> <strong>Developing Effective Procedural Documentation</strong></h3>
+<p>High project maturity is supported by procedural documentation based on <strong>forms, guidelines, templates, and checklists rather</strong> than rigid policies and procedures . This provides flexibility and standardization .</p>
+</section>
+<section id="capacity-planning" class="level3" data-number="7.22.3">
+<h3 data-number="7.22.3" class="anchored" data-anchor-id="capacity-planning"><span class="header-section-number">7.22.3</span> <strong>Capacity Planning</strong></h3>
+<p><strong>Capacity Planning</strong> ensures that sufficient human and nonhuman resources are available to support all selected projects and ongoing business activities . Excellent companies perform sophisticated capacity planning by :</p>
+<ol type="1">
+<li>Selecting projects based on strategic fit and profitability.<br>
+</li>
+<li>Defining objectives in business and technical terms.<br>
+</li>
+<li>Identifying constraints from summed schedules and plans.<br>
+</li>
+<li>Determining the objective of the plan (least cost, least time, or least risk).</li>
+</ol>
+</section>
+<section id="managing-multiple-projects" class="level3" data-number="7.22.4">
+<h3 data-number="7.22.4" class="anchored" data-anchor-id="managing-multiple-projects"><span class="header-section-number">7.22.4</span> <strong>Managing Multiple Projects</strong></h3>
+<p>As organizations mature, there is a trend toward having one person manage multiple projects to reduce overmanagement costs . Success in this environment requires corporate changes in six major areas, including :</p>
+<ul>
+<li><strong>Prioritization:</strong> A credible system for prioritizing projects must be in effect.<br>
+</li>
+<li><strong>Capacity Planning:</strong> Tight control on resource scheduling is essential .<br>
+</li>
+<li><strong>Project Methodology:</strong> The methodology must be flexible (guidelines, checklists) rather than formal/rigid (policies, procedures) .</li>
+</ul>
+</section>
+<section id="the-business-of-scope-changes" class="level3" data-number="7.22.5">
+<h3 data-number="7.22.5" class="anchored" data-anchor-id="the-business-of-scope-changes"><span class="header-section-number">7.22.5</span> <strong>The Business of Scope Changes</strong></h3>
+<p>While scope changes are inevitable, they should not be implemented if they drastically extend the payback period or risk exposure (e.g., liability/safety issues) . A common project failure cause is <strong>scope creep (features)</strong>, where unnecessary functionality is added.</p>
+<hr>
+<p><strong>Chapter 21 Recap</strong></p>
+<ol type="1">
+<li>The <strong>PMMM</strong> describes the path to project management maturity and excellence across five levels, starting with a Common Language and ending with Continuous Improvement .<br>
+</li>
+<li>Procedural documentation is most effective when built on flexible <strong>templates and checklists</strong> rather than rigid policies .<br>
+</li>
+<li><strong>Capacity Planning</strong> is necessary to ensure human and technical resources are available to support the selected portfolio .<br>
+</li>
+<li>Managing multiple projects successfully requires high PM maturity, effective <strong>prioritization systems</strong>, and flexible methodologies .<br>
+</li>
+<li>Scope changes must be targeted for business value, carefully managed, and approved to prevent costly <strong>scope creep</strong>.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="master-comprehensive-summary" class="level2" data-number="7.23">
+<h2 data-number="7.23" class="anchored" data-anchor-id="master-comprehensive-summary"><span class="header-section-number">7.23</span> <strong>Master Comprehensive Summary</strong></h2>
+<p>Project Management (PM) is fundamentally a systems approach, integrating planning, organizing, directing, and controlling resources to achieve specific, short-term objectives. The modern imperative for PM is shifting from fulfilling the technical <strong>triple constraints</strong> (Time, Cost, Performance) to generating <strong>sustainable business value</strong> for customers and stakeholders.</p>
+<p>Organizational success depends on achieving <strong>maturity</strong> (standardized processes and methodology) which leads to <strong>excellence</strong> (a continuous stream of successful projects). The methodology used must be flexible (a <strong>framework</strong>) to accommodate unique project characteristics, especially in complex or uncertain environments where <strong>Agile</strong> practices thrive over rigid <strong>Waterfall</strong> structures.</p>
+<p><strong>Core Frameworks and Methodologies:</strong></p>
+<ol type="1">
+<li><strong>Planning Foundation (WBS &amp; Baselines):</strong> All planning is rooted in the <strong>Work Breakdown Structure (WBS)</strong>, which decomposes the project into measurable <strong>Work Packages</strong> and forms the basis for accountability, costing, and scheduling. The WBS leads to the establishment of the <strong>Performance Measurement Baseline (PMB)</strong>, integrating the approved Scope, Schedule, and Cost Baselines.<br>
+</li>
+<li><strong>Scheduling (PERT/CPM):</strong> Network diagrams are critical for showing activity interdependencies. <strong>PERT</strong> is probabilistic, using three time estimates to calculate risk (<span class="math inline">\(\sigma\)</span>), while <strong>CPM</strong> is deterministic. The process converts resource-unlimited proposals into resource-limited schedules by setting calendar dates.<br>
+</li>
+<li><strong>Control (EVMS):</strong> The <strong>Earned Value Measurement System (EVMS)</strong> is the standard control framework, using <strong>BCWS</strong> (Planned Value), <strong>BCWP</strong> (Earned Value), and <strong>ACWP</strong> (Actual Cost) to calculate Cost and Schedule Variances (CV, SV) and efficiency trends (<strong>CPI</strong>, <strong>SPI</strong>).<br>
+</li>
+<li><strong>Risk Management:</strong> Risk is defined by <strong>Probability</strong> <span class="math inline">\(\times\)</span> Consequence. The process involves planning (RMP), identifying risks, performing qualitative/quantitative analysis (e.g., <strong>Monte Carlo Simulation</strong>), and selecting response strategies (Avoid, Mitigate, Transfer, Accept).<br>
+</li>
+<li><strong>Quality Management:</strong> Quality is defined by the customer’s expectations and value perception. Focus is on increasing <strong>Prevention Costs</strong> to reduce Internal and External Failure Costs. Methodologies like <strong>Six Sigma (DMAIC)</strong> and the <strong>Seven Quality Control Tools</strong> (e.g., Pareto Analysis, Control Charts) are used to analyze processes and reduce variability.<br>
+</li>
+<li><strong>Organizational Structure:</strong> The <strong>Matrix</strong> structure is commonly used to balance technical and project authority. The <strong>PMO</strong> provides governance, standardization, and knowledge management, acting as a center for continuous improvement.</li>
+</ol>
+<p><strong>The Role of the Project Manager:</strong></p>
+<p>The PM must function as a <strong>general manager</strong> and integrator. They require the skills defined in the <strong>Talent Triangle</strong>(Technical, Leadership, Strategic/Business). Because PMs often operate with limited formal authority, success hinges on <strong>interpersonal skills</strong> (communication, conflict resolution, negotiation) and utilizing non-formal power bases (Expert, Reward, Referent). They are also responsible for managing stakeholders, ensuring project alignment to the organizational portfolio, and tracking meaningful <strong>Key Performance Indicators (KPIs)</strong> that predict success.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./chapter06.html" class="pagination-link" aria-label="Primal Leadership">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Primal Leadership</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./chapter08.html" class="pagination-link" aria-label="PMBOK">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">PMBOK</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

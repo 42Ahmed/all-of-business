@@ -1,0 +1,1659 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>8&nbsp; PMBOK – All of Business</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./chapter09.html" rel="next">
+<link href="./chapter07.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-00ccf60c28c3bdf2d57f5131fbf16f11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7c8ba9dac8feea6a77ed63b2e2898d0e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-00ccf60c28c3bdf2d57f5131fbf16f11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+        <div class="quarto-navbar-tools tools-end">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter08.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">PMBOK</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Entrepreuership Theory</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Measure What Matters</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Running Lean</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Four Steps to Successful Strategy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Power of Emotional Intelligence</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Primal Leadership</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Project Management</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter08.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">PMBOK</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter09.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Principles of Marketing</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#executive-summary" id="toc-executive-summary" class="nav-link active" data-scroll-target="#executive-summary"><span class="header-section-number">8.1</span> <strong>Executive Summary</strong></a></li>
+  <li><a href="#part-1-the-standard-for-project-management" id="toc-part-1-the-standard-for-project-management" class="nav-link" data-scroll-target="#part-1-the-standard-for-project-management"><span class="header-section-number">8.2</span> <strong>Part 1: The Standard for Project Management</strong></a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction"><span class="header-section-number">8.2.1</span> <strong>Introduction</strong></a></li>
+  <li><a href="#a-system-for-value-delivery" id="toc-a-system-for-value-delivery" class="nav-link" data-scroll-target="#a-system-for-value-delivery"><span class="header-section-number">8.2.2</span> <strong>A System for Value Delivery</strong></a></li>
+  <li><a href="#project-management-principles" id="toc-project-management-principles" class="nav-link" data-scroll-target="#project-management-principles"><span class="header-section-number">8.2.3</span> <strong>Project Management Principles</strong></a></li>
+  </ul></li>
+  <li><a href="#part-2-a-guide-to-the-project-management-body-of-knowledge-pmbok-guide" id="toc-part-2-a-guide-to-the-project-management-body-of-knowledge-pmbok-guide" class="nav-link" data-scroll-target="#part-2-a-guide-to-the-project-management-body-of-knowledge-pmbok-guide"><span class="header-section-number">8.3</span> <strong>Part 2: A Guide to the Project Management Body of Knowledge (PMBOK® Guide)</strong></a>
+  <ul class="collapse">
+  <li><a href="#introduction-pmbok-guide" id="toc-introduction-pmbok-guide" class="nav-link" data-scroll-target="#introduction-pmbok-guide"><span class="header-section-number">8.3.1</span> <strong>Introduction (PMBOK® Guide)</strong></a></li>
+  <li><a href="#project-performance-domains" id="toc-project-performance-domains" class="nav-link" data-scroll-target="#project-performance-domains"><span class="header-section-number">8.3.2</span> <strong>Project Performance Domains</strong></a></li>
+  <li><a href="#tailoring" id="toc-tailoring" class="nav-link" data-scroll-target="#tailoring"><span class="header-section-number">8.3.3</span> <strong>Tailoring</strong></a></li>
+  <li><a href="#models-methods-and-artifacts" id="toc-models-methods-and-artifacts" class="nav-link" data-scroll-target="#models-methods-and-artifacts"><span class="header-section-number">8.3.4</span> <strong>Models, Methods, and Artifacts</strong></a></li>
+  </ul></li>
+  <li><a href="#final-comprehensive-summary" id="toc-final-comprehensive-summary" class="nav-link" data-scroll-target="#final-comprehensive-summary"><span class="header-section-number">8.4</span> <strong>Final Comprehensive Summary</strong></a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">PMBOK</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="executive-summary" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="executive-summary"><span class="header-section-number">8.1</span> <strong>Executive Summary</strong></h2>
+<p>The <em>PMBOK Guide – Seventh Edition</em> reflects the evolution of the project management profession driven by emerging technology, new approaches (like adaptive and hybrid), and rapid market changes. The foundational shift involves transitioning from a prescriptive, process-based approach to a principles-based standard focused on <strong>outcomes</strong> rather than solely on deliverables.</p>
+<p>The core framework of this edition integrates <strong>The Standard for Project Management</strong> and the <strong>PMBOK® Guide</strong>. <em>The Standard</em> defines the <strong>12 Project Management Principles</strong> which guide the behaviors and actions of project stakeholders. The <em>PMBOK Guide</em> presents <strong>eight Project Performance Domains</strong> that represent interactive, interrelated areas critical for delivering project outcomes.</p>
+<p>Key takeaways from this new edition include:</p>
+<ul>
+<li><strong>Shift to Principles:</strong> Project management is guided by 12 principles that apply across all delivery approaches (predictive, adaptive, hybrid) and contexts.<br>
+</li>
+<li><strong>Focus on Value and Outcomes:</strong> The primary measure of success is the realization of value and intended project outcomes, in addition to mere deliverables.<br>
+</li>
+<li><strong>System for Value Delivery:</strong> Projects operate within a larger organizational context, often involving portfolios, programs, and operations, all linked in a system to advance organizational strategy.<br>
+</li>
+<li><strong>Performance Domains:</strong> Project work is organized around eight performance domains (Stakeholders, Team, Development Approach and Life Cycle, Planning, Project Work, Delivery, Measurement, and Uncertainty) that function as an integrated system.<br>
+</li>
+<li><strong>Tailoring:</strong> Project teams must deliberately adapt their approach, governance, and processes (tailoring) to suit the unique context, objectives, and complexity of each project.<br>
+</li>
+<li><strong>New Resources:</strong> The edition expands on tools and techniques in a dedicated section on <strong>Models, Methods, and Artifacts</strong>. It also integrates with <strong>PMIstandards+™</strong>, an interactive digital platform for accessing supplemental content and emerging practices.</li>
+</ul>
+</section>
+<section id="part-1-the-standard-for-project-management" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="part-1-the-standard-for-project-management"><span class="header-section-number">8.2</span> <strong>Part 1: The Standard for Project Management</strong></h2>
+<p><em>The Standard for Project Management</em> provides the basis for understanding project management and defines the system within which projects operate, including governance, functions, environment, and product management considerations. This standard is principles-based, focusing on generally accepted objectives for the core functions of project management practice.</p>
+<section id="introduction" class="level3" data-number="8.2.1">
+<h3 data-number="8.2.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">8.2.1</span> <strong>Introduction</strong></h3>
+<p>The standard identifies <strong>12 project management principles</strong> that serve as foundational guidelines for project strategy, decision making, and problem solving. These principles are broadly based and internally consistent, offering wide parameters within which project teams can operate.</p>
+<section id="key-terms-and-concepts" class="level4" data-number="8.2.1.1">
+<h4 data-number="8.2.1.1" class="anchored" data-anchor-id="key-terms-and-concepts"><span class="header-section-number">8.2.1.1</span> <strong>Key Terms and Concepts</strong></h4>
+<p>The shift in the profession is reflected in several key terms:</p>
+<ul>
+<li><strong>Outcome:</strong> An end result or consequence of a process or project, focusing on the benefits and value delivered.<br>
+</li>
+<li><strong>Deliverable:</strong> A unique and verifiable product, result, or capability required to complete a project.<br>
+</li>
+<li><strong>Value:</strong> The worth, importance, or usefulness of something, perceived differently by various stakeholders (e.g., financial metrics, social benefits, or specific product features).<br>
+</li>
+<li><strong>Project Management:</strong> Guiding project work to deliver intended outcomes using a broad range of approaches (predictive, hybrid, adaptive).<br>
+</li>
+<li><strong>System for Value Delivery:</strong> A collection of strategic business activities (including portfolios, programs, projects, products, and operations) aimed at advancing an organization.<br>
+</li>
+<li><strong>Project:</strong> A temporary endeavor undertaken to create a unique product, service, or result.</li>
+</ul>
+</section>
+</section>
+<section id="a-system-for-value-delivery" class="level3" data-number="8.2.2">
+<h3 data-number="8.2.2" class="anchored" data-anchor-id="a-system-for-value-delivery"><span class="header-section-number">8.2.2</span> <strong>A System for Value Delivery</strong></h3>
+<p>Projects exist within a larger organizational context (or “system”) to create value for stakeholders. This system aligns portfolios, programs, projects, products, and operations with the organization’s strategy.</p>
+<section id="creating-value" class="level4" data-number="8.2.2.1">
+<h4 data-number="8.2.2.1" class="anchored" data-anchor-id="creating-value"><span class="header-section-number">8.2.2.1</span> <strong>Creating Value</strong></h4>
+<p>Value is created through projects by producing new products or services, improving efficiency, enabling organizational change, or making positive social contributions. The components of the value delivery system—portfolios, programs, projects, products, and operations—work individually and collectively to create value.</p>
+<p><strong>Information Flow within the Value Delivery System:</strong> The system is most effective when information and feedback are consistently shared.</p>
+<ul>
+<li><strong>Senior Leadership Downstream (Black Arrows):</strong> Strategic information flows from senior leadership to portfolios. Portfolios share desired outcomes, benefits, and value with programs and projects. Deliverables, along with support and maintenance information, are passed from programs/projects to operations.<br>
+</li>
+<li><strong>Operations Upstream (Light Gray Arrows):</strong> Information flows from operations (adjustments, fixes) to programs/projects. Programs/projects provide performance information and progress on achieving value to portfolios. Portfolios provide performance evaluations to senior leadership, who then assess overall strategy advancement.</li>
+</ul>
+</section>
+<section id="organizational-governance-systems" class="level4" data-number="8.2.2.2">
+<h4 data-number="8.2.2.2" class="anchored" data-anchor-id="organizational-governance-systems"><span class="header-section-number">8.2.2.2</span> <strong>Organizational Governance Systems</strong></h4>
+<p>Governance systems operate alongside the value delivery system, providing a framework of functions and processes to manage issues, enable smooth workflows, and support decision making. Governance includes defining the authority to approve changes and aligning project governance with program and organizational governance.</p>
+</section>
+<section id="functions-associated-with-projects" class="level4" data-number="8.2.2.3">
+<h4 data-number="8.2.2.3" class="anchored" data-anchor-id="functions-associated-with-projects"><span class="header-section-number">8.2.2.3</span> <strong>Functions Associated with Projects</strong></h4>
+<p>Project delivery is driven by people fulfilling necessary functions, which may be centralized (led by a designated project manager) or decentralized (project teams self-manage).</p>
+<p>Key functions commonly associated with projects include:</p>
+<ul>
+<li><strong>Provide Oversight and Coordination:</strong> Orchestrating project work, leading planning/monitoring/controlling activities, consulting with leaders, and supporting benefits realization.<br>
+</li>
+<li><strong>Present Objectives and Feedback:</strong> Providing insights and clear direction from customers (funding entity) and end users (direct consumers of the deliverable).<br>
+</li>
+<li><strong>Facilitate and Support:</strong> Encouraging team collaboration, creating consensus, resolving conflicts, removing obstacles, and providing performance feedback.<br>
+</li>
+<li><strong>Perform Work and Contribute Insights:</strong> Providing the knowledge, skills, and experience to produce products and realize outcomes.<br>
+</li>
+<li><strong>Apply Expertise:</strong> Offering specific subject knowledge, vision, and expertise (internal or external) to support learning and work accuracy.<br>
+</li>
+<li><strong>Provide Business Direction and Insight:</strong> Guiding project/product outcomes, prioritizing requirements based on business value and risk, and maximizing the value of deliverables.<br>
+</li>
+<li><strong>Provide Resources and Direction (Sponsor Role):</strong> Promoting the project, securing decisions/resources/authority, and serving as a liaison between senior management and the team.<br>
+</li>
+<li><strong>Maintain Governance:</strong> Establishing and sustaining policies and rules aligned with organizational strategy.</li>
+</ul>
+</section>
+<section id="the-project-environment" class="level4" data-number="8.2.2.4">
+<h4 data-number="8.2.2.4" class="anchored" data-anchor-id="the-project-environment"><span class="header-section-number">8.2.2.4</span> <strong>The Project Environment</strong></h4>
+<p>Projects operate within internal and external environments that influence value delivery.</p>
+<ul>
+<li><strong>Internal Environment:</strong> Factors originating from within the organization (e.g., the organization itself, a program, or another project).
+<ul>
+<li><em>Examples:</em> Process assets (tools, methodologies, PMO resources), governance documentation, data assets, knowledge assets (tacit knowledge), security/safety measures, organizational culture/structure, geographic distribution, and employee capability.<br>
+</li>
+</ul></li>
+<li><strong>External Environment:</strong> Factors external to the organization.
+<ul>
+<li><em>Examples:</em> Marketplace conditions (competitors, trends), social/cultural influences (customs, ethics), legal restrictions (regulations, labor laws), commercial databases, academic research, financial considerations, and the physical environment (working conditions).</li>
+</ul></li>
+</ul>
+</section>
+<section id="product-management-considerations" class="level4" data-number="8.2.2.5">
+<h4 data-number="8.2.2.5" class="anchored" data-anchor-id="product-management-considerations"><span class="header-section-number">8.2.2.5</span> <strong>Product Management Considerations</strong></h4>
+<p>Product management involves integrating people, data, processes, and systems to create, maintain, and evolve a <strong>product throughout</strong> its <strong>product life cycle</strong> (introduction, growth, maturity, retirement). Projects often support product management by initiating work to create or enhance specific components or capabilities at any point in the product life cycle.</p>
+<p><strong>Forms of Product Management:</strong> Product management can exist in different forms relative to project structures:</p>
+<ul>
+<li><strong>Program Management within a Product Life Cycle:</strong> Used for large or long-running products where a set of programs and projects manage the various phases.<br>
+</li>
+<li><strong>Project Management within a Product Life Cycle:</strong> Oversees the development and maturing of product capabilities as an ongoing business activity, chartering individual projects for enhancements.<br>
+</li>
+<li><strong>Product Management within a Program:</strong> Applies the full product life cycle within a program’s boundaries to achieve specific benefits.</li>
+</ul>
+</section>
+</section>
+<section id="project-management-principles" class="level3" data-number="8.2.3">
+<h3 data-number="8.2.3" class="anchored" data-anchor-id="project-management-principles"><span class="header-section-number">8.2.3</span> <strong>Project Management Principles</strong></h3>
+<p>The 12 Project Management Principles guide the behavior of those involved in projects. They are nonprescriptive and allow for varied approaches while ensuring alignment with the project management values (Responsibility, Respect, Fairness, and Honesty).</p>
+<p>The principles guide project management activity across all delivery approaches (predictive, adaptive, hybrid).</p>
+<section id="be-a-diligent-respectful-and-caring-steward" class="level4" data-number="8.2.3.1">
+<h4 data-number="8.2.3.1" class="anchored" data-anchor-id="be-a-diligent-respectful-and-caring-steward"><span class="header-section-number">8.2.3.1</span> <strong>Be a Diligent, Respectful, and Caring Steward</strong></h4>
+<p><strong>Stewardship</strong> involves acting responsibly, with integrity, care, and trustworthiness, while maintaining compliance with guidelines. Stewards demonstrate a broad commitment to the financial, social, and environmental impacts of the projects they support.</p>
+<p><strong>Key Aspects of Stewardship:</strong></p>
+<ul>
+<li><strong>Integrity:</strong> Behaving honestly and ethically, serving as a role model, and challenging others to consider their words and actions.<br>
+</li>
+<li><strong>Care:</strong> Diligently overseeing organizational matters (finances, resources), understanding the environmental/social consequences of project outcomes, and creating a transparent working environment.<br>
+</li>
+<li><strong>Trustworthiness:</strong> Representing oneself and one’s authority accurately, and proactively identifying and protecting the project from conflicts of interest.<br>
+</li>
+<li><strong>Compliance:</strong> Adhering to all applicable laws, rules, regulations, and requirements.</li>
+</ul>
+</section>
+<section id="create-a-collaborative-project-team-environment" class="level4" data-number="8.2.3.2">
+<h4 data-number="8.2.3.2" class="anchored" data-anchor-id="create-a-collaborative-project-team-environment"><span class="header-section-number">8.2.3.2</span> <strong>Create a Collaborative Project Team Environment</strong></h4>
+<p>Projects are delivered by teams that work collaboratively to accomplish shared objectives more effectively than individuals working alone. A collaborative environment facilitates learning, development, and optimal contributions.</p>
+<p><strong>Elements of a Collaborative Environment:</strong></p>
+<ul>
+<li><strong>Team Agreements:</strong> Behavioral parameters and working norms established by the team at the project start and evolved over time.<br>
+</li>
+<li><strong>Organizational Structures:</strong> Tailored arrangements of project work elements and processes (based on roles, functions, or authority).<br>
+</li>
+<li><strong>Clear Roles:</strong> Defining <strong>authority</strong> (the right to make decisions), <strong>accountability</strong> (being answerable for an outcome, which is not shared), and <strong>responsibility</strong> (the obligation to fulfill something, which can be shared).<br>
+</li>
+<li><strong>Diversity and Respect:</strong> Leveraging different perspectives and managing conflict productively.</li>
+</ul>
+</section>
+<section id="effectively-engage-with-stakeholders" class="level4" data-number="8.2.3.3">
+<h4 data-number="8.2.3.3" class="anchored" data-anchor-id="effectively-engage-with-stakeholders"><span class="header-section-number">8.2.3.3</span> <strong>Effectively Engage with Stakeholders</strong></h4>
+<p>Stakeholders are individuals, groups, or organizations that may affect, be affected by, or perceive themselves to be affected by a project’s outcome. Proactively engaging stakeholders throughout the project advances value delivery.</p>
+<p><strong>Impact of Stakeholder Engagement:</strong> Effective engagement can influence nearly every aspect of the project:</p>
+<ul>
+<li>Scope/requirements<br>
+</li>
+<li>Schedule and Cost<br>
+</li>
+<li>Project team management<br>
+</li>
+<li>Risk tolerance<br>
+</li>
+<li>Quality requirements<br>
+</li>
+<li>Success factors and benefits realization</li>
+</ul>
+<p>Engagement relies heavily on interpersonal skills (e.g., initiative, honesty, respect, empathy) to build solid relationships through frequent, two-way communication, fostering shared understanding and collective solutions.</p>
+</section>
+<section id="focus-on-value" class="level4" data-number="8.2.3.4">
+<h4 data-number="8.2.3.4" class="anchored" data-anchor-id="focus-on-value"><span class="header-section-number">8.2.3.4</span> <strong>Focus on Value</strong></h4>
+<p>Project teams must continually evaluate and adjust project alignment to business objectives and intended benefits. <strong>Value is the ultimate indicator of project success</strong>. Value can be defined qualitatively and/or quantitatively and may be realized throughout, at the end of, or after the project.</p>
+<p><strong>Value is derived from:</strong></p>
+<ul>
+<li><strong>Business Case:</strong> The rationale for the project, providing details on strategic alignment, risk exposure, and economic feasibility. A business case contains the business need, project justification (why the need is worth the investment), and business strategy.<br>
+</li>
+<li><strong>Outcomes vs.&nbsp;Deliverables:</strong> Focusing on outcomes—what the customer <em>intended</em> to achieve (e.g., productivity)—rather than just the outputs (e.g., software solution).<br>
+</li>
+<li><strong>Continuous Evaluation:</strong> Teams continuously evaluate progress against desired outputs and the business case to confirm alignment. If alignment is lost, the organization may choose to terminate the effort.</li>
+</ul>
+</section>
+<section id="recognize-evaluate-and-respond-to-system-interactions" class="level4" data-number="8.2.3.5">
+<h4 data-number="8.2.3.5" class="anchored" data-anchor-id="recognize-evaluate-and-respond-to-system-interactions"><span class="header-section-number">8.2.3.5</span> <strong>Recognize, Evaluate, and Respond to System Interactions</strong></h4>
+<p>A project is a system of interdependent and interacting domains of activity that exists within other larger systems (a system of systems, e.g., portfolios and programs). <strong>Systems thinking</strong> requires taking a holistic view of how project parts interact with each other and with external systems.</p>
+<p><strong>Practicing Systems Thinking:</strong></p>
+<ul>
+<li>Project teams should constantly attend to internal and external conditions, navigating changes to keep the project in agreement with stakeholders.<br>
+</li>
+<li>Empathy, critical thinking with a “big picture” focus, and challenging assumptions are crucial skills.<br>
+</li>
+<li>The team must adjust to the changing needs of end users, sponsors, or customers.<br>
+</li>
+<li>Decisions should benefit the organization as a whole, not just one part of the project.</li>
+</ul>
+</section>
+<section id="demonstrate-leadership-behaviors" class="level4" data-number="8.2.3.6">
+<h4 data-number="8.2.3.6" class="anchored" data-anchor-id="demonstrate-leadership-behaviors"><span class="header-section-number">8.2.3.6</span> <strong>Demonstrate Leadership Behaviors</strong></h4>
+<p>Effective leadership promotes project success and positive outcomes. Leadership is distinctly different from <strong>authority</strong>(the positional right to exercise power, often formally delegated).</p>
+<p><strong>Key Leadership Behaviors:</strong></p>
+<ul>
+<li><strong>Shared Leadership:</strong> Any project team member, sponsor, or stakeholder can demonstrate leadership behaviors, contributing influence, creativity, and motivation.<br>
+</li>
+<li><strong>Adaptability:</strong> Effective leaders adapt their style (e.g., autocratic, democratic, servant leadership) to the specific situation. For instance, in chaos, a directive style may be needed; with competent staff, empowered delegation may yield higher productivity.<br>
+</li>
+<li><strong>Role Modeling:</strong> Leaders must demonstrate desired behavior in areas of honesty, integrity, and ethical conduct.<br>
+</li>
+<li><strong>Motivation:</strong> Leaders understand and leverage what motivates people (e.g., finance, autonomy, purpose, growth opportunity) to foster shared responsibility and a healthy environment.</li>
+</ul>
+</section>
+<section id="tailor-based-on-context" class="level4" data-number="8.2.3.7">
+<h4 data-number="8.2.3.7" class="anchored" data-anchor-id="tailor-based-on-context"><span class="header-section-number">8.2.3.7</span> <strong>Tailor Based on Context</strong></h4>
+<p>Since each project is unique, project success requires adapting the approach to the unique context. <strong>Tailoring</strong> is the deliberate adaptation of the approach, governance, and processes to make them suitable for the environment and the work at hand.</p>
+<p><strong>Goals of Tailoring:</strong></p>
+<ul>
+<li>Maximize value, manage constraints, and improve performance.<br>
+</li>
+<li>Use “just enough” processes, methods, templates, and artifacts to achieve the desired outcome.<br>
+</li>
+<li>Produce outcomes like deeper commitment from team members, reduced waste, and more efficient use of resources.</li>
+</ul>
+<p>The tailoring process is iterative and continuous throughout the project life cycle.</p>
+</section>
+<section id="build-quality-into-processes-and-deliverables" class="level4" data-number="8.2.3.8">
+<h4 data-number="8.2.3.8" class="anchored" data-anchor-id="build-quality-into-processes-and-deliverables"><span class="header-section-number">8.2.3.8</span> <strong>Build Quality into Processes and Deliverables</strong></h4>
+<p><strong>Quality</strong> is the degree to which inherent characteristics fulfill requirements, satisfying stakeholder expectations. Quality focuses on conformance to acceptance criteria and ensuring fitness for use.</p>
+<p><strong>Dimensions of Quality:</strong> Quality activities aim to minimize waste and maximize the probability of attaining the desired outcome by focusing on prevention and early defect detection. Dimensions include:</p>
+<ul>
+<li>Performance (functionality)<br>
+</li>
+<li>Conformity (fitness for use/meeting specifications)<br>
+</li>
+<li>Reliability (consistent metrics)<br>
+</li>
+<li>Efficiency (greatest output with least input/effort)<br>
+</li>
+<li>Satisfaction (positive end-user feedback)</li>
+</ul>
+<p>Quality management practices ensure that deliverables meet acceptance criteria and business objectives, reducing rework, scrap, and complaints.</p>
+</section>
+<section id="navigate-complexity" class="level4" data-number="8.2.3.9">
+<h4 data-number="8.2.3.9" class="anchored" data-anchor-id="navigate-complexity"><span class="header-section-number">8.2.3.9</span> <strong>Navigate Complexity</strong></h4>
+<p><strong>Complexity</strong> is a characteristic of a project or its environment that is difficult to manage due to human behavior, system behavior, uncertainty, and ambiguity. Complexity can emerge at any point during the project.</p>
+<p><strong>Sources of Complexity:</strong></p>
+<ul>
+<li><strong>Human Behavior:</strong> Subjectivity, conflicting personal agendas, diverse cultural norms, and geographic distribution among stakeholders.<br>
+</li>
+<li><strong>System Behavior:</strong> Dynamic interdependencies among project elements causing unforeseen issues and unclear cause-and-effect relationships.<br>
+</li>
+<li><strong>Technological Innovation:</strong> Disruption caused by new technology and the uncertainty of how it will be used.<br>
+</li>
+<li><strong>Ambiguity and Uncertainty:</strong> Blurring causal relationships where impacts are ill-defined.</li>
+</ul>
+<p>Project teams must continuously evaluate and navigate complexity using methods like systems thinking, past experience, and continuous learning.</p>
+</section>
+<section id="optimize-risk-responses" class="level4" data-number="8.2.3.10">
+<h4 data-number="8.2.3.10" class="anchored" data-anchor-id="optimize-risk-responses"><span class="header-section-number">8.2.3.10</span> <strong>Optimize Risk Responses</strong></h4>
+<p>A <strong>risk</strong> is an uncertain event or condition that, if it occurs, has a positive (opportunity) or negative (threat) effect on objectives. Project teams continuously identify and evaluate known and emergent risks throughout the life cycle.</p>
+<p><strong>Risk Optimization Goals:</strong></p>
+<ul>
+<li>Maximize positive risks (opportunities) and decrease exposure to negative risks (threats).<br>
+</li>
+<li>Manage the <strong>overall project risk</strong> (the effect of uncertainty on the project as a whole) to keep exposure within an acceptable range, influenced by organizational risk attitude, appetite, and threshold.</li>
+</ul>
+<p><strong>Effective Risk Responses</strong> must be appropriate for the risk’s significance, cost effective, realistic, agreed to by stakeholders, and owned by a responsible person.</p>
+</section>
+<section id="embrace-adaptability-and-resiliency" class="level4" data-number="8.2.3.11">
+<h4 data-number="8.2.3.11" class="anchored" data-anchor-id="embrace-adaptability-and-resiliency"><span class="header-section-number">8.2.3.11</span> <strong>Embrace Adaptability and Resiliency</strong></h4>
+<p>Projects rarely perform exactly as initially planned. <strong>Adaptability</strong> is the ability to respond to changing conditions, while <strong>resiliency</strong> is the ability to absorb impacts and recover quickly from setbacks or failures.</p>
+<p><strong>Capabilities Supporting Adaptability and Resiliency:</strong></p>
+<ul>
+<li>Using short feedback loops and continuous learning.<br>
+</li>
+<li>Employing diverse, skilled project teams.<br>
+</li>
+<li>Designing processes that balance work velocity and requirement stability.<br>
+</li>
+<li>Envisioning outcomes (rather than fixed deliverables) to enable alternative, stronger solutions.<br>
+</li>
+<li>Deferring decision making to the last responsible moment.</li>
+</ul>
+</section>
+<section id="enable-change-to-achieve-the-envisioned-future-state" class="level4" data-number="8.2.3.12">
+<h4 data-number="8.2.3.12" class="anchored" data-anchor-id="enable-change-to-achieve-the-envisioned-future-state"><span class="header-section-number">8.2.3.12</span> <strong>Enable Change to Achieve the Envisioned Future State</strong></h4>
+<p>Projects are agents of change, moving an organization from a current state to a future desired state. <strong>Change management</strong>(or enablement) is the comprehensive, structured approach for transitioning individuals, groups, and organizations to realize desired benefits. (This is distinct from project change control, which modifies project baselines).</p>
+<p><strong>Enabling Change:</strong></p>
+<ul>
+<li>Change can originate internally (performance gap) or externally (technological advances, pressures).<br>
+</li>
+<li>The project team works to address resistance and fatigue by communicating the vision and goals early to achieve buy-in.<br>
+</li>
+<li>The speed of change must be adapted to the stakeholder’s appetite and ability to assimilate it; attempting too much change too quickly leads to resistance or saturation.</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="part-2-a-guide-to-the-project-management-body-of-knowledge-pmbok-guide" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="part-2-a-guide-to-the-project-management-body-of-knowledge-pmbok-guide"><span class="header-section-number">8.3</span> <strong>Part 2: A Guide to the Project Management Body of Knowledge (PMBOK® Guide)</strong></h2>
+<p>The <em>PMBOK Guide</em> expands on the concepts in <em>The Standard</em>, detailing the application of principles within the context of eight <strong>Project Performance Domains</strong>.</p>
+<section id="introduction-pmbok-guide" class="level3" data-number="8.3.1">
+<h3 data-number="8.3.1" class="anchored" data-anchor-id="introduction-pmbok-guide"><span class="header-section-number">8.3.1</span> <strong>Introduction (PMBOK® Guide)</strong></h3>
+<section id="structure-of-the-pmbok-guide" class="level4" data-number="8.3.1.1">
+<h4 data-number="8.3.1.1" class="anchored" data-anchor-id="structure-of-the-pmbok-guide"><span class="header-section-number">8.3.1.1</span> <strong>Structure of the PMBOK® Guide</strong></h4>
+<p>The <em>PMBOK® Guide – Seventh Edition</em> is structured into three main sections:</p>
+<ol type="1">
+<li><strong>Project Performance Domains:</strong> Describes eight areas critical for effective delivery.<br>
+</li>
+<li><strong>Tailoring:</strong> Explains what tailoring is and how to apply it to individual projects.<br>
+</li>
+<li><strong>Models, Methods, and Artifacts:</strong> Presents commonly used options for performing project work.</li>
+</ol>
+</section>
+<section id="relationship-of-the-pmbok-guide-and-the-standard-for-project-management" class="level4" data-number="8.3.1.2">
+<h4 data-number="8.3.1.2" class="anchored" data-anchor-id="relationship-of-the-pmbok-guide-and-the-standard-for-project-management"><span class="header-section-number">8.3.1.2</span> <strong>Relationship of the PMBOK® Guide and The Standard for Project Management</strong></h4>
+<p>The <strong>12 Project Management Principles</strong> guide behavior, while the <strong>eight Project Performance Domains</strong> represent broad areas of focus where that behavior is demonstrated. They are conceptually overlapped and work in unison.</p>
+</section>
+</section>
+<section id="project-performance-domains" class="level3" data-number="8.3.2">
+<h3 data-number="8.3.2" class="anchored" data-anchor-id="project-performance-domains"><span class="header-section-number">8.3.2</span> <strong>Project Performance Domains</strong></h3>
+<p>A <strong>Project Performance Domain</strong> is a group of related activities critical for effectively delivering project outcomes. These domains are interactive, interrelated, and interdependent, operating concurrently throughout the project. The activities undertaken within each domain are determined by the unique context of the organization, project, deliverables, and team.</p>
+<section id="stakeholder-performance-domain" class="level4" data-number="8.3.2.1">
+<h4 data-number="8.3.2.1" class="anchored" data-anchor-id="stakeholder-performance-domain"><span class="header-section-number">8.3.2.1</span> <strong>Stakeholder Performance Domain</strong></h4>
+<p>This domain focuses on activities related to maintaining alignment with stakeholders and engaging them proactively to foster positive relationships and satisfaction.</p>
+<p><strong>Desired Outcomes:</strong></p>
+<ul>
+<li>A productive working relationship with stakeholders throughout the project.<br>
+</li>
+<li>Stakeholder agreement with project objectives.<br>
+</li>
+<li>Project beneficiaries are supportive and satisfied, and opponents do not negatively impact results.</li>
+</ul>
+<p><strong>Steps for Effective Stakeholder Engagement (Identify-Understand-Analyze-Prioritize-Engage-Monitor):</strong></p>
+<ol type="1">
+<li><strong>Identify:</strong> Continuously identify high-level and detailed stakeholders.<br>
+</li>
+<li><strong>Understand and Analyze:</strong> Seek to understand stakeholders’ feelings, beliefs, values, power, impact, attitude, and interests. Analyze how stakeholders interact with each other.<br>
+</li>
+<li><strong>Prioritize:</strong> Focus engagement efforts, often concentrating on stakeholders with the most power and interest.<br>
+</li>
+<li><strong>Engage:</strong> Work collaboratively to elicit requirements, manage expectations, resolve issues, and make decisions, using soft skills and leadership.
+<ul>
+<li><em>Communication Methods:</em> <strong>Push</strong> (one-way, e.g., emails), <strong>Pull</strong> (information sought by stakeholders, e.g., intranet search), and <strong>Interactive</strong> (two-way exchange, e.g., meetings).<br>
+</li>
+</ul></li>
+<li><strong>Monitor:</strong> Continuously assess whether the current engagement strategy is effective and whether stakeholder satisfaction levels are being met.</li>
+</ol>
+</section>
+<section id="team-performance-domain" class="level4" data-number="8.3.2.2">
+<h4 data-number="8.3.2.2" class="anchored" data-anchor-id="team-performance-domain"><span class="header-section-number">8.3.2.2</span> <strong>Team Performance Domain</strong></h4>
+<p>This domain focuses on establishing the culture and environment needed to turn diverse individuals into a high-performing project team, encouraging leadership behaviors from all members.</p>
+<p><strong>Desired Outcomes:</strong></p>
+<ul>
+<li>Shared ownership of outcomes.<br>
+</li>
+<li>A high-performing team.<br>
+</li>
+<li>Applicable leadership and interpersonal skills demonstrated by all team members.</li>
+</ul>
+<p><strong>Key Concepts:</strong></p>
+<ul>
+<li><strong>Management vs.&nbsp;Leadership:</strong> Management focuses on the means (processes, planning, monitoring), while leadership focuses on people (influencing, motivating, listening).<br>
+</li>
+<li><strong>Servant Leadership:</strong> A style focusing on addressing the needs and development of team members to enable high performance. Behaviors include obstacle removal, shielding the team from diversions, and providing encouragement.<br>
+</li>
+<li><strong>Project Team Culture:</strong> The team’s norms and ways of working, established deliberately or informally. Project managers foster a safe, respectful environment by modeling transparency, integrity, respect, and courage.<br>
+</li>
+<li><strong>Leadership Skills:</strong> Critical thinking, motivation (intrinsic vs.&nbsp;extrinsic), and interpersonal skills (e.g., emotional intelligence, conflict management, decision making).</li>
+</ul>
+<p><strong>Breakdown of Emotional Intelligence (EI):</strong> EI is critical for effective communication and collaboration.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aspect</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Self-Awareness</strong></td>
+<td>Ability to conduct a realistic self-assessment of one’s own emotions, strengths, and weaknesses.</td>
+</tr>
+<tr class="even">
+<td><strong>Self-Management</strong></td>
+<td>Ability to control and redirect disruptive feelings and impulses; thinking before acting.</td>
+</tr>
+<tr class="odd">
+<td><strong>Social Awareness</strong></td>
+<td>Empathy, understanding others’ feelings, and reading nonverbal cues.</td>
+</tr>
+<tr class="even">
+<td><strong>Social Skill</strong></td>
+<td>Managing groups, building social networks, finding common ground, and building rapport.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="development-approach-and-life-cycle-performance-domain" class="level4" data-number="8.3.2.3">
+<h4 data-number="8.3.2.3" class="anchored" data-anchor-id="development-approach-and-life-cycle-performance-domain"><span class="header-section-number">8.3.2.3</span> <strong>Development Approach and Life Cycle Performance Domain</strong></h4>
+<p>This domain addresses establishing the development approach, delivery cadence, and project life cycle necessary to optimize project outcomes. The type of deliverable drives the development approach, which in turn influences the delivery cadence and the resulting project life cycle phases.</p>
+<p><strong>Delivery Cadence (Timing and Frequency):</strong></p>
+<ul>
+<li><strong>Single Delivery:</strong> Deliverable provided only at the end of the project (e.g., process reengineering).<br>
+</li>
+<li><strong>Multiple Deliveries:</strong> Components delivered at different times throughout the project, often sequentially or separately (e.g., new drug development phases).<br>
+</li>
+<li><strong>Periodic Deliveries:</strong> Deliveries on a fixed schedule (e.g., monthly releases).<br>
+</li>
+<li><strong>Continuous Delivery:</strong> Feature increments delivered immediately to customers using small batches of work (often for digital products).</li>
+</ul>
+<p><strong>Development Approaches (Methods used to create the product):</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Approach</th>
+<th>Description</th>
+<th>Applicability</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Predictive (Waterfall)</strong></td>
+<td>Requirements, scope, schedule, and cost are defined early and are relatively stable.</td>
+<td>Useful when scope is well-understood, risk is high (requiring frequent review), or regulations mandate up-front planning.</td>
+</tr>
+<tr class="even">
+<td><strong>Hybrid</strong></td>
+<td>Combination of predictive and adaptive elements.</td>
+<td>Useful when requirements uncertainty is mixed, or when deliverables can be modularized (e.g., adaptive for product development, predictive for deployment).</td>
+</tr>
+<tr class="odd">
+<td><strong>Adaptive (Agile)</strong></td>
+<td>Requirements subject to high uncertainty and volatility; initial known requirements are refined based on user feedback.</td>
+<td>Useful when requirements are uncertain, volatile, or complex, emphasizing short iterations and high stakeholder involvement.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Development Cycles/Methods:</strong></p>
+<ul>
+<li><strong>Iterative:</strong> Useful for clarifying requirements and investigating options; produces sufficient capability prior to final iteration.<br>
+</li>
+<li><strong>Incremental:</strong> Used to produce a deliverable throughout a series of iterations; each iteration adds functionality within a timebox until the final completion.</li>
+</ul>
+<p><strong>Project Life Cycle Phases:</strong> Phases can be sequential (predictive, Figure 2-9) or overlapping/repeating (incremental/adaptive, Figures 2-10, 2-11). Phases often conclude with a <strong>Phase Gate Review</strong> to check if desired outcomes or exit criteria have been achieved.</p>
+</section>
+<section id="planning-performance-domain" class="level4" data-number="8.3.2.4">
+<h4 data-number="8.3.2.4" class="anchored" data-anchor-id="planning-performance-domain"><span class="header-section-number">8.3.2.4</span> <strong>Planning Performance Domain</strong></h4>
+<p>Planning involves organizing, elaborating, and coordinating project work initially, ongoing, and as the project evolves. The time spent planning must be appropriate for the situation (“just enough”).</p>
+<p><strong>Desired Outcomes:</strong></p>
+<ul>
+<li>The project progresses in an organized, coordinated, and deliberate manner.<br>
+</li>
+<li>Evolving information is elaborated to produce deliverables.<br>
+</li>
+<li>Planning information is sufficient to manage stakeholder expectations.</li>
+</ul>
+<p><strong>Planning Variables:</strong></p>
+<ul>
+<li><strong>Development Approach:</strong> Dictates how much planning is done up front versus iteratively (e.g., rolling wave planning in predictive, iteration planning in adaptive).<br>
+</li>
+<li><strong>Estimating:</strong> Developing quantitative assessments of work effort, duration, costs, and resources. Estimates evolve from broad ranges (low accuracy) to narrow ranges (high accuracy) as the project progresses.<br>
+</li>
+<li><strong>Schedules:</strong> Modeling project activities, durations, and dependencies.
+<ul>
+<li><em>Predictive Scheduling:</em> Decompose scope, sequence activities, estimate resources, and adjust. Techniques include <strong>Crashing</strong> (shortening duration by adding resources) and <strong>Fast Tracking</strong> (performing sequential activities in parallel).<br>
+</li>
+<li><em>Adaptive Scheduling:</em> Uses incremental planning based on iterations and releases, prioritizing work via a backlog.<br>
+</li>
+</ul></li>
+<li><strong>Budget:</strong> Evolving from cost estimates aggregated into a cost baseline. Includes <strong>Contingency Reserve</strong> (for identified risks) and <strong>Management Reserve</strong> (for unexpected in-scope work).<br>
+</li>
+<li><strong>Procurement:</strong> Planning involves conducting a <strong>make-or-buy analysis</strong> and providing advance information to contracting professionals.</li>
+</ul>
+</section>
+<section id="project-work-performance-domain" class="level4" data-number="8.3.2.5">
+<h4 data-number="8.3.2.5" class="anchored" data-anchor-id="project-work-performance-domain"><span class="header-section-number">8.3.2.5</span> <strong>Project Work Performance Domain</strong></h4>
+<p>This domain ensures efficient and effective project performance by establishing processes, managing physical resources, and fostering a learning environment.</p>
+<p><strong>Desired Outcomes:</strong></p>
+<ul>
+<li>Efficient and effective project performance.<br>
+</li>
+<li>Appropriate project processes (e.g., continuous improvement, lean production).<br>
+</li>
+<li>Effective management of physical resources and procurements.</li>
+</ul>
+<p><strong>Key Concepts/Activities:</strong></p>
+<ul>
+<li><strong>Project Processes:</strong> Establishing, reviewing, and optimizing processes using techniques like <strong>Lean production</strong>(removing waste/non-value-adding activities) and process auditing.<br>
+</li>
+<li><strong>Balancing Competing Constraints:</strong> Continuously managing trade-offs among constraints (scope, schedule, budget, quality) to maintain stakeholder satisfaction.<br>
+</li>
+<li><strong>Procurement Work:</strong> Working with contracting officers to develop bid documents (RFI, RFP, RFQ), conducting bidder conferences, selecting vendors, and negotiating contracts (Fixed-Price, Cost-Reimbursable, T&amp;M).<br>
+</li>
+<li><strong>Monitoring New Work and Changes:</strong> In adaptive projects, managing backlog priority to handle evolving work; in predictive projects, rigorously using the <strong>Change Control Process</strong>.<br>
+</li>
+<li><strong>Learning Throughout the Project:</strong> Developing and sharing <strong>explicit knowledge</strong> (codified data, like manuals) and <strong>tacit knowledge</strong> (personal experience, shared via networking or job shadowing).</li>
+</ul>
+</section>
+<section id="delivery-performance-domain" class="level4" data-number="8.3.2.6">
+<h4 data-number="8.3.2.6" class="anchored" data-anchor-id="delivery-performance-domain"><span class="header-section-number">8.3.2.6</span> <strong>Delivery Performance Domain</strong></h4>
+<p>Delivery focuses on meeting requirements, scope, and quality expectations to produce the expected deliverables that will drive the intended outcomes.</p>
+<p><strong>Desired Outcomes:</strong></p>
+<ul>
+<li>Projects contribute to business objectives and strategy.<br>
+</li>
+<li>Projects realize the outcomes and benefits they were initiated to deliver.</li>
+</ul>
+<p><strong>Key Concepts/Activities:</strong></p>
+<ul>
+<li><strong>Requirements Management:</strong> Eliciting, documenting (clear, concise, verifiable), and managing requirements (often by a Product Owner/Business Analyst). In uncertain environments, requirements may be discovered using prototypes or demonstrations.<br>
+</li>
+<li><strong>Scope Definition:</strong> Defining the sum of products, services, and results. Scope is decomposed using a <strong>Work Breakdown Structure (WBS)</strong> (predictive) or themes/epics/features/user stories (adaptive).<br>
+</li>
+<li><strong>Moving Targets of Completion:</strong> Managing <strong>“Done Drift”</strong> (the project goal moving due to new features/competitors, Figure 2-21) in volatile markets and mitigating <strong>“Scope Creep”</strong> (uncontrolled scope expansion) in stable environments via formal change control.<br>
+</li>
+<li><strong>Quality and Cost of Quality (COQ):</strong> Quality focuses on required performance levels. COQ analyzes costs related to <strong>prevention</strong> (investing early) and <strong>appraisal</strong> (checking conformance) versus costs related to <strong>internal failure</strong>(scrap, rework) and <strong>external failure</strong> (defects found by the customer).
+<ul>
+<li>Proactive quality work minimizes costs, countering the principle of the <strong>Cost of Change Curve</strong> (Figure 2-22), where the cost to fix defects increases dramatically later in the life cycle.</li>
+</ul></li>
+</ul>
+</section>
+<section id="measurement-performance-domain" class="level4" data-number="8.3.2.7">
+<h4 data-number="8.3.2.7" class="anchored" data-anchor-id="measurement-performance-domain"><span class="header-section-number">8.3.2.7</span> <strong>Measurement Performance Domain</strong></h4>
+<p>Measurement involves assessing project performance and implementing appropriate responses to maintain optimal performance. Effective measures provide actionable, timely data to facilitate informed decision making.</p>
+<p><strong>Desired Outcomes:</strong></p>
+<ul>
+<li>A reliable understanding of project status.<br>
+</li>
+<li>Timely and appropriate actions to keep performance on track.</li>
+</ul>
+<p><strong>Key Measures and Metrics:</strong></p>
+<ul>
+<li><strong>Key Performance Indicators (KPIs):</strong> Quantifiable measures of success. They include <strong>leading indicators</strong> (predict changes/trends, e.g., lack of risk process) and <strong>lagging indicators</strong> (measure past performance, e.g., project status).<br>
+</li>
+<li><strong>SMART Metrics:</strong> Effective metrics are <strong>Specific, Meaningful</strong> (or Measurable), <strong>Achievable</strong> (or Agreed to), <strong>Relevant</strong> (or Realistic/Reasonable), and <strong>Timely</strong> (or Time bound).<br>
+</li>
+<li><strong>Baseline Performance:</strong> Comparison of actual results against the approved baseline (Cost, Schedule, Scope). This uses <strong>Earned Value Analysis (EVA)</strong> metrics (e.g., CV, SV, CPI, SPI) and forecasting metrics (e.g., EAC, ETC, VAC).<br>
+</li>
+<li><strong>Delivery Metrics:</strong> Used primarily in adaptive approaches, including <strong>Work in Progress</strong> (WIP), <strong>Lead Time</strong>, <strong>Cycle Time</strong>, and <strong>Throughput</strong> (items completed in a fixed time).<br>
+</li>
+<li><strong>Stakeholder Metrics:</strong> Measuring satisfaction (e.g., <strong>Net Promoter Score®</strong> (NPS®)).</li>
+</ul>
+<p><strong>Presenting Information:</strong></p>
+<ul>
+<li><strong>Dashboards:</strong> Electronic visual summaries of metrics, often using charts and graphs (RAG charts, bar charts).<br>
+</li>
+<li><strong>Information Radiators (Big Visible Charts):</strong> Visible, physical displays providing timely knowledge sharing (often manually maintained, e.g., risk logs, burn charts).<br>
+</li>
+<li><strong>Visual Controls:</strong> Charts illustrating processes to compare actual against expected performance (e.g., <strong>Task Boards/Kanban Boards</strong> to limit WIP, <strong>Burn Charts</strong> to track velocity).</li>
+</ul>
+<p><strong>Measurement Pitfalls:</strong> Teams must avoid the <strong>Hawthorne Effect</strong> (behavior influenced by measurement), using <strong>Vanity Metrics</strong> (data without useful decision-making information), and <strong>Demoralization</strong> from unachievable goals.</p>
+</section>
+<section id="uncertainty-performance-domain" class="level4" data-number="8.3.2.8">
+<h4 data-number="8.3.2.8" class="anchored" data-anchor-id="uncertainty-performance-domain"><span class="header-section-number">8.3.2.8</span> <strong>Uncertainty Performance Domain</strong></h4>
+<p>This domain focuses on exploring, assessing, and responding to the threats and opportunities presented by uncertainty, which is inherent in all projects.</p>
+<p><strong>Key Concepts:</strong></p>
+<ul>
+<li><strong>Uncertainty:</strong> Lack of understanding/awareness of issues, events, paths, or solutions. Reduced by gathering information, preparing for multiple outcomes, set-based design, and building resilience.<br>
+</li>
+<li><strong>Ambiguity:</strong> A state of being unclear, having difficulty identifying causes, or having multiple options. Solutions include <strong>progressive elaboration</strong>, experimentation, and prototyping.<br>
+</li>
+<li><strong>Complexity:</strong> Difficult to manage due to human behavior, system behavior, and ambiguity. Handled via decoupling systems, simulation, diversity in perspectives (reframing), and process-based approaches (iterate, engage, fail safe).<br>
+</li>
+<li><strong>Volatility:</strong> Rapid and unpredictable change, typically impacting cost and schedule. Addressed via alternatives analysis and using reserves (cost or schedule).<br>
+</li>
+<li><strong>Risk (Threats and Opportunities):</strong> Project teams proactively identify risks aligned with the organization’s <strong>Risk Appetite</strong> and <strong>Risk Thresholds</strong>.</li>
+</ul>
+<p><strong>Risk Response Strategies:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Strategy</th>
+<th>Threats (Negative Risks)</th>
+<th>Opportunities (Positive Risks)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Avoid/Exploit</strong></td>
+<td>Eliminate the threat or protect the project from impact.</td>
+<td>Act to ensure the opportunity occurs.</td>
+</tr>
+<tr class="even">
+<td><strong>Mitigate/Enhance</strong></td>
+<td>Decrease probability/impact of the threat.</td>
+<td>Increase probability/impact of the opportunity.</td>
+</tr>
+<tr class="odd">
+<td><strong>Transfer/Share</strong></td>
+<td>Shift impact/ownership to a third party (e.g., insurance, warranty).</td>
+<td>Allocate ownership to a third party best able to capture the benefit.</td>
+</tr>
+<tr class="even">
+<td><strong>Accept</strong></td>
+<td>Acknowledge the risk and take no action unless it occurs.</td>
+<td>Acknowledge the opportunity but take no proactive steps.</td>
+</tr>
+<tr class="odd">
+<td><strong>Escalate</strong></td>
+<td>Threat/opportunity is outside project scope or manager’s authority.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="tailoring" class="level3" data-number="8.3.3">
+<h3 data-number="8.3.3" class="anchored" data-anchor-id="tailoring"><span class="header-section-number">8.3.3</span> <strong>Tailoring</strong></h3>
+<p>Tailoring is essential because no single project management approach works for every project. It ensures that the approach, governance, and processes are suitable for the given environment.</p>
+<section id="why-tailor" class="level4" data-number="8.3.3.1">
+<h4 data-number="8.3.3.1" class="anchored" data-anchor-id="why-tailor"><span class="header-section-number">8.3.3.1</span> <strong>Why Tailor?</strong></h4>
+<p>Tailoring ensures appropriate management rigor based on project criticality, size, duration, complexity, industry, and organizational maturity. Benefits include greater team commitment, reduced waste, efficient resource use, and a customer-oriented focus.</p>
+</section>
+<section id="what-to-tailor" class="level4" data-number="8.3.3.2">
+<h4 data-number="8.3.3.2" class="anchored" data-anchor-id="what-to-tailor"><span class="header-section-number">8.3.3.2</span> <strong>What to Tailor</strong></h4>
+<p>Project teams can tailor the following aspects:</p>
+<ul>
+<li><strong>Life Cycle and Development Approach Selection:</strong> Choosing between predictive, iterative, incremental, or hybrid approaches.<br>
+</li>
+<li><strong>Processes:</strong> Adding rigor, modifying to suit team needs, removing wasteful steps, blending practices (e.g., mixing methods), and aligning differing elements for consistency.<br>
+</li>
+<li><strong>Engagement:</strong> Deciding on the appropriate people involvement, the level of empowerment given to the team, and how integration occurs across different contributing entities.<br>
+</li>
+<li><strong>Tools:</strong> Selecting the appropriate software or equipment.<br>
+</li>
+<li><strong>Methods and Artifacts:</strong> Choosing the means to achieve outcomes and the necessary documentation and templates.</li>
+</ul>
+</section>
+<section id="the-tailoring-process" class="level4" data-number="8.3.3.3">
+<h4 data-number="8.3.3.3" class="anchored" data-anchor-id="the-tailoring-process"><span class="header-section-number">8.3.3.3</span> <strong>The Tailoring Process</strong></h4>
+<p>The tailoring process involves four iterative steps, beginning after the project environment has been analyzed.</p>
+<p><strong>Step-by-Step Breakdown of the Tailoring Process:</strong></p>
+<ol type="1">
+<li><strong>Select Initial Development Approach:</strong> Determine the most appropriate approach (predictive, hybrid, or adaptive) based on knowledge of the product, delivery cadence, and organizational constraints. Tools like a <strong>suitability filter can</strong> assist by assessing criteria related to culture, team, and project factors.<br>
+</li>
+<li><strong>Tailor for the Organization:</strong> Adjust the initial approach to align with the organization’s established methodology, governance policies, and strategic/stewardship goals. This step may involve oversight and approval by the PMO or VDO (Value Delivery Office).<br>
+</li>
+<li><strong>Tailor for the Project:</strong> Adjust the approach based on specific project attributes, such as product/deliverable complexity, project team size/geography/experience, and organizational culture.<br>
+</li>
+<li><strong>Implement Ongoing Improvement:</strong> Since tailoring is iterative, regularly conduct reviews (e.g., phase gates, retrospectives) to inspect and adapt the process, ensuring continuous learning and improvement.</li>
+</ol>
+</section>
+<section id="tailoring-the-performance-domains" class="level4" data-number="8.3.3.4">
+<h4 data-number="8.3.3.4" class="anchored" data-anchor-id="tailoring-the-performance-domains"><span class="header-section-number">8.3.3.4</span> <strong>Tailoring the Performance Domains</strong></h4>
+<p>The work within each of the eight performance domains can be tailored based on project uniqueness.</p>
+<ul>
+<li><strong>Stakeholders:</strong> Tailor based on stakeholder location (colocated/distributed), language diversity, number of stakeholders, and complexity of stakeholder networks.<br>
+</li>
+<li><strong>Project Team:</strong> Tailor based on geographical location, cultural perspectives, presence of special needs, and team maturity/training needs.<br>
+</li>
+<li><strong>Development Approach and Life Cycle:</strong> Tailor the development approach (iterative, incremental, hybrid) and define the necessary project phases and exit criteria.<br>
+</li>
+<li><strong>Planning:</strong> Tailor based on environmental factors, budget constraints, correlation between resources and productivity, and the complexity of procurements.<br>
+</li>
+<li><strong>Project Work:</strong> Tailor the management processes, knowledge management strategy (explicit vs.&nbsp;tacit), and information collection/storage technology.<br>
+</li>
+<li><strong>Delivery:</strong> Tailor requirements management, validation/control policies, quality standards (industry/regulatory), and approaches for handling unstable requirements.<br>
+</li>
+<li><strong>Uncertainty:</strong> Tailor based on risk appetite, risk tolerance, project size/duration/complexity, level of innovation, and the strategic importance of the project.<br>
+</li>
+<li><strong>Measurement:</strong> Tailor how value is measured (financial vs.&nbsp;nonfinancial), required status reporting frequency, and how data capture supports benefits realization after closure.</li>
+</ul>
+</section>
+</section>
+<section id="models-methods-and-artifacts" class="level3" data-number="8.3.4">
+<h3 data-number="8.3.4" class="anchored" data-anchor-id="models-methods-and-artifacts"><span class="header-section-number">8.3.4</span> <strong>Models, Methods, and Artifacts</strong></h3>
+<p>This section provides a non-exhaustive, non-prescriptive array of common resources useful in managing projects.</p>
+<ul>
+<li><strong>Model:</strong> A thinking strategy used to explain a process, framework, or phenomenon.<br>
+</li>
+<li><strong>Method:</strong> The means for achieving an outcome, output, result, or project deliverable.<br>
+</li>
+<li><strong>Artifact:</strong> A template, document, output, or project deliverable.</li>
+</ul>
+<p>Project teams should avoid using any element that duplicates effort, provides misleading information, or is not useful to stakeholders.</p>
+<section id="commonly-used-models" class="level4" data-number="8.3.4.1">
+<h4 data-number="8.3.4.1" class="anchored" data-anchor-id="commonly-used-models"><span class="header-section-number">8.3.4.1</span> <strong>Commonly Used Models</strong></h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Model Category</th>
+<th>Key Model Examples</th>
+<th>Core Concept Explained (Plain Language)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Situational Leadership</strong></td>
+<td>Situational Leadership® II, OSCAR Model</td>
+<td>Leadership style must adapt to the project team member’s competence and commitment level (Directing → Coaching → Supporting → Delegating).</td>
+</tr>
+<tr class="even">
+<td><strong>Communication</strong></td>
+<td>Cross-cultural Communication, Effectiveness of Communication Channels, Gulf of Execution and Evaluation</td>
+<td>Explains how filters (culture, experience, language) distort messages and how communication effectiveness depends on the medium’s “richness” (complex info needs richer channels).</td>
+</tr>
+<tr class="odd">
+<td><strong>Motivation</strong></td>
+<td>Intrinsic vs.&nbsp;Extrinsic Motivation, Theory of Needs (Achievement, Power, Affiliation), Theory X/Y/Z</td>
+<td>Identifies that intrinsic factors (autonomy, mastery, purpose) are often more effective for complex work than extrinsic rewards.</td>
+</tr>
+<tr class="even">
+<td><strong>Change</strong></td>
+<td>ADKAR® Model, Kotter’s 8-Step Process for Leading Change, Virginia Satir Change Model</td>
+<td>Provides frameworks for structuring the transition from a current state to a future state, focusing on urgency, coalition building, vision, and reinforcement.</td>
+</tr>
+<tr class="odd">
+<td><strong>Complexity</strong></td>
+<td>Cynefin Framework, Stacey Matrix</td>
+<td>Classifies decision-making contexts (Obvious, Complicated, Complex, Chaotic) based on cause-and-effect clarity and uncertainty of requirements/technology.</td>
+</tr>
+<tr class="even">
+<td><strong>Project Team Development</strong></td>
+<td>Tuckman Ladder (Forming, Storming, Norming, Performing), Drexler/Sibbet Model (Orientation, Trust, Goals, Commitment)</td>
+<td>Describes the predictable stages a team progresses through to achieve high performance.</td>
+</tr>
+<tr class="odd">
+<td><strong>Other</strong></td>
+<td>Conflict Model, Negotiation Models (Win-Win), Planning Model (Optimal Planning)</td>
+<td>Provides strategies for addressing conflict (e.g., competing, collaborating, compromising), negotiating outcomes, and identifying the “sweet spot” for planning effort.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="commonly-used-methods" class="level4" data-number="8.3.4.2">
+<h4 data-number="8.3.4.2" class="anchored" data-anchor-id="commonly-used-methods"><span class="header-section-number">8.3.4.2</span> <strong>Commonly Used Methods</strong></h4>
+<p>Methods are means for achieving outcomes, often grouped by purpose.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Method Category</th>
+<th>Key Method Examples</th>
+<th>Core Application (Plain Language)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Data Gathering &amp; Analysis</strong></td>
+<td>Alternatives Analysis, Benchmarking, Cost-Benefit Analysis, Earned Value Analysis (EVA), Root Cause Analysis (RCA), Simulation (Monte Carlo), SWOT Analysis</td>
+<td>Used to collect, assess, and evaluate data to gain a deeper understanding or justify decisions (e.g., checking project performance against baselines, identifying underlying causes of variance).</td>
+</tr>
+<tr class="even">
+<td><strong>Estimating</strong></td>
+<td>Analogous, Parametric, Multipoint, Relative Estimating (Story Points), Wideband Delphi</td>
+<td>Techniques used to approximate project work, duration, or cost based on historical data, algorithms, or comparison against similar work.</td>
+</tr>
+<tr class="odd">
+<td><strong>Meetings &amp; Events</strong></td>
+<td>Backlog Refinement, Bidder Conference, Change Control Board (CCB), Daily Standup, Iteration Review, Kickoff, Lessons Learned</td>
+<td>Structured gatherings for communication, collaboration, planning, reviewing progress, managing change, and knowledge sharing.</td>
+</tr>
+<tr class="even">
+<td><strong>Other</strong></td>
+<td>Impact Mapping, Modeling (Prototyping), Net Promoter Score® (NPS®), Prioritization Schema (MoSCoW), Timebox</td>
+<td>Strategic and tactical tools for high-level roadmaps, testing designs, gauging customer loyalty, ordering work, and limiting work duration.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="commonly-used-artifacts" class="level4" data-number="8.3.4.3">
+<h4 data-number="8.3.4.3" class="anchored" data-anchor-id="commonly-used-artifacts"><span class="header-section-number">8.3.4.3</span> <strong>Commonly Used Artifacts</strong></h4>
+<p>Artifacts are templates, documents, or deliverables used to record, plan, and communicate project information.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Artifact Category</th>
+<th>Key Artifact Examples</th>
+<th>Core Purpose (Plain Language)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Strategy</strong></td>
+<td>Business Case, Project Charter, Project Vision Statement, Roadmap</td>
+<td>High-level documents created at the start to authorize the project and define its purpose, goals, and strategic alignment.</td>
+</tr>
+<tr class="even">
+<td><strong>Logs &amp; Registers</strong></td>
+<td>Assumption Log, Backlog, Change Log, Issue Log, Risk Register, Stakeholder Register</td>
+<td>Used to continuously record and monitor evolving project aspects and decisions throughout the project lifecycle.</td>
+</tr>
+<tr class="odd">
+<td><strong>Plans</strong></td>
+<td>Project Management Plan (overall), Communications Management Plan, Quality Management Plan, Risk Management Plan, Stakeholder Engagement Plan</td>
+<td>Documents describing how specific project aspects (e.g., cost, scope, communication) will be executed, monitored, and controlled.</td>
+</tr>
+<tr class="even">
+<td><strong>Hierarchy Charts</strong></td>
+<td>Work Breakdown Structure (WBS), Risk Breakdown Structure (RBS), Product Breakdown Structure</td>
+<td>Hierarchical decomposition of high-level information into greater detail (e.g., breaking scope into manageable work packages).</td>
+</tr>
+<tr class="odd">
+<td><strong>Baselines</strong></td>
+<td>Budget, Project Schedule, Scope Baseline, Performance Measurement Baseline (PMB)</td>
+<td>The approved version of plans used as a fixed point for comparison against actual performance to measure variances.</td>
+</tr>
+<tr class="even">
+<td><strong>Visual Data &amp; Info</strong></td>
+<td>Dashboards, Gantt Charts, Histogram, Kanban/Task Boards, Velocity Charts, S-Curves, Traceability Matrices</td>
+<td>Charts and diagrams that organize and present analyzed data visually to aid in decision-making and project status understanding.</td>
+</tr>
+<tr class="odd">
+<td><strong>Reports</strong></td>
+<td>Quality Report, Risk Report, Status Report</td>
+<td>Formal summaries of information communicated to stakeholders, sponsors, or PMOs.</td>
+</tr>
+<tr class="even">
+<td><strong>Agreements</strong></td>
+<td>Fixed-Price Contracts (FFP), Cost-Reimbursable Contracts (CPFF), Time and Materials (T&amp;M)</td>
+<td>Mutually binding documents defining the intentions, scope, and payment obligations between parties.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+<section id="final-comprehensive-summary" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="final-comprehensive-summary"><span class="header-section-number">8.4</span> <strong>Final Comprehensive Summary</strong></h2>
+<p>The <em>PMBOK® Guide – Seventh Edition</em> represents a substantial evolution in project management thinking, shifting the focus from rigidly defined processes to adaptability, value, and outcomes. The core framework consists of <strong>The Standard for Project Management</strong> and <strong>A Guide to the Project Management Body of Knowledge</strong>.</p>
+<p>The foundation of the practice rests on <strong>12 Project Management Principles</strong> (e.g., Stewardship, Focus on Value, Tailoring, Adaptability, Optimize Risk) that guide professional behavior regardless of the development approach used. This principles-based approach is supported by a holistic view of the organization as a <strong>System for Value Delivery</strong>, where projects are integral components enabling strategic objectives.</p>
+<p>The application framework is built around <strong>eight Project Performance Domains</strong> (Stakeholders, Team, Development Approach and Life Cycle, Planning, Project Work, Delivery, Measurement, and Uncertainty). These domains are interconnected areas of focus that run concurrently throughout the project to ensure effective delivery. Success within each domain relies heavily on <strong>tailoring</strong> the project approach, governance, and processes to fit the unique context, rather than applying a single, generic methodology.</p>
+<p>Project teams must actively manage uncertainty (risk, complexity, ambiguity, and volatility) and ensure continuous improvement and learning. The execution of project work is supported by a wide array of situational <strong>Models, Methods, and Artifacts</strong>—tools selected and refined via tailoring to maximize efficiency, quality, and value realization. Finally, this edition links users to <strong>PMIstandards+™</strong> to provide access to dynamic, supplemental content reflecting the rapidly changing nature of the project environment.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./chapter07.html" class="pagination-link" aria-label="Project Management">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Project Management</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./chapter09.html" class="pagination-link" aria-label="Principles of Marketing">
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Principles of Marketing</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
