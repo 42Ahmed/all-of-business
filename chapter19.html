@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>19&nbsp; Deep Work – All of Business</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./chapter18.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-00ccf60c28c3bdf2d57f5131fbf16f11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7c8ba9dac8feea6a77ed63b2e2898d0e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-00ccf60c28c3bdf2d57f5131fbf16f11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+        <div class="quarto-navbar-tools tools-end">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter19.html"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Deep Work</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Entrepreuership Theory</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Measure What Matters</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Running Lean</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Four Steps to Successful Strategy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Power of Emotional Intelligence</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Primal Leadership</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Project Management</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter08.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">PMBOK</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter09.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Principles of Marketing</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">AI Marketing Canvas</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">This is Marketing</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter12.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Business Development</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Sales Acceleration Formula</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Financial Intelligence for Entrepreneurs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter15.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Venture Deals</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter16.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Emotional Agility</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter17.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Emotional Intelligence 2.0</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter18.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Getting Things Done</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter19.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Deep Work</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#executive-summary" id="toc-executive-summary" class="nav-link active" data-scroll-target="#executive-summary"><span class="header-section-number">19.1</span> Executive Summary</a></li>
+  <li><a href="#the-idea-of-deep-work" id="toc-the-idea-of-deep-work" class="nav-link" data-scroll-target="#the-idea-of-deep-work"><span class="header-section-number">19.2</span> The Idea of Deep Work</a>
+  <ul class="collapse">
+  <li><a href="#theme-1-defining-deep-work-vs.-shallow-work" id="toc-theme-1-defining-deep-work-vs.-shallow-work" class="nav-link" data-scroll-target="#theme-1-defining-deep-work-vs.-shallow-work"><span class="header-section-number">19.2.1</span> Theme 1: Defining Deep Work vs.&nbsp;Shallow Work</a></li>
+  <li><a href="#theme-2-the-deep-work-hypothesis-and-its-economic-underpinnings" id="toc-theme-2-the-deep-work-hypothesis-and-its-economic-underpinnings" class="nav-link" data-scroll-target="#theme-2-the-deep-work-hypothesis-and-its-economic-underpinnings"><span class="header-section-number">19.2.2</span> Theme 2: The Deep Work Hypothesis and Its Economic Underpinnings</a></li>
+  <li><a href="#theme-3-the-scarcity-of-deep-work" id="toc-theme-3-the-scarcity-of-deep-work" class="nav-link" data-scroll-target="#theme-3-the-scarcity-of-deep-work"><span class="header-section-number">19.2.3</span> Theme 3: The Scarcity of Deep Work</a></li>
+  <li><a href="#theme-4-the-meaningfulness-of-deep-work" id="toc-theme-4-the-meaningfulness-of-deep-work" class="nav-link" data-scroll-target="#theme-4-the-meaningfulness-of-deep-work"><span class="header-section-number">19.2.4</span> Theme 4: The Meaningfulness of Deep Work</a></li>
+  </ul></li>
+  <li><a href="#part-2-the-rules-for-cultivating-deep-work" id="toc-part-2-the-rules-for-cultivating-deep-work" class="nav-link" data-scroll-target="#part-2-the-rules-for-cultivating-deep-work"><span class="header-section-number">19.3</span> Part 2: The Rules for Cultivating Deep Work</a>
+  <ul class="collapse">
+  <li><a href="#rule-1-work-deeply" id="toc-rule-1-work-deeply" class="nav-link" data-scroll-target="#rule-1-work-deeply"><span class="header-section-number">19.3.1</span> Rule #1: Work Deeply</a></li>
+  <li><a href="#rule-2-embrace-boredom" id="toc-rule-2-embrace-boredom" class="nav-link" data-scroll-target="#rule-2-embrace-boredom"><span class="header-section-number">19.3.2</span> Rule #2: Embrace Boredom</a></li>
+  <li><a href="#rule-3-quit-social-media" id="toc-rule-3-quit-social-media" class="nav-link" data-scroll-target="#rule-3-quit-social-media"><span class="header-section-number">19.3.3</span> <strong>Rule #3: Quit Social Media</strong></a></li>
+  <li><a href="#rule-4-drain-the-shallows" id="toc-rule-4-drain-the-shallows" class="nav-link" data-scroll-target="#rule-4-drain-the-shallows"><span class="header-section-number">19.3.4</span> Rule #4: Drain the Shallows</a></li>
+  </ul></li>
+  <li><a href="#personal-deep-work-integration-plan" id="toc-personal-deep-work-integration-plan" class="nav-link" data-scroll-target="#personal-deep-work-integration-plan"><span class="header-section-number">19.4</span> Personal Deep Work Integration Plan</a></li>
+  <li><a href="#introduction-the-case-for-a-deep-life" id="toc-introduction-the-case-for-a-deep-life" class="nav-link" data-scroll-target="#introduction-the-case-for-a-deep-life"><span class="header-section-number">19.5</span> Introduction: The Case for a Deep Life</a>
+  <ul class="collapse">
+  <li><a href="#phase-1-foundational-assessment-and-philosophy-selection" id="toc-phase-1-foundational-assessment-and-philosophy-selection" class="nav-link" data-scroll-target="#phase-1-foundational-assessment-and-philosophy-selection"><span class="header-section-number">19.5.1</span> Phase 1: Foundational Assessment and Philosophy Selection</a></li>
+  <li><a href="#diagnostic-auditing-your-current-work-habits" id="toc-diagnostic-auditing-your-current-work-habits" class="nav-link" data-scroll-target="#diagnostic-auditing-your-current-work-habits"><span class="header-section-number">19.5.2</span> Diagnostic: Auditing Your Current Work Habits</a></li>
+  <li><a href="#defining-your-wildly-important-goals" id="toc-defining-your-wildly-important-goals" class="nav-link" data-scroll-target="#defining-your-wildly-important-goals"><span class="header-section-number">19.5.3</span> Defining Your “Wildly Important” Goals</a></li>
+  <li><a href="#selecting-your-depth-philosophy" id="toc-selecting-your-depth-philosophy" class="nav-link" data-scroll-target="#selecting-your-depth-philosophy"><span class="header-section-number">19.5.4</span> Selecting Your Depth Philosophy</a></li>
+  </ul></li>
+  <li><a href="#phase-2-building-your-deep-work-practice" id="toc-phase-2-building-your-deep-work-practice" class="nav-link" data-scroll-target="#phase-2-building-your-deep-work-practice"><span class="header-section-number">19.6</span> Phase 2: Building Your Deep Work Practice</a>
+  <ul class="collapse">
+  <li><a href="#pillar-1-integrating-deep-work-sessions" id="toc-pillar-1-integrating-deep-work-sessions" class="nav-link" data-scroll-target="#pillar-1-integrating-deep-work-sessions"><span class="header-section-number">19.6.1</span> Pillar 1: Integrating Deep Work Sessions</a></li>
+  <li><a href="#pillar-2-training-your-attention" id="toc-pillar-2-training-your-attention" class="nav-link" data-scroll-target="#pillar-2-training-your-attention"><span class="header-section-number">19.6.2</span> Pillar 2: Training Your Attention</a></li>
+  <li><a href="#pillar-3-taming-distracting-tools" id="toc-pillar-3-taming-distracting-tools" class="nav-link" data-scroll-target="#pillar-3-taming-distracting-tools"><span class="header-section-number">19.6.3</span> Pillar 3: Taming Distracting Tools</a></li>
+  <li><a href="#pillar-4-minimizing-shallow-work" id="toc-pillar-4-minimizing-shallow-work" class="nav-link" data-scroll-target="#pillar-4-minimizing-shallow-work"><span class="header-section-number">19.6.4</span> Pillar 4: Minimizing Shallow Work</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Deep Work</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="executive-summary" class="level2" data-number="19.1">
+<h2 data-number="19.1" class="anchored" data-anchor-id="executive-summary"><span class="header-section-number">19.1</span> Executive Summary</h2>
+<p>This document synthesizes the core arguments surrounding the concept of “Deep Work,” defined as professional activities performed in a state of distraction-free concentration that push cognitive capabilities to their limit. These efforts create new value, improve skills, and are hard to replicate. The central thesis, the <strong>Deep Work Hypothesis</strong>, posits that the ability to perform deep work is becoming increasingly rare at the exact same time it is becoming increasingly valuable in the modern economy. Consequently, the few who cultivate this skill will thrive.</p>
+<p>The increasing value of deep work is driven by two core realities of the new economy:<br>
+1) the need to <strong>quickly master hard things</strong> in a rapidly changing technological landscape, and<br>
+2) the need to produce at an <strong>elite level in terms of both quality and speed.</strong><br>
+Both of these abilities are fundamentally dependent on the capacity for intense, uninterrupted focus.</p>
+<p>Conversely, deep work is becoming increasingly rare due to the proliferation of “network tools” (e.g., email, social media) and business trends like open offices that promote a culture of distraction. This shift toward its counterpart, <strong>Shallow Work</strong>—non-cognitively demanding, logistical tasks often performed while distracted—is enabled by several factors: the difficulty of measuring the bottom-line impact of distraction (the “Metric Black Hole”), the human tendency toward the path of least resistance, the use of visible busyness as a proxy for productivity, and a cultural “technopoly” that uncritically valorizes Internet-related behaviors.</p>
+<p>Beyond its economic value, deep work is presented as a key component of a meaningful and satisfying life. Arguments from neuroscience, psychology (specifically the concept of “flow”), and philosophy converge on the conclusion that a life centered around deep, skillful engagement is inherently more rewarding than one dominated by shallowness.</p>
+<p>To cultivate this skill, a systematic approach is required, structured around four rules:</p>
+<ol type="1">
+<li><strong>Work Deeply:</strong> Integrate deep work into one’s professional life through structured philosophies, rituals, and routines that minimize the reliance on finite willpower.<br>
+</li>
+<li><strong>Embrace Boredom:</strong> Actively train the “mental muscle” of concentration by resisting the allure of on-demand distraction and practicing intense focus.<br>
+</li>
+<li><strong>Quit Social Media:</strong> Adopt a disciplined, craftsman-like approach to selecting digital tools, rejecting the common “any-benefit” mindset in favor of a strict analysis of a tool’s impact on core goals.<br>
+</li>
+<li><strong>Drain the Shallows:</strong> Treat shallow work with suspicion, quantifying its presence, constraining its volume, and aggressively protecting time and energy for deep efforts.</li>
+</ol>
+</section>
+<section id="the-idea-of-deep-work" class="level2" data-number="19.2">
+<h2 data-number="19.2" class="anchored" data-anchor-id="the-idea-of-deep-work"><span class="header-section-number">19.2</span> The Idea of Deep Work</h2>
+<section id="theme-1-defining-deep-work-vs.-shallow-work" class="level3" data-number="19.2.1">
+<h3 data-number="19.2.1" class="anchored" data-anchor-id="theme-1-defining-deep-work-vs.-shallow-work"><span class="header-section-number">19.2.1</span> Theme 1: Defining Deep Work vs.&nbsp;Shallow Work</h3>
+<ul>
+<li><strong>Deep Work:</strong> “Professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit. These efforts create new value, improve your skill, and are hard to replicate.”
+<ul>
+<li><strong>Evidence:</strong> The practice is a common theme among influential figures throughout history, including psychiatrist Carl Jung (who built a stone tower retreat), author Mark Twain (who wrote in an isolated shed), director Woody Allen (who forgoes computers), physicist Peter Higgs (who is famously disconnected), and CEO Bill Gates (who conducted biannual “Think Weeks”).<br>
+</li>
+<li><strong>Function:</strong> Deep work is essential for learning complex subjects and producing high-quality output. Neurologically, intense focus on a specific skill triggers the myelination of relevant neural circuits, effectively cementing the skill. Psychologically, it minimizes “attention residue,” the lingering cognitive footprint from a previous task that degrades performance on the current one.<br>
+</li>
+</ul></li>
+<li><strong>Shallow Work:</strong> “Noncognitively demanding, logistical-style tasks, often performed while distracted. These efforts tend to not create much new value in the world and are easy to replicate.”
+<ul>
+<li><strong>Prevalence:</strong> The rise of network tools (email, social media, infotainment sites) has fragmented the attention of knowledge workers. A 2012 McKinsey study found that the average knowledge worker spends over 60% of their week on electronic communication and internet searching, with nearly 30% on email alone.<br>
+</li>
+<li><strong>Consequences:</strong> A state of “frenetic shallowness” permanently reduces the capacity to perform deep work.</li>
+</ul></li>
+</ul>
+</section>
+<section id="theme-2-the-deep-work-hypothesis-and-its-economic-underpinnings" class="level3" data-number="19.2.2">
+<h3 data-number="19.2.2" class="anchored" data-anchor-id="theme-2-the-deep-work-hypothesis-and-its-economic-underpinnings"><span class="header-section-number">19.2.2</span> Theme 2: The Deep Work Hypothesis and Its Economic Underpinnings</h3>
+<p>The core argument of the source text is summarized by the <strong>Deep Work Hypothesis</strong>: “The ability to perform deep work is becoming increasingly rare at exactly the same time it is becoming increasingly valuable in our economy. As a consequence, the few who cultivate this skill, and then make it the core of their working life, will thrive.”</p>
+<p>This value is rooted in the “Great Restructuring” of the economy described by MIT economists Erik Brynjolfsson and Andrew McAfee. In this new economy, three groups will hold a particular advantage:</p>
+<ol type="1">
+<li><strong>High-Skilled Workers:</strong> Those who can work creatively with increasingly complex intelligent machines (e.g., data scientist Nate Silver).<br>
+</li>
+<li><strong>Superstars:</strong> Those who are the best at what they do in a globalized talent market where remote work is seamless (e.g., programmer David Heinemeier Hansson).<br>
+</li>
+<li><strong>The Owners:</strong> Those with access to capital to invest in the new technologies driving the restructuring (e.g., venture capitalist John Doerr).</li>
+</ol>
+<p>To join the first two (accessible) groups, two core abilities are crucial:</p>
+<ol type="1">
+<li><strong>The ability to quickly master hard things.</strong><br>
+</li>
+<li><strong>The ability to produce at an elite level, in terms of both quality and speed.</strong></li>
+</ol>
+<p>Deep work is the foundational skill required to develop both abilities. Learning requires intense, uninterrupted concentration, a state known in performance psychology as <strong>deliberate practice</strong>. Producing at an elite level similarly requires sustained focus to achieve maximum cognitive intensity and minimize the negative impact of attention residue, as exemplified by the hyper-productive academic Adam Grant.</p>
+</section>
+<section id="theme-3-the-scarcity-of-deep-work" class="level3" data-number="19.2.3">
+<h3 data-number="19.2.3" class="anchored" data-anchor-id="theme-3-the-scarcity-of-deep-work"><span class="header-section-number">19.2.3</span> Theme 3: The Scarcity of Deep Work</h3>
+<p>Despite its increasing value, deep work is becoming rare due to several business trends and cognitive biases.</p>
+<ul>
+<li><strong>Destructive Trends:</strong> Open office plans, the rise of instant messaging, and the expectation for professionals to maintain a constant social media presence actively fragment attention and inhibit deep focus.<br>
+</li>
+<li><strong>The Metric Black Hole:</strong> The impact of deep or shallow work on an organization’s bottom line is difficult to measure. This lack of clear metrics allows less-valuable behaviors to persist.<br>
+</li>
+<li><strong>The Principle of Least Resistance:</strong> In the absence of clear feedback, people tend toward behaviors that are easiest in the moment, such as maintaining a culture of constant connectivity and responsiveness.<br>
+</li>
+<li><strong>Busyness as a Proxy for Productivity:</strong> Lacking clear indicators of value, many knowledge workers revert to an industrial-era mindset, where visible activity (e.g., constant emails, meetings) is equated with productivity.<br>
+</li>
+<li><strong>The Cult of the Internet (Technopoly):</strong> The prevailing ideology that any behavior related to “the Internet” is inherently innovative and necessary. This makes rejecting distracting network tools appear regressive, stifling rational debate about their true costs and benefits.</li>
+</ul>
+</section>
+<section id="theme-4-the-meaningfulness-of-deep-work" class="level3" data-number="19.2.4">
+<h3 data-number="19.2.4" class="anchored" data-anchor-id="theme-4-the-meaningfulness-of-deep-work"><span class="header-section-number">19.2.4</span> Theme 4: The Meaningfulness of Deep Work</h3>
+<p>A commitment to deep work is not merely an economic calculation but a prerequisite for a fulfilling professional life. This claim is supported by three distinct lines of argument.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Argument Type</th>
+<th style="text-align: left;">Core Concept</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Neurological</strong></td>
+<td style="text-align: left;"><strong>Attention Shapes Reality:</strong> Drawing on the work of Winifred Gallagher, the argument is that “who you are, what you think, feel, and do, what you love—is the sum of what you focus on.(empathy map from marketing books)” A life spent on deep work will be perceived as meaningful and important, while a life dominated by shallow distractions (like a chaotic email inbox) will construct a worldview of stress and triviality.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Psychological</strong></td>
+<td style="text-align: left;"><strong>Flow State:</strong> Citing psychologist Mihaly Csikszentmihalyi, the text posits that “the best moments usually occur when a person’s body or mind is stretched to its limits in a voluntary effort to accomplish something difficult and worthwhile.” Deep work is an activity perfectly suited to generating this state of “flow,” which is proven to correlate with higher life satisfaction.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Philosophical</strong></td>
+<td style="text-align: left;"><strong>Craftsmanship and the Sacred:</strong> Drawing on philosophers Hubert Dreyfus and Sean Dorrance Kelly, the text argues that craftsmanship—the skillful cultivation and application of a trade—is a source of profound meaning. Knowledge work, when approached with care and a focus on skill development, is a form of modern craftsmanship. Deep work is the vehicle for this cultivation, transforming a job into a source of purpose.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="part-2-the-rules-for-cultivating-deep-work" class="level2" data-number="19.3">
+<h2 data-number="19.3" class="anchored" data-anchor-id="part-2-the-rules-for-cultivating-deep-work"><span class="header-section-number">19.3</span> Part 2: The Rules for Cultivating Deep Work</h2>
+<section id="rule-1-work-deeply" class="level3" data-number="19.3.1">
+<h3 data-number="19.3.1" class="anchored" data-anchor-id="rule-1-work-deeply"><span class="header-section-number">19.3.1</span> Rule #1: Work Deeply</h3>
+<p>This rule focuses on transforming deep work from an abstract goal into a concrete, regular habit by using routines and rituals to overcome the finite nature of willpower.</p>
+<ul>
+<li><strong>Decide on Your Depth Philosophy:</strong> Choose a scheduling strategy that fits your circumstances.
+<ol type="1">
+<li><strong>Monastic:</strong> Radically minimize or eliminate shallow obligations<br>
+(e.g., Donald Knuth).<br>
+</li>
+<li><strong>Bimodal:</strong> Divide time into clearly defined deep stretches (days, weeks) and other shallow stretches (e.g., Carl Jung).<br>
+</li>
+<li><strong>Rhythmic:</strong> Transform deep work into a simple, regular habit, often at the same time each day (e.g., Jerry Seinfeld’s “chain method”).<br>
+</li>
+<li><strong>Journalistic:</strong> Fit deep work into any free blocks that appear in a dynamic schedule (e.g., Walter Isaacson).<br>
+</li>
+</ol></li>
+<li><strong>Ritualize:</strong> Create strict rituals specifying where you’ll work, for how long, how you’ll work (e.g., no internet), and how you’ll support your work (e.g., coffee, food). This minimizes the friction of transitioning into a state of depth.<br>
+</li>
+<li><strong>Make Grand Gestures:</strong> Leverage radical changes to your environment or significant investments of time or money to increase the perceived importance of a deep work task (e.g., J.K. Rowling renting a hotel suite to finish a novel).<br>
+</li>
+<li><strong>Don’t Work Alone:</strong> Use collaboration strategically via a “hub-and-spoke” model—gathering ideas in collaborative “hubs” but working on them in isolated “spokes.” Leverage the “whiteboard effect” where working with another person can push you deeper.<br>
+</li>
+<li><strong>Execute Like a Business (4DX):</strong>
+<ol type="1">
+<li>Focus on a “wildly important goal.”<br>
+</li>
+<li>Act on “lead measures” (e.g., time spent in deep work).<br>
+</li>
+<li>Keep a “compelling scoreboard” to track progress on lead measures.<br>
+</li>
+<li>Create a “cadence of accountability” (e.g., a weekly review).<br>
+</li>
+</ol></li>
+<li><strong>Be Lazy:</strong> Enforce a strict shutdown at the end of the workday. This downtime is not idleness but a crucial part of the deep work process, as it aids insight, recharges attentional energy, and replaces low-value shallow effort.</li>
+</ul>
+</section>
+<section id="rule-2-embrace-boredom" class="level3" data-number="19.3.2">
+<h3 data-number="19.3.2" class="anchored" data-anchor-id="rule-2-embrace-boredom"><span class="header-section-number">19.3.2</span> Rule #2: Embrace Boredom</h3>
+<p>This rule centers on training the ability to concentrate by weaning the mind from its dependence on distraction.</p>
+<ul>
+<li><strong>Don’t Take Breaks from Distraction; Take Breaks from Focus:</strong> Instead of scheduling occasional “digital detoxes,” schedule your internet and distraction use in advance. Outside of these blocks, the internet is off-limits. This trains your mental muscles to resist the urge for novel stimuli.<br>
+</li>
+<li><strong>Work Like Teddy Roosevelt:</strong> Identify a high-priority deep task and give yourself a drastically reduced, hard deadline. This forces “Rooseveltian intensity” and provides interval training for your attention.<br>
+</li>
+<li><strong>Meditate Productively:</strong> Use periods when you are physically but not mentally occupied (e.g., walking, commuting) to focus intensely on a single, well-defined professional problem. This requires structuring your thinking by identifying variables, defining the next-step question, and consolidating gains.<br>
+</li>
+<li><strong>Memorize a Deck of Cards:</strong> Engage in any structured thought process that requires unwavering attention (e.g., memory training, studying a complex text). The side effect of such training is a marked improvement in your general ability to concentrate.</li>
+</ul>
+</section>
+<section id="rule-3-quit-social-media" class="level3" data-number="19.3.3">
+<h3 data-number="19.3.3" class="anchored" data-anchor-id="rule-3-quit-social-media"><span class="header-section-number">19.3.3</span> <strong>Rule #3: Quit Social Media</strong></h3>
+<p>This rule advocates for a more intentional and skeptical approach to adopting network tools, moving from the default “any-benefit” mindset to a more rigorous “craftsman approach.”</p>
+<ul>
+<li><strong>The Craftsman Approach to Tool Selection:</strong> “Identify the core factors that determine success and happiness in your professional and personal life. Adopt a tool only if its positive impacts on these factors substantially outweigh its negative impacts.”<br>
+</li>
+<li><strong>Apply the Law of the Vital Few:</strong> Identify the 20% of activities that produce 80% of your results for a given high-level goal. Only adopt network tools that provide a <em>substantial positive impact</em> on these vital few activities.<br>
+</li>
+<li><strong>Quit Social Media (for 30 Days):</strong> Undertake a 30-day moratorium on social media use without announcing it. Afterward, ask two questions for each service:<br>
+1) Would the last month have been notably better if I had been able to use this service? 2) Did people care that I wasn’t using it?<br>
+If the answer is “no” to both, quit permanently.<br>
+</li>
+<li><strong>Don’t Use the Internet to Entertain Yourself:</strong> Put advance thought into your leisure time. Fill your free hours with high-quality activities (e.g., structured hobbies, reading programs) to avoid defaulting to low-quality, attention-fragmenting digital entertainment.</li>
+</ul>
+</section>
+<section id="rule-4-drain-the-shallows" class="level3" data-number="19.3.4">
+<h3 data-number="19.3.4" class="anchored" data-anchor-id="rule-4-drain-the-shallows"><span class="header-section-number">19.3.4</span> Rule #4: Drain the Shallows</h3>
+<p>This rule provides tactics to ruthlessly identify, minimize, and contain the shallow work that is an inevitable but dangerous part of any knowledge worker’s schedule.</p>
+<ul>
+<li><strong>Schedule Every Minute of Your Day:</strong> Block out your entire workday in advance on paper. This is not about sticking to a rigid plan but about forcing continuous, thoughtful decisions regarding how your time is spent.<br>
+</li>
+<li><strong>Quantify the Depth of Every Activity:</strong> To determine if a task is shallow or deep, ask: “How long would it take (in months) to train a smart recent college graduate with no specialized training in my field to complete this task?” The longer the time, the deeper the work.<br>
+</li>
+<li><strong>Ask Your Boss for a Shallow Work Budget:</strong> Agree on a fixed percentage of your time that should be spent on shallow work (e.g., 30-50%). This provides a clear target and institutional support for saying “no” to low-value tasks.<br>
+</li>
+<li><strong>Finish Your Work by Five Thirty (Fixed-Schedule Productivity):</strong> Set a hard stop for your workday and refuse to work past that time. This scarcity mindset forces you to be ruthless in prioritizing deep work and culling shallowness.<br>
+</li>
+<li><strong>Become Hard to Reach:</strong> Regain control over your email by:
+<ol type="1">
+<li>Using <strong>Sender Filters</strong> that require correspondents to do more work before contacting you.<br>
+</li>
+<li>Adopting a <strong>Process-Centric</strong> approach that aims to conclude a project in the minimum number of messages possible.<br>
+</li>
+<li><strong>Not Responding</strong> to emails that are ambiguous, uninteresting, or where nothing good would happen if you replied and nothing bad would happen if you didn’t.</li>
+</ol></li>
+</ul>
+</section>
+</section>
+<section id="personal-deep-work-integration-plan" class="level2" data-number="19.4">
+<h2 data-number="19.4" class="anchored" data-anchor-id="personal-deep-work-integration-plan"><span class="header-section-number">19.4</span> Personal Deep Work Integration Plan</h2>
+</section>
+<section id="introduction-the-case-for-a-deep-life" class="level2" data-number="19.5">
+<h2 data-number="19.5" class="anchored" data-anchor-id="introduction-the-case-for-a-deep-life"><span class="header-section-number">19.5</span> Introduction: The Case for a Deep Life</h2>
+<p>This document is a personal blueprint for mastering a critical skill in our increasingly distracted world. At its core is the concept of <strong>Deep Work</strong>, defined as “professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit.” These efforts create new value, improve your skills, and are hard to replicate. Deep work stands in stark contrast to its counterpart, <strong>Shallow Work</strong>: “noncognitively demanding, logistical-style tasks, often performed while distracted.” These efforts tend not to create much new value in the world and are easy to replicate.</p>
+<p>The strategic importance of cultivating a deep work ethic is captured by the <strong>Deep Work Hypothesis</strong>: “The ability to perform deep work is becoming increasingly rare at exactly the same time it is becoming increasingly valuable in our economy.” In a world where attention is fractured and busyness is often mistaken for productivity, the few who cultivate this skill will not just survive—they will thrive. Resisting the trend toward the shallow is exposing a massive economic and personal opportunity for those who prioritize depth.</p>
+<p>The purpose of this plan is to serve as a structured, introspective guide for systematically integrating deep work into your professional life. By doing so, you can achieve greater productivity, produce work of higher quality, and build a more meaningful career. It is a plan not just for professional advancement, but for personal fulfillment. As the most productive and important figures of generations past have understood, a deep life is a good life.</p>
+<p>This journey begins with a foundational assessment of your current habits and the selection of a guiding philosophy to structure your efforts.</p>
+<section id="phase-1-foundational-assessment-and-philosophy-selection" class="level3" data-number="19.5.1">
+<h3 data-number="19.5.1" class="anchored" data-anchor-id="phase-1-foundational-assessment-and-philosophy-selection"><span class="header-section-number">19.5.1</span> Phase 1: Foundational Assessment and Philosophy Selection</h3>
+<p>Before adopting new habits, it is crucial to understand your current work style, define clear professional goals, and select a high-level philosophy that aligns with your personal and professional realities. This foundational work ensures that your deep work practice is both effective and sustainable. By starting with a clear diagnosis and a coherent strategy, you minimize the willpower needed to make lasting change.</p>
+</section>
+<section id="diagnostic-auditing-your-current-work-habits" class="level3" data-number="19.5.2">
+<h3 data-number="19.5.2" class="anchored" data-anchor-id="diagnostic-auditing-your-current-work-habits"><span class="header-section-number">19.5.2</span> Diagnostic: Auditing Your Current Work Habits</h3>
+<section id="current-state-analysis" class="level4" data-number="19.5.2.1">
+<h4 data-number="19.5.2.1" class="anchored" data-anchor-id="current-state-analysis"><span class="header-section-number">19.5.2.1</span> <strong>Current State Analysis</strong></h4>
+<p>The first step is to gain an objective understanding of how you currently spend your time. For one typical workweek, track every activity in 30-minute blocks. Classify each block as “Deep,” “Shallow,” or “Other” (for activities that are neither, such as personal breaks).</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Time Block</th>
+<th style="text-align: left;">Activity</th>
+<th style="text-align: left;">Classification (Deep, Shallow, or Other)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Once your audit is complete, use the following questions to guide your analysis:</p>
+<ul>
+<li><em>What percentage of your time is currently spent on shallow versus deep work?</em><br>
+</li>
+<li><em>What are the primary sources of distraction and shallow work in your day (e.g., email, meetings, social media, instant messaging)?</em><br>
+</li>
+<li><em>Using the “smart recent college graduate” test—how many months would it take to train someone with no specialized background to do this task?—how much of your work is genuinely deep?</em><br>
+</li>
+<li><em>When and where do you currently get your best deep work done? What are the conditions that enable it?</em></li>
+</ul>
+</section>
+</section>
+<section id="defining-your-wildly-important-goals" class="level3" data-number="19.5.3">
+<h3 data-number="19.5.3" class="anchored" data-anchor-id="defining-your-wildly-important-goals"><span class="header-section-number">19.5.3</span> Defining Your “Wildly Important” Goals</h3>
+<section id="identifying-core-professional-objectives" class="level4" data-number="19.5.3.1">
+<h4 data-number="19.5.3.1" class="anchored" data-anchor-id="identifying-core-professional-objectives"><span class="header-section-number">19.5.3.1</span> <strong>Identifying Core Professional Objectives</strong></h4>
+<p>Deep work is a powerful tool, but its power is diluted if applied randomly. To be effective, it must be directed toward a small number of ambitious, “wildly important” goals that will return tangible and substantial professional benefits. As the columnist David Brooks memorably put it, the key is to say “yes” to the subject that arouses a “terrifying longing, and let the terrifying longing crowd out everything else.”</p>
+<p>Identify the 1-2 major professional goals that, if achieved, would have the greatest impact on your career.</p>
+<ul>
+<li><strong>Wildly Important Goal 1:</strong> __________________________________________________<br>
+</li>
+<li><strong>Wildly Important Goal 2:</strong> __________________________________________________</li>
+</ul>
+</section>
+</section>
+<section id="selecting-your-depth-philosophy" class="level3" data-number="19.5.4">
+<h3 data-number="19.5.4" class="anchored" data-anchor-id="selecting-your-depth-philosophy"><span class="header-section-number">19.5.4</span> Selecting Your Depth Philosophy</h3>
+<p>To consistently perform deep work, you need a systematic approach for scheduling it. Choosing a philosophy minimizes the amount of willpower required to transition into a state of concentration. Review the four philosophies below and select the one that best aligns with your circumstances.</p>
+<ul>
+<li><strong>The Monastic Philosophy:</strong> This approach attempts to maximize deep efforts by radically minimizing or eliminating shallow obligations. Adherents have a well-defined and highly valued professional goal and believe that most of their success comes from doing this one thing exceptionally well.
+<ul>
+<li><strong><em>Exemplar:</em></strong> Computer scientist Donald Knuth, who famously gave up his public email address in 1990 to protect his long hours of “uninterruptible concentration.”<br>
+</li>
+</ul></li>
+<li><strong>The Bimodal Philosophy:</strong> This philosophy divides your time into clearly defined stretches. For some periods (at least a full day), you act monastically, seeking intense and uninterrupted concentration. The rest of your time is left open for everything else. This approach is for those who cannot fully eliminate shallow commitments but can secure significant, discrete blocks of time for deep pursuits.
+<ul>
+<li><strong><em>Exemplar:</em></strong> Psychiatrist Carl Jung, who balanced a busy clinical practice in Zurich with periods of intense, isolated writing at his stone retreat tower in Bollingen.<br>
+</li>
+</ul></li>
+<li><strong>The Rhythmic Philosophy:</strong> This approach transforms deep work sessions into a simple, regular habit. By generating a consistent rhythm for this work, it removes the need to invest energy in deciding if and when to go deep. It is highly effective for those with predictable schedules who can establish and protect a daily routine.
+<ul>
+<li><strong><em>Exemplar:</em></strong> Jerry Seinfeld, who used the “chain method”—writing jokes every single day and marking an ‘X’ on a calendar to build a chain he refused to break.<br>
+</li>
+</ul></li>
+<li><strong>The Journalistic Philosophy:</strong> This approach involves fitting deep work wherever you can into your schedule on a moment’s notice. It requires a practiced ability to quickly shift into a state of intense concentration. This philosophy is not for deep work novices but can be effective for those with unpredictable schedules.
+<ul>
+<li><strong><em>Exemplar:</em></strong> Journalist Walter Isaacson, who wrote his 800+ page book <em>The Wise Men</em> by hammering away on his typewriter during any spare moment he could find, even for just 20 minutes at a time.</li>
+</ul></li>
+</ul>
+<section id="guided-selection-exercise" class="level4" data-number="19.5.4.1">
+<h4 data-number="19.5.4.1" class="anchored" data-anchor-id="guided-selection-exercise"><span class="header-section-number">19.5.4.1</span> <strong>Guided Selection Exercise</strong></h4>
+<p>Evaluate which philosophy best aligns with your professional obligations and personal working style by answering the following questions:</p>
+<ul>
+<li><em>Does your primary professional goal depend on a single, exceptionally well-done output (e.g., writing a book, proving a theorem, creating a masterpiece)?</em> If so, <strong>The Monastic Philosophy</strong> might be for you.<br>
+</li>
+<li><em>Can you secure multi-day stretches of complete isolation from your professional duties without jeopardizing your position?</em> If so, <strong>The Bimodal Philosophy</strong> is a strong option.<br>
+</li>
+<li><em>Does your schedule have a predictable structure? Can you establish and protect a 90-minute block at the same time each day?</em> If so, <strong>The Rhythmic Philosophy</strong> is highly effective.<br>
+</li>
+<li><em>Is your schedule highly unpredictable, but are you already skilled at quickly dropping into a state of concentration when an opportunity arises?</em> If so, <strong>The Journalistic Philosophy</strong> may be possible.</li>
+</ul>
+<p><strong>My Chosen Philosophy:</strong> __________________________________________________</p>
+<p><strong>Reasoning:</strong> ____________________________________________________________________</p>
+<p>With a philosophy selected, you now have a high-level strategy for integrating deep work. The next phase is to build the specific, operational habits that will bring this practice to life.</p>
+<p>-——————————————————————————-</p>
+</section>
+</section>
+</section>
+<section id="phase-2-building-your-deep-work-practice" class="level2" data-number="19.6">
+<h2 data-number="19.6" class="anchored" data-anchor-id="phase-2-building-your-deep-work-practice"><span class="header-section-number">19.6</span> Phase 2: Building Your Deep Work Practice</h2>
+<p>With a guiding philosophy chosen, the next step is to build the operational capacity for deep work. This requires a series of specific, trainable habits organized into four distinct but interconnected pillars. These pillars provide the structure needed to move from good intentions to consistent, high-value output.</p>
+<section id="pillar-1-integrating-deep-work-sessions" class="level3" data-number="19.6.1">
+<h3 data-number="19.6.1" class="anchored" data-anchor-id="pillar-1-integrating-deep-work-sessions"><span class="header-section-number">19.6.1</span> Pillar 1: Integrating Deep Work Sessions</h3>
+<p>This pillar focuses on systematically scheduling, executing, and supporting your deep work sessions to maximize their effectiveness.</p>
+<section id="commitment-1-ritualize-your-deep-work" class="level4" data-number="19.6.1.1">
+<h4 data-number="19.6.1.1" class="anchored" data-anchor-id="commitment-1-ritualize-your-deep-work"><span class="header-section-number">19.6.1.1</span> Commitment 1: Ritualize Your Deep Work</h4>
+<p>Great creative minds think like artists but work like accountants. To minimize the friction of transitioning into a state of depth, design a personal deep work ritual. This ritual should be strict and idiosyncratic, providing your mind with the structure it needs to slip into focus. This is a common practice among elite performers. Essayist Michel de Montaigne worked in a private library tower in his French château. Mark Twain wrote much of <em>The Adventures of Tom Sawyer</em> in an isolated shed where his family had to blow a horn to get his attention for meals. Charles Darwin followed a strict daily walking and working routine.</p>
+<p>Consider the following questions to design your own ritual:</p>
+<ul>
+<li><em>Where will you work and for how long?</em> (e.g., a quiet library, a specific conference room, or your office with the door closed and a “do not disturb” sign for a 90-minute block).<br>
+</li>
+<li><em>What are the rules and processes for this session?</em> (e.g., no internet use, a specific metric like words-per-20-minutes, a clear outline of the task at hand).<br>
+</li>
+<li><em>How will you support your work?</em> (e.g., with a cup of good coffee, a clear desk, light exercise beforehand, ensuring you have all necessary materials ready).</li>
+</ul>
+</section>
+<section id="commitment-2-execute-like-a-business" class="level4" data-number="19.6.1.2">
+<h4 data-number="19.6.1.2" class="anchored" data-anchor-id="commitment-2-execute-like-a-business"><span class="header-section-number">19.6.1.2</span> Commitment 2: Execute Like a Business</h4>
+<p>Treat your wildly important goals with the seriousness of a high-stakes business project by applying the “4 Disciplines of Execution” (4DX):</p>
+<ol type="1">
+<li><strong>Focus on the Wildly Important:</strong> You have already identified your 1-2 wildly important goals. Keep them visible and central to your efforts.<br>
+</li>
+<li><strong>Act on the Lead Measures:</strong> Your primary lead measure is <strong>Hours spent in a state of deep work</strong>. Unlike lag measures (like papers published), this is something you can directly influence on a day-to-day basis.<br>
+</li>
+<li><strong>Keep a Compelling Scoreboard:</strong> Create a simple, visible scoreboard to track your deep work hours each week. A piece of card stock on the wall with a running tally of hours is effective. When you achieve a milestone, circle the tally mark for that hour to create a visceral connection between effort and tangible results.<br>
+</li>
+<li><strong>Create a Cadence of Accountability:</strong> Schedule a weekly review to check your scoreboard. During this review, analyze what worked and what didn’t in the previous week, and plan your deep work sessions for the week ahead.</li>
+</ol>
+</section>
+<section id="commitment-3-institute-a-shutdown-ritual" class="level4" data-number="19.6.1.3">
+<h4 data-number="19.6.1.3" class="anchored" data-anchor-id="commitment-3-institute-a-shutdown-ritual"><span class="header-section-number">19.6.1.3</span> Commitment 3: Institute a Shutdown Ritual</h4>
+<p>Downtime is not a vice; it is indispensable to the brain. Regular freedom from professional concerns aids insight and recharges the energy needed to work deeply. However, simply stopping work is not enough. The key to truly disconnecting is to clear what psychologists call <strong>attention residue</strong>—the lingering thoughts from the last task you were working on. If you let these tasks remain unresolved, this residue will contaminate your downtime, preventing full recovery.</p>
+<p>To fully disengage at the end of the day, design a shutdown ritual that convinces your brain it is safe to release work-related thoughts. This ritual must ensure that every incomplete task is reviewed and has a plan for its completion. Your ritual might involve:</p>
+<ol type="1">
+<li>A final check of your inbox for urgent messages.<br>
+</li>
+<li>Transferring all new tasks into your master task list.<br>
+</li>
+<li>A quick skim of all task lists and your upcoming calendar.<br>
+</li>
+<li>Creating a rough plan for the next workday.</li>
+</ol>
+<p>End the ritual with a set phrase, such as “<strong>Shutdown complete</strong>,” to provide a clear cue to your brain that the workday is over and it can clear all attention residue.</p>
+</section>
+</section>
+<section id="pillar-2-training-your-attention" class="level3" data-number="19.6.2">
+<h3 data-number="19.6.2" class="anchored" data-anchor-id="pillar-2-training-your-attention"><span class="header-section-number">19.6.2</span> Pillar 2: Training Your Attention</h3>
+<p>This pillar focuses on improving your ability to concentrate and strengthening your mind’s resistance to the siren call of distraction.</p>
+<section id="practice-1-take-breaks-from-focus-not-distraction" class="level4" data-number="19.6.2.1">
+<h4 data-number="19.6.2.1" class="anchored" data-anchor-id="practice-1-take-breaks-from-focus-not-distraction"><span class="header-section-number">19.6.2.1</span> Practice 1: Take Breaks from Focus, Not Distraction</h4>
+<p>Rewire your brain to be comfortable resisting distracting stimuli. Instead of scheduling occasional breaks from distraction, schedule occasional breaks from focus. The default state for your work should be offline. Quick, unscheduled checks of email or social media are devastating because they create significant <strong>attention residue</strong> that contaminates your next block of focused work.</p>
+<ul>
+<li><strong>Schedule your internet use in advance.</strong> At the start of an offline block, note on a pad the next time you’re allowed to go online. Until that time arrives, maintain absolute network silence. The goal is not to eliminate internet use, but to train your mind to resist the urge for novelty during the offline periods, strengthening your “mental muscle.”</li>
+</ul>
+</section>
+<section id="practice-2-embrace-productive-meditation" class="level4" data-number="19.6.2.2">
+<h4 data-number="19.6.2.2" class="anchored" data-anchor-id="practice-2-embrace-productive-meditation"><span class="header-section-number">19.6.2.2</span> Practice 2: Embrace Productive Meditation</h4>
+<p>Use periods where you are physically but not mentally occupied (e.g., commuting, walking, showering, jogging) to focus on a single, well-defined professional problem.</p>
+<ul>
+<li>The goal is to hold your attention on the problem without distraction. When your mind wanders, gently guide it back. This practice simultaneously strengthens your concentration and can lead to valuable professional insights. Structure your thinking by first identifying the relevant variables, then defining the specific next-step question you need to answer, and finally consolidating your gains by reviewing the answer you identified.</li>
+</ul>
+</section>
+</section>
+<section id="pillar-3-taming-distracting-tools" class="level3" data-number="19.6.3">
+<h3 data-number="19.6.3" class="anchored" data-anchor-id="pillar-3-taming-distracting-tools"><span class="header-section-number">19.6.3</span> Pillar 3: Taming Distracting Tools</h3>
+<p>This pillar focuses on developing a more intentional and skeptical relationship with technology, particularly the network tools that fragment your attention.</p>
+<section id="mindset-shift-the-craftsman-approach-to-tool-selection" class="level4" data-number="19.6.3.1">
+<h4 data-number="19.6.3.1" class="anchored" data-anchor-id="mindset-shift-the-craftsman-approach-to-tool-selection"><span class="header-section-number">19.6.3.1</span> <strong>Mindset Shift: The Craftsman Approach to Tool Selection</strong></h4>
+<p>Reject the common “any-benefit” approach, which justifies using a network tool if you can identify any possible benefit to its use. Instead, adopt the mindset of a skilled laborer.</p>
+<ul>
+<li><strong>The Craftsman Approach:</strong> Identify the core factors that determine success and happiness in your professional and personal life. Adopt a tool <em>only if</em> its positive impacts on these factors substantially outweigh its negative impacts. Treat tools as aids for your craft, not as sources of random, low-value amusement.</li>
+</ul>
+</section>
+<section id="exercise-30-day-social-media-detox" class="level4" data-number="19.6.3.2">
+<h4 data-number="19.6.3.2" class="anchored" data-anchor-id="exercise-30-day-social-media-detox"><span class="header-section-number">19.6.3.2</span> <strong>Exercise: 30-Day Social Media Detox</strong></h4>
+<p>Put the craftsman approach into practice with this simple but powerful exercise.</p>
+<ul>
+<li>Abstain from all optional social media services for 30 days. Crucially, do not announce your departure. Just stop using them.<br>
+</li>
+<li>After 30 days, ask yourself two questions for each service:
+<ol type="1">
+<li><em>Would the last thirty days have been notably better if I had been able to use this service?</em><br>
+</li>
+<li><em>Did people care that I wasn’t using it?</em><br>
+</li>
+</ol></li>
+<li>Based on your answers, decide whether to quit the service permanently, return to it with newfound intention, or abandon it as a non-essential distraction.</li>
+</ul>
+</section>
+</section>
+<section id="pillar-4-minimizing-shallow-work" class="level3" data-number="19.6.4">
+<h3 data-number="19.6.4" class="anchored" data-anchor-id="pillar-4-minimizing-shallow-work"><span class="header-section-number">19.6.4</span> Pillar 4: Minimizing Shallow Work</h3>
+<p>This final pillar focuses on identifying and systematically culling the shallow work that consumes your schedule, thereby making more time for deep efforts.</p>
+<section id="commitment-1-schedule-every-minute-of-your-day" class="level4" data-number="19.6.4.1">
+<h4 data-number="19.6.4.1" class="anchored" data-anchor-id="commitment-1-schedule-every-minute-of-your-day"><span class="header-section-number">19.6.4.1</span> Commitment 1: Schedule Every Minute of Your Day</h4>
+<p>Treat your time with respect by deciding in advance what you’re going to do with every minute of your workday.</p>
+<ul>
+<li>At the beginning of each day, block out your schedule on a piece of paper. The goal is not rigid adherence, but thoughtful engagement. Without a plan, you default to the <strong>Principle of Least Resistance</strong>—doing what is easiest in the moment, like checking email, instead of what is most valuable. If your day is disrupted, simply revise your schedule for the remaining time. The habit of asking, “What makes the most sense for me to do with the time that remains?” is what returns results.</li>
+</ul>
+</section>
+<section id="commitment-2-establish-a-shallow-work-budget" class="level4" data-number="19.6.4.2">
+<h4 data-number="19.6.4.2" class="anchored" data-anchor-id="commitment-2-establish-a-shallow-work-budget"><span class="header-section-number">19.6.4.2</span> Commitment 2: Establish a Shallow Work Budget</h4>
+<p>Have a conversation with your manager (or yourself) to answer the question: <em>What percentage of my time should be spent on shallow work?</em></p>
+<ul>
+<li>For most non-entry-level knowledge work jobs, a 30-50% budget is a reasonable target. Once this budget is agreed upon, use it as a tool to justify saying “no” to non-critical shallow activities and to more aggressively streamline existing ones. This provides cover for reducing shallowness without appearing uncooperative.</li>
+</ul>
+</section>
+<section id="commitment-3-adopt-fixed-schedule-productivity" class="level4" data-number="19.6.4.3">
+<h4 data-number="19.6.4.3" class="anchored" data-anchor-id="commitment-3-adopt-fixed-schedule-productivity"><span class="header-section-number">19.6.4.3</span> Commitment 3: Adopt Fixed-Schedule Productivity</h4>
+<p>Pick a time each day (e.g., 5:30 p.m.) by which you must be finished with work, no exceptions. Then, work backward from that deadline.</p>
+<ul>
+<li>This fixed schedule forces you to be more ruthless in identifying and culling low-value, shallow tasks. The scarcity mindset it creates makes you organize your deep efforts with ruthless efficiency. It shifts your default answer for new obligations toward “no,” raising the bar for what you allow to claim your time and attention.</li>
+</ul>
+<p>With these four pillars in place, you have a comprehensive system for transforming your professional life into one centered on depth.</p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./chapter18.html" class="pagination-link" aria-label="Getting Things Done">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Getting Things Done</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
