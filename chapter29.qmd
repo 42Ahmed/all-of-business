@@ -1,5 +1,5 @@
 ---
-title: "chapter29"
+title: "A Random Walk Down Wall Street"
 format: html
 ---
 
@@ -402,7 +402,7 @@ The long-run total return for a stock or the market is determined by: **Initial 
 #### **Four Historical Eras of Returns (1947–2009):**
 
 | Era | Period | Stock Return (Annual) | Bond Return (Annual) | Economic Context & Determinants |
-|----|----|----|----|----|
+|---------------|---------------|---------------|---------------|---------------|
 | **I: Comfort** | 1947–1968 | 12.6% | 1.7% | Post-war prosperity; high initial dividend yields and rising P/E multiples drove stock returns . |
 | **II: Angst** | 1968–1982 | 5.5% | 5.5% | High, persistent inflation eroded real returns; P/E multiples fell sharply, punishing financial assets . |
 | **III: Exuberance** | 1982–2000 | 17.5% | 11.0% | Golden age for financial assets; inflation declined, and P/E multiples soared from low starting points . |
@@ -439,7 +439,7 @@ Investment strategy, particularly the balancing of asset categories, must be key
 The allocation should be aggressive when young and grow progressively more conservative with age:
 
 | Investor Stage | Allocation to Stocks (Equity) | Allocation to Bonds/Substitutes | Focus |
-|----|----|----|----|
+|------------------|------------------|------------------|------------------|
 | **Young (25–35)** | 80% or more (including emerging markets) | 20% or less | **Aggressive growth**; highest risk capacity due to long earning horizon. |
 | **Middle Age (45–55)** | 65% (US, Developed Intl., REITs) | 35% | **Moderate risk**; shifting away from high growth, beginning to increase income exposure. |
 | **In Retirement (65+)** | 40% Common Stocks, 15% REITs | 45% (Bonds, TIPS, Substitutes) | **Conservative income/preservation**; constrained risk capacity. |
