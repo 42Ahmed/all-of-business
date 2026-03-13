@@ -416,11 +416,11 @@ The dynamics of negotiation and deal terms shift significantly depending on the 
 -   **Early Stage (Series A):** Precedent is highly important; terms established here often carry through subsequent rounds. Entrepreneurs should fight to ensure all preferred stockholders vote together as a **single class** for protective provisions to simplify future governance.\
 -   **Mid and Late Stages (Series B+):** Control becomes amplified; managing board composition (to avoid an oversized board) is crucial. Valuation maximization is dangerous if it comes with significant **structure** (excessive control or economic demands like guaranteed multiples) that limits future exit flexibility. Later-stage VCs often require final investment committee approval *after* the term sheet is signed.
 
-### **Letters of Intent: The Other Term Sheet**
+## **Letters of Intent: The Other Term Sheet**
 
 The **Letter of Intent (LOI)**, or Indication of Interest (IOI), is the term sheet used by an acquirer to propose buying the company. It is generally nonbinding, except for clauses like the **no-shop agreement**.
 
-#### **Deal Structure and Price**
+### **Deal Structure and Price**
 
 Acquisition negotiations are competitive and assume a fixed pie. Price is often complicated by contingent components:
 
@@ -429,12 +429,12 @@ Acquisition negotiations are competitive and assume a fixed pie. Price is often 
 -   **Earn-outs:** A portion of the purchase price paid only if specific milestones are met post-acquisition; usually a tool for the acquirer to underpay at closing.\
 -   **Management Retention Pool:** Money explicitly carved out of the purchase price to incentivize key management to stay post-acquisition.
 
-#### **Asset Deal vs. Stock Deal**
+### **Asset Deal vs. Stock Deal**
 
 -   **Stock Deal (Seller Preferred):** Acquirer buys the entire corporate entity, which disappears into the buyer's structure. Simpler for the seller.\
 -   **Asset Deal (Buyer Preferred):** Acquirer buys only specified assets, leaving liabilities (warts) behind. Forces the selling entity to deal with winding down the company.
 
-#### **Key LOI Clauses**
+### **Key LOI Clauses**
 
 -   **Form of Consideration:** Cash is king. If stock is offered (public or private), its liquidity, valuation, and the buyer’s underlying capital structure must be scrutinized.\
 -   **Assumption of Stock Options:** Must clearly define how employee stock options will be handled (e.g., cashed out, rolled into new options).\
