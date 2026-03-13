@@ -1,5 +1,5 @@
 ---
-title: "chapter13"
+title: "Sales Acceleration Formula"
 format: html
 ---
 
@@ -151,7 +151,7 @@ The Forced Referral is the most effective technique for finding talent, especial
 Many founders fixate on senior leadership experience and industry domain knowledge for the first sales hire. However, the most critical value from the first sales hire is their **ability to accelerate the company toward product/market fit**.
 
 | Candidate Profile | Pros | Cons | Recommendation |
-|----|----|----|----|
+|------------------|------------------|------------------|------------------|
 | **SVP of Sales (Candidate 1)** | Rolodex, Industry Knowledge (Overrated). | Hesitancy to roll up his sleeves, lack of recent frontline experience, low pace adjustment for startup. | **Least Favorite Hire.** They delegate, which is the opposite of what is needed. |
 | **#1 Salesperson (Candidate 2)** | Frontline industry knowledge, world-class sales fundamentals (work ethic, competitiveness). | Lacks leadership experience; struggles to operate in unstructured environments where resources (pitch decks, training) need to be built from scratch. | **Not Advisable.** Unless the CEO is an experienced sales manager willing to coach them heavily. |
 | **Sales Manager (Candidate 4)** | Willing to roll up sleeves (recent frontline experience), leadership experience (hiring, implementing CRM), and highly motivated by career fast-track. | Learning curve on industry knowledge; lacks the specific **entrepreneurial instinct** needed to pivot the value proposition when product/market fit is uncertain. | **Good Fit.** If an entrepreneur candidate isn't available. |
@@ -183,7 +183,7 @@ The curriculum structure follows the methodology creation process: start with th
 Exams and certifications add predictability to the training process and provide a platform for iteration.
 
 | Tool | Purpose | Evaluation Focus |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **Exams** | Test factual information, such as product knowledge and acumen (e.g., 100-question test). | Quantifiable factual results. |
 | **Certifications** | Test qualitative skills, such as the ability to navigate sales process stages (e.g., Discovery Certification). | Role-playing scenarios evaluated against a quantifiable rubric (scores of 1, 5, 7, 10) that outlines specific expected behaviors. |
 
