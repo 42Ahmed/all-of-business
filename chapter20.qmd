@@ -1,5 +1,5 @@
 ---
-title: "chapter20"
+title: "Strategic Connections"
 format: html
 ---
 
@@ -174,7 +174,7 @@ This competency is about increasing the scope and balance of your contacts, movi
 The **Four Nets**—WorkNet, OrgNet, ProNet, and LifeNet—provide a strategic mental model for visualizing contacts, spotting deficiencies, and leveraging resources from one Net to another.
 
 | Net | Description | Contacts Found: | Contacts Help You: | Key Challenges: |
-|----|----|----|----|----|
+|---------------|---------------|---------------|---------------|---------------|
 | **WorkNet** | Daily coworkers, team members, clients, vendors, contractors (assigned, not chosen). | Inside Organization | Get the job done, unsnarl tie-ups, access talent, solve problems. | Balancing tasks with relationships, cultivating relationships, showing appreciation. |
 | **OrgNet** | People in other divisions, departments, or business units (entirely chosen by you). | Inside Organization | Contribute on a large scale, bolster bottom line, act like a leader, find new career opportunities. | Being strategic in reaching out, finding opportunities outside your WorkNet, initiating contact with hierarchy. |
 | **ProNet** | Professional contacts outside the organization (associations, former jobs, vendors, virtual workers). | Outside Organization | Develop professionally, benchmark skills, provide valuable **BringBack**(trends/best practices), advance career. | Choosing the right groups, making time and money commitment, introducing new ideas internally. |
@@ -521,7 +521,7 @@ This chapter addresses organizational leaders, focusing on transforming a compan
 The organization's identity is defined by two continua (see Figure 9–1): the organizational attitude toward networking (Discouraging $\rightarrow$ Encouraging $\rightarrow$ Committed) and the employee attitude (Unwilling $\rightarrow$ Willing $\rightarrow$ Committed).
 
 | Organizational Identity (Network Quadrants) \[505–506\] | Description |
-|----|----|
+|------------------------------------|------------------------------------|
 | **Network-Averse** | Unwilling, unskilled employees in an environment that discourages networking (command-and-control mindset). |
 | **Network-Aligning** | Leaders are committed, infrastructure is in place (technologies, policies), but employees are dragging their feet due to lack of skills or networker identity development. |
 | **Network-Aspiring** | Employees are willing but organizational policies are unfriendly; networking is often "under the radar" and collaboration is an untapped resource. |
