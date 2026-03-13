@@ -33,6 +33,7 @@ book:
     - chapter20.qmd
     - chapter21.qmd
     - chapter22.qmd
+    - chapter23.qmd
 
 
 format:
