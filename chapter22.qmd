@@ -1,0 +1,637 @@
+---
+title: "HR Transformation"
+format: html
+---
+
+## **Executive Summary**
+
+This document synthesizes the core principles of Human Resources (HR) transformation, outlining a strategic framework for evolving the HR function from an administrative department into a driver of business success. The foundational philosophy is an **"outside-in" approach**, where HR transformation begins not with internal HR activities, but with the external business context—the needs of customers, investors, and the community. The ultimate goal is not merely to improve HR efficiency but to build tangible **organizational capabilities** that enable the business to execute its strategy and deliver on promises made to external stakeholders.
+
+The transformation process is structured around a four-phase model that addresses the fundamental questions of *why*, *what*, *how*, and *who*:
+
+1.  **Business Context (Why):** Grounding the transformation in a clear business case derived from market realities and stakeholder expectations.\
+2.  **Outcomes (What):** Defining success through the creation of specific organizational capabilities (e.g., talent, speed, innovation) and measurable value for stakeholders.\
+3.  **HR Redesign (How):** Systematically re-architecting the HR department's structure, redesigning all HR practices, and upgrading the competencies of HR professionals.\
+4.  **HR Accountability (Who):** Ensuring the transformation is a shared responsibility, with deep involvement from line managers, HR professionals, external stakeholders, and expert advisors.
+
+Executing this model requires a profound shift in mindset. HR professionals must become **Credible Activists** and **Business Allies**, moving beyond administrative support to strategically shape culture, manage talent, and architect the organization for competitive advantage.
+
+## **The "Outside-In" Philosophy: The Foundation of HR Transformation**
+
+The central argument for a successful HR transformation is a fundamental shift in perspective. Instead of focusing internally on improving HR activities, the process must begin externally, with a deep understanding of the business context and the needs of its key stakeholders.
+
+"Simply stated, we propose that the biggest challenge for HR professionals today is to help their respective organizations succeed."
+
+This "outside-in" logic asserts that any internal HR activity is only valuable if it creates value on the outside for customers and investors. This principle is operationalized through the **"so that"** query, which reframes HR tasks from activities to outcomes. For example, the goal is not just to "conduct leadership training," but to "conduct leadership training *so that* we can enter new markets more quickly than our competitors."
+
+### **Common Pitfalls of Internally Focused Transformations**
+
+An internal focus often leads to predictable and common mistakes, or "derailers," that can cripple a transformation effort:
+
+-   **Action before rationale:** Implementing HR initiatives like new technology or restructuring without first tying them to a clear business rationale.\
+-   **HR in isolation:** Drafting an HR strategy that is disconnected from the business's strategic planning cycle, leading to misalignment.\
+-   **HR in increments:** Declaring piecemeal efforts, such as a new performance management process, as a full transformation without integrating it into a broader system.\
+-   **HR by individual fiat:** Launching initiatives based on the whims of an individual leader rather than the needs of the organization.\
+-   **Placing HR structure before business strategy:** Believing that reorganizing the HR department is the essence of transformation, rather than a means to implement business strategy.\
+-   **Equating efficiency with transformation:** Confusing cost-saving measures, like creating a shared service center, with true strategic transformation.
+
+## **A Four-Phase Model for HR Transformation**
+
+A structured, four-phase model provides a comprehensive roadmap to guide the transformation journey, ensuring that HR efforts are integrated, aligned, and business-focused.
+
+### **Phase 1: Defining the Business Context (Why)**
+
+Transformation must begin with a clear rationale for *why* the change is necessary. This requires HR professionals to look beyond the business's strategy to the external realities that shape it, including general business conditions and the specific expectations of stakeholders.
+
+-   **General Business Conditions:** Understanding trends in globalization, technology, demographics, and the economic landscape that affect the industry and the organization.\
+-   **Specific Stakeholder Expectations:** Identifying the needs and expectations of key stakeholders:
+    -   **Customers:** Understanding their buying criteria and building relationships.\
+    -   **Investors:** Knowing their goals and building their confidence in the firm's intangible value (e.g., quality of leadership).\
+    -   **Employees:** Responding to demographic changes and fostering competence and commitment.\
+    -   **Line Managers:** Contributing to business discussions and helping them achieve their goals.\
+    -   **Community, Regulators, and Competitors:** Managing reputation, ensuring compliance, and building competitive advantage.
+
+By synthesizing this information, HR can build a compelling **business case** that positions the transformation as a direct response to real and future business problems.
+
+### **Phase 2: Defining the Outcomes (What)**
+
+Once the rationale is established, the next phase clarifies the expected outcomes. Success is not measured by HR activity (e.g., hours of training delivered) but by the value created. This value is tracked in two primary ways:
+
+1.  **Stakeholder Measures:** The transformation should deliver measurable positive results for each key stakeholder group. Examples include increased customer share, higher investor confidence in future earnings, greater employee competence and commitment, and a stronger leadership bench.\
+2.  **Organizational Capabilities:** These are the core deliverables of HR transformation. Capabilities represent what the organization is known for, what it is good at doing, and how it patterns activities to deliver value. They are the firm's identity and culture. Key capabilities include:
+    -   **Talent:** Attracting, motivating, and retaining competent and committed people.\
+    -   **Speed:** Making important changes happen fast.\
+    -   **Shared Mindset:** Ensuring customers and employees have positive, consistent images of the organization.\
+    -   **Accountability:** Creating a discipline of high performance.\
+    -   **Collaboration:** Working across boundaries to ensure efficiency and leverage.\
+    -   **Learning:** Generating and generalizing ideas with impact.\
+    -   **Innovation:** Doing something new in both content and process.\
+    -   **Customer Connection:** Building enduring relationships with targeted customers.
+
+### **Phase 3: Redesigning the HR Function (How)**
+
+This phase addresses the implementation of the transformation by redesigning the three core components of HR: the department itself, its practices, and its people.
+
+#### **1. Redesigning the HR Department**
+
+The HR department must be run like a business within a business, with a clear strategy and an effective structure.
+
+-   **HR Strategy:** A formal strategy statement should answer three questions:
+    -   **Who are you?** (The department's identity and brand, e.g., "thought leaders and change architects").\
+    -   **What do you deliver?** (The key organizational capabilities the department is accountable for building).\
+    -   **Why do you do it?** (The link to specific business results, like increased revenue or market share).\
+-   **HR Structure:** The structure must differentiate between **transactional** work (administrative, efficiency-focused) and **transformational** work (strategic, value-focused). A common model organizes HR work into five distinct channels:
+    -   **Service Centers:** Handle routine, transactional tasks efficiently through technology (e-HR) or outsourcing.\
+    -   **Corporate HR:** Creates firm-wide culture, shapes the CEO's agenda, and ensures professional development for HR staff.\
+    -   **Centers of Expertise (COE):** Operate as specialized internal consulting firms, designing best-practice menus for areas like compensation or talent management.\
+    -   **Embedded HR (Business Partners):** Work directly with line managers to clarify strategy, diagnose organizational needs, and implement HR solutions tailored to the business unit.\
+    -   **Operational Executors:** A crucial role that ensures strategic ideas are translated into operational reality through project management and implementation.
+
+#### **2. Transforming HR Practices**
+
+HR practices must be systematically improved to be aligned, integrated, and innovative. Practices are clustered into four domains representing key organizational flows:
+
+-   **People:** How talent moves into, through, and out of the organization.\
+-   **Performance:** How standards are set and how financial and non-financial rewards drive accountability.\
+-   **Information:** How information flows up, down, and across the organization to enable work.\
+-   **Work:** How jobs, processes, and structures are designed to combine individual efforts into organizational output.
+
+#### **3. Upgrading HR Professionals**
+
+Ultimately, transformation depends on the quality of HR professionals. They must develop a new set of competencies to meet increased expectations. The six critical domains are:
+
+-   **Credible Activist:** Being respected, admired, listened to, and also offering a point of view and challenging assumptions.\
+-   **Culture & Change Steward:** Appreciating, articulating, and helping to shape the company's culture.\
+-   **Talent Manager & Organization Designer:** Mastering the theory and practice of managing talent and structuring the organization.\
+-   **Strategy Architect:** Contributing to the creation of business strategy and turning it into organizational action.\
+-   **Operational Executor:** Ensuring the flawless execution of operational HR work.\
+-   **Business Ally:** Understanding the business's social context, value chain, and internal operations.
+
+### **Phase 4: Ensuring Shared Accountability (Who)**
+
+A successful transformation cannot be executed by the HR department alone. It requires the active involvement and ownership of four key groups:
+
+-   **HR Leaders and Professionals:** The Chief HR Officer (CHRO) must sponsor the effort, while the entire HR team must embrace new roles and competencies.\
+-   **Line Managers:** They are ultimately accountable for people and organization. They must be involved in defining the business case, shaping outcomes, and implementing changes.\
+-   **External Customers and Investors:** Their perspectives are critical for grounding the transformation in external reality. Their involvement ensures that internal changes create external value.\
+-   **Consultants and Advisers:** Judicious use of external experts can provide frameworks, best practices, and an objective perspective.
+
+## **Key Concepts in Detail**
+
+### **The Modern HR Organization: Five Channels of Delivery**
+
+| Channel | Core Function | Primary Focus |
+|:---|:---|:---|
+| **Service Centers** | Transactional & Administrative | Delivers routine HR work (payroll, benefits) with maximum efficiency through technology, self-service, or outsourcing. |
+| **Corporate HR** | Governance & Oversight | Shapes firm-wide culture, implements the CEO's agenda, arbitrates disputes, and manages HR professional development. |
+| **Centers of Expertise (COE)** | Specialized Design | Acts as an internal consultancy, creating menus of best-practice HR solutions in areas like rewards, talent, and learning. |
+| **Embedded HR (Business Partner)** | Strategic Partnership | Works directly with business units to diagnose needs and apply HR solutions to achieve business goals. The primary strategic link. |
+| **Operational Executors** | Implementation | A dedicated role to ensure HR strategies and projects are executed effectively, turning plans into action on the ground. |
+
+### **The Talent Mandate**
+
+A core outcome of HR is building superior talent. The formula for talent is multiplicative, meaning that a zero in one area negates the others. **Talent = Competence × Commitment × Contribution**
+
+-   **Competence (The Head):** Employees have the knowledge, skills, and values for today's and tomorrow's jobs.\
+-   **Commitment (The Hands/Feet):** Employees are willing to devote discretionary energy to the firm's success.\
+-   **Contribution (The Heart):** Employees find meaning and purpose in their work, connecting their efforts to a larger sense of abundance.
+
+## **Case Studies in Transformation: Practical Application**
+
+Four case studies illustrate the application of these principles in different business contexts.
+
+-   **Flextronics: Building from Scratch**
+    -   **Business Context:** A \$33 billion company that grew rapidly through acquisition but lacked a centralized, strategic HR function.\
+    -   **Desired Capabilities:** Leadership, Customer Connectivity, and Efficiency.\
+    -   **Transformation:** Built a global HR organization from the ground up using a "Discover, Design, Deliver" model, establishing HR Business Partners (Discover), Centers of Excellence (Design), and a strong HR Operations function (Deliver).\
+-   **Pfizer: Transforming a Large, Established System**
+    -   **Business Context:** A massive, bloated HR function resulting from major acquisitions, with redundant systems and an internal focus.\
+    -   **Desired Capabilities:** Business results driven by a lean, efficient, and strategic HR function.\
+    -   **Transformation:** A rigorous **work classification** process to separate "competitive advantage," "strategic," and "foundational" tasks. Reorganized HR into three entities: Enterprise (COEs), Business Unit (Embedded HR), and Manager and Operations Support (MOS) to handle foundational work, thereby exiting the traditional "generalist" role.\
+-   **Intel: Swinging from Tactical to Strategic**
+    -   **Business Context:** After years of successfully building world-class tactical HR operations (fixing payroll, benefits), the business required a more strategic contribution to drive growth.\
+    -   **Desired Capabilities:** Fast Innovation, Brilliant Talent, and Proactive Collaboration.\
+    -   **Transformation:** Reorganized HR into three groups: Strategic Programs and Design, a Business-Facing Channel (Business Partners), and an Operations Group. Focused on upgrading talent within HR by creating a mix of professionals from traditional HR, analytical functions (finance, engineering), and external disciplines.\
+-   **Takeda North America: Creating Capability in a Fast-Track Subsidiary**
+    -   **Business Context:** A rapidly growing pharmaceutical subsidiary moving from a single-product to a multi-product portfolio, requiring HR to evolve beyond basic startup support.\
+    -   **Desired Capabilities:** Talent, Accountability, and Innovation.\
+    -   **Transformation:** Structured HR to directly deliver on capabilities by creating a Talent Management Group (combining staffing, training, and performance), an Employee Experience Group (operations), and strategic HR Business Partners.
+
+## **Key Insights and Important Quotes**
+
+"HR Transformation is not just a handbook but a manifesto for deliberately altering the DNA of the HR function, its mission, and, importantly, what it is charged with delivering." — Dennis W. Shuler, Executive VP and Chief HR Officer, The Walt Disney Company
+
+"The core message: HR exists to grow the business! This is a primer for anyone serious about making HR relevant in today’s business." — Paul McKinnon, Head of HR, Citigroup
+
+"Its premise—that HR transformation is not about doing HR better, but rather building business success—is an appropriate challenge and wake-up call for our function." — Bob Landis, Senior VP of Personnel and Organization, Mars Chocolate
+
+"We do not admire an organization because of its roles, rules, or routines. Instead, we admire a company like GE because of its capacity to build leaders... we admire Apple because it seems to continually design easy-to-use products... In other words, organizations are known not for their structure but for their capabilities."
+
+"If what we do on the inside does not create value on the outside, in the ability of the company to attract, serve, and retain customers and investors, its value is zero."
+
+## **Establish Business Case/Rationale**.
+
+### **1. The Rationale: Linking HR to Business Context**
+
+The rationale for undertaking HR transformation justifies the investment required. This reasoning must be rooted in external business realities, adopting an **"outside-in"** approach.
+
+**Key principles for the rationale include:**
+
+-   **Focus on Business Success:** The biggest challenge for HR professionals is to help their respective organizations succeed. HR transformation is not fundamentally about doing HR *better*, but rather about **building business success**.\
+-   **Avoiding Pitfalls:** HR investments defined as transformational are unlikely to be sustained if they are not tied to a business rationale rooted in the business context. Actions before rationale are a predictable and common mistake when starting a transformation.\
+-   **The "So That" Shift:** The purpose of the transformation should be articulated by applying the "so that" query, shifting focus from the activities HR performs to the ultimate **value** those activities create for the organization and its stakeholders.\
+-   **Defining the Agenda:** When discussing HR transformation with leaders, the conversation should **begin with a detailed discussion about the business** (e.g., reviewing fuel costs, load factors, customer satisfaction indexes, or industry trends) to define the agenda for HR transformation.
+
+### **2. Components of the Business Context**
+
+To build a compelling rationale, HR leaders must look beyond the formal business strategy and understand the **external realities** that shape it.
+
+#### **A. Understanding General Business Conditions**
+
+HR professionals must be conversant in the broad factors that shape the economy and their industry. These general conditions account for about 50% of organizational performance. They include:
+
+-   **Economic Trends:** Issues like unemployment, inflation, exchange rates, investor confidence, and credit conditions create economic cycles and structural changes affecting HR investments.\
+-   **Globalization:** HR must respond to the global village, addressing diverse markets (mature, developing, and emerging), volatile energy costs, trade barriers, and distribution challenges.\
+-   **Technology:** Rapidly changing technology increases accessibility and connectivity while accelerating knowledge obsolescence.\
+-   **Demographics:** Trends require workplaces to adapt to gender, generational, and ethnic differences, and address talent sourcing for the future.\
+-   **Political Landscape:** Political uncertainty and shifting regulations affect consumer confidence, investment, and organizational opportunities.
+
+#### **B. Understanding Specific Stakeholder Expectations**
+
+Business context is also defined by the specific stakeholders the organization must serve. HR transformation should aim to deliver value to these groups:
+
+-   **Customers:** HR must understand customer demands, build lasting relationships, and ensure the organization has the capability and talent to deliver on promises, ultimately driving customer share.\
+-   **Investors:** HR practices should be crafted based on investor goals (e.g., growth versus value) to enhance intangible value, which accounts for a significant portion of total shareholder return.\
+-   **Line Managers:** They look to HR for thought leadership on critical issues like talent and organizational capability development. HR must be an active contributor to business discussions, anticipating and working on business problems.\
+-   **Employees:** HR must ensure employees are nurtured, their demographics are leveraged, and policies/practices respond to their changing needs.\
+-   **Competitors:** HR practices must differentiate the organization, often through benchmarking competitors' capabilities (e.g., talent, innovation, speed to market).\
+-   **Regulators:** HR can be activists in anticipating and responding to legislation and ensuring processes abide by laws and regulations.\
+-   **Community:** HR professionals can lead in shaping socially responsible practices related to sustainability and philanthropy, helping the firm gain a strong reputation.
+
+### **3. Communicating the Business Case**
+
+The business case must clearly articulate how HR transformation provides a solution to these external demands. The transformation should be linked to measurable business results.
+
+Examples of effective business case justifications include:
+
+-   **Innovation and Market Value:** Transforming HR to acquire talent and create the organization necessary to produce more innovative products, thus building a better reputation and increasing market value relative to competitors.\
+-   **Global Expansion:** Transforming HR processes (talent, performance, communication) to achieve a **first- and fast-mover advantage** when entering emerging markets ahead of competitors.\
+-   **Cost Management:** Changing the HR approach to increase labor productivity and streamline the organization to meet customer challenges and competitor responses, especially when facing cost disadvantages.\
+-   **Talent Risk Management:** Transforming HR practices around retirement or staffing to secure knowledge and stabilize the workforce against shrinking labor pools or approaching retirements.
+
+## Stakeholders to Address
+
+### **1. The Importance of Addressing Stakeholder Expectations**
+
+The necessity of focusing on stakeholders is highlighted throughout the sources:
+
+-   **Defining Value:** HR transformation is ultimately about delivering **maximum value to stakeholders**. The rationale for transformation should come from outside the company, driven by the expectations of key stakeholders, rather than internal complaints about HR practices.\
+-   **Preventing Derailment:** HR investments are unlikely to be sustained if they are not tied to a business rationale rooted in the business context. Understanding stakeholders ensures HR avoids developing internally focused ideas that appear as "solutions looking for problems".\
+-   **Strategic Alignment:** HR transformation must align HR efforts with business strategies to position the organization effectively within its business context. This alignment must start with a clear understanding of what customers and investors need HR to deliver.
+
+### **2. Key Stakeholder Groups Identified in Phase 1**
+
+To fully grasp the business conditions specific to the organization, HR must identify particular expectations and changes for a broad range of stakeholders.
+
+#### **A. Stakeholders External to the Organization**
+
+External stakeholders are crucial because the purpose of HR transformation is to ensure that these parties receive value from the company.
+
+-   **Customers:** Customers are increasingly segmented, literate, and demanding.
+    -   HR's role is to identify **target customers** and understand why they do business with the organization.\
+    -   HR professionals should spend time learning about customers (e.g., meeting with sales representatives) to see the clear link between HR practices and **customer share**.\
+    -   HR is uniquely positioned to help **build long-term relationships** with customers by ensuring the company has the organizational capability and talent to deliver on promises.\
+    -   **Customer connection** should influence HR practices (staffing, training, compensation) to sustain the customer experience.\
+-   **Investors (Analysts/Shareholders):** Investors are actively concerned with **intangibles** (like the quality of leadership and organization) in addition to financial results.
+    -   HR must know the investors' goals (e.g., growth vs. value, short-term vs. long-term) to craft practices that enhance **intangible value** and build confidence in future success.\
+    -   HR professionals can participate in meetings to learn investor expectations and ensure that HR practices pass an **investor filter**.\
+-   **Competitors:** HR practices should differentiate the organization by mapping competitors' strengths and weaknesses and plotting strategies to outperform them. HR can lead in **benchmarking competitors' organizational capabilities** (e.g., talent, innovation, speed to market).\
+-   **Regulators:** HR must be aware of shifting political trends and regulations that affect the business (e.g., ability to attract talent or compete globally). HR executives can act as activists, anticipating and responding to legislation and ensuring processes abide by laws.\
+-   **Community:** Organizations are increasingly judged by a **triple bottom line** (social responsibility, sustainability, philanthropy). HR professionals can lead in shaping these socially responsible practices, helping the firm gain a strong reputation for attracting talent, customers, and capital.\
+-   **Global Suppliers:** Suppliers are a source of advantage or disadvantage. HR should be able to help leverage talent and organizational capabilities throughout the integrated value chain and stabilize critical resources through cost-effective supply contracts.
+
+#### **B. Stakeholders Internal to the Organization**
+
+-   **Employees:** Employees are critical stakeholders. HR must study internal demographics to ensure differences are nurtured and leveraged, and study external demographics to secure **future talent**. HR practices must respond to demographic changes (gender, generational, ethnic differences) and changing needs.\
+-   **Line Managers (Leaders):** Line managers are charged with defining and executing strategy.
+    -   They are a key audience for the HR transformation book.\
+    -   Today, most competent HR professionals have access to business discussions (they are "at the table"). The challenge is to actively contribute to business discussions, providing **thought leadership** on issues like talent, organizational capability, and strategy execution.\
+    -   HR professionals must think about the business through the line manager's eyes, anticipating and working on business problems.\
+    -   Line managers are ultimately **accountable** for ensuring the right talent and organization are in place.
+
+### **3. Practical Tools for Stakeholder Analysis**
+
+The process of addressing stakeholders in Phase 1 requires specific tools and activities.
+
+-   The sources recommend using a **Stakeholder Analysis Worksheet** to ensure stakeholders' expectations and needs are addressed at the beginning and embedded throughout the transformation.\
+-   The HR transformation team should explicitly discuss and define measurable **outcomes** for the stakeholders they are most worried about. These outcomes should be operationally defined, measured, and tracked over time.
+
+## **Avoid Common Pitfalls (Viruses)**
+
+### **1. The Relationship Between "Why" and Avoiding Pitfalls**
+
+The fundamental premise of Phase 1 is that the biggest challenge for HR professionals is **to help their respective organizations succeed**, not merely to "do HR better". Transformation must begin with a clear understanding of the **business context** because this context offers the necessary rationale.
+
+The sources explicitly state that when the focus is turned inward on HR activities rather than outward on business value, common mistakes are inevitable. These mistakes—the "viruses"—are frequently made when beginning an HR transformation.
+
+### **2. Specific "Viruses" (Derailers to Watch Out For)**
+
+The sources detail several specific common pitfalls that undermine the transformation effort, particularly when the essential business rationale is missing:
+
+-   **Action Before Rationale:** This occurs when companies begin HR transformation by simply implementing activities (such as implementing e-HR, restructuring the HR function, or designing new HR practices) and defining these investments as "transformational". However, **these actions are unlikely to be sustained if they are not tied to a business rationale rooted in the business context**.\
+-   **HR in Isolation:** This pitfall involves developing an HR strategy *separate* from the business strategy. For example, one company drafted its HR strategy in July (a slow time for HR) while line managers drafted the business strategy in the fall, resulting in "painful misalignment". When an HR strategy is drafted in isolation, both strategies suffer as stand-alone documents that probably won’t be sustained. **HR transformation needs to be aligned with business transformation** and must focus on adding value to the business rather than simply optimizing HR as a function.\
+-   **HR in Increments:** This mistake involves defining a piecemeal effort as a full transformation, such as designing an innovative talent management, performance management, or total rewards process and declaring it a transformation. These segmented efforts are only part of a transformation; **HR practices need to be integrated with each other** around key business results if they are to have lasting value.\
+-   **HR by Individual Fiat:** This occurs when transformation is funded based on the "whims of an individual leader" or a desire for more personal or functional influence. Such initiatives are unlikely to be genuinely transformational because true HR transformation needs to be **connected to the overall success of the organization**, not just an individual champion.\
+-   **Placing HR Structure Before Business Strategy:** HR departments sometimes believe that reorganizing HR (establishing service centers, centers of expertise, or hiring HR business partners) *is* the essence of HR transformation. However, transformation can only be complete when it helps implement the business strategy and drives business results.\
+-   **Efficiency Equals Transformation:** This is the mistaken belief that efficiency improvements constitute HR transformation. While efficiency improvements (such as creating a shared service center or implementing self-service) are key elements of transformation, efficiency alone does not make for transformational change.
+
+### **3. Consequence and Treatment of Pitfalls**
+
+These derailers are called **"viruses"** because they infect and can cripple the process of transformation. The sources imply that the cure for these viruses lies squarely in the mandate of Phase 1:
+
+-   **Diagnosis and Treatment:** When these viruses are identified and confronted, **they can be treated and overcome**.\
+-   **Sustaining the Effort:** The entire HR transformation effort is built upon the idea that investments are unlikely to be sustained if they lack a clear business rationale. If leaders do not heed the necessity of Phase 1 (understanding the business context and building the rationale), the transformation will falter because it is disconnected from what customers and investors need HR to deliver.\
+-   **The Blueprint:** The Phase 1 activities—like identifying external business conditions and specific stakeholder expectations—directly counter the tendency to fall into these pitfalls by ensuring the entire effort begins with the "so that" focus on value creation rather than internal activities.
+
+## Stakeholder Measures (Tracking Results)
+
+### **1. The Purpose of Stakeholder Measures**
+
+Stakeholder measures serve as the primary means to determine if the transformation is successful as judged by the recipients of the HR work.
+
+-   **Realizing Expectations:** HR transformation must realize the expectations of the key stakeholders identified in Phase 1 (Chapter 2).\
+-   **Defining Value:** Tracking results provides the basis for measuring value, creating a clear line of sight between HR activities and the value delivered to key stakeholders. The measurable outcomes should quantify the benefit of positive changes for these stakeholders.\
+-   **Accountability:** Measurable outcomes are essential for holding HR business leaders accountable for work that helps build the organization's competitive advantage.
+
+### **2. The Stakeholder Measurement Process**
+
+The sources outline a systematic process for defining and tracking stakeholder measures, typically guided by the HR transformation advisory team:
+
+1.  **Prioritization:** The HR transformation team must achieve a shared perspective on weighting which stakeholders (employees, line managers, customers, regulators, investors, communities) matter most for future business success and will be most affected by the transformation.\
+2.  **Definition of Outcomes:** For the stakeholders deemed most important, the team must define the specific outcomes the transformation will deliver. These outcomes should be operationally defined.\
+3.  **Measurement Selection:** The team should select key indicators that are reliable, accurate, transparent, and easy to collect for tracking progress.\
+4.  **Data Collection and Tracking:** A systematic process must be built for collecting, sharing, and monitoring the data. This information then becomes part of the **transformation scorecard**, used to monitor progress over time.
+
+### **3. Key Stakeholder Outcomes and Measures**
+
+The sources summarize various measurable outcomes for specific stakeholder groups that can be tracked following a successful HR transformation:
+
+| Stakeholder Group | Possible Measures / Outcomes |
+|----|----|
+| **Employees** | Greater competence for present and future jobs; **More engagement or commitment**; Higher productivity; Increased retention of talented employees; Willingness to refer company to other potential hires. |
+| **Leaders and Leadership** | Measure of backup talent (number of qualified people for key jobs); Ability to export talent; Ability to do an organization diagnosis and identify key capabilities; Shared focus on strategy; Help make strategy happen; Seen as demonstrating required competencies (e.g., in a 360-degree feedback exercise). |
+| **Customers** | More customer share of targeted customers; More loyalty and satisfaction on customer surveys; Greater willingness to engage in long-term relationships; Willingness to recommend the firm; Percentage of new projects won from competitive bidding. |
+| **Investors/Analysts** | **Higher Price to Earnings (market to book) value**; Belief in growth strategy; Higher confidence in future earnings; Trust in the quality of leadership to make the right decisions; Tracking intangible value. |
+| **Regulators** | Trust that the firm does the right things; Firm has a voice in defining regulations; Perception that the firm abides by laws and regulations. |
+| **Community** | Recognition as employer of choice; Management of environment responsibly (e.g., carbon footprint reduction); Philanthropic contributions (money and time); Positive reputation as a good place to work. |
+
+### **4. Relationship to Organizational Capabilities**
+
+Stakeholder measures represent one of the two types of outcomes for HR transformation. The other type is **Capability Measures** (e.g., talent, speed, innovation).
+
+These two types of outcomes are linked:
+
+-   Stakeholder measures track the outcomes of HR transformation **as seen by the recipients** (the stakeholders).\
+-   Capability measures track the outcomes that result in a fundamental change to the company's identity, culture, or image.
+
+The organizational capabilities (which define what the organization is known for) are the **deliverables** of human resources and should ultimately lead to the desired outcomes for each stakeholder. For instance, increasing the capability of **Customer Connection** (Phase 2 outcome) should result in measurable increases in **Customer Share** (Stakeholder Measure).
+
+## **Organizational Capabilities (Key Deliverables)**
+
+### **1. Defining Organizational Capabilities**
+
+Organizational Capabilities define the fundamental identity, culture, and image of the company. They represent **what the organization is known for, what it is good at doing, and how it patterns activities to deliver value**.
+
+**Key Aspects of Capabilities:**
+
+-   **Identity and Deliverables:** Capabilities become the identity of the firm, the keys to implementing business strategy, and the measurable deliverables of HR practices.\
+-   **Intangible Value:** They shape many of the **intangibles that investors pay attention to**. Enhancing these capabilities helps build confidence in future success and can enhance intangible value.\
+-   **Beyond Structure:** Organizations are admired not for their roles, rules, or routines, but for their capabilities. For example, GE is admired for its capacity to build leaders, and Apple for continually designing easy-to-use products.
+
+### **2. Identifying and Measuring Capabilities**
+
+The first step in Phase 2 involves conducting an **organizational capabilities audit** to identify the two to four capabilities most critical to the organization's future success, given the business conditions and strategy. These capabilities then become the specific, measurable outcomes of the transformation.
+
+The capabilities should be **monitored by measuring and tracking them**. They are the deliverables of human resources that lead to the desired results for each stakeholder.
+
+The sources list twelve potential capabilities inherent in well-managed firms, often noting how they are tracked:
+
+| Capability | Description and Focus | Measurement Examples |
+|----|----|----|
+| **Talent** | Attracting, motivating, and retaining competent and committed people (combining competence $\times$ commitment $\times$ contribution). | Percentage of employees with required skills; retention of top employees; labor productivity measures. |
+| **Speed** | Making important changes happen fast, allowing the company to be agile and quickly move into new markets. | Time from concept to commercialization; time to scale production; saving time (demonstrating financial savings and responsiveness). |
+| **Shared Mind-Set** | Ensuring unity of identity where the external image (brand) is consistent with the internal culture. | Degree of consensus among employees on what the firm should be known for; measuring consistency between internal and external mind-sets. |
+| **Accountability** | Being good at the disciplines that result in high performance, ensuring employees must meet expectations. | Alignment of performance appraisals with strategy; variance in compensation based on performance. |
+| **Collaboration** | Working across boundaries to gain efficiencies and achieve leverage greater than the sum of the parts. | Comparing breakup value to current market value; flow of talent/ideas across boundaries; cost savings in administration (e.g., shared services). |
+| **Learning** | Generating and generalizing (sharing) ideas with impact across boundaries of time, level, space, or division. | Half-life of knowledge in a job; percentage of value derived from new ideas; continuous improvement tracking. |
+| **Leadership** | Embedding leaders throughout the organization who deliver the right results in the right way (carrying the leadership brand). | Monitoring the pool of future leaders (backup talent for key positions). |
+| **Customer Connection** | Building enduring relationships of trust with targeted customers. | Share of targeted customers; customer service scores/loyalty/satisfaction. |
+| **Innovation** | Doing something new in both content and process to foster growth and address future opportunities. | Vitality index (percentage of revenue from products created in the last three years); deployment of new processes. |
+| **Strategic Unity** | Articulating and sharing a consistent strategic point of view among employees (intellectual, behavioral, process, and measurement agendas). | Strategic literacy (common answer to "What is the strategy?"); employee behavioral alignment with strategy. |
+| **Simplicity** | Keeping strategies, processes, and products simple. | Time/cost per unit of activity; reduction of redundant steps or complexity (e.g., SKUs). |
+| **Efficiency** | Managing costs of operation to increase freedom to invest in high-return activities. | Tracking costs of goods sold, inventories, direct and indirect labor (from balance sheet and income statement). |
+
+### **3. Capabilities in Practice (Case Studies)**
+
+The case studies illustrate how identifying key capabilities drives the HR transformation strategy:
+
+-   **Flextronics** identified three critical capabilities necessary for success: **Leadership**, **Customer Connectivity**, and **Efficiency**. The HR organization (using a "Discover, Design, Deliver" model) was subsequently built to strategically support these three specific deliverables.\
+-   **Intel** determined that to succeed, they needed to focus on enabling **fast innovation**, **brilliant talent**, and **proactive collaboration**. Their HR transformation involved downgrading non-strategic HR practices to free up resources to focus on these three core capabilities.\
+-   **Takeda North America (TPNA)** identified **Talent**, **Accountability**, and **Innovation** as the most critical capabilities needed to maintain rapid growth and compete in the pharmaceutical industry. The subsequent redesign of the HR department, including the creation of a dedicated Talent Management Group, was based entirely on delivering these capabilities.
+
+### **4. Capabilities as the Deliverables of HR**
+
+The transformation of HR practices (Phase 3) requires alignment, integration, and innovation around these capabilities. HR work must be transformed to ensure that the organization can effectively acquire and sustain the capabilities necessary to meet the strategic goals and stakeholder demands identified in Phase 1.
+
+## HR Department Redesign (Structure)
+
+### **1. Guiding Principles for HR Organizational Design**
+
+The sources identify three overriding organizational design principles for transforming the HR department structure:
+
+1.  **Follow the Business Logic and Structure:** The HR organization must reflect the logic and structure of the company it serves. This involves mirroring the level of centralization or decentralization found in the business organization.
+    -   In a **holding company configuration** (decentralized), HR logic and processes are found within independent business units (BUs).\
+    -   In a **single business** or **related diversification** configuration (more centralized), HR logic, strategies, and practices are shared across BUs.\
+    -   The danger is the **"one size fits all" trap** in diversified companies, where HR strategies must be customized to fit unique business requirements.\
+2.  **Operate as a Professional Service Organization:** Like a law firm or consulting firm, the HR organization earns respect by **making knowledge productive**. HR rests on a body of knowledge that must be used by internal clients to improve their efficiency and effectiveness. Strategic HR work done well should make achieving business results easier for business leaders.\
+3.  **Differentiate Strategic and Transactional Work:** Separating **strategic** (transformational) work from **transactional** (administrative) work is paramount.
+    -   Strategic work, guided by Phase 2 outcomes, focuses on activities with the **most business impact**.\
+    -   Transactional work must be done **efficiently**.\
+    -   If transactional work is not done flawlessly, HR organizations lack credibility when attempting to play strategic roles. The Pfizer case study explicitly highlights the necessity of **separating transactional from transformational work** (Chapter 10, Tool 4.3).
+
+### **2. The Five Channels of the HR Organization**
+
+Building on these principles, the sources propose that the HR organization can be structured into five distinct, overlapping channels of responsibility:
+
+| Channel | Focus/Role (Function) | Strategic/Transactional | Case Study Examples |
+|----|----|----|----|
+| **1. Service Centers** | Deliver basic HR administration and transactions efficiently (e.g., payroll, benefits, applicant tracking). | Transactional/Administrative | Implemented via technology (self-service) or outsourcing. |
+| **2. Corporate HR (HR Oversight)** | Sets corporate culture/identity, guides the CEO's agenda, ensures alignment, arbitrates disputes, and manages HR professional development. | Strategic/Oversight | Very small HR leadership team kept at TPNA (Takeda). |
+| **3. Embedded HR (Strategic Business Partnering)** | Works directly with line managers to clarify strategy, perform organizational audits, manage talent, and implement appropriate HR practices for the business unit. | Strategic/Consulting | Called "HR business partners" (HRBPs) at Flextronics and Takeda. |
+| **4. Centers of Expertise (HR Expertise)** | Acts as specialized internal consultants, designing best-practice HR policies and programs (menus of services) that are aligned, integrated, and innovative. | Strategic/Design | Flextronics established COEs for Total Rewards, Talent Acquisition, etc.. |
+| **5. Operational Execution** | Delivers and implements operational tactics, often managing individual casework, reporting, and delivery of new initiatives that fall outside the service center. | Tactical/Implementation | Managed by "junior business partners" or "HR operational consultants" to free up embedded HR professionals. |
+
+### **3. Structural Design and Implementation**
+
+The transformation process involves defining the scope and function of each channel:
+
+-   **Service Centers (Channel 1):** Transformation here focuses on leveraging **e-HR (technology-enabled self-service)** or **outsourcing** to gain efficiency, speed, and standardization.\
+-   **Embedded HR (Channel 3):** These professionals are key to execution, engaging in strategy assessment, organizational audits, and selecting/implementing practices from COEs. HR must be sure to staff these roles with HR professionals who have the necessary **strategic architect** competency.\
+-   **Operational Execution (Channel 5):** This role evolved to address the failure of earlier transformations where embedded HR professionals became overwhelmed by operational casework and tactical delivery. Successfully filling this channel requires selecting individuals who are execution- and implementation-oriented and managing priorities to ensure they focus on high-priority work.
+
+The sources emphasize that successfully redesigning the department (Milestone 9) requires not just an organization chart, but also a **"rules of engagement" charter** that clarifies how the different groups (Service Centers, COEs, Embedded HR, etc.) will collaborate and communicate to serve stakeholders.
+
+### **4. Case Study Examples of Structural Redesign**
+
+The case studies illustrate the application of this organizational model:
+
+-   **Flextronics** adopted a **"Discover, Design, Deliver"** model:
+    -   **Discover (HR Business Partners):** Embedded in business segments to drive strategic HR focus.\
+    -   **Design (Centers of Excellence):** Established COEs for specialized areas like Total Rewards and Talent Acquisition.\
+    -   **Deliver (HR Operations):** Handled core programs and regional implementation, supported by shared services implementation in Asia.\
+-   **Pfizer** created three primary structures to address its redundancy and inefficiency issues:
+    -   **Enterprise (Centers of Expertise):** Focused on work impacting the entire company (e.g., Compensation and Benefits philosophy).\
+    -   **Business Unit (Embedded HR):** Focused on organizational and leadership effectiveness within the BU.\
+    -   **Manager and Operations Support (MOS):** Centralized foundational/transactional work to support sites efficiently, effectively replacing the generalist role.\
+-   **Takeda North America (TPNA)** structured its department to include a Talent Management center of excellence, an Employee Experience Group (operational HR), and HR business partners. They successfully used an in-sourced **Employee Resource Center (ERC)** to absorb tactical work and free up HR generalists for strategic roles.
+
+## **HR Practice Transformation (Work Flows)**
+
+### **1. Content: The Four Domains of HR Work (Flows)**
+
+The sources synthesize the vast array of HR work into four fundamental flows or domains of practice that are central to organizational success. Transformation is limited if practices are narrowly defined or addressed in isolation.
+
+| Flow of Work (Domain) | Description and Purpose | HR Professional Involvement |
+|----|----|----|
+| **People Practices** | Focuses on the **flow of people**—how talent moves into, through, up, and out of the organization. It involves ensuring the availability and development of competent, committed, and contributing talent. | HR professionals create choices in areas like recruiting, training, promotions, and retention ("Six Bs") to upgrade talent. |
+| **Performance Practices** | Focuses on the **flow of performance management**, linking people to work via standards, measures, rewards, and feedback. It promotes accountability by defining, noting, and rewarding performance. | HR professionals help clarify strategy, set measurable standards, design financial/nonfinancial rewards, and provide follow-up feedback (chat, data, explanation). |
+| **Information Practices** | Focuses on the **flow of information**, ensuring people have the requisite internal and external data (customer, shareholder, economic) to perform their work. | HR professionals, sensitive to people and processes, assist in managing communication strategies (message, voice, recipient, timing, medium) to share consistent messages. |
+| **Work Practices** | Focuses on the **flow of work**: who does the work, how it is done, and how organizational structures integrate efforts into a whole. This includes organizational design, process improvements, governance, and physical setting. | HR professionals assist in organizational design aligned with business strategy, facilitating process reengineering (reducing low-value work), and advising on decision-making governance. |
+
+### **2. Process: Three Ways to Transform HR Practices**
+
+To ensure maximum impact, HR transformation must enhance practices in three ways: **Align, Integrate, and Innovate**.
+
+#### **A. Align with Strategy**
+
+-   **Focus on Capabilities:** Practices must align with the organization’s overall strategy and, specifically, the **organizational capabilities** required to execute that strategy (Phase 2 outcomes). If an HR practice does not clearly link to capabilities and strategy, it should be eliminated or changed.\
+-   **Customer and Investor Criteria:** HR practices must be tested against external demands. For example, performance management standards should be tested with customers or investors to confirm that meeting those standards increases the likelihood of selling products or securing investment.
+
+#### **B. Integrate with Each Other**
+
+-   **Unified Focus:** HR practices must work together with a unified strategic focus to achieve the same outcomes. Misalignment occurs, for instance, if employees are hired for skills A, B, and C, but trained for D, E, and F, and rewarded for G, H, and I.\
+-   **Synergy:** Integration ensures that the results of HR work are based on synergy, meaning "the whole must be more than the parts". Practices like performance management, talent practices, compensation, and communication must present a consistent point of view.\
+-   **Overcoming the Midrange Barrier:** Incremental improvements often yield little return in business results. HR leaders need the resilience to develop an *entire system* of strategic HR practices, pushing performance past a threshold (estimated around 75 or 80 on a 100-point scale) where significant business impact occurs.
+
+#### **C. Innovate**
+
+-   **Continuous Improvement:** HR professionals must keep abreast of the **most recent HR practice innovations** both within their industry and in the broader HR community.\
+-   **Adaptation over Adoption:** Innovations should be examined against the specific organizational capabilities being driven. If a practice enhances a capability (e.g., customer connectivity or speed), it should be **adapted** to fit the organization’s unique culture and goals, not merely adopted verbatim.
+
+### **3. Making the Change Happen**
+
+Transformation requires a prioritized approach (Milestone 10).
+
+-   **Prioritization through Audits:** HR audits are used to prioritize which practices receive the most investment of money, time, and talent. Audits can assess best practices, stakeholder perceptions, strategic alignment, and the level of integration among practices.\
+-   **Blueprinting and Implementation:** The outcome is a blueprint defining where to prioritize HR work. Implementation involves mapping core HR practices, creating a master systems design plan, establishing outcomes and measures, and implementing changes in concert with department and people changes.\
+-   **Case Example (Intel):** Intel successfully upgraded HR practices by focusing the Operations Group on reducing cost and complexity. This required **downgrading** many world-class practices that did not provide a competitive advantage to free up resources for more strategic capability development (fast innovation, brilliant talent, proactive collaboration).
+
+## **Upgrade HR Professionals (People)**
+
+### **1. The Model for Upgrading HR Professionals**
+
+The sources lay out a four-step model, adapted from general talent management, for building and sustaining the necessary competencies among HR professionals \[101, 120–21, 240, 287\]:
+
+1.  **Articulate a theory or set a standard**.\
+2.  **Assess individuals and organizations**.\
+3.  **Invest in talent improvement**.\
+4.  **Follow up and track competence**.
+
+### **2. Step 1: Defining Standards (Competencies, Roles, and Activities)**
+
+Defining success requires clarifying what HR professionals must know and do. This is typically done by defining roles and activities, which combine to form core competencies.
+
+#### **A. HR Roles**
+
+Effective HR professionals must master a range of evolving roles, ensuring they deliver value and avoid second-tier status:
+
+-   **Employee Advocate and Human Capital Developer:** Focuses on the present employee (advocacy) and preparing employees for the future (development).\
+-   **Functional Expert:** Designs and delivers HR practices efficiently, encompassing technology-based administrative efficiency and policy/intervention design.\
+-   **Strategic Partner:** Helps line managers achieve goals by bringing business, change, consulting, and learning knowledge to the partnership. The Strategic Partner role is broad, encompassing the dimensions previously attributed to the Change Agent role.\
+-   **Leader:** Unifies the other four roles and includes leading the HR function, ensuring corporate governance, and monitoring the HR community.
+
+#### **B. HR Competencies**
+
+The sources identify **six core competencies** necessary for high-impact HR professionals, managing both the **people** (human dimensions) and the **business** (mastering requirements) axes:
+
+1.  **Credible Activist:** Must be both **respected** (credible) and offer a point of view, challenge assumptions, and take a position (active).\
+2.  **Culture and Change Steward:** Shapes the company's culture by translating external expectations into internal behaviors, helping the organization adapt to new conditions, and facilitating change throughout the organization.\
+3.  **Talent Manager and Organization Designer:** Masters both **talent management** (how individuals move through the firm) and **organizational design** (embedding capabilities like collaboration or innovation into structure and process).\
+4.  **Strategy Architect:** Provides a vision for how the organization can win, participates actively in creating strategy, and translates that strategy into HR practices that build organizational capabilities.\
+5.  **Operational Executor:** Executes the transactional and administrative aspects of HR flawlessly (e.g., payroll, benefits, policies) through technology, shared services, or outsourcing. Flawless execution ensures HR credibility.\
+6.  **Business Ally:** Contributes to business success by knowing the social context, understanding the company's value chain (how it makes money, customers, competitors), and having a good understanding of internal business processes (passing a business literacy test).
+
+### **3. Step 2: Assessment**
+
+Once standards are set, HR professionals must be assessed to identify strengths and development needs.
+
+-   **Informal Assessment:** HR professionals should constantly seek feedback, reflect on their work (what is easy versus what is avoided), and seek suggestions for improvement.\
+-   **Formal Assessment (360-Degree Feedback):** Receiving formal feedback from peers, subordinates, supervisors, and clients (stakeholders) helps identify patterns in behavior and competence gaps.\
+-   **Group Assessment:** Organizations can use tools, such as the RBL HR Competencies 360 Assessment, to assess the entire HR community and identify pervasive skill gaps (e.g., lack of business ally competence) that require large-scale intervention.
+
+### **4. Step 3: Investment (Hiring and Nurturing)**
+
+Investment means allocating resources and time to upgrading HR skills, which involves both **nature** (hiring) and **nurture** (development) \[114–15, 272\].
+
+-   **Hiring and Staffing:** Companies must hire individuals with the required skills and **must remove poorly performing HR professionals** who consistently fail to meet standards. Removing poor performers is a critical strategy to upgrade the HR community and maintain credibility with line managers.\
+-   **Job Experience:** The most powerful way to learn is by doing. Learning opportunities include moving between specialist (Center of Expertise) and generalist (Embedded HR) roles, taking international assignments, doing cross-functional rotations (e.g., participating in a customer internship), and working in a turnaround situation.\
+-   **Training Experience:** Formal training must be **integrated** and connected directly to strategy, customers, and investors, and should focus on outcomes and application rather than simply being a discrete event (parade of stars).\
+-   **Life Experience:** Personal learning involves continuous reading, attending conferences, adapting best practices, trying new behaviors, and keeping a learning journal.
+
+### **5. Step 4: Measurement and Follow-Up**
+
+This final step ensures that the transformation endures.
+
+-   **Tracking Results:** HR leaders must measure the quality of HR professionals and the impact of the development investments using consistent 360-degree reviews to track progress against baselines.\
+-   **Integration:** The development initiative must be integrated into HR systems, meaning new HR professionals are hired for future skills, and HR training, performance management, compensation, and communication are designed to create the desired organizational capabilities.
+
+### **Case Study Examples**
+
+-   **Intel:** Intel's transformation involved shifting HR roles. Initial efforts (2001–2006) focused on bringing forth project management, process engineering, and data analytics skills (Operational Executor). The shift from tactical to strategic (2006 onward) required major changes to up-level the **Business-Facing Channel**, demanding analytical and consulting skills, often necessitating hiring new talent. Intel sought to balance its HR population by including professionals from traditional HR backgrounds, other analytical functions (finance, engineering), and external disciplines.\
+-   **Pfizer:** Pfizer recognized the need to upgrade its talent base to move beyond foundational work. The HR leadership team used competency studies to create role profiles and assessed its senior talent bench to place the strongest internal talent into key HR and MOS lead positions. This involved moving generalists into MOS roles and specialists into HR lead roles, representing a significant shift in talent deployment.\
+-   **Flextronics:** Since Flextronics built its strategic HR organization from scratch, it brought in new HR leaders externally to jumpstart the function. It then leveraged the **HR Competency Study** data to assess the "new HR" professionals needed, designing a career-acceleration training curriculum and guidebook used for selection, assessment, and development to grow future leaders internally.\
+-   **Takeda North America (TPNA):** TPNA redefined roles, repositioning HR generalists with the right skills as **HR Business Partners** who required excellent consulting skills, business acumen, and a strong financial background. The team also focused on retooling existing employees, bringing in new external talent, and transitioning out those whose skills did not match the new organizational needs.
+
+------------------------------------------------------------------------
+
+# **Phase 4: HR Accountability (Who)**
+
+to outlining how various individuals and groups must be involved to ensure the successful execution and long-term sustainability of the HR transformation. This phase operates on the foundational principle that involving stakeholders builds the necessary **commitment** for difficult changes.
+
+The primary objective of this phase is to define **who** should be part of the transformation and to outline the roles and shared **accountability** among these groups.
+
+### **1. The Necessity of Stakeholder Involvement**
+
+Successfully transforming HR requires transferring ownership beyond the HR department itself. The importance of involvement is rooted in established social-psychological research, which shows that people are more likely to commit to activities or decisions in which they participate.
+
+-   **Avoiding Resistance:** If HR professionals plan the transformation in isolation, those whose commitment is needed during implementation are likely to resist the required changes.\
+-   **Sustaining Effort:** Transformation requires getting buy-in from everyone, both line management and HR. Without engagement, key stakeholders will not offer their best contributions or insights.
+
+### **2. Key Stakeholder Groups and Their Roles**
+
+The sources identify four critical groups whose perspectives and commitment must be engaged throughout the transformation process:
+
+#### **A. HR Leaders and Professionals**
+
+HR leaders are primarily responsible for designing the process and working to implement the transformation.
+
+-   **Chief HR Officer (CHRO):** The CHRO must sponsor the transformation by setting direction, allocating money, time, and talent, and ensuring key stakeholders (line managers, Board of Directors) are informed. The CHRO should also ensure **credible HR professionals** are involved.\
+-   **HR Leadership Team (HRLT):** This team (often consisting of HR leaders from business units, centers of expertise, and shared services) must provide collective support and is critical for success.\
+-   **HR for HR (Transformation Champion):** This individual often chairs the daily work of the HR transformation team and is primarily accountable for moving the plan forward. They draft the plan, monitor milestones, manage organizational structure discussions, supervise HR practice audits, and lead professional development.\
+-   **HR Professionals:** They must be the ones to enact and live the change, embracing new roles, mastering new competencies, and letting go of past behaviors. The transformation team must sponsor **early adopters** (the 20% who are ready to change) and focus energy on the **middle 60%** who can be convinced to change.
+
+#### **B. Line Managers**
+
+Line managers are ultimately accountable for ensuring the organization has the right talent and structure to deliver on expectations. Their responsibility is to ensure the transformation aligns with business goals and to work with HR to implement it.
+
+-   **Board of Directors and C-Suite:** They should be informed about the rationale and outcomes, with a C-suite representative likely sitting on the transformation team to monitor progress and ensure alignment with economic goals.\
+-   **Gaining Support:** HR must connect the transformation to the line manager's bottom line and scorecard. Involvement can occur through regular interviews, updates, or participation on the transformation task force.\
+-   **Building Trust:** HR professionals gain credibility by serving as **credible activists** and trusted advisers, especially during tough times, and by acting as coaches who ask good questions.\
+-   **Overcoming Misconceptions:** HR professionals must actively help managers resolve common misconceptions about HR (e.g., that HR is solely responsible for "people stuff" or that competitiveness only comes from strategy).
+
+#### **C. External Customers and Investors**
+
+These external stakeholders guide the HR transformation for **relevance**, ensuring that the initiatives create value on the outside of the company.
+
+-   **Customers:** The customer voice is central to strategic HR. Customers can be involved by providing insights and information (often accessed via sales or marketing data). HR must recognize **"moments of truth"** or critical touch points and design practices (staffing, training, rewards) to **sustain the customer experience**. Some companies, like Nokia and the Royal Bank of Scotland, involve customers directly in HR design meetings or require HR staff to spend regular time with them.\
+-   **Investors:** Investors influence the transformation because their confidence in future earnings depends on the organizational capabilities developed. HR practices must be designed to enhance **intangible value**. Investor values can be accessed by inviting key investors or analysts into deliberations and ensuring HR practices pass an **investor filter**.
+
+#### **D. Consultants and Advisers**
+
+Consultants provide external frameworks, insights, and lessons learned, helping the team anticipate and avoid common challenges ("potholes").
+
+-   **Effective Use:** Consultants should be retained for specific outcomes, possess content expertise (not just project management skills), and be willing to **adapt** their models rather than require wholesale adoption. They should also **transfer knowledge** to the internal team.\
+-   **Value-Add:** Consultants can assist in assessing the need for transformation, setting ambitious goals, planning for implementation, and objectively evaluating effectiveness.
+
+### **3. Assembling the Transformation Team**
+
+The HR transformation team should be a blend of representatives from all four groups: HR leaders, line managers (including a C-suite member), an outside adviser, and customer/investor representatives. This team is accountable for both the design and delivery of the transformation and must meet regularly to set and deliver on milestones. The transformation team needs to maintain a focus on **accountability and change** to ensure the entire effort makes progress.
+
+## **Ensure Successful Implementation**
+
+### **1. The Blueprint for Implementation: Milestones and Activities**
+
+Chapter 8, titled "Making It Happen," summarizes the process for successful implementation through a set of **milestones, activities, and outcomes** that integrate all four phases of the transformation model into an action plan. Successfully ensuring implementation requires reaching these key milestones, particularly those dedicated to accountability:
+
+-   **Milestone 13: Make sure that the transformation team is staffed by the right mix of people and engaged in the right activities.** The transformation team, established early in Phase 1, has the ongoing responsibility to direct and oversee the transformation in a timely and coherent way.
+    -   **Activity:** The team must develop a **blueprint for the overall transformation** that puts the preceding milestones into a responsibility chart. This blueprint should be **regularly reviewed and updated** to keep the transformation on track.\
+    -   **Activity:** The team evaluates data from audits (organizational capability and HR audits) and **creates work streams** that move the transformation forward.\
+    -   **Activity:** The team must **continually communicate progress and the next steps** to key stakeholders.\
+    -   **Outcome:** A high-performing HR transformation team ensures the transformation **stays on track and delivers the results declared in Phase 2**.
+
+### **2. Turning Content into Reality: Conditions for Successful Change**
+
+Beyond monitoring milestones, successful implementation requires actively managing the process of change. The sources identify **seven key factors** that help turn "what should be done" (the blueprint) into "what is actually done" (successful reality). The HR transformation team can adapt these seven conditions to make implementation happen:
+
+| Condition for Successful Change | Implication for HR Transformation |
+|----|----|
+| **Leading** | **Gaining leadership support** for the HR transformation from both line management and HR. |
+| **Creating a Shared Need** | **Building a case** for why HR transformation adds value by maintaining dissatisfaction with the status quo and a compelling vision of the future. |
+| **Envisioning** | **Having a model** of what HR transformation includes (practices, functions, people) and continually emphasizing the **Phase 1 (Why) and Phase 2 (Outcomes) results** to reinforce the purpose. |
+| **Engaging** | **Mobilizing commitment** from key individuals (getting buy-in from everyone, line and HR). This involves building on supporters and focusing on the middle 60% of employees. |
+| **Decision Making** | **Starting small by focusing on early decisions** and applying a clear decision protocol (clarity, responsibility, timeline, process, and follow-up) to move the transformation forward. |
+| **Institutionalizing** | **Weaving the HR transformation into all HR practices and resource allocation systems** in the company to ensure it lasts over time. |
+| **Monitoring and Learning** | **Tracking the success** of the transformation, refining and adjusting the blueprint, and learning from the effort \[348, 362–363\]. |
+
+### **3. Institutionalizing and Sustaining the Change**
+
+Successful implementation is realized when the transformation is **institutionalized**—that is, embedded in the organization so that it lasts over time.
+
+-   **Integrating Work Streams:** This requires treating HR department structure, practices, and people as integrated issues, not separate ones. The implementation must manage integration so that, for example, changes in the performance management system are supported by aligned training programs.\
+-   **Changing the Culture:** The transformation must be seen not as a one-time event, but as a **new pattern of behavior and thinking**. Change becomes sustained when the new behaviors are **assimilated** into the way work is done, creating a new culture that focuses on external customer and investor expectations.\
+-   **Measurement and Follow-Up:** Institutionalizing means that the new HR direction is **embedded in HR systems**. This requires:
+    -   Hiring new HR professionals who possess the skills for future expectations.\
+    -   Designing and delivering HR training, performance management, compensation, and communication systems to **create the desired organizational capabilities** (Phase 2 outcomes).\
+    -   Measuring progress using **leading indicators** (behaviors) and **lag indicators** (outcomes) to identify early signs of success or failure.
+
+The ability of HR to achieve these goals moves them into full partnership with the business.
