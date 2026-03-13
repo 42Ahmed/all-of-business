@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>23&nbsp; Redesigning Work – All of Business</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./chapter22.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-00ccf60c28c3bdf2d57f5131fbf16f11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7c8ba9dac8feea6a77ed63b2e2898d0e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-00ccf60c28c3bdf2d57f5131fbf16f11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+        <div class="quarto-navbar-tools tools-end">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter23.html"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Redesigning Work</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Entrepreuership Theory</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Measure What Matters</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Running Lean</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Four Steps to Successful Strategy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Power of Emotional Intelligence</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Primal Leadership</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Project Management</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter08.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">PMBOK</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter09.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Principles of Marketing</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">AI Marketing Canvas</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">This is Marketing</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter12.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Business Development</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Sales Acceleration Formula</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Financial Intelligence for Entrepreneurs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter15.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Venture Deals</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter16.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Emotional Agility</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter17.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Emotional Intelligence 2.0</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter18.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Getting Things Done</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter19.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Deep Work</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter20.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Strategic Connections</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter21.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">The Start Up of You</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter22.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">HR Transformation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter23.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Redesigning Work</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#executive-summary" id="toc-executive-summary" class="nav-link active" data-scroll-target="#executive-summary"><span class="header-section-number">23.1</span> <strong>Executive Summary</strong></a></li>
+  <li><a href="#the-opportunity-to-redesign-work" id="toc-the-opportunity-to-redesign-work" class="nav-link" data-scroll-target="#the-opportunity-to-redesign-work"><span class="header-section-number">23.2</span> <strong>The Opportunity to Redesign Work</strong></a>
+  <ul class="collapse">
+  <li><a href="#a-global-unfreeze-moment" id="toc-a-global-unfreeze-moment" class="nav-link" data-scroll-target="#a-global-unfreeze-moment"><span class="header-section-number">23.2.1</span> <strong>A Global “Unfreeze” Moment</strong></a></li>
+  <li><a href="#key-lessons-from-the-pandemic-experience" id="toc-key-lessons-from-the-pandemic-experience" class="nav-link" data-scroll-target="#key-lessons-from-the-pandemic-experience"><span class="header-section-number">23.2.2</span> <strong>Key Lessons from the Pandemic Experience</strong></a></li>
+  </ul></li>
+  <li><a href="#a-four-step-process-for-redesigning-work" id="toc-a-four-step-process-for-redesigning-work" class="nav-link" data-scroll-target="#a-four-step-process-for-redesigning-work"><span class="header-section-number">23.3</span> <strong>A Four-Step Process for Redesigning Work</strong></a></li>
+  <li><a href="#step-1-understand" id="toc-step-1-understand" class="nav-link" data-scroll-target="#step-1-understand"><span class="header-section-number">23.4</span> <strong>Step 1: Understand</strong></a>
+  <ul class="collapse">
+  <li><a href="#the-four-elements-of-productivity" id="toc-the-four-elements-of-productivity" class="nav-link" data-scroll-target="#the-four-elements-of-productivity"><span class="header-section-number">23.4.1</span> <strong>The Four Elements of Productivity</strong></a></li>
+  <li><a href="#human-networks-and-knowledge-flow" id="toc-human-networks-and-knowledge-flow" class="nav-link" data-scroll-target="#human-networks-and-knowledge-flow"><span class="header-section-number">23.4.2</span> <strong>Human Networks and Knowledge Flow</strong></a></li>
+  <li><a href="#what-people-want-present-and-future-needs" id="toc-what-people-want-present-and-future-needs" class="nav-link" data-scroll-target="#what-people-want-present-and-future-needs"><span class="header-section-number">23.4.3</span> <strong>What People Want: Present and Future Needs</strong></a></li>
+  <li><a href="#the-employee-experience-of-work" id="toc-the-employee-experience-of-work" class="nav-link" data-scroll-target="#the-employee-experience-of-work"><span class="header-section-number">23.4.4</span> <strong>The Employee Experience of Work</strong></a></li>
+  </ul></li>
+  <li><a href="#step-2-reimagine" id="toc-step-2-reimagine" class="nav-link" data-scroll-target="#step-2-reimagine"><span class="header-section-number">23.5</span> <strong>Step 2: Reimagine</strong></a>
+  <ul class="collapse">
+  <li><a href="#the-core-choices-of-place-and-time" id="toc-the-core-choices-of-place-and-time" class="nav-link" data-scroll-target="#the-core-choices-of-place-and-time"><span class="header-section-number">23.5.1</span> <strong>The Core Choices of Place and Time</strong></a></li>
+  <li><a href="#reimagining-place" id="toc-reimagining-place" class="nav-link" data-scroll-target="#reimagining-place"><span class="header-section-number">23.5.2</span> <strong>Reimagining Place</strong></a></li>
+  <li><a href="#reimagining-time" id="toc-reimagining-time" class="nav-link" data-scroll-target="#reimagining-time"><span class="header-section-number">23.5.3</span> <strong>Reimagining Time</strong></a></li>
+  </ul></li>
+  <li><a href="#step-3-model-and-test" id="toc-step-3-model-and-test" class="nav-link" data-scroll-target="#step-3-model-and-test"><span class="header-section-number">23.6</span> <strong>Step 3: Model and Test</strong></a>
+  <ul class="collapse">
+  <li><a href="#future-proofing-the-redesign" id="toc-future-proofing-the-redesign" class="nav-link" data-scroll-target="#future-proofing-the-redesign"><span class="header-section-number">23.6.1</span> <strong>Future-Proofing the Redesign</strong></a></li>
+  <li><a href="#supporting-technology-transitions" id="toc-supporting-technology-transitions" class="nav-link" data-scroll-target="#supporting-technology-transitions"><span class="header-section-number">23.6.2</span> <strong>Supporting Technology Transitions</strong></a></li>
+  <li><a href="#ensuring-fairness-and-justice" id="toc-ensuring-fairness-and-justice" class="nav-link" data-scroll-target="#ensuring-fairness-and-justice"><span class="header-section-number">23.6.3</span> <strong>Ensuring Fairness and Justice</strong></a></li>
+  </ul></li>
+  <li><a href="#step-4-act-and-create" id="toc-step-4-act-and-create" class="nav-link" data-scroll-target="#step-4-act-and-create"><span class="header-section-number">23.7</span> <strong>Step 4: Act and Create</strong></a>
+  <ul class="collapse">
+  <li><a href="#the-pivotal-role-of-managers" id="toc-the-pivotal-role-of-managers" class="nav-link" data-scroll-target="#the-pivotal-role-of-managers"><span class="header-section-number">23.7.1</span> <strong>The Pivotal Role of Managers</strong></a></li>
+  <li><a href="#the-power-of-co-creation" id="toc-the-power-of-co-creation" class="nav-link" data-scroll-target="#the-power-of-co-creation"><span class="header-section-number">23.7.2</span> <strong>The Power of Co-Creation</strong></a></li>
+  <li><a href="#the-leaders-narrative" id="toc-the-leaders-narrative" class="nav-link" data-scroll-target="#the-leaders-narrative"><span class="header-section-number">23.7.3</span> <strong>The Leader’s Narrative</strong></a></li>
+  </ul></li>
+  <li><a href="#case-study-in-practice-the-sage-redesign-journey" id="toc-case-study-in-practice-the-sage-redesign-journey" class="nav-link" data-scroll-target="#case-study-in-practice-the-sage-redesign-journey"><span class="header-section-number">23.8</span> <strong>Case Study in Practice: The Sage Redesign Journey</strong></a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Redesigning Work</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="executive-summary" class="level2" data-number="23.1">
+<h2 data-number="23.1" class="anchored" data-anchor-id="executive-summary"><span class="header-section-number">23.1</span> <strong>Executive Summary</strong></h2>
+<p>This document synthesizes the core arguments and frameworks from Lynda Gratton’s <em>Redesigning Work</em>, which posits that the global pandemic created a once-in-a-century opportunity to fundamentally rethink and reshape working practices. The central thesis is that organizations, having been thrust into a massive “unfreeze” state as described by psychologist Kurt Lewin, now have a unique chance to be bold and intentional in designing work that is more purposeful, productive, and fulfilling. The document outlines a practical, four-step design process—<strong>Understand, Reimagine, Model and Test, Act and Create</strong>—that guides organizations in developing a unique corporate “signature” rather than adopting a one-size-fits-all solution.</p>
+<p>Key takeaways include the critical trade-offs between <strong>place</strong> and <strong>time</strong>. Reimagining place involves balancing the <strong>cooperation</strong> and serendipity of the co-located office with the <strong>energy</strong> and well-being derived from distributed homeworking. Reimagining time involves balancing the <strong>coordination</strong> benefits of synchronous, connected work with the need for <strong>focus</strong> in asynchronous, disconnected periods. The analysis emphasizes that successful redesign is driven by a deep understanding of productivity elements, human networks, and employee needs, which are themselves shaped by profound technological, demographic, and social trends like automation and longer lifespans. Ultimately, the success of any new model depends on its ability to be future-proofed, support technological transitions, and be perceived as fair and just by all employees, a process that requires active co-creation and engaged leadership.</p>
+</section>
+<section id="the-opportunity-to-redesign-work" class="level2" data-number="23.2">
+<h2 data-number="23.2" class="anchored" data-anchor-id="the-opportunity-to-redesign-work"><span class="header-section-number">23.2</span> <strong>The Opportunity to Redesign Work</strong></h2>
+<p>The source material frames the current moment as an unprecedented opportunity for change, driven by a global disruption that broke deeply ingrained and often dysfunctional working habits. This period of transformation offers a chance to build on key lessons learned and consciously design a better future of work.</p>
+<section id="a-global-unfreeze-moment" class="level3" data-number="23.2.1">
+<h3 data-number="23.2.1" class="anchored" data-anchor-id="a-global-unfreeze-moment"><span class="header-section-number">23.2.1</span> <strong>A Global “Unfreeze” Moment</strong></h3>
+<p>The book applies Kurt Lewin’s “freeze, unfreeze, refreeze” model of institutional change to describe the impact of the pandemic.</p>
+<ul>
+<li><strong>Freeze State:</strong> Before 2020, most organizations were in a “frozen” state, with fixed cultures, structures, and processes. While some companies were beginning to experiment with flexibility in response to automation and demographic shifts, change was slow and small-scale.<br>
+</li>
+<li><strong>Unfreeze State:</strong> The pandemic initiated a global “unfreeze” of unimaginable scale and velocity. It forced mass remote work, dismantling bureaucracy and challenging long-held assumptions about where and when work could be done. This created a collective experience of experimentation and imagination.<br>
+</li>
+<li><strong>The Challenge:</strong> The current challenge is to leverage this “unfreeze” state to create lasting, positive change before organizations “refreeze” into new, potentially suboptimal habits. Leanne Cutts, former Group CMO at HSBC, described this stage as working with “wet clay,” emphasizing the need for imagination to “raise the bar.”</li>
+</ul>
+</section>
+<section id="key-lessons-from-the-pandemic-experience" class="level3" data-number="23.2.2">
+<h3 data-number="23.2.2" class="anchored" data-anchor-id="key-lessons-from-the-pandemic-experience"><span class="header-section-number">23.2.2</span> <strong>Key Lessons from the Pandemic Experience</strong></h3>
+<p>The collective experience of the pandemic yielded several critical insights that form the foundation for redesigning work:</p>
+<ul>
+<li><strong>Accelerated Digital Skills:</strong> The workforce adopted new digital tools and skills with unprecedented speed, proving that rapid learning is possible.<br>
+</li>
+<li><strong>Bureaucracy on the “Bonfire”:</strong> Organizations became more agile, shedding unnecessary processes and prioritizing ruthlessly. As Stanford professor Nicholas Bloom described it, this was “a bonfire of unnecessary regulations.”<br>
+</li>
+<li><strong>True Flexibility is Possible:</strong> The period demonstrated that flexible work is viable for many roles, opening up opportunities to attract diverse talent and improve work-life integration.<br>
+</li>
+<li><strong>The “Off” Switch is Critical:</strong> The shift to remote work highlighted the danger of an “always on” culture, which leads to longer hours and burnout. Data showed the average workday expanded by nearly 49 minutes.<br>
+</li>
+<li><strong>Human Connections Matter:</strong> The experience exposed the vital, often-unseen role of human networks. While strong ties with close colleagues were maintained, the weaker ties that fuel serendipity and innovation eroded, particularly impacting the socialization of young employees.</li>
+</ul>
+</section>
+</section>
+<section id="a-four-step-process-for-redesigning-work" class="level2" data-number="23.3">
+<h2 data-number="23.3" class="anchored" data-anchor-id="a-four-step-process-for-redesigning-work"><span class="header-section-number">23.3</span> <strong>A Four-Step Process for Redesigning Work</strong></h2>
+<p>The book proposes a structured, four-step design process to help organizations create a unique work model—their corporate “signature”—that aligns with their specific purpose, values, and capabilities.</p>
+<ol type="1">
+<li><strong>Understand:</strong> Build a deep foundation by analyzing what truly matters for the business. This includes identifying the jobs and skills crucial for productivity, understanding how knowledge flows through human networks, and discovering what employees want and need from work.<br>
+</li>
+<li><strong>Reimagine:</strong> Use the foundation of understanding to creatively devise optimal work designs. This involves exploring the choices and trade-offs of place (office vs.&nbsp;home) and time (synchronous vs.&nbsp;asynchronous) to enhance productivity and well-being.<br>
+</li>
+<li><strong>Model and Test:</strong> Test the reimagined ideas against potential risks and key factors. A successful model must be future-proofed against demographic shifts, supportive of technological transitions, and perceived as equitable and fair by all employees.<br>
+</li>
+<li><strong>Act and Create:</strong> Embed the new model into the company’s practices and culture. This requires engaging leaders to shape the narrative, supporting the pivotal role of managers, and implementing co-creation processes that involve employees in the change.</li>
+</ol>
+</section>
+<section id="step-1-understand" class="level2" data-number="23.4">
+<h2 data-number="23.4" class="anchored" data-anchor-id="step-1-understand"><span class="header-section-number">23.4</span> <strong>Step 1: Understand</strong></h2>
+<p>A successful redesign must be built on a deep, evidence-based understanding of the organization’s unique context. This involves analyzing productivity, networks, people, and the overall employee experience.</p>
+<section id="the-four-elements-of-productivity" class="level3" data-number="23.4.1">
+<h3 data-number="23.4.1" class="anchored" data-anchor-id="the-four-elements-of-productivity"><span class="header-section-number">23.4.1</span> <strong>The Four Elements of Productivity</strong></h3>
+<p>Productivity in knowledge work is multifaceted. Deconstructing jobs into their core tasks reveals four primary elements:</p>
+<ul>
+<li><strong>Energy:</strong> The vitality needed for dynamic tasks, such as managing high-pressure projects or engaging in intense meetings.<br>
+</li>
+<li><strong>Focus:</strong> The deep concentration required for tasks like writing, data analysis, or strategic thinking, which demands a rested brain free from distractions.<br>
+</li>
+<li><strong>Coordination:</strong> The efficient alignment with others on shared goals, including check-ins, feedback, and project management.<br>
+</li>
+<li><strong>Cooperation:</strong> The participative sharing of ideas to generate new solutions and drive innovation, often in cross-functional teams.</li>
+</ul>
+</section>
+<section id="human-networks-and-knowledge-flow" class="level3" data-number="23.4.2">
+<h3 data-number="23.4.2" class="anchored" data-anchor-id="human-networks-and-knowledge-flow"><span class="header-section-number">23.4.2</span> <strong>Human Networks and Knowledge Flow</strong></h3>
+<p>Work is embedded in networks of human connection through which knowledge and innovation flow. Any redesign must consider its impact on these networks.</p>
+<ul>
+<li><strong>Tacit vs.&nbsp;Explicit Knowledge:</strong> Explicit knowledge is easily codified (e.g., in manuals), while tacit knowledge (know-how, mental models) resides within trusted relationships and is harder to transfer.<br>
+</li>
+<li><strong>Strong vs.&nbsp;Weak Ties:</strong>
+<ul>
+<li><strong>Strong Ties:</strong> Relationships with trusted colleagues are excellent for exploiting existing tacit knowledge within a team. Proximity is a significant driver of their formation.<br>
+</li>
+<li><strong>Weak Ties:</strong> Acquaintances and broader connections are crucial for distributing new information and creating “serendipitous” encounters that spark innovation. These were the connections most damaged by mass remote work.<br>
+</li>
+</ul></li>
+<li><strong>Boundary Spanners:</strong> Individuals who connect otherwise separate networks play a vital role in synthesizing diverse knowledge and fostering exploration.</li>
+</ul>
+</section>
+<section id="what-people-want-present-and-future-needs" class="level3" data-number="23.4.3">
+<h3 data-number="23.4.3" class="anchored" data-anchor-id="what-people-want-present-and-future-needs"><span class="header-section-number">23.4.3</span> <strong>What People Want: Present and Future Needs</strong></h3>
+<p>Understanding employee needs is critical. This can be achieved by creating “personas” (e.g., Julio, the experienced manager who loves remote work, and Mandy, the young new joiner who needs the office) and by analyzing universal trends shaping future aspirations.</p>
+<ul>
+<li><strong>To Stay Healthy:</strong> With people living longer, maintaining physical and mental health becomes paramount. Employees will seek work that allows for sufficient sleep, exercise, and social connection.<br>
+</li>
+<li><strong>To Have a Balanced Family Life:</strong> The rise of dual-career couples and diverse family structures means employees need flexibility to manage complex personal lives.<br>
+</li>
+<li><strong>To Learn (Faster Than Machines):</strong> The relentless pace of automation creates anxiety but also a powerful motivation to upskill and reskill. Organizations that support learning will attract and retain talent.<br>
+</li>
+<li><strong>To Live a Multistage Life:</strong> The traditional three-stage life (education, work, retirement) is being replaced by a more flexible, multistage life where people may take sabbaticals, start side businesses, or re-enter education at various ages.</li>
+</ul>
+</section>
+<section id="the-employee-experience-of-work" class="level3" data-number="23.4.4">
+<h3 data-number="23.4.4" class="anchored" data-anchor-id="the-employee-experience-of-work"><span class="header-section-number">23.4.4</span> <strong>The Employee Experience of Work</strong></h3>
+<p>The employee journey must be analyzed to understand “pain points” and “gain points.”</p>
+<ul>
+<li><strong>Case Study (HSBC):</strong> The global bank applied marketing tools to understand the employee experience. A multidisciplinary team mapped the employee journey, using data analytics and an Employee Net Promoter Score (eNPS) to identify and resolve frustrations, such as the crucial transition between graduate placements. The goal is to create an employee experience that is personalized, intuitive, and frictionless, mirroring modern consumer technology platforms.</li>
+</ul>
+</section>
+</section>
+<section id="step-2-reimagine" class="level2" data-number="23.5">
+<h2 data-number="23.5" class="anchored" data-anchor-id="step-2-reimagine"><span class="header-section-number">23.5</span> <strong>Step 2: Reimagine</strong></h2>
+<p>Based on a deep understanding, organizations can begin to reimagine work by making intentional choices about place and time, aiming to maximize upsides while mitigating inherent trade-offs.</p>
+<section id="the-core-choices-of-place-and-time" class="level3" data-number="23.5.1">
+<h3 data-number="23.5.1" class="anchored" data-anchor-id="the-core-choices-of-place-and-time"><span class="header-section-number">23.5.1</span> <strong>The Core Choices of Place and Time</strong></h3>
+<p>The fundamental design choices revolve around two axes, each with distinct benefits and drawbacks.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Axis</th>
+<th style="text-align: left;">Dimension</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: left;">Upside (+)</th>
+<th style="text-align: left;">Downside (-)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Place</strong></td>
+<td style="text-align: left;">Co-located (e.g., office)</td>
+<td style="text-align: left;">Working together physically</td>
+<td style="text-align: left;">Boosts <strong>Cooperation</strong> through proximity and serendipity.</td>
+<td style="text-align: left;">Depletes <strong>Energy</strong> due to commutes and office distractions.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Distributed (e.g., home)</td>
+<td style="text-align: left;">Working from separate locations</td>
+<td style="text-align: left;">Boosts <strong>Energy</strong> by eliminating commutes and allowing for healthier routines.</td>
+<td style="text-align: left;">Reduces <strong>Cooperation</strong> by shrinking networks and chance encounters.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Time</strong></td>
+<td style="text-align: left;">Synchronous</td>
+<td style="text-align: left;">Working and connected at the same time</td>
+<td style="text-align: left;">Boosts <strong>Coordination</strong> by making real-time alignment easier.</td>
+<td style="text-align: left;">Depletes <strong>Focus</strong> due to interruptions and an “always on” culture.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Asynchronous</td>
+<td style="text-align: left;">Working disconnected from others</td>
+<td style="text-align: left;">Boosts <strong>Focus</strong> by allowing for deep, uninterrupted concentration.</td>
+<td style="text-align: left;">Reduces <strong>Coordination</strong> as real-time collaboration becomes difficult.</td>
+</tr>
+</tbody>
+</table>
+<p>The goal is to design work that optimizes for each element: the office for cooperation, the home for energy, asynchronous time for focus, and synchronous time for coordination.</p>
+</section>
+<section id="reimagining-place" class="level3" data-number="23.5.2">
+<h3 data-number="23.5.2" class="anchored" data-anchor-id="reimagining-place"><span class="header-section-number">23.5.2</span> <strong>Reimagining Place</strong></h3>
+<ul>
+<li><strong>The Office as a Place of Cooperation</strong>
+<ul>
+<li><strong>Case Study (Fujitsu):</strong> In Japan, Fujitsu reimagined the office as a typology of spaces designed for different tasks:
+<ol type="1">
+<li><strong>Neighbourhood Shared Office:</strong> Quiet, local cubicles for individual <strong>focus</strong>.<br>
+</li>
+<li><strong>Satellite Office:</strong> Suburban spaces for project teams to meet for <strong>coordination</strong>.<br>
+</li>
+<li><strong>Hub Office:</strong> Exciting city-center spaces designed to maximize <strong>cooperation</strong> and innovation.<br>
+</li>
+</ol></li>
+<li><strong>Case Study (Arup):</strong> The design firm intentionally uses its Melbourne office to foster cooperation by playing with proximity (moving teams quarterly), reducing personal space to create collaborative zones, and acting as a community “node” that welcomes partners and hosts industry events.<br>
+</li>
+</ul></li>
+<li><strong>The Home as a Source of Energy</strong>
+<ul>
+<li><strong>Boundary Management:</strong> To be energizing, homeworking requires intentional “boundary work”—creating physical, cognitive, and temporal separation between work and personal life to prevent role spillover and distractions.<br>
+</li>
+<li><strong>Case Study (BT &amp; TCS):</strong> Veteran remote-work companies emphasize the need to manage performance by focusing on <strong>outcomes, not presenteeism</strong>. This builds trust and alleviates anxiety that remote workers will be overlooked for promotion.<br>
+</li>
+<li><strong>Key Considerations:</strong> The redesign must address the deep gender dynamics of homeworking (where women often shoulder more domestic labor) and the complex impact on sustainability (where home energy use can offset commute savings).</li>
+</ul></li>
+</ul>
+</section>
+<section id="reimagining-time" class="level3" data-number="23.5.3">
+<h3 data-number="23.5.3" class="anchored" data-anchor-id="reimagining-time"><span class="header-section-number">23.5.3</span> <strong>Reimagining Time</strong></h3>
+<ul>
+<li><strong>Asynchronous Time for Focus</strong>
+<ul>
+<li>Human focus, unlike machine processing, is essential for future-oriented, imaginative, and creative tasks. It requires a rested brain and is compromised by multitasking.<br>
+</li>
+<li><strong>Strategies:</strong> The redesign should include scheduling protected blocks of quiet time, promoting practices that support adequate sleep, and encouraging leaders to role-model unplugging to combat the “always on” culture.<br>
+</li>
+</ul></li>
+<li><strong>Synchronous Time for Coordination</strong>
+<ul>
+<li>While vital, synchronous time is often overused, leading to meeting overload.<br>
+</li>
+<li><strong>A Rhythm of Coordination:</strong> The most productive teams are not always connected but interact intermittently. Periods of “silence” allow for individual thought, while periods of “sound” allow for the pooling and synthesis of diverse ideas.<br>
+</li>
+<li><strong>Case Study (TCS):</strong> The tech firm creates a rhythm through agile rituals like short, daily virtual “stand-ups” for immediate priorities and “retrospectives” at project ends to capture learnings.<br>
+</li>
+<li><strong>Case Study (Telstra):</strong> The telecom company reinvented management by splitting the role into a <strong>“Leader of Work”</strong> (who manages scheduling and resources) and a <strong>“Leader of People”</strong> (who focuses on coaching and development), recognizing scheduling as a specialized skill.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="step-3-model-and-test" class="level2" data-number="23.6">
+<h2 data-number="23.6" class="anchored" data-anchor-id="step-3-model-and-test"><span class="header-section-number">23.6</span> <strong>Step 3: Model and Test</strong></h2>
+<p>Any new work design must be tested against three critical factors: its long-term viability, its alignment with technological change, and its fundamental fairness.</p>
+<section id="future-proofing-the-redesign" class="level3" data-number="23.6.1">
+<h3 data-number="23.6.1" class="anchored" data-anchor-id="future-proofing-the-redesign"><span class="header-section-number">23.6.1</span> <strong>Future-Proofing the Redesign</strong></h3>
+<p>The model must be resilient to future demographic shifts and evolving employee aspirations.</p>
+<ul>
+<li><strong>Demographics:</strong> An aging and shrinking workforce in developed nations will intensify the war for talent, while a young and growing workforce in countries like Nigeria will create new talent pools. Models must support older workers and tap into global talent.<br>
+</li>
+<li><strong>The Multistage Life:</strong> The model should accommodate the shift away from a linear three-stage life to a more flexible, multistage one by offering options beyond full-time, permanent employment.<br>
+</li>
+<li><strong>Case Studies on Flexibility:</strong>
+<ul>
+<li><strong>Unilever:</strong> Created “U-Work,” a “third way” employment model offering a retainer plus project pay, pension, and learning access, allowing the company to retain talent that desires more flexibility.<br>
+</li>
+<li><strong>Open Banking:</strong> Utilized job-sharing for senior roles to retain top talent, improve work-life balance, and benefit from dual perspectives, which studies show can increase productivity.<br>
+</li>
+<li><strong>CPP Investments:</strong> Pursuing a “golden model” to retain talent long-term, the firm offers sabbaticals and a “work from anywhere for three months” policy, aligning with its long-term investment purpose.</li>
+</ul></li>
+</ul>
+</section>
+<section id="supporting-technology-transitions" class="level3" data-number="23.6.2">
+<h3 data-number="23.6.2" class="anchored" data-anchor-id="supporting-technology-transitions"><span class="header-section-number">23.6.2</span> <strong>Supporting Technology Transitions</strong></h3>
+<p>The model must facilitate the evolution of work alongside automation and AI.</p>
+<ul>
+<li><strong>Automation Pathways:</strong> Jobs will be affected differently by technology, with routine tasks facing <strong>substitution</strong> and non-routine analytical tasks seeing <strong>augmentation</strong>. Organizations must understand these pathways to guide employee development.<br>
+</li>
+<li><strong>Case Study (NSW Public Commission):</strong> The Australian public service used data analytics to predict which of its 400,000 jobs would be automated, augmented, or newly created, allowing it to strategically realign its workforce around the customer journey and support regional development.<br>
+</li>
+<li><strong>Building Human Skills:</strong> As machines handle routine tasks, uniquely human skills like empathy, context sensing, collaboration, and creative thinking become more valuable. The work environment must be low-stress to allow these skills to be developed and used.<br>
+</li>
+<li><strong>Making Development Visible:</strong>
+<ul>
+<li><strong>Case Study (IBM):</strong> The “Myca” chatbot helps employees see “escalator jobs”—roles that serve as gateways to higher-wage positions—and identifies the skills needed to make the transition.<br>
+</li>
+<li><strong>Case Study (TCS):</strong> The “Knome” platform allows employees to get certified with digital “badges” for their skills and provides analytics on their internal network connections, making their collaborative capital visible.<br>
+</li>
+<li><strong>Case Study (Microsoft):</strong> The company extends skill development into the community by partnering with local colleges to create data center academies, building a future talent pipeline in underserved areas.</li>
+</ul></li>
+</ul>
+</section>
+<section id="ensuring-fairness-and-justice" class="level3" data-number="23.6.3">
+<h3 data-number="23.6.3" class="anchored" data-anchor-id="ensuring-fairness-and-justice"><span class="header-section-number">23.6.3</span> <strong>Ensuring Fairness and Justice</strong></h3>
+<p>For the redesign to succeed, it must be perceived as fair by all employees.</p>
+<ul>
+<li><strong>The Three Factors of Fairness:</strong>
+<ol type="1">
+<li><strong>Distributive Fairness:</strong> Are the outcomes (e.g., flexibility, workload) equitable?<br>
+</li>
+<li><strong>Procedural Fairness:</strong> Was the process for making decisions consistent, unbiased, and representative?<br>
+</li>
+<li><strong>Interactional Fairness:</strong> Were people treated with respect, politeness, and honesty by their managers?<br>
+</li>
+</ol></li>
+<li><strong>Addressing Inequity:</strong> The model must proactively address potential unfairness for different groups, such as primary carers, young workers, and employees whose roles do not permit remote work.<br>
+</li>
+<li><strong>Case Study (Brit Insurance):</strong> To refresh its values and ways of working, the insurer created a design community by randomly selecting 10% of its workforce, from receptionists to senior underwriters. This co-creation process ensured procedural fairness, built deep knowledge across the firm, and generated employee-led ideas that had strong executive backing.</li>
+</ul>
+</section>
+</section>
+<section id="step-4-act-and-create" class="level2" data-number="23.7">
+<h2 data-number="23.7" class="anchored" data-anchor-id="step-4-act-and-create"><span class="header-section-number">23.7</span> <strong>Step 4: Act and Create</strong></h2>
+<p>The final step is to translate the tested model into reality by engaging managers, employees, and leaders.</p>
+<section id="the-pivotal-role-of-managers" class="level3" data-number="23.7.1">
+<h3 data-number="23.7.1" class="anchored" data-anchor-id="the-pivotal-role-of-managers"><span class="header-section-number">23.7.1</span> <strong>The Pivotal Role of Managers</strong></h3>
+<p>Good managers are the critical link in implementing the redesign, but they are often overloaded and under-supported. Success requires reinventing their role.</p>
+<ul>
+<li><strong>Managerial Mindset Shifts:</strong> Effective managers shift from being hierarchical controllers to team enablers, from hoarding to sharing talent, from managing intact teams to orchestrating fluid project work, and from overseeing presence to coaching for outcomes.<br>
+</li>
+<li><strong>Case Study (Telstra):</strong> By splitting the manager’s job into “Leader of Work” and “Leader of People,” the company created space for dedicated coaching and development while ensuring work itself was expertly managed.<br>
+</li>
+<li><strong>Case Study (Standard Chartered):</strong> The bank invested heavily in its 14,000 “People Leaders,” creating a community, providing development, and building a deep coaching culture by accrediting managers to coach their peers.</li>
+</ul>
+</section>
+<section id="the-power-of-co-creation" class="level3" data-number="23.7.2">
+<h3 data-number="23.7.2" class="anchored" data-anchor-id="the-power-of-co-creation"><span class="header-section-number">23.7.2</span> <strong>The Power of Co-Creation</strong></h3>
+<p>Engaging employees in the design process builds buy-in and harnesses collective intelligence, proving more effective than top-down mandates or “burning platform” approaches.</p>
+<ul>
+<li><strong>Case Study (Ericsson):</strong> The tech multinational invited all 95,000 employees to a 75-hour moderated virtual conversation about company values and future work arrangements. This massive co-creation exercise democratized the conversation, built empathy across the organization, and surfaced grassroots experiments and champions for change.</li>
+</ul>
+</section>
+<section id="the-leaders-narrative" class="level3" data-number="23.7.3">
+<h3 data-number="23.7.3" class="anchored" data-anchor-id="the-leaders-narrative"><span class="header-section-number">23.7.3</span> <strong>The Leader’s Narrative</strong></h3>
+<p>In times of uncertainty, the stories leaders tell are pivotal for creating meaning and direction.</p>
+<ul>
+<li><strong>The Nature of Narratives:</strong> Compelling narratives engage emotions, build connections, and help people visualize an achievable future. They are more powerful than data and facts alone.<br>
+</li>
+<li><strong>Effective Narratives:</strong> Instead of issuing binary, final edicts, the best leaders frame the redesign as an experimental journey aligned with core values, acknowledging uncertainty and inviting co-creation.<br>
+</li>
+<li><strong>Role-Modeling:</strong> The credibility of the narrative is tested by a leader’s everyday actions. Leaders must visibly model the flexibility, collaboration, and experimental mindset they wish to foster.</li>
+</ul>
+</section>
+</section>
+<section id="case-study-in-practice-the-sage-redesign-journey" class="level2" data-number="23.8">
+<h2 data-number="23.8" class="anchored" data-anchor-id="case-study-in-practice-the-sage-redesign-journey"><span class="header-section-number">23.8</span> <strong>Case Study in Practice: The Sage Redesign Journey</strong></h2>
+<p>The accounting-software company Sage provides a holistic example of the four-step process in action.</p>
+<ol type="1">
+<li><strong>Understand:</strong> The design team started with a data-driven approach, using employee surveys and performance data to build a case for change that aligned with the company’s strategic shift to a cloud-based model.<br>
+</li>
+<li><strong>Reimagine:</strong> They co-created with 200 employees to explore future work possibilities, leading to the establishment of four guiding principles: customer-centricity, fairness and trust, human connection, and experimentation.<br>
+</li>
+<li><strong>Model and Test:</strong> They developed four work archetypes (homeworker, flex worker, field worker, office worker) and boldly experimented with policies like a “work away” option allowing employees to work from another location for up to ten weeks.<br>
+</li>
+<li><strong>Act and Create:</strong> They created a managerial “playbook” to guide implementation, developed talking points to ensure leadership narratives were consistent, and empowered managers to create bespoke team-level agreements, all within a framework of continuous learning and iteration.</li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./chapter22.html" class="pagination-link" aria-label="HR Transformation">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">HR Transformation</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
