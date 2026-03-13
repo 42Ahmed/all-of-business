@@ -25,6 +25,8 @@ book:
     - chapter12.qmd
     - chapter13.qmd
     - chapter14.qmd
+    - chapter15.qmd
+    - chapter16.qmd
 
 
 format:
