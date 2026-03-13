@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>25&nbsp; Scaling Up – All of Business</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./chapter24.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-00ccf60c28c3bdf2d57f5131fbf16f11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7c8ba9dac8feea6a77ed63b2e2898d0e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-00ccf60c28c3bdf2d57f5131fbf16f11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+        <div class="quarto-navbar-tools tools-end">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter25.html"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Scaling Up</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Entrepreuership Theory</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Measure What Matters</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Running Lean</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Four Steps to Successful Strategy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Power of Emotional Intelligence</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Primal Leadership</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Project Management</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter08.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">PMBOK</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter09.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Principles of Marketing</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">AI Marketing Canvas</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">This is Marketing</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter12.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Business Development</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Sales Acceleration Formula</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Financial Intelligence for Entrepreneurs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter15.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Venture Deals</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter16.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Emotional Agility</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter17.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Emotional Intelligence 2.0</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter18.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Getting Things Done</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter19.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Deep Work</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter20.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Strategic Connections</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter21.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">The Start Up of You</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter22.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">HR Transformation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter23.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Redesigning Work</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter24.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Blitz Scaling</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter25.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Scaling Up</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#people" id="toc-people" class="nav-link active" data-scroll-target="#people"><span class="header-section-number">25.1</span> People</a>
+  <ul class="collapse">
+  <li><a href="#the-core-mandate-of-the-people-decision" id="toc-the-core-mandate-of-the-people-decision" class="nav-link" data-scroll-target="#the-core-mandate-of-the-people-decision"><span class="header-section-number">25.1.1</span> <strong>The Core Mandate of the People Decision</strong></a></li>
+  <li><a href="#key-components-and-tools-for-scaling-up-people" id="toc-key-components-and-tools-for-scaling-up-people" class="nav-link" data-scroll-target="#key-components-and-tools-for-scaling-up-people"><span class="header-section-number">25.1.2</span> <strong>Key Components and Tools for Scaling Up People</strong></a></li>
+  <li><a href="#talent-acquisition-and-development" id="toc-talent-acquisition-and-development" class="nav-link" data-scroll-target="#talent-acquisition-and-development"><span class="header-section-number">25.1.3</span> <strong>Talent Acquisition and Development</strong></a></li>
+  <li><a href="#people-and-the-core-of-the-strategy" id="toc-people-and-the-core-of-the-strategy" class="nav-link" data-scroll-target="#people-and-the-core-of-the-strategy"><span class="header-section-number">25.1.4</span> <strong>People and the Core of the Strategy</strong></a></li>
+  </ul></li>
+  <li><a href="#strategy" id="toc-strategy" class="nav-link" data-scroll-target="#strategy"><span class="header-section-number">25.2</span> Strategy</a>
+  <ul class="collapse">
+  <li><a href="#the-key-question-for-strategy" id="toc-the-key-question-for-strategy" class="nav-link" data-scroll-target="#the-key-question-for-strategy"><span class="header-section-number">25.2.1</span> <strong>The Key Question for Strategy</strong></a></li>
+  <li><a href="#strategys-role-in-the-larger-framework" id="toc-strategys-role-in-the-larger-framework" class="nav-link" data-scroll-target="#strategys-role-in-the-larger-framework"><span class="header-section-number">25.2.2</span> <strong>Strategy’s Role in the Larger Framework</strong></a></li>
+  <li><a href="#answering-the-key-question-through-strategic-tools" id="toc-answering-the-key-question-through-strategic-tools" class="nav-link" data-scroll-target="#answering-the-key-question-through-strategic-tools"><span class="header-section-number">25.2.3</span> <strong>Answering the Key Question through Strategic Tools</strong></a></li>
+  <li><a href="#the-strategy-routine" id="toc-the-strategy-routine" class="nav-link" data-scroll-target="#the-strategy-routine"><span class="header-section-number">25.2.4</span> <strong>The Strategy Routine</strong></a></li>
+  <li><a href="#the-role-of-the-core-in-strategy" id="toc-the-role-of-the-core-in-strategy" class="nav-link" data-scroll-target="#the-role-of-the-core-in-strategy"><span class="header-section-number">25.2.5</span> <strong>The Role of the Core in Strategy</strong></a></li>
+  <li><a href="#components-of-the-core" id="toc-components-of-the-core" class="nav-link" data-scroll-target="#components-of-the-core"><span class="header-section-number">25.2.6</span> <strong>Components of the Core</strong></a></li>
+  <li><a href="#bringing-the-core-alive" id="toc-bringing-the-core-alive" class="nav-link" data-scroll-target="#bringing-the-core-alive"><span class="header-section-number">25.2.7</span> <strong>Bringing the Core Alive</strong></a></li>
+  <li><a href="#strategic-context-and-function" id="toc-strategic-context-and-function" class="nav-link" data-scroll-target="#strategic-context-and-function"><span class="header-section-number">25.2.8</span> <strong>Strategic Context and Function</strong></a></li>
+  <li><a href="#the-seven-strata-components" id="toc-the-seven-strata-components" class="nav-link" data-scroll-target="#the-seven-strata-components"><span class="header-section-number">25.2.9</span> <strong>The Seven Strata (Components)</strong></a></li>
+  <li><a href="#strategy-implementation-and-alignment" id="toc-strategy-implementation-and-alignment" class="nav-link" data-scroll-target="#strategy-implementation-and-alignment"><span class="header-section-number">25.2.10</span> <strong>Strategy Implementation and Alignment</strong></a></li>
+  <li><a href="#core-strategic-planning-tools" id="toc-core-strategic-planning-tools" class="nav-link" data-scroll-target="#core-strategic-planning-tools"><span class="header-section-number">25.2.11</span> <strong>Core Strategic Planning Tools</strong></a></li>
+  <li><a href="#related-tools-and-routines" id="toc-related-tools-and-routines" class="nav-link" data-scroll-target="#related-tools-and-routines"><span class="header-section-number">25.2.12</span> <strong>Related Tools and Routines</strong></a></li>
+  </ul></li>
+  <li><a href="#execution" id="toc-execution" class="nav-link" data-scroll-target="#execution"><span class="header-section-number">25.3</span> Execution</a>
+  <ul class="collapse">
+  <li><a href="#the-core-mandate-of-execution" id="toc-the-core-mandate-of-execution" class="nav-link" data-scroll-target="#the-core-mandate-of-execution"><span class="header-section-number">25.3.1</span> <strong>The Core Mandate of Execution</strong></a></li>
+  <li><a href="#key-components-and-tools-for-scaling-up-execution" id="toc-key-components-and-tools-for-scaling-up-execution" class="nav-link" data-scroll-target="#key-components-and-tools-for-scaling-up-execution"><span class="header-section-number">25.3.2</span> <strong>Key Components and Tools for Scaling Up Execution</strong></a></li>
+  <li><a href="#execution-and-infrastructure" id="toc-execution-and-infrastructure" class="nav-link" data-scroll-target="#execution-and-infrastructure"><span class="header-section-number">25.3.3</span> <strong>Execution and Infrastructure</strong></a></li>
+  </ul></li>
+  <li><a href="#cash" id="toc-cash" class="nav-link" data-scroll-target="#cash"><span class="header-section-number">25.4</span> Cash</a>
+  <ul class="collapse">
+  <li><a href="#key-components-and-tools-for-scaling-up-cash" id="toc-key-components-and-tools-for-scaling-up-cash" class="nav-link" data-scroll-target="#key-components-and-tools-for-scaling-up-cash"><span class="header-section-number">25.4.1</span> <strong>Key Components and Tools for Scaling Up Cash</strong></a></li>
+  <li><a href="#financial-management-routines" id="toc-financial-management-routines" class="nav-link" data-scroll-target="#financial-management-routines"><span class="header-section-number">25.4.2</span> <strong>Financial Management Routines</strong></a></li>
+  <li><a href="#cash-and-business-growth-stages" id="toc-cash-and-business-growth-stages" class="nav-link" data-scroll-target="#cash-and-business-growth-stages"><span class="header-section-number">25.4.3</span> <strong>Cash and Business Growth Stages</strong></a></li>
+  <li><a href="#cash-and-the-other-decisions" id="toc-cash-and-the-other-decisions" class="nav-link" data-scroll-target="#cash-and-the-other-decisions"><span class="header-section-number">25.4.4</span> <strong>Cash and the Other Decisions</strong></a></li>
+  </ul></li>
+  <li><a href="#leadership" id="toc-leadership" class="nav-link" data-scroll-target="#leadership"><span class="header-section-number">25.5</span> <strong>Leadership</strong></a>
+  <ul class="collapse">
+  <li><a href="#the-challenge-of-complexity-and-growth-paradox" id="toc-the-challenge-of-complexity-and-growth-paradox" class="nav-link" data-scroll-target="#the-challenge-of-complexity-and-growth-paradox"><span class="header-section-number">25.5.1</span> <strong>The Challenge of Complexity and Growth Paradox</strong></a></li>
+  <li><a href="#the-three-key-leadership-capabilities-needed-for-scaling" id="toc-the-three-key-leadership-capabilities-needed-for-scaling" class="nav-link" data-scroll-target="#the-three-key-leadership-capabilities-needed-for-scaling"><span class="header-section-number">25.5.2</span> <strong>The Three Key Leadership Capabilities Needed for Scaling</strong></a></li>
+  <li><a href="#key-decisions-and-the-role-of-the-top-team" id="toc-key-decisions-and-the-role-of-the-top-team" class="nav-link" data-scroll-target="#key-decisions-and-the-role-of-the-top-team"><span class="header-section-number">25.5.3</span> <strong>Key Decisions and the Role of the Top Team</strong></a></li>
+  </ul></li>
+  <li><a href="#scalable-infrastructure" id="toc-scalable-infrastructure" class="nav-link" data-scroll-target="#scalable-infrastructure"><span class="header-section-number">25.6</span> Scalable Infrastructure</a>
+  <ul class="collapse">
+  <li><a href="#the-nature-of-the-scalable-infrastructure-barrier" id="toc-the-nature-of-the-scalable-infrastructure-barrier" class="nav-link" data-scroll-target="#the-nature-of-the-scalable-infrastructure-barrier"><span class="header-section-number">25.6.1</span> <strong>The Nature of the Scalable Infrastructure Barrier</strong></a></li>
+  <li><a href="#tools-and-routines-to-build-scalable-infrastructure" id="toc-tools-and-routines-to-build-scalable-infrastructure" class="nav-link" data-scroll-target="#tools-and-routines-to-build-scalable-infrastructure"><span class="header-section-number">25.6.2</span> <strong>Tools and Routines to Build Scalable Infrastructure</strong></a></li>
+  </ul></li>
+  <li><a href="#marketing" id="toc-marketing" class="nav-link" data-scroll-target="#marketing"><span class="header-section-number">25.7</span> Marketing</a>
+  <ul class="collapse">
+  <li><a href="#the-core-mandate-of-marketing" id="toc-the-core-mandate-of-marketing" class="nav-link" data-scroll-target="#the-core-mandate-of-marketing"><span class="header-section-number">25.7.1</span> <strong>The Core Mandate of Marketing</strong></a></li>
+  <li><a href="#marketings-role-in-attracting-key-relationships" id="toc-marketings-role-in-attracting-key-relationships" class="nav-link" data-scroll-target="#marketings-role-in-attracting-key-relationships"><span class="header-section-number">25.7.2</span> <strong>Marketing’s Role in Attracting Key Relationships</strong></a></li>
+  <li><a href="#key-marketing-routines-and-tools" id="toc-key-marketing-routines-and-tools" class="nav-link" data-scroll-target="#key-marketing-routines-and-tools"><span class="header-section-number">25.7.3</span> <strong>Key Marketing Routines and Tools</strong></a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Scaling Up</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="people" class="level2" data-number="25.1">
+<h2 data-number="25.1" class="anchored" data-anchor-id="people"><span class="header-section-number">25.1</span> People</h2>
+<section id="the-core-mandate-of-the-people-decision" class="level3" data-number="25.1.1">
+<h3 data-number="25.1.1" class="anchored" data-anchor-id="the-core-mandate-of-the-people-decision"><span class="header-section-number">25.1.1</span> <strong>The Core Mandate of the People Decision</strong></h3>
+<p>The overarching <strong>Key Question</strong> guiding the People decision is: <strong>“Are the stakeholders (employees, customers, shareholders) happy and engaged in the business; and would you ‘rehire’ all of them?”</strong>.</p>
+<p>This question highlights that “People” encompasses a broad range of relationships, both internal and external, which are critical to the business. Leaders must evaluate all key relationships surrounding the business, including employees, customers, shareholders, investors/bank, vendors, and advisors.</p>
+<p>The goal of the People decision is to ensure you have the <strong>“right people doing the right things right”</strong> inside the organization. This involves identifying relationships that the company has simply outgrown—often the “toughest decisions to make”—and moving forward with necessary changes.</p>
+<p>In the context of the larger framework, the People decision also relates to balancing the often competing <strong>Demands</strong> of the business: <strong>People</strong> (Reputation) and Process (Productivity). The aim is to continually improve the company’s <strong>Reputation</strong> with its three main groups of stakeholders: employees, customers, and shareholders. When implemented successfully, the <em>Scaling Up</em> tools help stakeholders, including employees and customers, “enjoy the climb”.</p>
+</section>
+<section id="key-components-and-tools-for-scaling-up-people" class="level3" data-number="25.1.2">
+<h3 data-number="25.1.2" class="anchored" data-anchor-id="key-components-and-tools-for-scaling-up-people"><span class="header-section-number">25.1.2</span> <strong>Key Components and Tools for Scaling Up People</strong></h3>
+<p>The section dedicated to Scaling Up People focuses on three core areas: Leaders, Team, and Managers (Coaches). It introduces three foundational one-page tools:</p>
+<ol type="1">
+<li><strong>One-Page Personal Plan (OPPP):</strong> This tool helps leaders think through their personal relationship goals. It aligns four key personal decisions (<strong>Relationships, Achievements, Rituals, and Wealth</strong>) with the four business decisions (People, Strategy, Execution, Cash), providing a “strong and fulfilled personal life… for sustaining your efforts in the business”.<br>
+</li>
+<li><strong>Function Accountability Chart (FACe):</strong> This ensures the organization has the <strong>“right butts in the right seats”</strong> at the top, defining specific accountabilities for the company’s functions. It includes listing Key Performance Indicators (KPIs) and expected Results/Outcomes for each function. This tool helps diagnose people and performance gaps on the leadership team.<br>
+</li>
+<li><strong>Process Accountability Chart (PACe):</strong> This delineates the four to nine key processes that drive the business and assigns accountability for each process, helping the business run smoothly. The “e” in both FACe and PACe represents the “energy and entrepreneurial spirit” necessary to scale up a business.</li>
+</ol>
+</section>
+<section id="talent-acquisition-and-development" class="level3" data-number="25.1.3">
+<h3 data-number="25.1.3" class="anchored" data-anchor-id="talent-acquisition-and-development"><span class="header-section-number">25.1.3</span> <strong>Talent Acquisition and Development</strong></h3>
+<p>A major barrier to scaling up is <strong>Leadership</strong>, specifically “the inability to staff/grow enough leaders throughout the organization”. Therefore, attracting and retaining the right talent is critical.</p>
+<ul>
+<li><strong>Hiring:</strong> Companies should employ <strong>Topgrading</strong> methodology and use a <strong>Job Scorecard</strong> rather than a standard job description. The Job Scorecard details the job’s purpose, desired outcomes, and required competencies (cultural and technical).<br>
+</li>
+<li><strong>A Players:</strong> When hiring, the criteria should be ranked (in order): <strong>Will, Values, Results, and Skill</strong>. Skills are considered the least important because “most skill-sets need updating every 5 years”.<br>
+</li>
+<li><strong>Culture Fit:</strong> It is critical to hire for <strong>culture fit</strong> (alignment with Core Values) over specific skills, as cultures are like immune systems and will “spit out very capable people who don’t align with its norms”. Recruiting requires a strong marketing function to attract enough qualified applicants (ideally 20 applicants per position).<br>
+</li>
+<li><strong>Coaching and Management:</strong> Great managers should be viewed as <strong>coaches</strong>. Managers need to focus on practices like setting clear expectations, helping people play to their strengths, giving recognition, and paying higher wages.<br>
+</li>
+<li><strong>Education:</strong> Ongoing investment in education is critical so that “the company doesn’t outgrow them”. Training and coaching investments provide the best returns available to the business. Formal orientation (“onboarding”) is essential for inculcating new hires into the company’s culture and emphasizing Core Values and Purpose.</li>
+</ul>
+</section>
+<section id="people-and-the-core-of-the-strategy" class="level3" data-number="25.1.4">
+<h3 data-number="25.1.4" class="anchored" data-anchor-id="people-and-the-core-of-the-strategy"><span class="header-section-number">25.1.4</span> <strong>People and the Core of the Strategy</strong></h3>
+<p>The Core of the organization—its Values, Purpose, and Competencies—provides the linkage between the People and Strategy decisions.</p>
+<ul>
+<li><strong>Core Values:</strong> These are the “handful of rules” defining the company’s culture and personality. Core Values provide a final <strong>“Should/Shouldn’t” test</strong> for all decisions. If Core Values are effectively discovered and used, they “guide all the relationship decisions and systems in the company”.<br>
+</li>
+<li><strong>Purpose:</strong> This provides the <strong>“why”</strong> behind everything the company does (“what difference is your company making in the world?”).<br>
+</li>
+<li><strong>Bringing the Core Alive:</strong> Leaders must align all Human Resources (People) systems and processes around the Core Values and Purpose. This includes utilizing them in recruitment, selection, onboarding, performance appraisals, recognition, and reward categories. Managers should consistently tie praise or reprimands back to a Core Value or the Purpose.</li>
+</ul>
+<p>Ultimately, the strength of the People comes from having the right leadership doing the right things right (FACe), supported by the right systems and processes (PACe). Scaling Up successfully requires attracting and keeping the right people to “weather the storms” and drive growth.</p>
+</section>
+</section>
+<section id="strategy" class="level2" data-number="25.2">
+<h2 data-number="25.2" class="anchored" data-anchor-id="strategy"><span class="header-section-number">25.2</span> Strategy</h2>
+<section id="the-key-question-for-strategy" class="level3" data-number="25.2.1">
+<h3 data-number="25.2.1" class="anchored" data-anchor-id="the-key-question-for-strategy"><span class="header-section-number">25.2.1</span> <strong>The Key Question for Strategy</strong></h3>
+<p>The fundamental <strong>Key Question</strong> that anchors the Strategy decision in the 4 Decisions framework is:</p>
+<p><strong>“Can you state your firm’s strategy simply — and is it driving sustainable growth in revenue and gross margins?”</strong></p>
+<p>This single question immediately ties the abstract concept of strategy to tangible, measurable financial results: <strong>sustainable growth in revenue and increasing gross margins</strong>.</p>
+</section>
+<section id="strategys-role-in-the-larger-framework" class="level3" data-number="25.2.2">
+<h3 data-number="25.2.2" class="anchored" data-anchor-id="strategys-role-in-the-larger-framework"><span class="header-section-number">25.2.2</span> <strong>Strategy’s Role in the Larger Framework</strong></h3>
+<p>Strategy is one of the four key decision sets—People, Strategy, Execution, and Cash—that leaders must get “absolutely right” to successfully scale a business and maximize opportunity.</p>
+<p>The sources emphasize that if a company does not have a “killer strategy,” it will face continuous <strong>price pressures</strong> as the market commoditizes its offerings. Furthermore, great execution is useless if the strategy is fundamentally flawed, as one leader learned, noting that great execution “won’t get you anywhere if your strategy is wrong”.</p>
+</section>
+<section id="answering-the-key-question-through-strategic-tools" class="level3" data-number="25.2.3">
+<h3 data-number="25.2.3" class="anchored" data-anchor-id="answering-the-key-question-through-strategic-tools"><span class="header-section-number">25.2.3</span> <strong>Answering the Key Question through Strategic Tools</strong></h3>
+<p>The process of answering the Strategy Key Question involves using specific tools and routines designed to sharpen the company’s competitive edge.</p>
+<section id="simplicity-and-communication" class="level4" data-number="25.2.3.1">
+<h4 data-number="25.2.3.1" class="anchored" data-anchor-id="simplicity-and-communication"><span class="header-section-number">25.2.3.1</span> <strong>Simplicity and Communication</strong></h4>
+<p>A successful strategy must be <strong>simple</strong> enough to be stated clearly. This simplicity is captured in the tools used for strategic planning:</p>
+<ul>
+<li><strong>The Vision Summary:</strong> This tool provides a simplified version of the strategic plan, helping firms communicate the key aspects of the company’s vision to employees, customers, investors, and the broader community.<br>
+</li>
+<li><strong>The One-Page Strategic Plan (OPSP):</strong> The OPSP is the key tool used to capture the entire strategic vision, demanding conciseness due to limited space, thus forcing prioritization and simplicity. The OPSP integrates various strategic concepts and is designed to drive alignment, accountability, and focus.</li>
+</ul>
+</section>
+<section id="driving-sustainable-growth-financial-metrics" class="level4" data-number="25.2.3.2">
+<h4 data-number="25.2.3.2" class="anchored" data-anchor-id="driving-sustainable-growth-financial-metrics"><span class="header-section-number">25.2.3.2</span> <strong>Driving Sustainable Growth (Financial Metrics)</strong></h4>
+<p>The Key Question specifically measures success by <strong>sustainable top-line revenue growth and increasing gross margin dollars</strong>.</p>
+<ul>
+<li>If a strategy is working, growth and margins should come “almost effortlessly”. If growth is not sustained or margins are eroding, it indicates a need to re-evaluate the strategy.<br>
+</li>
+<li>The Strategy section guides leaders to focus on <strong>gross margin dollars</strong> as the “true top line” of many firms. Increasing gross margins often requires refining the strategy to maintain sufficient <strong>differentiation and uniqueness</strong> in the offering.</li>
+</ul>
+</section>
+<section id="strategic-differentiation" class="level4" data-number="25.2.3.3">
+<h4 data-number="25.2.3.3" class="anchored" data-anchor-id="strategic-differentiation"><span class="header-section-number">25.2.3.3</span> <strong>Strategic Differentiation</strong></h4>
+<p>To drive sustainable growth and increasing gross margins, the strategy must be truly <strong>differentiated</strong>. Gary Hamel’s definition is referenced, stating that a real strategy must pass two tests: first, what the company plans to do “really matters to enough customers;” and second, it <strong>differentiates</strong> the company from the competition.</p>
+<p>The most robust framework for developing this differentiation is the <strong>7 Strata of Strategy</strong>:</p>
+<ol type="1">
+<li><strong>Words You Own (Mindshare):</strong> Identifying the word(s) the firm owns in the minds of its core customers.<br>
+</li>
+<li><strong>Sandbox and Brand Promises:</strong> Defining the core customer (Who/Where), what is being sold (What), and the measurable Brand Promises the firm is making (Kept Promise Indicators).<br>
+</li>
+<li><strong>Brand Promise Guarantee:</strong> Creating a catalytic mechanism to guarantee those promises.<br>
+</li>
+<li><strong>One-PHRASE Strategy:</strong> Identifying the key lever that drives profitability and blocks competition by making strategic trade-offs (daring to be “bad” at some things).<br>
+</li>
+<li><strong>Differentiating Activities (3 to 5 Hows):</strong> Defining the specific activities—how the business executes—that are difficult for rivals to copy.<br>
+</li>
+<li><strong>X-Factor (10x–100x Underlying Advantage):</strong> Identifying a hidden, often invisible, underlying competitive advantage that completely neutralizes rivals.<br>
+</li>
+<li><strong>Profit per X and BHAG®:</strong> Defining the overarching economic driver (Profit per X) and the measurable 10-to 25-year goal (BHAG®) that align with the strategy.</li>
+</ol>
+<p>Successful strategy requires balancing the pursuit of these elements, ensuring that growth comes from a well-defined and defended niche.</p>
+</section>
+</section>
+<section id="the-strategy-routine" class="level3" data-number="25.2.4">
+<h3 data-number="25.2.4" class="anchored" data-anchor-id="the-strategy-routine"><span class="header-section-number">25.2.4</span> <strong>The Strategy Routine</strong></h3>
+<p>Answering the Key Question and developing the strategy is not a one-time event; it requires continuous strategic engagement:</p>
+<ul>
+<li><strong>Strategic Thinking vs.&nbsp;Execution Planning:</strong> Strategy requires separating these two activities, engaging a “council” of senior leaders to focus on strategic thinking (meeting weekly) and involving a larger team, including middle and frontline managers, for execution planning.<br>
+</li>
+<li><strong>SWT Analysis:</strong> Senior leaders use the <strong>SWT (Strengths, Weaknesses, and Trends)</strong> analysis to look beyond industry challenges and spot major trends that could disrupt the business, helping them maintain prediction capabilities.<br>
+</li>
+<li><strong>The Culture Connection:</strong> The Strategy discussion begins with the organization’s <strong>Core (Values, Purpose, and Competencies)</strong>, which provides the foundation for an effective strategy. A weakened culture (People decision) can “torpedo any strategy”.<br>
+</li>
+<li><strong>Repetition:</strong> The strategy elements (like the BHAG® and Purpose) must be repeatedly communicated by leadership to keep the organization aligned and heading in the same direction.</li>
+</ul>
+</section>
+<section id="the-role-of-the-core-in-strategy" class="level3" data-number="25.2.5">
+<h3 data-number="25.2.5" class="anchored" data-anchor-id="the-role-of-the-core-in-strategy"><span class="header-section-number">25.2.5</span> <strong>The Role of the Core in Strategy</strong></h3>
+<p>A <strong>strong Core is the foundation for an effective strategy</strong>. Without it, the organization risks instability from cultural challenges, loss of focus, disengagement, and lack of heart, which can cause the business to experience the “proverbial wheels flying off as the business speeds down the highway”. Ultimately, a <strong>weakened culture (derived from the Core) will torpedo any strategy</strong>.</p>
+<p>The Core attributes anchor the left side of the <strong>One-Page Strategic Plan (OPSP)</strong>, forming the letter “C” for Core, and represent the heart and soul of the organization. The Core aligns with the “preserve the core” aspect of Jim Collins’s dual dynamic of “preserve the core/stimulate progress,” as the Core elements should hold steady over time.</p>
+</section>
+<section id="components-of-the-core" class="level3" data-number="25.2.6">
+<h3 data-number="25.2.6" class="anchored" data-anchor-id="components-of-the-core"><span class="header-section-number">25.2.6</span> <strong>Components of the Core</strong></h3>
+<p>The Core consists of three main elements:</p>
+<section id="core-values-the-soul" class="level4" data-number="25.2.6.1">
+<h4 data-number="25.2.6.1" class="anchored" data-anchor-id="core-values-the-soul"><span class="header-section-number">25.2.6.1</span> <strong>Core Values (The Soul)</strong></h4>
+<p>Core Values are the handful of rules and boundaries that <strong>define the company’s culture and personality</strong>.</p>
+<ul>
+<li><strong>Function:</strong> Core Values provide a final <strong>“Should/Shouldn’t” test for all the behaviors and decisions</strong> made by everyone in the firm. If effectively discovered and used, these values guide all the relationship decisions and systems in the company. When values fully permeate the company, management gains the confidence to delegate tasks, trusting that employees will know the right things to do when faced with a decision or ethical dilemma.<br>
+</li>
+<li><strong>Discovery, Not Creation:</strong> Discerning the Core Values is a <strong>DISCOVERY process</strong>, not the creation of a wish list. Trying to force a change in a firm’s Core Values is difficult and often unsuccessful, similar to trying to force a child into a mold. They just <em>are</em>, and the key is to articulate them accurately.<br>
+</li>
+<li><strong>Examples:</strong> Values are best expressed as phrases, not single words (e.g., Disney’s “Preservation and control of the Disney magic”).<br>
+</li>
+<li><strong>Alignment:</strong> Core Values should be reinforced through People (HR) systems daily. All Human Resources (HR) processes and activities (hiring, orientation, appraisal, recognition, etc.) must align with the Core Values and Purpose.</li>
+</ul>
+</section>
+<section id="core-purpose-the-heart" class="level4" data-number="25.2.6.2">
+<h4 data-number="25.2.6.2" class="anchored" data-anchor-id="core-purpose-the-heart"><span class="header-section-number">25.2.6.2</span> <strong>Core Purpose (The Heart)</strong></h4>
+<p>The Core Purpose answers the “Why?”.</p>
+<ul>
+<li><strong>Function:</strong> It expresses <strong>what difference the company is making in the world</strong> and provides the meaning and passion behind everyone’s efforts. It is more heartfelt than the term “mission”.<br>
+</li>
+<li><strong>Discovery:</strong> To discern the Purpose, a team starts by asking “What do we do?” and then repeatedly asks “Why?” (the five whys technique) until they land on the deep reason the company exists, such as Gazelles’ focus on “freedom”.<br>
+</li>
+<li><strong>Pitfall:</strong> Teams often mistake <strong>Brand Promises</strong> (attributes of a product or service) for Purpose.<br>
+</li>
+<li><strong>Communication:</strong> The Purpose should lead to a “stump speech” that the CEO shares repeatedly to remind everyone of the big picture and “why we do what we do”.</li>
+</ul>
+</section>
+<section id="core-competencies-inherent-strengths" class="level4" data-number="25.2.6.3">
+<h4 data-number="25.2.6.3" class="anchored" data-anchor-id="core-competencies-inherent-strengths"><span class="header-section-number">25.2.6.3</span> <strong>Core Competencies (Inherent Strengths)</strong></h4>
+<p>Core Competencies relate to the company’s inherent strengths.</p>
+<ul>
+<li><strong>Function:</strong> Understanding inherent strengths is essential, just as understanding core weaknesses (what the company is inherently incapable of doing) is. Core Competencies provide boundaries for determining which products and services the company should pursue and help determine how to differentiate the company in the marketplace.<br>
+</li>
+<li><strong>Attributes:</strong> According to Prahalad and Hamel, a Core Competency must have three attributes: it must not be easy for competitors to imitate; it can be reused widely for many products and markets; and it must contribute to the benefits and value the end customer experiences.<br>
+</li>
+<li><strong>Avoid Narrowness:</strong> Leaders should avoid defining Core Competencies too narrowly; for example, BIC’s strength is “making disposable plastic anything,” not just cheap pens.</li>
+</ul>
+</section>
+</section>
+<section id="bringing-the-core-alive" class="level3" data-number="25.2.7">
+<h3 data-number="25.2.7" class="anchored" data-anchor-id="bringing-the-core-alive"><span class="header-section-number">25.2.7</span> <strong>Bringing the Core Alive</strong></h3>
+<p>To ensure the Core is “alive” in the organization, leaders must align all HR systems and processes around these attributes. Eight ways to reinforce the Core include:</p>
+<ol type="1">
+<li><strong>Storytelling:</strong> Using stories or “legends” to explain the Core Values, often collected quarterly through events like a Core Values Hall of Fame.<br>
+</li>
+<li><strong>Recruitment and Selection:</strong> Designing interview questions and assessments to test candidates’ alignment with Core Values (hiring for culture fit).<br>
+</li>
+<li><strong>Onboarding Process:</strong> Designing the orientation process around teaching the company’s Values and Purpose to quickly integrate new hires into the culture.<br>
+</li>
+<li><strong>Performance Appraisals and Handbooks:</strong> Using Core Values as the framework for performance appraisal systems and organizing employee handbooks into sections around each Core Value.<br>
+</li>
+<li><strong>Recognition and Rewards:</strong> Organizing recognition and reward categories around Core Values.<br>
+</li>
+<li><strong>Newsletters:</strong> Highlighting one Core Value in each issue, incorporating stories about people living the values.<br>
+</li>
+<li><strong>Themes:</strong> Using Core Values to bring attention to corporate improvement efforts, such as making a Value the quarterly theme.<br>
+</li>
+<li><strong>Everyday Reinforcement:</strong> Managers must consistently tie praise or reprimands back to a Core Value or the Purpose.</li>
+</ol>
+</section>
+<section id="strategic-context-and-function" class="level3" data-number="25.2.8">
+<h3 data-number="25.2.8" class="anchored" data-anchor-id="strategic-context-and-function"><span class="header-section-number">25.2.8</span> <strong>Strategic Context and Function</strong></h3>
+<p>The 7 Strata of Strategy framework is intended for <strong>strategic thinking</strong>, which is one of the two distinct activities that make up strategic planning (the other being execution planning).</p>
+<ul>
+<li><strong>Relationship to OPSP:</strong> The 7 Strata is considered the <strong>“page behind the page”</strong> for the <strong>One-Page Strategic Plan (OPSP)</strong>. It serves as a robust strategic-thinking tool, the conclusions of which are summarized in columns 2 and 3 of the OPSP (covering the Sandbox, Brand Promises, Profit per X, and BHAG®). It helps define the complete brand, ensuring everything aligns with it.<br>
+</li>
+<li><strong>Target Audience:</strong> Strategic thinking, guided by the 7 Strata, requires a separate team222]. By demanding a comprehensive set of decisions, the 7 Strata helps companies avoid simple, generalized definitions of strategy and forces the strategic trade-offs needed for high profitability.</li>
+</ul>
+</section>
+<section id="the-seven-strata-components" class="level3" data-number="25.2.9">
+<h3 data-number="25.2.9" class="anchored" data-anchor-id="the-seven-strata-components"><span class="header-section-number">25.2.9</span> <strong>The Seven Strata (Components)</strong></h3>
+<p>The sources detail seven interconnected components (stratum) that constitute a robust strategy:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>#</th>
+<th>Stratum Name</th>
+<th>Focus and Key Decisions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td><strong>Words You Own (Mindshare)</strong></td>
+<td>Identify the <strong>word(s) the firm owns in the minds of its targeted customers</strong>. This stratum is crucial for driving revenue. Owning words that matter is essential for dominating search engines, as 87% of all customers search the internet to find purchasing options. Example: Google owns “search”.</td>
+</tr>
+<tr class="even">
+<td><strong>2</strong></td>
+<td><strong>Sandbox and Brand Promises</strong></td>
+<td>Determine the <strong>core customers</strong> (Who/Where), <strong>what</strong> is being sold (beyond mere features/benefits), and the <strong>three measurable Brand Promises</strong> being made. This stratum also requires defining <strong>Kept Promise Indicators (KPIs)</strong> to measure whether the company is keeping those promises (e.g., Rackspace measures <strong>uptime</strong> and <strong>calls answered in three rings or fewer</strong>).</td>
+</tr>
+<tr class="odd">
+<td><strong>3</strong></td>
+<td><strong>Brand Promise Guarantee (Catalytic Mechanism)</strong></td>
+<td>Define a <strong>catalytic mechanism</strong> or guarantee that backs up the Brand Promises. This is designed to hold the organization accountable and assure customers. Example: Oracle advertised a chance to win $10 million if its Exadata servers did not outperform the competition by a factor of five.</td>
+</tr>
+<tr class="even">
+<td><strong>4</strong></td>
+<td><strong>One-PHRASE Strategy (Key to Making Money)</strong></td>
+<td>Identify the <strong>key lever</strong> in the business model that <strong>drives profitability</strong> and <strong>blocks competition</strong>. This phrase represents the strategic trade-off, where the company dares to be <strong>“bad”</strong> at some things to be great at others, risking alienating potential customers to focus on the profitable market segment. Example: Apple’s “closed system”.</td>
+</tr>
+<tr class="odd">
+<td><strong>5</strong></td>
+<td><strong>Differentiating Activities (3 to 5 Hows)</strong></td>
+<td>Define the <strong>three to five specific activities</strong> (the <em>How</em>) that underpin the One-PHRASE Strategy and are difficult for rivals to copy. Differentiation occurs at this activity level. Example: IKEA’s furniture needs assembly; Southwest Airlines flies only one type of aircraft and uses point-to-point flights.</td>
+</tr>
+<tr class="even">
+<td><strong>6</strong></td>
+<td><strong>X-Factor (10x–100x Underlying Advantage)</strong></td>
+<td>Identify a <strong>hidden, underlying competitive advantage</strong> that is 10 to 100 times greater than the competition. This advantage is usually invisible to customers and serves to neutralize all rivals. It typically addresses a huge, established choke point or problem in the industry.</td>
+</tr>
+<tr class="odd">
+<td><strong>7</strong></td>
+<td><strong>Profit per X (Economic Engine) and BHAG® (10-to 25-year goal)</strong></td>
+<td>Define the <strong>overarching economic driver</strong> (Profit per X) and the measurable, long-term <strong>Big Hairy Audacious Goal (BHAG®)</strong>. Both come straight from Jim Collins. The BHAG® should align with and be measured in the same units as the X in “Profit per X”.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="strategy-implementation-and-alignment" class="level3" data-number="25.2.10">
+<h3 data-number="25.2.10" class="anchored" data-anchor-id="strategy-implementation-and-alignment"><span class="header-section-number">25.2.10</span> <strong>Strategy Implementation and Alignment</strong></h3>
+<p>The Strategy decision, supported by the 7 Strata, must be firmly anchored in the organization’s Core (Values, Purpose, and Competencies). The successful application of the 7 Strata framework requires:</p>
+<ul>
+<li><strong>Iteration:</strong> The strategic thinking team should constantly iterate on these elements, making a few decisions, testing them, and returning to the discussion the following week.<br>
+</li>
+<li><strong>Competitive Analysis:</strong> As the team works through the 7 Strata, they are encouraged to discuss how the competition might fill in each level to gain additional market insight.<br>
+</li>
+<li><strong>The Payoff:</strong> Leaders will know they are on the right track when <strong>sustainable revenue growth and great margins</strong> begin to come “almost effortlessly”. The framework, while difficult work, drives the exact kinds of strategies that help companies dominate their industries, like BuildDirect.com.</li>
+</ul>
+</section>
+<section id="core-strategic-planning-tools" class="level3" data-number="25.2.11">
+<h3 data-number="25.2.11" class="anchored" data-anchor-id="core-strategic-planning-tools"><span class="header-section-number">25.2.11</span> <strong>Core Strategic Planning Tools</strong></h3>
+<p>The Strategy section covers four main one-page tools, which are continuously improved based on feedback from the community of growth company executives.</p>
+<section id="the-7-strata-of-strategy" class="level4" data-number="25.2.11.1">
+<h4 data-number="25.2.11.1" class="anchored" data-anchor-id="the-7-strata-of-strategy"><span class="header-section-number">25.2.11.1</span> <strong>The 7 Strata of Strategy</strong></h4>
+<p>The 7 Strata of Strategy is highlighted as a <strong>robust strategic-thinking tool</strong> and a <strong>comprehensive framework</strong> for constructing an industry-dominating plan.</p>
+<ul>
+<li><strong>Function:</strong> It guides strategic thinking by integrating best-known strategic concepts (from figures like Michael Porter and Jim Collins) into a single framework. Its primary purpose is to help companies craft the kind of <strong>differentiation and barriers</strong> that allow them to <strong>dominate their niche</strong> in the marketplace.<br>
+</li>
+<li><strong>Relationship to OPSP:</strong> The 7 Strata framework is considered the <strong>“page behind the page”</strong> for the One-Page Strategic Plan (OPSP). It is where the strategic <em>thinking</em> happens, and the resulting decisions are summarized in the OPSP.<br>
+</li>
+<li><strong>Components:</strong> The tool consists of seven interconnected components, which define the complete brand, ensuring everything aligns with it. These components include defining the <strong>Words You Own</strong>, the <strong>Sandbox and Brand Promises</strong>, the <strong>One-PHRASE Strategy</strong>, and the <strong>X-Factor</strong> (a 10x–100x underlying advantage).</li>
+</ul>
+</section>
+<section id="the-one-page-strategic-plan-opsp" class="level4" data-number="25.2.11.2">
+<h4 data-number="25.2.11.2" class="anchored" data-anchor-id="the-one-page-strategic-plan-opsp"><span class="header-section-number">25.2.11.2</span> <strong>The One-Page Strategic Plan (OPSP)</strong></h4>
+<p>The OPSP is the best-known and most widely used strategic tool, designed to drive alignment, accountability, and focus across the organization.</p>
+<ul>
+<li><strong>Function:</strong> It acts as a single, action-oriented page that captures the entire strategic vision, forcing prioritization and simplicity due to limited space. It integrates various visioning frameworks from thought leaders.<br>
+</li>
+<li><strong>Structure:</strong> The OPSP is structured around seven basic questions (Who, What, When, Where, How, Why, and Should/Shouldn’t).
+<ul>
+<li>The first three columns (the Core) represent the <strong>strategic thinking</strong> part of the plan, supported by the 7 Strata work, which holds steady over time.<br>
+</li>
+<li>The remaining columns represent the more dynamic <strong>execution planning</strong> part, stimulating progress.<br>
+</li>
+</ul></li>
+<li><strong>Alignment:</strong> If a team wants everyone to be aligned on the same page, they need the OPSP first.</li>
+</ul>
+</section>
+<section id="vision-summary" class="level4" data-number="25.2.11.3">
+<h4 data-number="25.2.11.3" class="anchored" data-anchor-id="vision-summary"><span class="header-section-number">25.2.11.3</span> <strong>Vision Summary</strong></h4>
+<p>The Vision Summary is a simplified version of the OPSP.</p>
+<ul>
+<li><strong>Function:</strong> It is especially useful for companies just starting with the Rockefeller Habits or for firms with 50 or fewer employees. For larger firms using the detailed OPSP, the Vision Summary provides a succinct, visually pleasing one-page format to <strong>communicate key aspects of the company’s vision</strong> to stakeholders, including employees, customers, and investors.</li>
+</ul>
+</section>
+<section id="swt-strengths-weaknesses-and-trends" class="level4" data-number="25.2.11.4">
+<h4 data-number="25.2.11.4" class="anchored" data-anchor-id="swt-strengths-weaknesses-and-trends"><span class="header-section-number">25.2.11.4</span> <strong>SWT (Strengths, Weaknesses, and Trends)</strong></h4>
+<p>The SWT analysis is an updated strategic planning preparation tool that replaces or augments the standard SWOT analysis.</p>
+<ul>
+<li><strong>Function:</strong> While SWOT often leads leaders to look inward (inside/industry myopia), the <strong>SWT focuses on exploring broader external Trends</strong> beyond their industry or geography. This tool helps senior leaders spot opportunities before the competition and maintain prediction capabilities.<br>
+</li>
+<li><strong>Usage:</strong> SWT is specifically recommended for <strong>senior leaders</strong> engaged in strategic thinking, while the traditional SWOT remains useful for <strong>middle management</strong> focused on execution planning and internal operations. The trends identified in the SWT analysis are meant to anchor the “stimulate progress” side of the OPSP.</li>
+</ul>
+</section>
+</section>
+<section id="related-tools-and-routines" class="level3" data-number="25.2.12">
+<h3 data-number="25.2.12" class="anchored" data-anchor-id="related-tools-and-routines"><span class="header-section-number">25.2.12</span> <strong>Related Tools and Routines</strong></h3>
+<p>Beyond the four core strategic worksheets, other tools and routines reinforce the Strategy decision:</p>
+<ul>
+<li><strong>Core (Values, Purpose, and Competencies):</strong> These three foundational attributes, which anchor Column 1 of the OPSP, are essential for strategy. <strong>Core Values</strong> act as a <strong>Should/Shouldn’t test</strong> for decisions, and articulating the Core prevents culture drift, which can <strong>torpedo any strategy</strong>.<br>
+</li>
+<li><strong>The Council:</strong> This is a routine, not a document, where a handful of senior leaders meet <strong>weekly</strong> to focus on <strong>strategic thinking</strong> using the 7 Strata and other frameworks. It is separate from standard executive meetings.<br>
+</li>
+<li><strong>BHAG® (Big Hairy Audacious Goal):</strong> This 10-to 25-year goal is a crucial strategic tool. The best unit of measure for the BHAG® is often aligned with the <strong>Profit per X</strong>, which is itself a strategic KPI representing the core economic engine of the business.<br>
+</li>
+<li><strong>SWT and SWOT:</strong> The results of both analyses should be summarized along the bottom of the OPSP, serving as the foundation upon which the vision is built.<br>
+</li>
+<li><strong>4Ps and 4Es of Marketing:</strong> These frameworks (Product, Price, Place, Promotion; and Experience, Exchange, Everyplace, Evangelism) are other key guiding frameworks used alongside the 7 Strata for strategic thinking. Pricing, specifically, tends to be a neglected but important strategic decision.</li>
+</ul>
+</section>
+</section>
+<section id="execution" class="level2" data-number="25.3">
+<h2 data-number="25.3" class="anchored" data-anchor-id="execution"><span class="header-section-number">25.3</span> Execution</h2>
+<section id="the-core-mandate-of-execution" class="level3" data-number="25.3.1">
+<h3 data-number="25.3.1" class="anchored" data-anchor-id="the-core-mandate-of-execution"><span class="header-section-number">25.3.1</span> <strong>The Core Mandate of Execution</strong></h3>
+<p>The overarching <strong>Key Question</strong> guiding the Execution decision is: <strong>“Are all processes running without drama and driving industry-leading profitability?”</strong>.</p>
+<p>The sources emphasize that Execution is rooted in <strong>three fundamental disciplines (routines)</strong>, which collectively make up the 10 Rockefeller Habits:</p>
+<ol type="1">
+<li><strong>Priorities:</strong> Less is more in driving focus and alignment.<br>
+</li>
+<li><strong>Data:</strong> Gathering qualitative and quantitative feedback provides clarity and foresight.<br>
+</li>
+<li><strong>Meeting Rhythm:</strong> Establishing a routine of meetings acts as the “heartbeat of the organization” to facilitate better and faster decisions.</li>
+</ol>
+<p>Successfully implementing these disciplines helps organizations achieve several outcomes, including reducing the time the top team spends on operational activities by 80%, and eventually resulting in the company attaining <strong>triple the industry average profitability</strong>.</p>
+</section>
+<section id="key-components-and-tools-for-scaling-up-execution" class="level3" data-number="25.3.2">
+<h3 data-number="25.3.2" class="anchored" data-anchor-id="key-components-and-tools-for-scaling-up-execution"><span class="header-section-number">25.3.2</span> <strong>Key Components and Tools for Scaling Up Execution</strong></h3>
+<p>Execution relies on embedding specific habits and routines throughout the organization, largely captured by the <strong>Rockefeller Habits Checklist™</strong>:</p>
+<section id="priorities-habits-1-2-4-7-8" class="level4" data-number="25.3.2.1">
+<h4 data-number="25.3.2.1" class="anchored" data-anchor-id="priorities-habits-1-2-4-7-8"><span class="header-section-number">25.3.2.1</span> <strong>Priorities (Habits #1, #2, #4, #7, #8)</strong></h4>
+<p>Execution starts with setting clear priorities, both long-term and short-term.</p>
+<ul>
+<li><strong>Rockefeller Habit #1: Healthy Team:</strong> The foundation of Execution is a <strong>healthy and aligned executive team</strong>. The team must have a level of trust that permits <strong>true debate and constructive conflict</strong> and is willing to challenge each other while embracing diversity. If this habit doesn’t exist, it must be addressed first before tackling any other aspect of execution.<br>
+</li>
+<li><strong>Rockefeller Habit #2: The #1 Priority:</strong> Everyone must be aligned with the <strong>single most important thing</strong> to be accomplished this quarter to move the company forward. This primary goal is called the <strong>Critical Number</strong>. The quarterly goal must be supported by three to five <strong>Rocks</strong> (priorities) and wrapped in a fun, rallying <strong>Quarterly Theme</strong> with associated rewards to provide a finish line.<br>
+</li>
+<li><strong>Wasted Focus:</strong> Organizations with too many priorities risk accomplishing nothing of significance. The Critical Number functions as the “lead domino” that, when pursued, makes it easier to accomplish everything else, addressing the business constraint or choke point.</li>
+</ul>
+</section>
+<section id="data-habits-5-6-9-10" class="level4" data-number="25.3.2.2">
+<h4 data-number="25.3.2.2" class="anchored" data-anchor-id="data-habits-5-6-9-10"><span class="header-section-number">25.3.2.2</span> <strong>Data (Habits #5, #6, #9, #10)</strong></h4>
+<p>Execution demands both quantitative and qualitative data to power prediction and guide decisions.</p>
+<ul>
+<li><strong>Rockefeller Habit #5: Gather Employee Input:</strong> Ongoing qualitative input must be collected from employees, especially frontline staff who are “closer to the action”. Executives and middle managers should hold weekly <strong>Start/Stop/Keep conversations</strong> with at least one employee. The “stop doing” responses are particularly important as they identify roadblocks that destroy employee motivation. A middle-management team should be responsible for closing the loop on suggestions to prevent ideas from failing due to lack of time.<br>
+</li>
+<li><strong>Rockefeller Habit #6: Gather Customer Input:</strong> Reporting and analysis of customer feedback must be as frequent and accurate as financial data. All managers should have a <strong>4 Questions (4Q) conversation</strong> with at least one end user weekly, focusing on market intelligence, competitors, and industry trends, not just product satisfaction. Great companies spend approximately <strong>20% of their weekly leadership meeting discussing customer feedback</strong>.<br>
+</li>
+<li><strong>Rockefeller Habit #9: Individual/Team Critical Numbers:</strong> Every employee must be able to answer quantitatively whether they had a good day or week. This requires clear, measurable <strong>KPIs</strong> (Key Performance Indicators) and priorities (Rocks) for each person or team that align with the company’s vision.<br>
+</li>
+<li><strong>Rockefeller Habit #10: Scoreboards Everywhere:</strong> Company plans and performance must be visible to everyone, often utilizing a “situation room” (physical or virtual). Large, visible scoreboards displaying current progress on KPIs and Critical Numbers prevent managers from hiding or keeping secrets. Dedicated systems like Align can track cascading Priorities and KPIs.</li>
+</ul>
+</section>
+<section id="meeting-rhythm-habit-3" class="level4" data-number="25.3.2.3">
+<h4 data-number="25.3.2.3" class="anchored" data-anchor-id="meeting-rhythm-habit-3"><span class="header-section-number">25.3.2.3</span> <strong>Meeting Rhythm (Habit #3)</strong></h4>
+<p>A disciplined rhythm of meetings is essential to address the <strong>#1 challenge—communications</strong>—and accelerate decision-making.</p>
+<ul>
+<li><strong>Rockefeller Habit #3:</strong> Communication rhythm is established and information moves accurately and quickly through: <strong>daily huddles, weekly meetings, and monthly/quarterly/annual offsites</strong>.<br>
+</li>
+<li><strong>The Daily Huddle:</strong> A 5- to 15-minute meeting to discuss tactical issues and updates. The agenda includes sharing <strong>What’s up</strong> (specifics for the next 24 hours), <strong>Daily metrics</strong> (quantitative data), and <strong>Stucks/Constraints</strong> (choke points or concerns). This huddle helps teams avoid minor train wrecks and saves time otherwise spent on email updates and interruptions.<br>
+</li>
+<li><strong>The Weekly Meeting:</strong> A 60- to 90-minute discussion to review progress on quarterly priorities and address one or two main topics using collective intelligence. The meeting should dedicate time to customer and employee feedback. Meetings should conclude with a summary of <strong>Who, What, When (WWW)</strong> to ensure clear accountability and commitment.<br>
+</li>
+<li><strong>The Monthly Management Meeting:</strong> A half- to full-day meeting for senior, middle, and frontline managers to address bigger issues and execute <strong>DNA transfer</strong> (knowledge, values, approach) from upper to middle management, helping middle managers act as “mini-CEOs”.<br>
+</li>
+<li><strong>The Quarterly and Annual Planning Meetings:</strong> One- to three-day offsite sessions focused on updating the Growth Tools and setting the next quarterly/annual Critical Number/Theme.</li>
+</ul>
+</section>
+</section>
+<section id="execution-and-infrastructure" class="level3" data-number="25.3.3">
+<h3 data-number="25.3.3" class="anchored" data-anchor-id="execution-and-infrastructure"><span class="header-section-number">25.3.3</span> <strong>Execution and Infrastructure</strong></h3>
+<p>The execution barrier is closely linked to the barrier of <strong>Scalable Infrastructure</strong>, which is defined as the lack of systems and structures (physical and organizational) needed to handle the increasing complexities in communication and decision-making that come with growth.</p>
+<p>Execution tools address this by focusing on making processes streamlined and drama-free:</p>
+<ul>
+<li><strong>PACe (Process Accountability Chart):</strong> This tool identifies the four to nine key processes (e.g., recruitment, product development) that drive the business and assigns accountability for each process, utilizing principles like <strong>Lean management</strong> to eliminate wasteful steps.<br>
+</li>
+<li><strong>Checklists:</strong> These are vital for key parts of the processes, ensuring that minimum necessary steps are followed and preventing mental flaws inherent in complexity.</li>
+</ul>
+</section>
+</section>
+<section id="cash" class="level2" data-number="25.4">
+<h2 data-number="25.4" class="anchored" data-anchor-id="cash"><span class="header-section-number">25.4</span> Cash</h2>
+<p><strong>The Core Mandate of the Cash Decision</strong></p>
+<p>The overarching <strong>Key Question</strong> guiding the Cash decision is: <strong>“Do you have consistent sources of cash, ideally generated internally, to fuel the growth of your business?”</strong>.</p>
+<p>The sources emphasize the <strong>First Law of Entrepreneurial Gravity</strong>: <strong>“Growth sucks cash”</strong>. Nothing ages a CEO and their team faster than being short of cash. Successfully managing Cash means <strong>“don’t run out of it!”</strong>.</p>
+<p>While a company can temporarily succeed with decent People, Strategy, and Execution, it cannot last “a day without Cash”. Therefore, leaders must pay as much attention to how every decision affects cash flow as they do to revenue and profitability.</p>
+<p>Great companies, by choice, hold <strong>three to 10 times more cash assets</strong> than the industry average to weather storms. This capability allows them to self-fund growth.</p>
+<section id="key-components-and-tools-for-scaling-up-cash" class="level3" data-number="25.4.1">
+<h3 data-number="25.4.1" class="anchored" data-anchor-id="key-components-and-tools-for-scaling-up-cash"><span class="header-section-number">25.4.1</span> <strong>Key Components and Tools for Scaling Up Cash</strong></h3>
+<p>The Scaling Up Cash section focuses on accelerating cash flow, driving profitability, and utilizing key financial levers. Two main one-page tools are used:</p>
+<section id="cash-acceleration-strategies-cash" class="level4" data-number="25.4.1.1">
+<h4 data-number="25.4.1.1" class="anchored" data-anchor-id="cash-acceleration-strategies-cash"><span class="header-section-number">25.4.1.1</span> <strong>Cash Acceleration Strategies (CASh)</strong></h4>
+<p>The <strong>CASh tool</strong> is designed to help teams brainstorm ways to improve their <strong>Cash Conversion Cycle (CCC)</strong>.</p>
+<ul>
+<li><strong>CCC:</strong> This Key Performance Indicator (KPI) measures how long it takes, after a dollar is spent on operating costs, for it to cycle through the business model and return to the company. Improving the CCC dramatically is key to funding growth internally.<br>
+</li>
+<li><strong>Improvement Areas:</strong> The sources encourage management teams to brainstorm monthly on ways to improve the four main components of the CCC, focusing on three general categories:
+<ol type="1">
+<li><strong>Shorten cycle times</strong> (e.g., accelerating sales and delivery).<br>
+</li>
+<li><strong>Eliminate mistakes</strong>.<br>
+</li>
+<li><strong>Change the business model</strong> (e.g., getting customers to fund the business, like Costco’s membership fees).</li>
+</ol></li>
+</ul>
+</section>
+<section id="the-power-of-one" class="level4" data-number="25.4.1.2">
+<h4 data-number="25.4.1.2" class="anchored" data-anchor-id="the-power-of-one"><span class="header-section-number">25.4.1.2</span> <strong>The Power of One</strong></h4>
+<p>This tool highlights the benefit to cash flow if a <strong>1% or one-day change</strong> is made to each of the seven key financial levers. The goal is to develop a plan focused on cash and returns using KPIs related to these levers.</p>
+<p>The <strong>7 main financial levers</strong> available to managers are:</p>
+<ol type="1">
+<li><strong>Price:</strong> Increase the price of goods and services.<br>
+</li>
+<li><strong>Volume:</strong> Sell more units at the same price.<br>
+</li>
+<li><strong>Cost of goods sold/direct costs:</strong> Reduce the price paid for raw materials and direct labor.<br>
+</li>
+<li><strong>Operating expenses:</strong> Reduce operating costs.<br>
+</li>
+<li><strong>Accounts receivable (AR):</strong> Collect from debtors faster.<br>
+</li>
+<li><strong>Inventory/Work in Progress (WIP):</strong> Reduce the amount of stock on hand.<br>
+</li>
+<li><strong>Accounts payable (AP):</strong> Slow down the payment of creditors.</li>
+</ol>
+</section>
+</section>
+<section id="financial-management-routines" class="level3" data-number="25.4.2">
+<h3 data-number="25.4.2" class="anchored" data-anchor-id="financial-management-routines"><span class="header-section-number">25.4.2</span> <strong>Financial Management Routines</strong></h3>
+<p>Effective Cash management requires discipline and visibility:</p>
+<ul>
+<li><strong>Daily Cash Reporting:</strong> The quickest action a CEO can take is to have their CFO provide a modified cash flow statement <strong>daily</strong>, detailing cash inflow and outflow, and anticipating cash flow for the next 30 to 90 days. This keeps cash “top-of-mind” and allows leaders to react quickly to trends.<br>
+</li>
+<li><strong>Focus on Profitability:</strong> The saying, “Revenue is vanity, <strong>profit is sanity, and cash flow is king</strong>” is emphasized. Leaders must work on fixing profitability first when addressing cash flow issues (unless immediate infusion is needed). Improving margins and profit improves cash.<br>
+</li>
+<li><strong>Balance Sheet Perspective:</strong> Cash is one of the only <strong>indisputable facts</strong> in financial statements, unlike profit and balance sheet valuations which can be opinions or manipulated. Banks and investors analyze businesses through this financial lens.<br>
+</li>
+<li><strong>Cash Flow Drivers:</strong> Cash flow management must be approached by understanding the <strong>four financial drivers</strong> (Profitability, Working Capital Management, Noncurrent Asset Management, and Cash Flow/Funding) that inform bankers and investors.</li>
+</ul>
+</section>
+<section id="cash-and-business-growth-stages" class="level3" data-number="25.4.3">
+<h3 data-number="25.4.3" class="anchored" data-anchor-id="cash-and-business-growth-stages"><span class="header-section-number">25.4.3</span> <strong>Cash and Business Growth Stages</strong></h3>
+<p>The required focus on financial metrics shifts as a company scales:</p>
+<ul>
+<li><strong>Startup ($0 to $1–2 million revenue):</strong> The key driver is <strong>revenue</strong> (“sell like hell”), and funding relies mainly on initial personal capital.<br>
+</li>
+<li><strong>Scaling Up ($1 million to $10 million revenue):</strong> This is the stage where the team needs to focus intensely on <strong>Cash</strong>. Since this is the first time the company makes a tenfold jump, cash demands soar, and the company is still figuring out its unique market position, making costly experiments likely. The <strong>cash model</strong> must be worked out to ensure the business can generate sufficient cash internally or secure external funding/credit.<br>
+</li>
+<li><strong>Growth ($10 million+ revenue):</strong> Internal complexity increases and external pressures (competitor alerts, demand for lower prices) begin to <strong>squeeze gross margins</strong>. This starvation of margin prevents investment in necessary infrastructure (like accounting systems and training), creating a negative snowball effect.</li>
+</ul>
+</section>
+<section id="cash-and-the-other-decisions" class="level3" data-number="25.4.4">
+<h3 data-number="25.4.4" class="anchored" data-anchor-id="cash-and-the-other-decisions"><span class="header-section-number">25.4.4</span> <strong>Cash and the Other Decisions</strong></h3>
+<p>The Cash decision is inextricably linked to the other three Decisions:</p>
+<ul>
+<li><p><strong>People:</strong> The personal financial goals and priorities of leaders are mirrored in the <strong>Wealth</strong> column of the One-Page Personal Plan (OPPP), which aligns with the business decision on Cash. Furthermore, leaders must structure deals and contracts so that everyone in the company has responsibility for wisely spending cash and structuring deals to generate versus absorb cash.<br>
+</p></li>
+<li><p><strong>Execution:</strong> Sloppy Execution wastes profitability and time, thereby <strong>burning both cash and people</strong>. Execution tools help streamline processes (PACe) and set clear priorities (Critical Number/Rocks) to drive profitability.<br>
+</p></li>
+<li><p><strong>Strategy:</strong> The strategic goal is to increase the valuation of the firm relative to competitors. The <strong>Profit per X</strong>, a single KPI representing the core economic engine, and the financial targets for <strong>Mkt. Cap/Cash</strong> are directly integrated into the One-Page Strategic Plan (OPSP).</p></li>
+</ul>
+</section>
+</section>
+<section id="leadership" class="level2" data-number="25.5">
+<h2 data-number="25.5" class="anchored" data-anchor-id="leadership"><span class="header-section-number">25.5</span> <strong>Leadership</strong></h2>
+<section id="the-challenge-of-complexity-and-growth-paradox" class="level3" data-number="25.5.1">
+<h3 data-number="25.5.1" class="anchored" data-anchor-id="the-challenge-of-complexity-and-growth-paradox"><span class="header-section-number">25.5.1</span> <strong>The Challenge of Complexity and Growth Paradox</strong></h3>
+<p>As a company grows, <strong>complexity increases exponentially</strong>, which strains the existing leadership structure. The addition of more employees, customers, product lines, and locations dictates predictable evolutions and revolutions within the organization.</p>
+<p>Leaders often experience a <strong>“growth paradox”</strong>: the belief that scaling up should make things easier, when in fact, they become “harder and more complicated”. This complexity generates the three fundamental scaling barriers, with Leadership at the forefront.</p>
+<p>The sources emphasize that the health and capabilities of the executive team are critical because <strong>“As goes the leadership team, so goes the rest of the company”</strong>. Challenges within the organization can almost always be traced back to issues within the leadership team.</p>
+</section>
+<section id="the-three-key-leadership-capabilities-needed-for-scaling" class="level3" data-number="25.5.2">
+<h3 data-number="25.5.2" class="anchored" data-anchor-id="the-three-key-leadership-capabilities-needed-for-scaling"><span class="header-section-number">25.5.2</span> <strong>The Three Key Leadership Capabilities Needed for Scaling</strong></h3>
+<p>To successfully overcome the Leadership barrier, leaders must possess and develop capabilities in three areas: <strong>Prediction, Delegation, and Repetition</strong>.</p>
+<section id="a.-prediction" class="level4" data-number="25.5.2.1">
+<h4 data-number="25.5.2.1" class="anchored" data-anchor-id="a.-prediction"><span class="header-section-number">25.5.2.1</span> <strong>A. Prediction</strong></h4>
+<p>Prediction requires leaders to be “just minutes ahead of the market, the competition, and those they lead”.</p>
+<ul>
+<li><strong>Isolation is a Risk:</strong> Prediction becomes increasingly difficult as the business scales up because senior leaders become <strong>further isolated from customers and frontline employees</strong>, losing their “gut feel for the business and the marketplace”.<br>
+</li>
+<li><strong>The Solution is Routine and Data:</strong> Leaders must engage in <strong>frequent interaction with customers, competitors, and employees</strong>. The Growth Tools and routines are designed to free the senior team so they can spend <strong>80% of their week engaged in market-facing activities</strong>. This includes gathering both quantitative data and qualitative feedback from the market to “see around corners”.<br>
+</li>
+<li><strong>Fundamental Job:</strong> The fundamental job of a leader is <strong>prediction</strong>, which requires data and sufficient market intelligence.</li>
+</ul>
+</section>
+<section id="b.-delegation" class="level4" data-number="25.5.2.2">
+<h4 data-number="25.5.2.2" class="anchored" data-anchor-id="b.-delegation"><span class="header-section-number">25.5.2.2</span> <strong>B. Delegation</strong></h4>
+<p>Delegation involves “letting go and trusting others to do things well,” which is noted as one of the more challenging aspects of leading a growing organization. Many entrepreneurs prefer to operate alone, which limits growth potential.</p>
+<ul>
+<li><strong>Delegating Strength:</strong> To scale, founders must delegate activities in which they are weak, but crucially, to get to 50 employees, <strong>they must delegate functions in which they are strong</strong>. Often, the strength of the top leader becomes the weakness of the organization because they hold on too tight or hire people too junior to oversee the function.<br>
+</li>
+<li><strong>Developing Leaders:</strong> From 50 employees and up, leaders must develop <strong>additional leaders throughout the organization</strong> who share the same values, passion, and knowledge. This way, there is enough talent to delegate the vast number of activities required for growth.<br>
+</li>
+<li><strong>Delegation vs.&nbsp;Abdication:</strong> Many leaders confuse delegation with <strong>abdication</strong>, which is blindly handing over a task without a formal feedback mechanism. The <strong>Rockefeller Habits</strong> provide the methodologies for leaders to delegate properly.<br>
+</li>
+<li><strong>The Ideal Scenario:</strong> Leaders succeed in scaling when they are the <strong>“dumbest people in the room”</strong> because this indicates they have built an organization that does not depend solely on its top leader.</li>
+</ul>
+</section>
+<section id="c.-repetition" class="level4" data-number="25.5.2.3">
+<h4 data-number="25.5.2.3" class="anchored" data-anchor-id="c.-repetition"><span class="header-section-number">25.5.2.3</span> <strong>C. Repetition</strong></h4>
+<p>The leader’s final job is to <strong>“keep the main thing the main thing”</strong>—maintaining organizational focus and direction. Repetition encompasses <strong>consistency</strong> (meaning what you say and acting consistently).</p>
+<ul>
+<li><strong>Key Messages:</strong> Repetition is required for instilling core elements, including:
+<ul>
+<li><strong>Core Values:</strong> The handful of rules defining the culture, reinforced daily through People (HR) systems.<br>
+</li>
+<li><strong>Core Purpose:</strong> The top leader’s regular <strong>“stump speech”</strong> to keep everyone emotionally engaged.<br>
+</li>
+<li><strong>BHAG® (Big Hairy Audacious Goal):</strong> The 10-to 25-year goal that provides constant context for decisions.<br>
+</li>
+<li><strong>Priorities/Themes:</strong> A handful of short-term priorities that require repeated daily and weekly review.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="key-decisions-and-the-role-of-the-top-team" class="level3" data-number="25.5.3">
+<h3 data-number="25.5.3" class="anchored" data-anchor-id="key-decisions-and-the-role-of-the-top-team"><span class="header-section-number">25.5.3</span> <strong>Key Decisions and the Role of the Top Team</strong></h3>
+<p>The Leadership barrier requires leaders to address the <strong>People decision</strong> first, as unresolved relationship issues “will continue to drain your emotional energy, leaving little left to expend on the Strategy, Execution, and Cash aspects of the business”.</p>
+<ul>
+<li><strong>Prioritizing the Executive Team:</strong> The sources emphasize that the health and alignment of the <strong>executive team</strong> is <strong>Rockefeller Habit #1</strong> and the most important starting point for Execution. The executive team must have enough <strong>trust</strong> to engage in “true debate and constructive conflict” and challenge each other while embracing diversity.<br>
+</li>
+<li><strong>Coaching:</strong> The inability to staff/grow enough leaders leads to a corresponding failure to develop <strong>managers as coaches</strong> throughout the organization, which becomes a major growth barrier. Managers (coaches) are critical to employee engagement and retention, and they need continuous education.<br>
+</li>
+<li><strong>Manager Development Routine:</strong> The <strong>Monthly Management Meeting</strong> is a key routine specifically designed for developing middle managers into <strong>mini-CEOs</strong> capable of running the day-to-day business (execution), freeing up senior leaders to focus on strategy.<br>
+</li>
+<li><strong>Accountability:</strong> Nailing down accountabilities is the <strong>#2 challenge</strong> as a company scales. Leaders use the <strong>Function Accountability Chart (FACe)</strong> to diagnose where they have “people and performance gaps” on the leadership team. The FACe helps ensure the “right butts in the right seats at the top”.</li>
+</ul>
+</section>
+</section>
+<section id="scalable-infrastructure" class="level2" data-number="25.6">
+<h2 data-number="25.6" class="anchored" data-anchor-id="scalable-infrastructure"><span class="header-section-number">25.6</span> Scalable Infrastructure</h2>
+<section id="the-nature-of-the-scalable-infrastructure-barrier" class="level3" data-number="25.6.1">
+<h3 data-number="25.6.1" class="anchored" data-anchor-id="the-nature-of-the-scalable-infrastructure-barrier"><span class="header-section-number">25.6.1</span> <strong>The Nature of the Scalable Infrastructure Barrier</strong></h3>
+<p>The sources explain that as an organization grows, complexity becomes a “force of nature”. This increasing complexity requires the organization to develop subsystems (analogous to the feeding, circulation, and nervous systems in an organism) that represent various functions, locations, and business units.</p>
+<p>The infrastructure barrier manifests as a failure to upgrade systems and structures to handle this growth:</p>
+<ul>
+<li><strong>Physical and Organizational Structures:</strong> When a company grows from two employees to 10, it immediately needs better phone systems and more structured physical space.<br>
+</li>
+<li><strong>Accounting Systems:</strong> Once a company reaches <strong>50 employees</strong>, it suddenly requires an <strong>accounting system</strong> that can precisely show which projects, customers, or products are actually generating profit. The lack of sufficient financial data is noted as the <strong>#2 weakness of growth firms</strong> (after marketing).<br>
+</li>
+<li><strong>Information Technology (IT) Systems:</strong> Between <strong>50 and 350 employees</strong>, IT systems need to be upgraded and integrated. Above this size, the systems must be revamped again, ideally tying all data into one comprehensive database to prevent expensive mistakes (like a simple change of customer address unleashing a series of costly errors).<br>
+</li>
+<li><strong>Communication Complexity:</strong> Scalable infrastructure also addresses the need to manage the <strong>increasing complexities in communication and decision-making</strong>. For instance, Scott Tannas noted that at around <strong>100 employees</strong>, internal communication processes are necessary because a single staff meeting is no longer feasible. The physical location of employees matters; communication issues surface when employees on different floors no longer “bump into each other”. The goal is to increase the “cross-interaction (accidental collisions)” of various individuals and functions.</li>
+</ul>
+</section>
+<section id="tools-and-routines-to-build-scalable-infrastructure" class="level3" data-number="25.6.2">
+<h3 data-number="25.6.2" class="anchored" data-anchor-id="tools-and-routines-to-build-scalable-infrastructure"><span class="header-section-number">25.6.2</span> <strong>Tools and Routines to Build Scalable Infrastructure</strong></h3>
+<p>The Scaling Up methodology provides tools and routines focused on the <strong>Execution</strong> and <strong>People</strong> decisions that directly address the infrastructure barrier by establishing clear accountabilities, routines, and streamlined processes:</p>
+<ol type="1">
+<li><strong>PACe (Process Accountability Chart):</strong> This is a key tool for creating <strong>organizational structure</strong> by delineating the <strong>four to nine key processes</strong> that drive the business (e.g., product development, hiring, billing, and collecting) and assigning a specific person accountable for each process. This helps keep processes “streamlined”.<br>
+</li>
+<li><strong>Lean Principles:</strong> To keep processes streamlined, the sources strongly recommend implementing the principles of <strong>Lean management</strong> (invented by Toyota) to eliminate <strong>wasteful steps</strong>. This is applied to both manufacturing and service companies.<br>
+</li>
+<li><strong>Checklists:</strong> These are vital for key parts of the four to nine processes, helping to ensure that the minimum necessary steps are followed and catching the “mental flaws inherent in complexity”.<br>
+</li>
+<li><strong>Meeting Rhythm:</strong> Establishing a <strong>disciplined rhythm of meetings</strong> (daily, weekly, monthly, quarterly, and annual) serves as the “heartbeat of the organization”. This routine addresses the <strong>#1 challenge—communications</strong>—and moves information accurately and quickly through the organization.<br>
+</li>
+<li><strong>Scoreboards and Technology:</strong> To ensure that plans and performance are visible to everyone, companies should have <strong>scoreboards up everywhere</strong> displaying current progress on KPIs and Critical Numbers. Technology, such as the Align software, is used to manage the <strong>cascading Priorities and KPIs</strong>, preventing the complex data tracking from becoming an “Excel-spreadsheet nightmare”.</li>
+</ol>
+</section>
+</section>
+<section id="marketing" class="level2" data-number="25.7">
+<h2 data-number="25.7" class="anchored" data-anchor-id="marketing"><span class="header-section-number">25.7</span> Marketing</h2>
+<section id="the-core-mandate-of-marketing" class="level3" data-number="25.7.1">
+<h3 data-number="25.7.1" class="anchored" data-anchor-id="the-core-mandate-of-marketing"><span class="header-section-number">25.7.1</span> <strong>The Core Mandate of Marketing</strong></h3>
+<p>The sources emphasize that the effectiveness of the marketing department is the <strong>“#1 functional barrier to scaling up”</strong> (accounting being the second).</p>
+<p>Marketing’s role is critical to sustaining growth and maintaining profitability as the company scales. Specifically, the marketing function must:</p>
+<ul>
+<li>Determine <strong>“the right what we should be selling to the best who’s”</strong> (defining the core customer and offering).<br>
+</li>
+<li>Determine <strong>“how best we should sell at the right price”</strong>.<br>
+</li>
+<li><strong>Prevent margin erosion</strong> by addressing competitive pressures.</li>
+</ul>
+<p>Because <strong>“marketing strategy equals strategy,”</strong> the head of the organization is usually <strong>“intimately involved in these decisions”</strong>.</p>
+</section>
+<section id="marketings-role-in-attracting-key-relationships" class="level3" data-number="25.7.2">
+<h3 data-number="25.7.2" class="anchored" data-anchor-id="marketings-role-in-attracting-key-relationships"><span class="header-section-number">25.7.2</span> <strong>Marketing’s Role in Attracting Key Relationships</strong></h3>
+<p>The Marketing barrier is broad, encompassing the failure to attract all necessary relationships needed for scaling, not just customers.</p>
+<section id="a.-attracting-customers-and-defending-margins-strategy" class="level4" data-number="25.7.2.1">
+<h4 data-number="25.7.2.1" class="anchored" data-anchor-id="a.-attracting-customers-and-defending-margins-strategy"><span class="header-section-number">25.7.2.1</span> <strong>A. Attracting Customers and Defending Margins (Strategy)</strong></h4>
+<p>Marketing is integral to the Strategy decision, particularly in maintaining differentiation and protecting gross margins.</p>
+<ul>
+<li><strong>Differentiation:</strong> Marketing teams must ensure their offerings maintain <strong>“differentiation and uniqueness”</strong> so the company can hold its line on pricing. This requires arming the sales team and focusing them on the <strong>“right customers”</strong>.<br>
+</li>
+<li><strong>Preventing De-focus:</strong> If marketing fails to identify and attract the <strong>“best (right) customers,”</strong> sales teams might <strong>“chase any low hanging fruit they can find which is the quickest way to defocus the business and crush your margins”</strong>.<br>
+</li>
+<li><strong>Strategic Tools:</strong> Tools like the <strong>7 Strata of Strategy</strong> framework include marketing concepts, guiding strategic thinking by helping the team define its <strong>Words You Own</strong> (mindshare) and <strong>Sandbox</strong> (core customers). The goal of Stratum 1 is the most important in driving revenue.</li>
+</ul>
+</section>
+<section id="b.-attracting-talent-people" class="level4" data-number="25.7.2.2">
+<h4 data-number="25.7.2.2" class="anchored" data-anchor-id="b.-attracting-talent-people"><span class="header-section-number">25.7.2.2</span> <strong>B. Attracting Talent (People)</strong></h4>
+<p>Recruiting the right employees requires a dedicated marketing effort.</p>
+<ul>
+<li><strong>Active Involvement:</strong> The marketing team must be <strong>“as actively involved in recruiting a steady stream of potential employees as it is in attracting potential customers,”</strong> an area where <strong>“most organizations fail miserably”</strong>.<br>
+</li>
+<li><strong>Sufficient Applicant Pool:</strong> Companies need <strong>“a minimum of 20 applicants per position”</strong> to increase their odds of hiring A Players. Since the best candidates are usually employed elsewhere, leaders must find <strong>“clever marketing approaches”</strong> to attract the specific kind of <strong>“strange”</strong> talent they seek, which fits their unique culture and differentiated strategy.<br>
+</li>
+<li><strong>Reputation:</strong> Companies like Appletree Answers and Rackspace Hosting attract thousands of applicants due to their <strong>stellar reputations</strong> as great places to work, demonstrating the power of branding and marketing in talent acquisition.</li>
+</ul>
+</section>
+<section id="c.-attracting-influencers-and-advisors" class="level4" data-number="25.7.2.3">
+<h4 data-number="25.7.2.3" class="anchored" data-anchor-id="c.-attracting-influencers-and-advisors"><span class="header-section-number">25.7.2.3</span> <strong>C. Attracting Influencers and Advisors</strong></h4>
+<p>Marketing also involves getting crucial influencers and advisors to back the venture.</p>
+<ul>
+<li>Leaders are advised to create a list of the <strong>“top 25 (or 250 if you are a bigger firm) influencers”</strong>—key relationships—needed to scale the business. Spending time each week figuring out how to network with these individuals and convincing them to help with a <strong>“compelling vision (elevator pitch)”</strong> is critical.<br>
+</li>
+<li>The more influential names on the list, <strong>“the more potential you have to scale the business bigger and faster”</strong>.</li>
+</ul>
+</section>
+</section>
+<section id="key-marketing-routines-and-tools" class="level3" data-number="25.7.3">
+<h3 data-number="25.7.3" class="anchored" data-anchor-id="key-marketing-routines-and-tools"><span class="header-section-number">25.7.3</span> <strong>Key Marketing Routines and Tools</strong></h3>
+<p>To overcome the barrier, leaders must implement disciplined marketing routines.</p>
+<ul>
+<li><strong>Weekly Marketing Meeting:</strong> Leaders should dedicate <strong>“one hour per week to focus on marketing”</strong> by establishing a dedicated marketing meeting.<br>
+</li>
+<li><strong>The 4Ps and 4Es:</strong> The agenda for this weekly meeting should include discussion of <strong>Dr.&nbsp;Philip Kotler’s 4Ps of marketing</strong>—<strong>Product, Price, Place, and Promotion</strong>—and the updated framework, <strong>Oglivy’s 4Es of Marketing</strong>—<strong>Experience, Exchange, Everyplace, and Evangelism</strong>. Pricing, in particular, is noted as one of the most important but neglected decisions.<br>
+</li>
+<li><strong>Content and Mindshare:</strong> The marketing function must hire writers and videographers to create content that allows the company to <strong>“own words that matter”</strong> in the minds of targeted customers, which drives revenue by dominating search engines. As David Meerman Scott states, <strong>“You are what you publish”</strong>.<br>
+</li>
+<li><strong>Buyer Personas:</strong> Marketing must identify the best customers by using tools like <strong>Buyer Personas</strong> to gain insight into expectations and align strategies.</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./chapter24.html" class="pagination-link" aria-label="Blitz Scaling">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Blitz Scaling</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
