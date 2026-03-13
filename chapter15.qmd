@@ -110,7 +110,7 @@ The primary goal of fundraising is to secure several **term sheets** to generate
 Essential materials must be clear, concise, substantive, and able to stand on their own without the entrepreneur needing to explain them.
 
 | Material | Description and Purpose | Application Notes |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **Short Description/Elevator Pitch** | 1–3 paragraphs summarizing product, team, and business; often the main text of an introductory email. | Must be direct and include a clear request for the next step. |
 | **Executive Summary** | Short, well-written overview (up to 3 pages) detailing the problem, product, team, and high-level financials. | Demonstrates critical thinking and communication skills. |
 | **Presentation (PowerPoint)** | 10–20 visual slides reinforcing the executive summary. Tune the content to the audience. | Focus on flow and professional design (form matters). Core slides: problem, opportunity size, team strength, competition, plan, financials. |
@@ -271,7 +271,7 @@ These terms are generally less critical than economics and control, impacting th
 ### **Pros and Cons**
 
 | Convertible Debt | Equity Financing |
-|----|----|
+|------------------------------------|------------------------------------|
 | **Pros:** Easier, quicker, cheaper transaction; avoids setting a precise valuation, deferring negotiation. | **Pros:** Clear valuation and equity structure from Day 1; no risk of debt solvency issues. |
 | **Cons:** Debt remains outstanding if milestones missed (risk of lender control/insolvency). Valuation caps may suppress future valuations. | **Cons:** More expensive/complex negotiation initially; immediate valuation required. |
 
@@ -408,7 +408,7 @@ Rookie mistakes to avoid when approaching VCs:
 -   **Don’t Overemphasize Patents:** For software companies, patents are defensive weapons, not the foundation of the business.\
 -   **Don’t Be Silent If You Witness Bad Behavior:** Speak up about bad behavior (e.g., sexual harassment) in the ecosystem.
 
-### **Issues at Different Financing Stages**
+## **Issues at Different Financing Stages**
 
 The dynamics of negotiation and deal terms shift significantly depending on the company stage:
 
@@ -442,17 +442,17 @@ Acquisition negotiations are competitive and assume a fixed pie. Price is often 
 -   **Breakup Fee:** Penalty paid if the seller breaches the no-shop clause and closes a deal with a third party.\
 -   **Shareholder Representatives:** An individual or firm (like SRS Acquiom) designated to manage post-closing matters, such as escrow claims and earn-outs, on behalf of the selling shareholders.
 
-### **How to Engage an Investment Banker**
+## **How to Engage an Investment Banker**
 
 Investment bankers are generally supported in an **acquisition context** but discouraged in early-stage financings.
 
-#### **Why Hire a Banker?**
+### **Why Hire a Banker?**
 
 1.  **Maximize Exit Value:** Expose the company to the largest universe of logical acquirers (often 50+ contacts).\
 2.  **Workload Management:** Bankers manage logistical tasks (initial calls, scheduling, data room).\
 3.  **Buffer:** Act as a negotiation buffer, preserving the relationship between seller management and the acquirer.
 
-#### **Negotiating the Engagement Letter**
+### **Negotiating the Engagement Letter**
 
 The contract should be reviewed extensively by lawyers and the board. Key negotiation points include:
 
@@ -461,29 +461,29 @@ The contract should be reviewed extensively by lawyers and the board. Key negoti
 3.  **Retainer and Expenses:** Nonrefundable monthly fee (retainer) that should be deductible against the success fee; out-of-pocket expenses should be capped and reasonable.\
 4.  **Key Person Provision:** Allows the company to terminate the engagement if the specific banker leaves the firm.
 
-### **Why Do Term Sheets Even Exist?**
+## **Why Do Term Sheets Even Exist?**
 
 While some VCs are comfortable with simple agreements, the term sheet and definitive documents are necessary for multiple reasons.
 
-#### **1. Constraining Behavior and Aligning Incentives**
+### **1. Constraining Behavior and Aligning Incentives**
 
 Contracts help align the sometimes divergent interests of VCs, founders, and employees. VCs rely on written contracts because courts generally offer VCs no benefit of the doubt in conflicts. Good contracts mitigate the potential for bad behavior.
 
-#### **2. Transaction Costs**
+### **2. Transaction Costs**
 
 Contracts minimize current and future costs (time and money) associated with defining the relationship.
 
-#### **3. Agency Costs and Information Asymmetry**
+### **3. Agency Costs and Information Asymmetry**
 
 Contracts mitigate **agency costs** (costs resulting from an agent acting on a principal's behalf—e.g., a CEO delaying a necessary sale to save his job) and **information asymmetry** (where one party knows more than the other).
 
-#### **4. Reputation Constraints**
+### **4. Reputation Constraints**
 
 The small, interconnected venture capital ecosystem means reputation matters significantly, imposing non-legal constraints on behavior. However, this is not a substitute for formal contracts.
 
-### **Legal Things Every Entrepreneur Should Know**
+## **Legal Things Every Entrepreneur Should Know**
 
-#### **Intellectual Property (IP)**
+### **Intellectual Property (IP)**
 
 IP must be protected from co-founder disputes or claims from previous employers.
 
@@ -491,13 +491,13 @@ IP must be protected from co-founder disputes or claims from previous employers.
 -   **Patents:** Provide a 20-year monopoly. Costly (up to \$25,000 for a full application).\
 -   **Trademarks:** Protect distinctive names or symbols (branding).
 
-#### **Corporate and Employment Structure**
+### **Corporate and Employment Structure**
 
 -   **Corporate Structure:** Start as a **C Corp** because it is the standard for VC investment and avoids complexities associated with S Corps or LLCs when granting equity.\
 -   **Employment Issues:** Use **at-will employment** contracts. Consult an employment lawyer for all founder/executive departures to settle equity and IP cleanly.\
 -   **Consultants vs. Employees:** Companies must be careful not to misclassify long-term service providers as consultants to avoid wage/hour obligations.
 
-#### **Stock and Tax Issues**
+### **Stock and Tax Issues**
 
 -   **Accredited Investors:** VCs traditionally sell securities only to accredited investors to maintain regulatory compliance.\
 -   **Section 409A Valuations:** IRS regulation governing the **strike price** of stock options. Companies must obtain professional, periodic valuations to ensure a "safe harbor".\
