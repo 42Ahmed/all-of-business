@@ -4,6 +4,7 @@ project:
 book:
   title: "All of Business"
   author: "Ahmed H. Darwish"
+  logo: cover.png
   
   navbar:
     title: false

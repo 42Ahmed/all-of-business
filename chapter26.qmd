@@ -60,7 +60,7 @@ The growth of Sustainable and Responsible Investment (SRI) created a powerful de
 A number of specialized agencies and financial institutions have become key players in assessing and ranking corporate ESG performance.
 
 | Agency / Index Provider | Key Characteristics |
-|:---|:---|
+|:-----------------------------------|:-----------------------------------|
 | **MSCI ESG Research** | A leading provider that grew rapidly through acquisitions (e.g., KLD, Innovest, RiskMetrics). Provides ESG ratings from leader (AAA) to laggard (CCC). |
 | **Moody's ESG Solutions Group** | Formed after Moody's acquired Vigeo Eiris, which itself was a merger of Vigeo (France) and EIRIS (UK). Provides ESG ratings on a scale of 0 to 100. |
 | **S&P Global** | Entered the ESG space by acquiring the ESG ratings division of RobecoSAM (SAM). Its Corporate Sustainability Assessment (CSA) is the basis for the Dow Jones Sustainability Indexes. |
