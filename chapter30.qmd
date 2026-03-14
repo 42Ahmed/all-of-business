@@ -163,41 +163,41 @@ For most readers, an oversimplified 50-50 plan is recommended, where the guiding
 
 The hardest part of being a defensive investor is defending yourself from yourself. To counter emotional impulses, the investor needs a formal **Investment Policy Statement (IPS)**—a document that structures decision-making and acts as a constant reminder of what *not* to do.
 
-+----------------------------------+----------------------------------------------------------------------------------------------------------------------+
-| IPS Component                    | Detailed Explanation/Steps                                                                                           |
-+==================================+======================================================================================================================+
-| **Mission Statement**            | 1\. Define primary objective (e.g., long-term growth over X years).                                                  |
-|                                  |                                                                                                                      |
-|                                  | 2\. Define secondary objectives (e.g., regular income).                                                              |
-|                                  |                                                                                                                      |
-|                                  | 3\. Identify decision-makers.                                                                                        |
-+----------------------------------+----------------------------------------------------------------------------------------------------------------------+
-| **Structure**                    | 1\. Define target allocations (% in cash, bonds, US stocks, international stocks, etc.).                             |
-|                                  |                                                                                                                      |
-|                                  | 2\. Maintain broad diversification within each allocation (minimum holdings specified).                              |
-|                                  |                                                                                                                      |
-|                                  | 3\. Commit to never using margin or borrowed money. 4. Maintain cash to cover at least six months of expenses.       |
-+----------------------------------+----------------------------------------------------------------------------------------------------------------------+
-| **Implementation**               | 1\. Determine rebalancing frequency (e.g., quarterly or annually).                                                   |
-|                                  |                                                                                                                      |
-|                                  | 2\. Commit to dollar-cost averaging (DCA).                                                                           |
-|                                  |                                                                                                                      |
-|                                  | 3\. Select funds based on the lowest cost, not highest return.                                                       |
-|                                  |                                                                                                                      |
-|                                  | 4\. Set a maximum for total annual expenses (e.g., $\le$ 1%).                                                        |
-|                                  |                                                                                                                      |
-|                                  | 5\. All purchases/sales must conform to a checklist.                                                                 |
-|                                  |                                                                                                                      |
-|                                  | 6\. Segregate speculation in a "mad money" account ($\le$ 5% of assets) and commit to never adding more money to it. |
-+----------------------------------+----------------------------------------------------------------------------------------------------------------------+
-| **Monitoring**                   | 1\. Update holdings value infrequently (e.g., no more than four times a year).                                       |
-|                                  |                                                                                                                      |
-|                                  | 2\. Measure performance against defined benchmarks (multiyear returns first).                                        |
-|                                  |                                                                                                                      |
-|                                  | 3\. Review the IPS annually for changes in circumstances.                                                            |
-|                                  |                                                                                                                      |
-|                                  | 4\. **Require written justification for any departure from the IPS**.                                                |
-+----------------------------------+----------------------------------------------------------------------------------------------------------------------+
++-----------------------+----------------------------------------------------------------------------------------------------------------------+
+| IPS Component         | Detailed Explanation/Steps                                                                                           |
++=======================+======================================================================================================================+
+| **Mission Statement** | 1\. Define primary objective (e.g., long-term growth over X years).                                                  |
+|                       |                                                                                                                      |
+|                       | 2\. Define secondary objectives (e.g., regular income).                                                              |
+|                       |                                                                                                                      |
+|                       | 3\. Identify decision-makers.                                                                                        |
++-----------------------+----------------------------------------------------------------------------------------------------------------------+
+| **Structure**         | 1\. Define target allocations (% in cash, bonds, US stocks, international stocks, etc.).                             |
+|                       |                                                                                                                      |
+|                       | 2\. Maintain broad diversification within each allocation (minimum holdings specified).                              |
+|                       |                                                                                                                      |
+|                       | 3\. Commit to never using margin or borrowed money. 4. Maintain cash to cover at least six months of expenses.       |
++-----------------------+----------------------------------------------------------------------------------------------------------------------+
+| **Implementation**    | 1\. Determine rebalancing frequency (e.g., quarterly or annually).                                                   |
+|                       |                                                                                                                      |
+|                       | 2\. Commit to dollar-cost averaging (DCA).                                                                           |
+|                       |                                                                                                                      |
+|                       | 3\. Select funds based on the lowest cost, not highest return.                                                       |
+|                       |                                                                                                                      |
+|                       | 4\. Set a maximum for total annual expenses (e.g., $\le$ 1%).                                                        |
+|                       |                                                                                                                      |
+|                       | 5\. All purchases/sales must conform to a checklist.                                                                 |
+|                       |                                                                                                                      |
+|                       | 6\. Segregate speculation in a "mad money" account ($\le$ 5% of assets) and commit to never adding more money to it. |
++-----------------------+----------------------------------------------------------------------------------------------------------------------+
+| **Monitoring**        | 1\. Update holdings value infrequently (e.g., no more than four times a year).                                       |
+|                       |                                                                                                                      |
+|                       | 2\. Measure performance against defined benchmarks (multiyear returns first).                                        |
+|                       |                                                                                                                      |
+|                       | 3\. Review the IPS annually for changes in circumstances.                                                            |
+|                       |                                                                                                                      |
+|                       | 4\. **Require written justification for any departure from the IPS**.                                                |
++-----------------------+----------------------------------------------------------------------------------------------------------------------+
 
 ### **Sound Bond Types**
 
@@ -224,17 +224,12 @@ When allocating funds to bonds, the defensive investor should prioritize safety 
 
 The defensive investor includes common stocks because they provide a long-term satisfactory return, despite fluctuations. Stock selection should be relatively simple:
 
-+----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rule                             | Description                                                                                                                                                        |
-+==================================+====================================================================================================================================================================+
-| **1. Diversification**           | Adequate but not excessive: **A minimum of ten different issues and a maximum of about thirty**.                                                                   |
-+----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **2. Size and Prominence**       | Each company must be **large, prominent, and conservatively financed**.                                                                                            |
-+----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **3. Conservative Financing**    | For industrial companies, common stock (at book value) must represent **at least half of the total capitalization** (including debt). For utilities, at least 30%. |
-+----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **4. Dividend Record**           | The company should have a **long record of continuous dividend payments**.                                                                                         |
-+----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Rule | Description |
+|----|----|
+| **1. Diversification** | Adequate but not excessive: **A minimum of ten different issues and a maximum of about thirty**. |
+| **2. Size and Prominence** | Each company must be **large, prominent, and conservatively financed**. |
+| **3. Conservative Financing** | For industrial companies, common stock (at book value) must represent **at least half of the total capitalization** (including debt). For utilities, at least 30%. |
+| **4. Dividend Record** | The company should have a **long record of continuous dividend payments**. |
 
 ### **Application: Dollar-Cost Averaging**
 
@@ -291,17 +286,12 @@ The aggressive investor is tempted by new offerings and "hot" issues, which are 
 
 Enterprising investors are often tempted by "alternative" assets (e.g., hedge funds, private equity, private credit funds). Graham warns against these, as they are often highly speculative and poorly suited for individuals.
 
-+----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Risk/Drawback                    | Description and Application                                                                                                                                                                                                                                 |
-+==================================+=============================================================================================================================================================================================================================================================+
-| **High Fees**                    | Total annual expenses can be extortionately high (e.g., 7.49%), guaranteed to reduce net returns.                                                                                                                                                           |
-+----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Illiquidity**                  | Funds often lock up money for years, meaning you cannot withdraw cash when needed or when a better opportunity arises.                                                                                                                                      |
-+----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Leverage Risk**                | These funds commonly use borrowed money (margin), increasing the overall risk of the investor's portfolio, even if the investor didn't personally borrow.                                                                                                   |
-+----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Institutional Advantages**     | To invest successfully in alternatives (like Yale), an investor needs huge **size** (to access top funds), long **time** horizons, institutional **expertise**, and financial **resilience** to survive deep, permanent losses—advantages individuals lack. |
-+----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Risk/Drawback | Description and Application |
+|----|----|
+| **High Fees** | Total annual expenses can be extortionately high (e.g., 7.49%), guaranteed to reduce net returns. |
+| **Illiquidity** | Funds often lock up money for years, meaning you cannot withdraw cash when needed or when a better opportunity arises. |
+| **Leverage Risk** | These funds commonly use borrowed money (margin), increasing the overall risk of the investor's portfolio, even if the investor didn't personally borrow. |
+| **Institutional Advantages** | To invest successfully in alternatives (like Yale), an investor needs huge **size** (to access top funds), long **time** horizons, institutional **expertise**, and financial **resilience** to survive deep, permanent losses—advantages individuals lack. |
 
 ### **Application: Avoiding Speculative Fads**
 
@@ -552,19 +542,13 @@ Earnings per share (EPS) figures receive major attention, but they abound in mis
 
 ### **Accounting Anomalies**
 
-+----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Trap/Anomaly                     | Explanation and Application                                                                                                                                                                                                                                      |
-+==================================+==================================================================================================================================================================================================================================================================+
-| **Dilution**                     | Potential issuance of new shares from convertible bonds, preferred stock, or warrants must be accounted for. The analyst must calculate earnings on a **fully diluted basis**, assuming all conversions/exercises.                                               |
-+----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Special Charges**              | Companies often deduct losses (e.g., restructuring, asset write-downs) as "extraordinary" or "nonrecurring" to inflate primary earnings. These should typically be **included in average earnings** as they represent a part of the company's operating history. |
-+----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Tax Factors**                  | Past losses may result in temporary **tax exemptions** (e.g., loss carryforwards), where the company pays minimal income tax. True earning power should first be calculated on the basis of **full income-tax liability**.                                       |
-+----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Non-GAAP Reporting**           | Companies frequently calculate "non-GAAP" figures (excluding charges like restructuring or acquisition costs) to cleanse their financial statements. The enterprising investor must determine if these non-GAAP numbers paint a **fair picture or a fantasy**.   |
-+----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Accounting Method Changes**    | Changes in depreciation method (straight-line vs. accelerated) or inventory valuation (FIFO vs. LIFO) can significantly alter reported EPS, requiring careful scrutiny.                                                                                          |
-+----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Trap/Anomaly | Explanation and Application |
+|----|----|
+| **Dilution** | Potential issuance of new shares from convertible bonds, preferred stock, or warrants must be accounted for. The analyst must calculate earnings on a **fully diluted basis**, assuming all conversions/exercises. |
+| **Special Charges** | Companies often deduct losses (e.g., restructuring, asset write-downs) as "extraordinary" or "nonrecurring" to inflate primary earnings. These should typically be **included in average earnings** as they represent a part of the company's operating history. |
+| **Tax Factors** | Past losses may result in temporary **tax exemptions** (e.g., loss carryforwards), where the company pays minimal income tax. True earning power should first be calculated on the basis of **full income-tax liability**. |
+| **Non-GAAP Reporting** | Companies frequently calculate "non-GAAP" figures (excluding charges like restructuring or acquisition costs) to cleanse their financial statements. The enterprising investor must determine if these non-GAAP numbers paint a **fair picture or a fantasy**. |
+| **Accounting Method Changes** | Changes in depreciation method (straight-line vs. accelerated) or inventory valuation (FIFO vs. LIFO) can significantly alter reported EPS, requiring careful scrutiny. |
 
 ### **Framework: Use of Average Earnings**
 
@@ -624,23 +608,15 @@ The defensive investor seeks a conservative portfolio of high-grade bonds and a 
 
 The selection criteria emphasize protection against loss (safety) and purchasing stocks at a reasonable price (quantity/value).
 
-+-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
-| Criterion                         | Standard                                                                                                                                             | Purpose                                                                               |
-+===================================+======================================================================================================================================================+=======================================================================================+
-| **1. Adequate Size**              | Should be a major company (e.g., \$100 million in annual sales for industrials, \$50 million in assets for utilities).                               | Ensures stability and prominence.                                                     |
-+-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
-| **2. Strong Financial Condition** | Current assets $\ge$ 2x current liabilities, AND debt $\le$ net current assets.                                                                      | Ensures liquidity and limits exposure to financial distress.                          |
-+-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
-| **3. Earnings Stability**         | No deficit in the last **ten years**.                                                                                                                | Proves resilience across economic cycles.                                             |
-+-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
-| **4. Dividend Record**            | Continuous dividend payments for at least **20 years**.                                                                                              | Demonstrates a long history of corporate responsibility and consistent profitability. |
-+-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
-| **5. Earnings Growth**            | Minimum **one-third increase in EPS** over the last 10 years, using a 3-year average at the beginning and end.                                       | Ensures the company is keeping pace with the national economy.                        |
-+-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
-| **6. Moderate P/E Ratio**         | Current price $\le$ **15 times average earnings of the past three years**.                                                                           | Limits the price paid for expected future growth, maintaining a factor of safety.     |
-+-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
-| **7. Moderate Price/Asset Ratio** | Current price $\le$ **1.5 times book value**. The product of the P/E ratio $\times$ Price/Book ratio should not exceed 22.5 (e.g., $15 \times 1.5$). | Anchors the price to tangible worth, avoiding excessive premiums for goodwill.        |
-+-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+| Criterion | Standard | Purpose |
+|----|----|----|
+| **1. Adequate Size** | Should be a major company (e.g., \$100 million in annual sales for industrials, \$50 million in assets for utilities). | Ensures stability and prominence. |
+| **2. Strong Financial Condition** | Current assets $\ge$ 2x current liabilities, AND debt $\le$ net current assets. | Ensures liquidity and limits exposure to financial distress. |
+| **3. Earnings Stability** | No deficit in the last **ten years**. | Proves resilience across economic cycles. |
+| **4. Dividend Record** | Continuous dividend payments for at least **20 years**. | Demonstrates a long history of corporate responsibility and consistent profitability. |
+| **5. Earnings Growth** | Minimum **one-third increase in EPS** over the last 10 years, using a 3-year average at the beginning and end. | Ensures the company is keeping pace with the national economy. |
+| **6. Moderate P/E Ratio** | Current price $\le$ **15 times average earnings of the past three years**. | Limits the price paid for expected future growth, maintaining a factor of safety. |
+| **7. Moderate Price/Asset Ratio** | Current price $\le$ **1.5 times book value**. The product of the P/E ratio $\times$ Price/Book ratio should not exceed 22.5 (e.g., $15 \times 1.5$). | Anchors the price to tangible worth, avoiding excessive premiums for goodwill. |
 
 ### **Conclusion: Diversification over Selectivity**
 
@@ -796,17 +772,12 @@ The comparisons reinforce the idea that there is **no such thing as a good or ba
 
 ### **Key Observations from Comparisons**
 
-+---------------------------+-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Comparison Theme          | Example                                                                           | Graham/Zweig Conclusion                                                                                                                                                                                                           |
-+===========================+===================================================================================+===================================================================================================================================================================================================================================+
-| **Simple vs. Complex**    | National General vs. National Presto Industries                                   | National General used complex, heavily leveraged financial gadgets (warrants, convertibles) to obscure its true, risky valuation, while Presto had a simple, asset-backed structure. **Simplicity is superior for the investor.** |
-+---------------------------+-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Glamour vs. Value**     | H&R Block (high growth/high P/E) vs. Blue Bell (solid value/low P/E)              | High P/E companies carry inherent risk that any setback will destroy their valuation. The analyst should recommend the sound, conservatively priced company (Blue Bell), even if it lacks glamour.                                |
-+---------------------------+-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Ignoring Fundamentals** | AMC vs. AME                                                                       | AMC (a "meme stock") soared based purely on social contagion and hype, divorced entirely from its poor fundamentals. **In the long run, fundamentals always matter, regardless of short-term market madness**.                    |
-+---------------------------+-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Growth Expectations**   | Air Products (dearer/better prospect) vs. Air Reduction (cheaper/poorer prospect) | If the price differential is wide, the better company (Air Products) may be riskier. It is difficult to definitively say which preference (value vs. quality) will prove right, as it often depends on the unpredictable future.  |
-+---------------------------+-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Comparison Theme | Example | Graham/Zweig Conclusion |
+|----|----|----|
+| **Simple vs. Complex** | National General vs. National Presto Industries | National General used complex, heavily leveraged financial gadgets (warrants, convertibles) to obscure its true, risky valuation, while Presto had a simple, asset-backed structure. **Simplicity is superior for the investor.** |
+| **Glamour vs. Value** | H&R Block (high growth/high P/E) vs. Blue Bell (solid value/low P/E) | High P/E companies carry inherent risk that any setback will destroy their valuation. The analyst should recommend the sound, conservatively priced company (Blue Bell), even if it lacks glamour. |
+| **Ignoring Fundamentals** | AMC vs. AME | AMC (a "meme stock") soared based purely on social contagion and hype, divorced entirely from its poor fundamentals. **In the long run, fundamentals always matter, regardless of short-term market madness**. |
+| **Growth Expectations** | Air Products (dearer/better prospect) vs. Air Reduction (cheaper/poorer prospect) | If the price differential is wide, the better company (Air Products) may be riskier. It is difficult to definitively say which preference (value vs. quality) will prove right, as it often depends on the unpredictable future. |
 
 ### **The Analyst's Preferred Role**
 
