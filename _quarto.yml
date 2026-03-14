@@ -9,7 +9,7 @@ book:
   navbar:
     title: false
     search: true
-    logo: cover.png
+    
       
   chapters:
     - index.qmd
