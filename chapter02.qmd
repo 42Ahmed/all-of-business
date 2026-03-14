@@ -9,7 +9,7 @@ format: html
 
 ## **Key Themes and Most Important Ideas/Facts**
 
-### **1. The Core Concept of OKRs: Objectives and Key Results**
+### **The Core Concept of OKRs: Objectives and Key Results**
 
 -   **Definition:** OKRs are a "management methodology that helps to ensure that the company focuses efforts on the same important issues throughout the organization."
 
@@ -27,7 +27,7 @@ format: html
 
 Doerr identifies four key benefits that OKRs bring to an organization:
 
--   **Superpower #1: Focus and Commit to Priorities**
+####   **Superpower #1: Focus and Commit to Priorities**
 
 -   **Principle:** "Successful organizations prioritize key initiatives that can significantly impact their outcomes over the upcoming months." It's crucial to "distill a list of goals down to the most vital, as no organization can pursue all tasks simultaneously."
 
@@ -39,7 +39,7 @@ Doerr identifies four key benefits that OKRs bring to an organization:
 
 -   **Critical Thinking:** While focus is important, it can "risk overlooking potentially valuable opportunities that may not align perfectly with the immediate goals."
 
--   **Superpower #2: Align and Connect for Teamwork**
+####   **Superpower #2: Align and Connect for Teamwork**
 
 -   **Principle:** "Transparency and collaboration foster better team performance and innovation." Publicly shared goals are "more likely to be achieved."
 
@@ -51,7 +51,7 @@ Doerr identifies four key benefits that OKRs bring to an organization:
 
 -   **Critical Thinking:** Complete transparency "may not always lead to optimal outcomes," potentially causing "information overload and the sensitive nature of certain objectives," or even "anxiety and competition rather than collaboration."
 
--   **Superpower #3: Track for Accountability**
+####  **Superpower #3: Track for Accountability**
 
 -   **Principle:** "The ability to track goals and revise them as needed is crucial." OKRs are "dynamic and can adjust based on circumstances."
 
@@ -63,7 +63,7 @@ Doerr identifies four key benefits that OKRs bring to an organization:
 
 -   **Critical Thinking:** The "hyper-focus on measurable outcomes can lead to a culture where employees might prioritize goal completion over authentic engagement," and raise "concerns about data privacy and the potential for misinterpretation of performance metrics."
 
--   **Superpower #4: Stretch for Amazing**
+####  **Superpower #4: Stretch for Amazing**
 
 -   **Principle:** "The greatest risk is not taking any risks at all." Setting "ambitious OKRs... push beyond their comfort zones, leading to greater innovation and achievement." "Harder goals correlate with higher performance, engagement, and motivation."
 
@@ -73,7 +73,6 @@ Doerr identifies four key benefits that OKRs bring to an organization:
 
 -   **Example (YouTube Story):** CEO Susan Wojcicki set a "bold goal: to reach one billion hours of daily watch time by 2016." This "aspirational goal was not just ambitious but rooted in the broader context of global television consumption," invigorating the organization.
 
-### 
 
 ### **Continuous Performance Management: OKRs and CFRs**
 
@@ -93,7 +92,6 @@ Doerr identifies four key benefits that OKRs bring to an organization:
 
 -   **Example (Zume Pizza Story):** OKRs and CFRs "promote high performance and growth," enhancing "executive grooming, empower quieter contributors, and facilitate organizational improvement." Zume Pizza implemented OKRs for "clear priority setting and alignment among employees" and "structured one-on-one meetings foster deep discussions about individual aspirations and work alignment."
 
-### 
 
 ### **The Importance of Culture**
 
